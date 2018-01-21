@@ -9,7 +9,8 @@ module.exports = {
     index: path.resolve(__dirname, '../docs/index.html'),
     assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: './static',
-    assetsPublicPath: '',
+    // TODO: 改成實際 hosting 的網址
+    assetsPublicPath: 'https://choznerol.github.io/g0v-summit-2018/',
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.

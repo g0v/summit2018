@@ -56,8 +56,9 @@ Object.keys(proxyTable).forEach(function (context) {
   app.use(proxyMiddleware(options.filter || context, options))
 })
 
+// 此為 vue-template/webpack 預設開啟功能，但 GitHub page 不支援)
 // handle fallback for HTML5 history API
-app.use(require('connect-history-api-fallback')())
+//app.use(require('connect-history-api-fallback')())/
 
 // serve webpack bundle output
 app.use(devMiddleware)
@@ -65,6 +66,8 @@ app.use(devMiddleware)
 // serve pure static assets
 const staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
 app.use(staticPath, express.static('./static'))
+const _404path = path.posix.join(config.dev.assetsPublicPath, '404.html')
+app.use(_404path, express.static('./404.html'))
 
 const uri = 'http://localhost:' + port
 
@@ -82,6 +85,11 @@ devMiddleware.waitUntilValid(() => {
   }
   _resolve()
 })
+
+// 剩下的 path 回傳 404.html（仿 GitHub Page 機制）
+app.get('*', function (req, res) {
+  res.status(404).sendFile(path.resolve(__dirname, '../404.html'));
+});
 
 const server = app.listen(port)
 
