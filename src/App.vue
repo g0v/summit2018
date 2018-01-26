@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <header>
+      <span><TW>啥米零時政府</TW><EN>g0v summit</EN></span>
       <button @click="toggleLang">{{ lang }}</button>
-      <span>Vue.js PWA</span>
     </header>
     <main>
       <img src="./assets/logo.png" alt="Vue.js PWA">
