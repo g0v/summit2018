@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <span><TW>啥米零時政府</TW><EN>g0v summit</EN></span>
+      <button @click="toggleLang">{{ lang }}</button>
     </header>
     <main>
       <img src="./assets/logo.png" alt="Vue.js PWA">
@@ -11,8 +12,15 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex'
+
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {}
+  },
+  computed: mapState(['lang']),
+  methods: mapMutations(['toggleLang'])
 }
 </script>
 
