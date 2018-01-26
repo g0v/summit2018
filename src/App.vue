@@ -1,12 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <span>{{ $t("home") }}</span>
-      <label for="locale">lang</label>
-      <select v-model="locale">
-        <option value="en">En</option>
-        <option value="zh">中</option>
-      </select>
+      <span>Vue.js PWA</span>
     </header>
     <main>
       <img src="./assets/logo.png" alt="Vue.js PWA">
@@ -17,13 +12,7 @@
 
 <script>
 export default {
-  name: 'app',
-  data () { return { locale: 'en' } },
-  watch: {
-    locale (val) {
-      this.$i18n.locale = val
-    }
-  }
+  name: 'app'
 }
 </script>
 
