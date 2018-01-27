@@ -7,6 +7,7 @@ Vue.use(Router)
 export default new Router({
   // 網址不顯示 #，靠 HTML5 History API 讓 SPA 模擬正常路徑（例：domain.com/foo/bar）
   mode: 'history',
+  base: '/summit2018/',
   routes: [
     {
       path: '/',
