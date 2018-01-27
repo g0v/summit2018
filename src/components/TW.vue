@@ -6,13 +6,12 @@
 
 <script>
 import { mapState } from 'vuex'
-import { TW } from '@/store'
 
 export default {
   name: 'TW',
   computed: mapState({
     showSlotContent (state) {
-      return state.lang === TW
+      return state.lang === 'TW'
     }
   })
 }
