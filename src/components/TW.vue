@@ -1,7 +1,7 @@
 <template>
-  <span v-if="showSlotContent">
+  <font v-if="showSlotContent">
     <slot></slot>
-  </span>
+  </font>
 </template>
 
 <script>
@@ -18,7 +18,5 @@ export default {
 </script>
 
 <style scoped>
-span {
-  all: unset
-}
+
 </style>
