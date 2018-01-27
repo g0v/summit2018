@@ -53,7 +53,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         safe: true
       }
     }),
-    // generate docs index.html with correct asset hash for caching.
+    // generate dist index.html with correct asset hash for caching.
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
@@ -110,9 +110,9 @@ const webpackConfig = merge(baseWebpackConfig, {
     new SWPrecacheWebpackPlugin({
       cacheId: 'g0v-summit-2018',
       filename: 'service-worker.js',
-      staticFileGlobs: ['docs/**/*.{js,html,css}'],
+      staticFileGlobs: ['dist/**/*.{js,html,css}'],
       minify: true,
-      stripPrefix: 'docs/'
+      stripPrefix: 'dist/'
     })
   ]
 })
