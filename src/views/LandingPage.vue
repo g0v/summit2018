@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="landing-page">
 
     <section>
       <h2><TW>關於 g0v.tw 台灣零時政府社群</TW><EN>About g0v.tw</EN></h2>
