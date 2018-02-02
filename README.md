@@ -23,6 +23,8 @@ yarn dev
 
 src/views/***Page.vue 的檔案（如 [LandingPage.vue](https://github.com/g0v/summit2018/blob/master/src/views/LandingPage.vue) ）基本上就是一般 html 格式，只需注意包在 `<TW>`、`<EN>` 裡的分別是中英文版要顯示的內容即可。
 
+編輯的時候從 master 隨便開一個 edit/ 開頭 的 branch （e.g. edit/update-landing-page-text），改完之後發 PR 然後直接按 merge [範例](https://github.com/g0v/summit2018/pull/4)）
+
 commit message 格式： `:speech_balloon: 更新g0v組織簡介`
 
 ## Project structure
