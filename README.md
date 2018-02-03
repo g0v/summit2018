@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/g0v/summit2018.svg?branch=master)](https://travis-ci.org/g0v/summit2018)
 
-> https://g0v.github.io/summit2018
+### [2/15一頁式網站開發進度(Trello)](https://trello.com/c/PUH4VaGS/19-%E4%B8%80%E9%A0%81%E5%BC%8F%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC)
+### [2/15一頁市網站需求共筆(HackMD)](https://hackmd.io/KwNgpgLAJlBGAMBaSxaIgThAJkQQwA4BGYREA7BWIsYWsIA=?both#)
 
 
 ## Get Started
@@ -22,6 +23,8 @@ yarn dev
 ### 翻譯
 
 src/views/***Page.vue 的檔案（如 [LandingPage.vue](https://github.com/g0v/summit2018/blob/master/src/views/LandingPage.vue) ）基本上就是一般 html 格式，只需注意包在 `<TW>`、`<EN>` 裡的分別是中英文版要顯示的內容即可。
+
+編輯的時候從 master 隨便開一個 edit/ 開頭 的 branch （e.g. edit/update-landing-page-text），改完之後發 PR 然後直接按 merge [範例](https://github.com/g0v/summit2018/pull/4)）
 
 commit message 格式： `:speech_balloon: 更新g0v組織簡介`
 
