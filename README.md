@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/g0v/summit2018.svg?branch=master)](https://travis-ci.org/g0v/summit2018)
 
-> https://g0v.github.io/summit2018
+### [2/15一頁式網站開發進度(Trello)](https://trello.com/c/PUH4VaGS/19-%E4%B8%80%E9%A0%81%E5%BC%8F%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC)
+### [2/15一頁市網站需求共筆(HackMD)](https://hackmd.io/KwNgpgLAJlBGAMBaSxaIgThAJkQQwA4BGYREA7BWIsYWsIA=?both#)
 
 
 ## Get Started
