@@ -11,7 +11,7 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
-import { StickyNavHero, NavBar } from '@/components'
+import { NavBar } from '@/components'
 
 export default {
   name: 'app',
@@ -20,7 +20,7 @@ export default {
   },
   computed: mapState(['lang']),
   methods: mapMutations(['toggleLang']),
-  components: { StickyNavHero, NavBar }
+  components: { NavBar }
 }
 </script>
 

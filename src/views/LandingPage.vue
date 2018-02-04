@@ -1,5 +1,6 @@
 <template lang="pug">
   .landing-page
+    HeroImage
     section
       h2
         TW 關於 g0v.tw 台灣零時政府社群
@@ -24,13 +25,16 @@
 </template>
 
 <script>
+import { HeroImage } from '@/components'
+
 export default {
   name: 'landingPage',
   data () {
     return {
       foo: 'bar'
     }
-  }
+  },
+  components: { HeroImage }
 }
 </script>
 
