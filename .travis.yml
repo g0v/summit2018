@@ -6,7 +6,9 @@ branches:
   only:
   - master
 before_deploy:
-  - npm run build
+  - yarn build
+cache:
+  yarn: true
 deploy:
   provider: pages
   skip_cleanup: true
