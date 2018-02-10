@@ -35,6 +35,8 @@
                     // fresh content will have been added to the cache.
                     // It's the perfect time to display a "New content is
                     // available; please refresh." message in the page's interface.
+                    console.log('New content is avalible, the page will be reload.');
+                    location.reload();
                     break;
 
                   case 'redundant':
