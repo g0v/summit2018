@@ -6,12 +6,15 @@
     <main>
       <router-view></router-view>
     </main>
+    <footer>
+      <TheFooter/>
+    </footer>
   </div>
 </template>
 
 <script>
 import { mapState, mapMutations } from 'vuex'
-import { NavBar } from '@/components'
+import { NavBar, TheFooter } from '@/views'
 
 export default {
   name: 'app',
@@ -20,7 +23,7 @@ export default {
   },
   computed: mapState(['lang']),
   methods: mapMutations(['toggleLang']),
-  components: { NavBar }
+  components: { NavBar, TheFooter }
 }
 </script>
 
