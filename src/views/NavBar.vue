@@ -1,10 +1,12 @@
 <template lang="pug">
   .top-bar.stacked-for-medium
-    .top-bar-left
-      ul.dropdown.menu(data-dropdown-menu)
-        li.menu-text
-          TW 啥米零時政府
-          EN g0v summmit 2018
+    .top-bar-left.show-for-large
+      ul.menu
+        li
+          a(href="/").brand-logo.menu-text
+            FaIcon(name="g0v-logo", :scale="1.5")
+            TW 啥米零時政府
+            EN summmit 2018
     .top-bar-right
       ul.menu
         li
@@ -59,6 +61,18 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.top-bar {
+  opacity: 0.95;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 
+  .brand-logo {
+    color: inherit;
+    font {
+      @include vertical-center;
+    }
+  }
+}
 </style>
