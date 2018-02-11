@@ -1,6 +1,7 @@
 <template lang="pug">
   #footer.callout.secondary.grid-x.align-justify
-    .cell.medium-6
+    //- .small-up-1.medium-up-3.large-up-4
+    .cell.auto.grid-x.xgrid-margin-x.border
       ul.menu
         li.menu-text.align-self-middle
           TW 追蹤
@@ -14,7 +15,7 @@
         li(title="g0v twitter")
           a(href="https://twitter.com/g0vtw", target="_blank")
             FaIcon(name="twitter")
-        //- ul.menu
+      ul.menu
         li.menu-text.align-self-middle
           TW 協作
           EN Collaboration
@@ -27,8 +28,8 @@
         li(title="Co-edited event documents")
           a(href="http://beta.hackfoldr.org/g0v-summit2018/", target="_blank")
             FaIcon(name="hackfoldr")
-    .cell.medium-6
-      p.text-right Copyright © g0v Summit 2018・
+    .cell.medium-shrink.small-expand.border.grid-x.align-middle.align-center
+      small: p#copyright.text-center Copyright © g0v Summit 2018・
         a(href="https://github.com/g0v/summit2018", target="_blank") Source
         //- a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9", target="_blank") Code of Conduct
 
@@ -43,12 +44,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #footer {
   margin: 0;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
 }
 #g0v-icon > a {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+#copyright {
+  margin-bottom: 0px;
+}
+.border {border: 1px solid rgba($color: #000000, $alpha: 0);}
 </style>
