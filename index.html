@@ -26,9 +26,9 @@
           if (file.match(/\.(js|css)$/)) { %>
     <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
   </head>
-  <body>
+  <body style="margin: 0px; background-color: #DDDFDB;">
     <noscript>
-      This is your fallback content in case JavaScript fails to load.
+      Turn on JavaScript to view this website / 本網站需要啟用 JavaScript 才能瀏覽
     </noscript>
 
     <!-- Start Single Page Apps for GitHub Pages -->
@@ -63,7 +63,29 @@
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
 
-    <div id="app"></div>
+    <div id="app">
+
+      <!-- Start Loading Screen -->
+      <div style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <svg class="fade" width="100%" height="80px" viewBox="0 0 800 400" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
+          <!-- <path d="M190.638 167.234c30.383 0 51.979 4.468 67.468 10.426v-25.022C245 148.468 224.298 144 191.234 144c-42.149 0-62.255 8.489-72.234 18.468-9.234 9.234-14 21.596-14 37.532s4.766 28.298 14 37.532C129.128 247.809 148.787 256 189.894 256c32.915 0 53.17-4.617 65.681-17.128C262.426 232.021 266 222.34 266 205.66v-13.851h-91.745v20.851h64.34c.149 2.383.149 7.894-3.574 11.617-6.702 6.702-23.234 8.936-45.128 8.936-26.809 0-40.809-4.915-47.362-11.468-4.766-4.915-7.298-11.915-7.298-21.745 0-9.532 2.681-16.979 7.894-22.191 5.809-5.809 19.958-10.575 47.511-10.575 0 0-27.553 0 0 0zM703 148h-34.145l-54.69 81.863L559.623 148H524l71.393 104h36.214L703 148z"/> -->
+          <path fill="#C60000" d="M515 76h-29.622L292 323h30.069L515 76z"/>
+          <path d="M471.145 162.766c-9.728-9.83-28.448-18.766-69.571-18.766-39.65 0-59.843 8.787-69.718 18.766C322.864 171.851 318 183.17 318 200s4.864 28 13.855 37.085c9.728 9.83 29.332 18.915 69.718 18.915s59.843-8.936 69.571-18.766C480.136 228.149 485 216.83 485 200c0-16.979-4.864-28.149-13.855-37.234zM401.573 232c-26.347 0-39.96-5.451-45.815-11.344C351.22 216.089 348 210.196 348 199s2.781-17.237 7.611-22.098c6.002-6.04 19.615-10.902 45.962-10.902s39.521 5.009 45.669 11.196C452.073 182.058 455 187.804 455 199s-2.781 17.237-7.611 22.098C441.241 227.286 427.921 232 401.573 232z"/>
+        </svg>
+        <style>
+          @keyframes FadeInFadeOut {
+            0% { fill-opacity: 1; }
+            50% { fill-opacity: 0.5; }
+            100% { fill-opacity: 1; }
+          }
+          .fade {
+            animation: FadeInFadeOut infinite 1s ease-in-out;
+          }
+        </style>
+      </div>
+      <!-- End Loading Screen -->
+
+    </div>
     <!-- Todo: only include in production -->
     <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
     <!-- built files will be auto injected -->
