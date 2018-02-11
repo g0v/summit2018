@@ -1,6 +1,6 @@
 <template>
   <span>
-    <HeroImageMobile v-if="vw <= 400"/>
+    <HeroImageMobile v-if="vw < 640"/>
     <svg @mousemove="handleMousemove" v-else xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 900">
       <defs>
         <linearGradient id="linear-gradient-black-hole-back" x1="846.12" y1="708.59" x2="1401.45" y2="708.59" gradientTransform="translate(886.96 -598.66) rotate(47.5)"
