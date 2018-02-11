@@ -1,10 +1,12 @@
 <template lang="pug">
-  .top-bar.stacked-for-medium
-    .top-bar-left
-      ul.dropdown.menu(data-dropdown-menu)
-        li.menu-text
-          TW 啥米零時政府
-          EN g0v summmit 2018
+  .top-bar(@scroll="handleScroll", :class="(scrollY>50) && 'shrink'").stacked-for-medium
+    .top-bar-left.show-for-large
+      ul.menu
+        li
+          a(href="/").brand-logo.menu-text
+            FaIcon(name="g0v-logo", :scale="1.5")
+            TW 啥米零時政府
+            EN summmit 2018
     .top-bar-right
       ul.menu
         li
@@ -51,14 +53,50 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
+import throttle from 'lodash/throttle'
 
 export default {
   name: 'nav-bar',
-  computed: mapState(['lang']),
-  methods: mapMutations(['toggleLang'])
+  data () {
+    return {
+      shrink: false
+    }
+  },
+  computed: mapState(['lang', 'scrollY']),
+  mounted () {
+    window.addEventListener('scroll', throttle(this.handleScroll, 300))
+  },
+  destroied () {
+    window.removeEventListener('scroll', throttle(this.handleScroll, 300))
+  },
+  methods: {
+    handleScroll () {
+      this.setScrollY({ scrollY: window.scrollY })
+    },
+    ...mapMutations(['toggleLang', 'setScrollY'])
+  }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.top-bar {
+  opacity: 0.95;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 
+  // shrink/expand effect
+  transition-property: padding;
+  transition-duration: .2s;
+  &.shrink {
+    padding: 0px;
+  }
+
+  .brand-logo {
+    color: inherit;
+    font {
+      @include vertical-center;
+    }
+  }
+}
 </style>
