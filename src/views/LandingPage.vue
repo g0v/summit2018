@@ -1,14 +1,16 @@
 <template lang="pug">
-  .landing-page.grid-x.align-center
+  #LandingPage.landing-page.grid-x.align-center
     HeroImage.cell
-    .grid-x.grid-padding-x.align-center
+    #content.grid-x.grid-padding-x.align-center
+
+      //- 贊助我們
+      section#cta.cell.text-center
+        a.button.large(href="#sponsor-us")
+          TW 成為贊助夥伴
+          EN Become a Partner
 
       //- 社群簡介
-      section#intro.cell.medium-8.large-7
-        h2
-          TW 這是h2大標題
-          EN This is a H2 header
-
+      section#intro.cell
         //- 社群簡介
         TW
           h3 社群簡介
@@ -37,20 +39,22 @@
         //-   EN Labore dolor incididunt id eu do. Cillum veniam incididunt ad culpa. Mollit tempor officia incididunt est velit ad labore exercitation elit. Laborum excepteur cillum voluptate amet elit. Fugiat in ex ea ad dolor eu consequat irure amet fugiat duis aliqua. Ut deserunt voluptate ea quis veniam veniam consequat irure et sunt cillum sit non adipisicing.
 
       //- 贊助年會
-      section#sponsor-us.cell.medium-4.large-3
-        .card.text-center
-          .card-section
+      section#sponsor-us.cell.medium-8
+        ScrollToTack(tackClass="tack-sponsor-us")
+          .callout.text-center(data-closable="slide-out-right")
             h3
               TW 成為贊助夥伴
               EN Become a Partner
             p
-              TW 這邊會放一些關於贊助年會的說明文字，所以這是一段關於贊助年會的說明文字。
-              EN Tempor eiusmod velit deserunt exercitation excepteur aliqua irure laborum aliquip aliquip est consectetur.
-            p g0v-summit-partner-2018@googlegroups.com
-          .card-devider
-            a.button
+              TW 這邊會放一些關於贊助年會的說明文字，所以這是一段關於贊助年會的說明文字，所以這是一段關於贊助年會的說明文字。
+              EN Tempor eiusmod velit deserunt exercitation excepteur aliqua irure laborum aliquip aliquip est consectetur. exercitation excepteur aliqua irure laborum aliqu.
+            p: UnderlineLink#mailto(:href="`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`" target="_blank")
+              strong g0v-summit-partner-2018@googlegroups.com
+            a.button.hollow
               TW 下載企劃書
               EN Download Proposal
+            button.close-button(type="button" data-close aria-label="Dismiss alert")
+              span(aria-hidden="true") &times;
 
       //- Summit hightlight
       section#hightlights.cell.large-10
@@ -85,7 +89,7 @@
         h3
           TW 歷年回顧
           EN Previous Events
-        #reports
+        #previous-events
           .grid-x.grid-padding-x
             .cell.medium-4
               a(href="http://summit.g0v.tw/2016/", target="_blank")
@@ -133,21 +137,38 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#intro {}
-
-#sponsor-us > .card {
-  background-color: $primary-color;
-}
-
-#hightlights {}
-
-#speakers {
-  .round {
-    border-radius: 50%;
+#content {
+  #cta {}
+  #intro {}
+  #sponsor-us {
+    padding-top: 100px;
+    .callout {
+      background-color: $primary-color;
+      // color: $white;
+      #mailto {
+        color: $white;
+      }
+      .button {
+        background-color: $white;
+      }
+    }
+    padding-bottom: 50px;
   }
-  // .speaker-title {
-  //   // color: #222;
-  // }
+  #hightlights {}
+  #speakers {
+    .round { border-radius: 50%; }
+  }
+  #reports {}
+  #previous-events {}
 }
 
+.tack-sponsor-us {
+  @include breakpoint(medium) {
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    bottom: 20px;
+    width: 500px;
+  }
+}
 </style>
