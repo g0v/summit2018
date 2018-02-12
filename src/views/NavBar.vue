@@ -92,6 +92,14 @@ export default {
     padding: 0px;
   }
 
+  @include breakpoint(small only) {
+    padding: 0px;
+    .menu > li > a {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
   .brand-logo {
     color: inherit;
     font {
