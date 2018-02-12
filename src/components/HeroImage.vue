@@ -225,6 +225,24 @@
             <path d="M269.08,299.69h11.66v42.73H269.08V299.69Z" />
             <path d="M286.43,299.69h35.35v10.55H309.92v32.18H298.29V310.24H286.43V299.69Z" />
           </g>
+
+          <!-- 時間 / 地點 -->
+          <text id="time-location-info">
+            <tspan x="103" y="800" class="small">2018/10/5-7</tspan>
+            <tspan x="100" y="836">
+              <tspan v-if="lang==='TW'">中央研究院人文館</tspan>
+              <tspan v-else>
+                <tspan>Joint Library of Humanities and Social Sciences,</tspan>
+                <tspan x="100" y="864">Academia Sinica</tspan>
+              </tspan>
+              <tspan>
+                <!-- <tspan v-if="lang==='TW'">/ 台北市南港區研究院路二段128號</tspan> -->
+                <a class="small" target="_blank" href="https://www.google.com.tw/maps/place/Joint+Library+of+Humanities+and+Social+Sciences,+Academia+Sinica/@25.041189,121.6128625,19z/data=!4m8!1m2!2m1!1z5Lit5aSu56CU56m26Zmi5Lq65paH6aSo!3m4!1s0x3442ab46ae2ef65b:0x53ceacf197917004!8m2!3d25.041087!4d121.6117">
+                  <tspan v-if="lang==='TW'">地圖</tspan><tspan v-else>map</tspan>
+                </a>
+              </tspan>
+            </tspan>
+          </text>
         </g>
       </g>
     </svg>
@@ -234,9 +252,11 @@
 <script>
 import { TweenLite as tween, Power1, Power3 } from 'gsap'
 import HeroImageMobile from '@/components/HeroImageMobile'
+import { mapState } from 'vuex'
 
 export default {
   name: 'hero-image',
+  components: { HeroImageMobile },
   data () {
     return {
       vh: window.innerHeight,
@@ -245,10 +265,15 @@ export default {
       pdy: 1
     }
   },
+  // svg 內無法用 <TW/>、<EN/>
+  computed: mapState(['lang']),
   mounted () {
     window.addEventListener('resize', this.handleResize)
     this.tweenShootingStars()
     this.tweenFadeInItems()
+  },
+  destroied () {
+    window.removeEventListener('resize', this.handleResize)
   },
   methods: {
     tweenShootingStars () {
@@ -291,16 +316,27 @@ export default {
       this.vh = window.innerHeight
       this.vw = window.innerWidth
     }
-  },
-  destroied () {
-    window.removeEventListener('resize', this.handleResize)
-  },
-  components: { HeroImageMobile }
+  }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 svg {
   overflow: visible;
+}
+
+#time-location-info {
+  font-size: 28px;
+  fill: rgb(75, 76, 75);
+  font-weight: bold;
+  .small {
+    font-size: 0.8em;
+  }
+  a {
+    fill: $anchor-color;
+    &:hover {
+      fill: $anchor-color-hover;
+    }
+  }
 }
 </style>
