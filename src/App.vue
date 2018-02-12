@@ -29,4 +29,7 @@ export default {
 
 <style lang="scss">
 @import './styles/global';
+#app {
+  background: linear-gradient($dark-gray, $light-gray, $light-gray);
+}
 </style>
