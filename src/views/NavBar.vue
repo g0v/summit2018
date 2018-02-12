@@ -10,35 +10,35 @@
     .top-bar-right
       ul.menu
         li
-          a(href="/schedule").disabled
+          UnderlineLink(href="/schedule").disabled
             TW 議程
             EN Schedule
         li
-          a(href="/speakers")
+          UnderlineLink(href="/speakers")
             TW 講者
             EN Speakers
         li
-          a(href="/sponsors")
+          UnderlineLink(href="/sponsors")
             TW 贊助
             EN Sponsors
         li
-          a(href="/transport")
+          UnderlineLink(href="/transport")
             TW 交通
             EN Transport
         li
-          a(href="/live")
+          UnderlineLink(href="/live")
             TW 直撥
             EN Live
         li
-          a(href="/staff")
+          UnderlineLink(href="/staff")
             TW 工作人員
             EN Staff
         li
-          a(href="/wiki")
+          UnderlineLink(href="/wiki")
             TW 大會共筆
             EN Wiki
         li
-          a(@click="toggleLang")
+          UnderlineLink(@click="toggleLang")
             span(v-if="lang === 'TW'")
               b 中
               span /En
