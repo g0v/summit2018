@@ -1,9 +1,6 @@
 <template>
-  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 841.89">
+  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 880">
     <defs>
-      <clipPath id="clip-path">
-        <rect x="-5" y="-12" width="612" height="860" style="fill:none" />
-      </clipPath>
       <linearGradient id="linear-gradient" x1="312.18" y1="409.19" x2="377.54" y2="463.47" gradientUnits="userSpaceOnUse">
         <stop offset="0" stop-color="#231815" />
         <stop offset="0.33" stop-color="#261c19" />
@@ -28,7 +25,7 @@
       />
     </defs>
     <title>hero-vertical</title>
-    <g style="clip-path:url(#clip-path)">
+    <g>
       <rect x="-5" y="-12" width="612" height="860" style="fill:#dddfdb" />
       <line x1="-163" y1="-60" x2="827" y2="916" style="fill:none;stroke:#70706e;stroke-miterlimit:10;stroke-dasharray:5" />
       <ellipse cx="520.68" cy="507.34" rx="265.31" ry="52.76" transform="translate(-205.14 548.45) rotate(-47.5)" style="fill:#3c3e3d"
@@ -153,16 +150,55 @@
         style="fill:#4b4c4b" />
       <path d="M511.33,766.94l1.39,0.86,1.72-1.29q-3.65.22-7.18,0.21-0.22-.75-0.54-2.25l-0.32-1.61q14.47-.21,23.37-0.75l1,3.65q-4.72.32-9.76,0.54-0.54.43-1.71,1.18-2.36,1.72-3.43,2.36a15,15,0,0,0,1.93,1.29q5.15-3,8.15-5L529,769q-5.79,3.22-11.47,6.22,3.64-.11,6.33-0.11l-1.39-1.71,3-1.72q1.39,1.39,4.5,4.72,1,1.07,1.39,1.5l-3.11,2.36-1.61-1.93a28.37,28.37,0,0,1-2.9.11q-1.93.11-2.89,0.11v8.58h-4.61v-8.47l-3.75.21,2.47,2.68q-2.68,2-7.29,5a4.81,4.81,0,0,0-.43-0.64,27.91,27.91,0,0,0-2-2.57,78.52,78.52,0,0,0,6.75-4.5q-2.79.22-4.18,0.21L507,775.3q1.61,0,3.22-.11,1.61-.86,3.75-1.93-2.15-1.71-5.15-3.86Zm13.29,11.79q3.43,2.15,7,4.5l-2.68,3.22q-3.22-2.36-7-4.72Z"
         style="fill:#4b4c4b" />
+
+      <!-- 時間 / 地點 -->
+      <text id="time-location-info">
+        <tspan x="60" y="835">2018/10/5-7</tspan>
+        <tspan y="836">
+          <tspan v-if="lang==='TW'">中央研究院人文館</tspan>
+          <tspan y="834" v-else class="smaller">
+            <tspan x="204">Joint Library of Humanities and Social</tspan>
+            <tspan x="204" dy="28">Sciences, Academia Sinica</tspan>
+          </tspan>
+          <tspan>
+            <!-- <tspan v-if="lang==='TW'">/ 台北市南港區研究院路二段128號</tspan> -->
+            <a id="map-link" class="smaller" target="_blank" href="https://www.google.com.tw/maps/place/Joint+Library+of+Humanities+and+Social+Sciences,+Academia+Sinica/@25.041189,121.6128625,19z/data=!4m8!1m2!2m1!1z5Lit5aSu56CU56m26Zmi5Lq65paH6aSo!3m4!1s0x3442ab46ae2ef65b:0x53ceacf197917004!8m2!3d25.041087!4d121.6117">
+              <tspan v-if="lang==='TW'">(地圖)</tspan><tspan v-else>(map)</tspan>
+            </a>
+          </tspan>
+        </tspan>
+      </text>
     </g>
   </svg>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
-  name: 'hero-image-mobile'
+  name: 'hero-image-mobile',
+  // svg 內無法用 <TW/>、<EN/>
+  computed: mapState(['lang'])
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+svg {
+  overflow: visible;
+}
 
+#time-location-info {
+  font-size: 23.5px;
+  fill: rgb(75, 76, 75);
+  font-weight: bold;
+  .smaller { font-size: 0.9em; }
+  .small { font-size: 0.8em; }
+
+#map-link {
+    fill: $anchor-color;
+    &:hover {
+      fill: $anchor-color-hover;
+    }
+  }
+}
 </style>
