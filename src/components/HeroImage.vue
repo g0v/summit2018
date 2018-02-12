@@ -256,6 +256,7 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'hero-image',
+  components: { HeroImageMobile },
   data () {
     return {
       vh: window.innerHeight,
@@ -270,6 +271,9 @@ export default {
     window.addEventListener('resize', this.handleResize)
     this.tweenShootingStars()
     this.tweenFadeInItems()
+  },
+  destroied () {
+    window.removeEventListener('resize', this.handleResize)
   },
   methods: {
     tweenShootingStars () {
@@ -312,11 +316,7 @@ export default {
       this.vh = window.innerHeight
       this.vw = window.innerWidth
     }
-  },
-  destroied () {
-    window.removeEventListener('resize', this.handleResize)
-  },
-  components: { HeroImageMobile }
+  }
 }
 </script>
 
