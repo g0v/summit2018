@@ -6,6 +6,8 @@ import FaIcon from './vue-awesome'
 import App from './App'
 import TW from '@/components/TW'
 import EN from '@/components/EN'
+import UnderlineLink from '@/components/UnderlineLink'
+import ScrollToTack from '@/components/ScrollToTack'
 import router from './router'
 import store from '@/store'
 
@@ -13,6 +15,8 @@ Vue.config.productionTip = false
 Vue.component('TW', TW)
 Vue.component('EN', EN)
 Vue.component('FaIcon', FaIcon)
+Vue.component('UnderlineLink', UnderlineLink)
+Vue.component('ScrollToTack', ScrollToTack)
 
 /* eslint-disable no-new */
 new Vue({
