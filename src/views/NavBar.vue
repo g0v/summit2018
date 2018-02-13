@@ -38,7 +38,7 @@
             TW 大會共筆
             EN Wiki
         li
-          UnderlineLink(@click="toggleLang")
+          a(@click="toggleLang")
             span(v-if="lang === 'TW'")
               b 中
               span /En
