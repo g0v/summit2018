@@ -41,20 +41,7 @@
       //- 贊助年會
       section#sponsor-us.cell.medium-8
         ScrollToTack(tackClass="tack-sponsor-us")
-          .callout.text-center(data-closable="slide-out-right")
-            h3
-              TW 成為贊助夥伴
-              EN Become a Partner
-            p
-              TW 這邊會放一些關於贊助年會的說明文字，所以這是一段關於贊助年會的說明文字，所以這是一段關於贊助年會的說明文字。
-              EN Tempor eiusmod velit deserunt exercitation excepteur aliqua irure laborum aliquip aliquip est consectetur. exercitation excepteur aliqua irure laborum aliqu.
-            p: UnderlineLink#mailto(:href="`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`" target="_blank")
-              strong g0v-summit-partner-2018@googlegroups.com
-            a.button.hollow
-              TW 下載企劃書
-              EN Download Proposal
-            button.close-button(type="button" data-close aria-label="Dismiss alert")
-              span(aria-hidden="true") &times;
+          SponsorUs
 
       //- Summit hightlight
       section#hightlights.cell.large-10
@@ -115,6 +102,7 @@
 
 <script>
 import { HeroImage } from '@/components'
+import { SponsorUs } from '@/views'
 
 export default {
   name: 'landingPage',
@@ -132,7 +120,7 @@ export default {
       ]
     }
   },
-  components: { HeroImage }
+  components: { HeroImage, SponsorUs }
 }
 </script>
 
@@ -142,16 +130,6 @@ export default {
   #intro {}
   #sponsor-us {
     padding-top: 100px;
-    .callout {
-      background-color: $primary-color;
-      // color: $white;
-      #mailto {
-        color: $white;
-      }
-      .button {
-        background-color: $white;
-      }
-    }
     padding-bottom: 50px;
   }
   #hightlights {}
@@ -161,14 +139,20 @@ export default {
   #reports {}
   #previous-events {}
 }
+</style>
 
+<style lang="scss">
 .tack-sponsor-us {
   @include breakpoint(medium) {
+    font-size: 0.75em;
     position: fixed;
     z-index: 1;
     right: 20px;
-    bottom: 20px;
-    width: 500px;
+    bottom: 40px;
+    width: 320px;
+    .close-button {
+      display: block !important;
+    }
   }
 }
 </style>
