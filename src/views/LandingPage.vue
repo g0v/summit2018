@@ -30,14 +30,6 @@
           p g0v.tw is a civic tech community in Taiwan since 2012 with deep open-source roots. With 1,000+ contributors through 40+ hackathons, it is recognized as one of the largest group in the global civic tech community. The community focuses on building tools for better information disclosure, engagement, and online democracy, advocating government transparency through the power of information technology.
           p Through the years, the g0v community stimulated the progress of open government, open data, civic participation, and new media in Taiwan. Today the open community is still one of the main driving force for grass root civic movements, through interdisciplinary collaboration.
 
-        //- 今年主題
-        //- h3
-        //-   TW 開源 公民 生態系
-        //-   EN Open-source, Citizenship, Ecosystem
-        //- P
-        //-   TW 假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假假的 假的 假的 假
-        //-   EN Labore dolor incididunt id eu do. Cillum veniam incididunt ad culpa. Mollit tempor officia incididunt est velit ad labore exercitation elit. Laborum excepteur cillum voluptate amet elit. Fugiat in ex ea ad dolor eu consequat irure amet fugiat duis aliqua. Ut deserunt voluptate ea quis veniam veniam consequat irure et sunt cillum sit non adipisicing.
-
       //- 贊助年會
       section#sponsor-us.cell.medium-8
         ScrollToTack(tackClass="tack-sponsor-us")
@@ -60,7 +52,7 @@
             .media-object-section.main-section
               h5 {{ speaker.name }}
                 small.speaker-title {{ speaker.title }}
-              p {{ speaker.desp }}
+              p {{ speaker.description }}
 
         //- 媒體報導
         h3
@@ -85,7 +77,9 @@
               h5
                 TW 2016 拆後重建
                 EN 2016 g0v summit
-              p 2016 年則以「拆政府原地重建」作為主題。時值新舊政府交接，台灣在開放資料評比中排名世界第一，多位社群參與者也進入政府擔任顧問、幕僚等職，在拆解傳統政治模式之後，討論如何以科技建立開放的公私協作新模式。這次有超過千位參與者，與來自 17 國的全球公民科技代表，分享歐洲的新興政治經驗、亞洲推展數位科技到傳統公民團體的經驗、各國數位進入政府搭建溝通橋樑的改造經驗等。
+              p
+                TW 2016 年則以「拆政府原地重建」作為主題。時值新舊政府交接，台灣在開放資料評比中排名世界第一，多位社群參與者也進入政府擔任顧問、幕僚等職，在拆解傳統政治模式之後，討論如何以科技建立開放的公私協作新模式。這次有超過千位參與者，與來自 17 國的全球公民科技代表，分享歐洲的新興政治經驗、亞洲推展數位科技到傳統公民團體的經驗、各國數位進入政府搭建溝通橋樑的改造經驗等。
+                EN Right after the Sun Flower Movement, in which digital tools boosted hundreds of thousands of protestors, g0v Summit 2014 focus on open parliament, participatory democracy and online collaboration in social movements. It was also the first attempt to bring cross-displinary discussion among international civic tech hackers, open source communities, NGOs, media, academic and public administration officers.
           .grid-x.grid-padding-x
             .cell.medium-4
               a(href="http://summit.g0v.tw/2014/", target="_blank")
@@ -94,33 +88,42 @@
               h5
                 TW 2014 啥米零時政府
                 EN 2014 g0v summit
-              p 2014 年的首次年會緊接在 318 公民運動之後，聚焦開放國會、參與式民主、網路協作的社會運動。有來自八國長期關注開放政府運動的國際講者，以及國內政府公部門、NGO、媒體、資訊好手，並與中央研究院社會學研究所二十週年慶「跨世紀學運論壇」合辦，促進跨界交流。
+              p
+                TW 2014 年的首次年會緊接在 318 公民運動之後，聚焦開放國會、參與式民主、網路協作的社會運動。有來自八國長期關注開放政府運動的國際講者，以及國內政府公部門、NGO、媒體、資訊好手，並與中央研究院社會學研究所二十週年慶「跨世紀學運論壇」合辦，促進跨界交流。
+                EN 2016 is a year that Taiwan was ranked No.1 in Open Data Index, that Taiwan elected a new president, and that many g0v participants have entered the government to “reconstruct” the system from inside. g0v Summit 2016 thus emereged reflections on “reconstructing” a better system by civic tech, practicing liquid democracy in Europe, empowering NGOs in Asia, and bridging public-private partnership.
 
-
+      //- <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/g0v/albums/72157668568138255" title="20160514 / G0V Summit Day1 精選"><img src="https://farm8.staticflickr.com/7444/27061587186_5e097fe67e_m.jpg" width="240" height="160" alt="20160514 / G0V Summit Day1 精選"></a>
 
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import { HeroImage } from '@/components'
-import { SponsorUs } from '@/views'
+import { SponsorUs, TheTimeline } from '@/views'
+import speakers from '@/assets/LandingPage/speakers'
+import media from '@/assets/LandingPage/media'
 
 export default {
   name: 'landingPage',
   data () {
     return {
-      speakers: [
-        { name: '王小明', title: '開源運動者', imgUrl: 'http://placehold.it/100x100', desp: '假的假的假的假的假的假的假的假的 假的假的假的假的假的假的假的假 的假的假的假的假的假的假的假的假的假的' },
-        { name: '陳小華', title: '公民記者', imgUrl: 'http://placehold.it/100x100', desp: '假的假的假的假的假的假的假的假的 假的假的假的假的假的假的假的假 的假的假的假的假的假的假的假的假的假的' },
-        { name: '張小惠', title: '公民黑客', imgUrl: 'http://placehold.it/100x100', desp: '假的假的假的假的假的假的假的假的 假的假的假的假的假的假的假的假 的假的假的假的假的假的假的假的假的假的' }
-      ],
-      reports: [
-        { name: 'Waag Society', title: '報導標題假的假的假的 假的假的假的假的假的', iconUrl: 'http://placehold.it/100x100', photoUrl: 'http://placehold.it/300x185', quote: '假的假的假的假的假的假的假的假的 假的假的假的假的假的假的假的假 的假的假的假的假的假的假的假的假的假的假的假的假的假的假的' },
-        { name: 'Taipei Times', title: '報導標題假的假的假的 假的假的假的假的假的', iconUrl: 'http://placehold.it/100x100', photoUrl: 'http://placehold.it/300x185', quote: '假的假的假的假的假的假的假的假的 假的假的假的假的假的假的假的假 的假的假的假的假的假的假的假的假的假的假的假的假的假的假的' },
-        { name: 'Taiwan Mag', title: '報導標題假的假的假的 假的假的假的假的假的', iconUrl: 'http://placehold.it/100x100', photoUrl: 'http://placehold.it/300x185', quote: '假的假的假的假的假的假的假的假的 假的假的假的假的假的假的假的假 的假的假的假的假的假的假的假的假的假的假的假的假的假的假的' }
+      timelineItems: [
+        { description: 'Call for Paper', time: { tw: '3/15-4/30', en: 'March 15th - April 30th' }, 'fa-icon': 'globe' },
+        { description: { tw: '早鳥報名', en: 'Early bird tickets' }, time: { en: 'est. May', tw: '五月' }, 'fa-icon': 'ticket' },
+        { description: 'g0v Summit', time: { en: 'October 5th - 7th', tw: '10/5-7' }, 'fa-icon': 'calendar-check-o' }
       ]
     }
   },
-  components: { HeroImage, SponsorUs }
+  computed: {
+    ...mapState(['lang']),
+    speakers () {
+      return this.lang === 'TW' ? speakers.TW : speakers.EN
+    },
+    reports () {
+      return this.lang === 'TW' ? media.TW : media.EN
+    }
+  },
+  components: { HeroImage, SponsorUs, TheTimeline }
 }
 </script>
 
@@ -134,7 +137,10 @@ export default {
   }
   #hightlights {}
   #speakers {
-    .round { border-radius: 50%; }
+    .round {
+      border-radius: 50%;
+      height: 64px;
+    }
   }
   #reports {}
   #previous-events {}
