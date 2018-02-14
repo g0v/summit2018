@@ -15,7 +15,6 @@ const store = new Vuex.Store({
       state.lang = isEn ? 'TW' : 'EN'
     },
     setScrollY (state, payload) {
-      console.log('handleScroll', payload)
       state.scrollY = payload.scrollY
     }
   }
