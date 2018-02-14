@@ -9,8 +9,8 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    // TODO: 改成實際 hosting 的網址
-    assetsPublicPath: '/summit2018/',
+    // Production 網址為 summit.g0v.tw/2018
+    assetsPublicPath: '/2018/',
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
