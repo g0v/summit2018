@@ -52,4 +52,4 @@ vue webpack 模板文檔：[vuejs-templates/webpack](https://vuejs-templates.git
 本專案 follow [Vue.js 官方風格指南](https://cn.vuejs.org/v2/style-guide/) ，commit message 格式可以參考[這裏](https://gitmoji.carloscuesta.me/)，master 盡量以 merge 自己的 branch 代替直接 commit
 
 ## Todo
-- [ ] 修改 router base 為 `/2018/` 或 `/`
+- [x] 修改 router base 為 `/2018/` 或 `/`
