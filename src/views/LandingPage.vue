@@ -1,39 +1,39 @@
 <template lang="pug">
-  #LandingPage.landing-page.grid-x.align-center
-    HeroImage.cell
+  #LandingPage
+    HeroImage
     #content.grid-x.grid-padding-x.align-center
 
       //- 贊助我們
       section#cta.cell.text-center
-        a.button.large(href="#sponsor-us")
+        a.button.hollow.secondary.large(href="#sponsor-us")
           TW 成為贊助夥伴
           EN Become a Partner
 
       //- 社群簡介
-      section#intro.cell
-        //- 社群簡介
+      section#intro.cell.card.medium-8.align-self-left
         TW
           h3 社群簡介
           p 自 2012 年以來，公民科技運動風起雲湧，以開放透明、公民參與為號召的 g0v 台灣零時政府社群號召了第一場活動，以「寫程式改造社會」為口號，從此開始公民科技之火開始延燒，至今未歇。
           p 五年多來，在上千位參與者集體的貢獻下，透過一場場黑客松，打造出多項以開放資料、開放政府為精神的資訊平台，以縮短數位落差為初衷，降低公民參與門檻，使得議題審議可立基在具體事實，提升理性討論公共事務的意識。這場開放資料、開放政府運動，g0v 社群也打破了民間與政府對抗的傳統運動路線，開創出台灣公民社會與政府互動的新模式。
         EN
           h3 About g0v
-          p g0v.tw is a civic tech community in Taiwan since 2012 with deep open-source roots. With 1,000+ contributors through 40+ hackathons, it is recognized as one of the largest group in the global civic tech community. The community focuses on building tools for better information disclosure, engagement, and online democracy, advocating government transparency through the power of information technology.
-          p Through the years, the g0v community stimulated the progress of open government, open data, civic participation, and new media in Taiwan. Today the open community is still one of the main driving force for grass root civic movements, through interdisciplinary collaboration.
+          p g0v (pronounced “gov zero”) is a decentralized civic tech community from Taiwan, advocating transparency of information, building tech solutions for citizens to participate in public affairs from grass-roots.
+          p In the spirit of open source and activism, g0v aims to use technology in the interest of the public good, allowing citizens easy access to vital information and power to shape the civil society. Substituting the “o” with “0″ in gov, we want to use the Internet and digital thinking (0 &amp; 1) to change the traditional “gov”.
+          p Since 2012, g0v has hosted over 50 hackathons and 2 international summits. Thousands of participants from different backgrounds contributed to hundreds of projects, creating new tools to mobilise civic engagement.
 
-        //- 雙年會簡介
+      //- 雙年會簡介
+      section#intro.cell.card.medium-8.align-self-right
         TW
           h3 雙年會簡介
           p g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
         EN
           h3 About g0v summit
-          p g0v.tw is a civic tech community in Taiwan since 2012 with deep open-source roots. With 1,000+ contributors through 40+ hackathons, it is recognized as one of the largest group in the global civic tech community. The community focuses on building tools for better information disclosure, engagement, and online democracy, advocating government transparency through the power of information technology.
-          p Through the years, the g0v community stimulated the progress of open government, open data, civic participation, and new media in Taiwan. Today the open community is still one of the main driving force for grass root civic movements, through interdisciplinary collaboration.
+          p g0v’s biennial summits started in 2014, featuring open government, open source collaboration and civic participation. The past 2 summits have gathered speakers from 19 countries and 2000 local participants. Hosted by volunteers only, g0v summit’s agenda is designed under and for open collaboration. Unconference enables participants to freely host their own sessions. As the tradition, lightening talks open the stage to everyone to share their projects. Operation documents, online shared notes, livestreaming videos and translations are released by open license with the help of volunteer contributors.
 
       //- 贊助年會
       section#sponsor-us.cell.medium-8
         ScrollToTack(tackClass="tack-sponsor-us")
-          SponsorUs
+          //- SponsorUs
 
       //- 時程
       section#timelime.cell
@@ -133,7 +133,13 @@ export default {
 
 <style lang="scss" scoped>
 #content {
-  #cta {}
+  #cta {
+    position: relative;
+    top: -50px;
+    button {
+      background-color: $primary-color;
+    }
+  }
   #intro {}
   #sponsor-us {
     padding-top: 100px;
