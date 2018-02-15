@@ -7,6 +7,7 @@
         img(:src="speaker.avatarUrl").thumbnail.avatar
       .media-object-section.main-section
         h5 {{ speaker.name }}
+          br
           small.speaker-title {{ speaker.title }}
         p {{ speaker.description }}
   .mask.grid-x.align-middle.align-center
