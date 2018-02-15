@@ -7,6 +7,9 @@ import 'vue-awesome/icons/globe' // or 'bullhorn'
 import 'vue-awesome/icons/ticket'
 import 'vue-awesome/icons/calendar-check-o'
 
+// Speakers
+import 'vue-awesome/icons/youtube-play'
+
 // Footer
 import 'vue-awesome/icons/github'
 import 'vue-awesome/icons/twitter'
