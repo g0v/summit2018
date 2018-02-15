@@ -49,14 +49,19 @@
         h3
           TW 歷年講者
           EN Previous Speakers
-        #speakers.grid-x.align-justify.grid-padding-x
-          div(v-for="speaker in speakers").media-object.medium-4.cell
+        #speakers.grid-x.align-justify.grid-margin-x
+          .speaker(v-for="speaker in speakers").media-object.medium-4.cell
             .media-object-section
-              img(:src="speaker.imgUrl").thumbnail.round
+              img(:src="speaker.avatarUrl").thumbnail.avatar
             .media-object-section.main-section
               h5 {{ speaker.name }}
                 small.speaker-title {{ speaker.title }}
               p {{ speaker.description }}
+            .mask.grid-x.align-middle.align-center
+              img.photo(:src="speaker.photoUrl")
+              a.youtube.button.primary.hollow.flex-container.align-middle(:href="speaker.youtube", target="_blank", :alt="'YouTube video of ' + speaker.name")
+                FaIcon(name="youtube-play", scale="1.2")
+                span &nbsp; Watch on YouTube
 
         //- 媒體報導
         h3
@@ -76,7 +81,7 @@
           .grid-x.grid-padding-x
             .cell.medium-4
               a(href="http://summit.g0v.tw/2016/", target="_blank")
-                img(src="../assets/img/summit2016.png").thumbnail
+                img(src="../assets/LandingPage/past-events/summit2016.png").thumbnail
             .cell.medium-8
               h5
                 TW 2016 拆後重建
@@ -87,7 +92,7 @@
           .grid-x.grid-padding-x
             .cell.medium-4
               a(href="http://summit.g0v.tw/2014/", target="_blank")
-                img(src="../assets/img/summit2014.png").thumbnail
+                img(src="../assets/LandingPage/past-events/summit2014.png").thumbnail
             .cell.medium-8
               h5
                 TW 2014 啥米零時政府
@@ -104,8 +109,8 @@
 import { mapState } from 'vuex'
 import { HeroImage } from '@/components'
 import { SponsorUs, TheTimeline } from '@/views'
-import speakers from '@/assets/LandingPage/speakers'
-import media from '@/assets/LandingPage/media'
+import speakers from '@/assets/LandingPage/speakers/index.js'
+import media from '@/assets/LandingPage/media/index.js'
 
 export default {
   name: 'landingPage',
@@ -120,12 +125,8 @@ export default {
   },
   computed: {
     ...mapState(['lang']),
-    speakers () {
-      return this.lang === 'TW' ? speakers.TW : speakers.EN
-    },
-    reports () {
-      return this.lang === 'TW' ? media.TW : media.EN
-    }
+    speakers () { return this.lang === 'TW' ? speakers.TW : speakers.EN },
+    reports () { return this.lang === 'TW' ? media.TW : media.EN }
   },
   components: { HeroImage, SponsorUs, TheTimeline }
 }
@@ -147,7 +148,33 @@ export default {
   }
   #hightlights {}
   #speakers {
-    .round {
+    .speaker {
+      position: relative;
+      .mask {
+        display: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba($dark-gray, 0.75);
+        .photo {
+          opacity: 0.9;
+          width: 100%;
+        }
+        .youtube {
+          position: absolute;
+          bottom: 0.5em;
+          right: 0.5em;
+          background-color: rgba($white, 0.9);
+        }
+      }
+      &:hover {
+        .mask {
+          display: flex;
+        }
+      }
+    }
+    .avatar {
       border-radius: 50%;
       height: 64px;
     }
