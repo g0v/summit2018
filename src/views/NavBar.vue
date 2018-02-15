@@ -4,8 +4,8 @@
     //- .top-bar-left.show-for-large
     .top-bar-left
       ul.menu
-        li
-          a(href="/").brand-logo.menu-text
+        li: a(href="/").brand-logo.menu-text
+          span.flex-container.align-middle.shahow
             FaIcon(name="g0v-logo", :scale="1.5")
             TW 啥米零時政府
             EN summmit 2018
