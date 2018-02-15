@@ -1,6 +1,8 @@
 <template lang="pug">
-  .top-bar(@scroll="handleScroll", :class="(scrollY>50) && 'shrink'").stacked-for-medium
-    .top-bar-left.show-for-large
+  .top-bar(@scroll="handleScroll", :class="(scrollY>50) && 'shrink'")
+    //- TODO: add for later version
+    //- .top-bar-left.show-for-large
+    .top-bar-left
       ul.menu
         li
           a(href="/").brand-logo.menu-text
@@ -9,34 +11,35 @@
             EN summmit 2018
     .top-bar-right
       ul.menu
-        li
-          UnderlineLink(href="/schedule").disabled
-            TW 議程
-            EN Schedule
-        li
-          UnderlineLink(href="/speakers")
-            TW 講者
-            EN Speakers
-        li
-          UnderlineLink(href="/sponsors")
-            TW 贊助
-            EN Sponsors
-        li
-          UnderlineLink(href="/transport")
-            TW 交通
-            EN Transport
-        li
-          UnderlineLink(href="/live")
-            TW 直撥
-            EN Live
-        li
-          UnderlineLink(href="/staff")
-            TW 工作人員
-            EN Staff
-        li
-          UnderlineLink(href="/wiki")
-            TW 大會共筆
-            EN Wiki
+        //- TODO: add for later version
+        //- li
+        //-   UnderlineLink(href="/schedule").disabled
+        //-     TW 議程
+        //-     EN Schedule
+        //- li
+        //-   UnderlineLink(href="/speakers")
+        //-     TW 講者
+        //-     EN Speakers
+        //- li
+        //-   UnderlineLink(href="/sponsors")
+        //-     TW 贊助
+        //-     EN Sponsors
+        //- li
+        //-   UnderlineLink(href="/transport")
+        //-     TW 交通
+        //-     EN Transport
+        //- li
+        //-   UnderlineLink(href="/live")
+        //-     TW 直撥
+        //-     EN Live
+        //- li
+        //-   UnderlineLink(href="/staff")
+        //-     TW 工作人員
+        //-     EN Staff
+        //- li
+        //-   UnderlineLink(href="/wiki")
+        //-     TW 大會共筆
+        //-     EN Wiki
         li
           a(@click="toggleLang")
             span(v-if="lang === 'TW'")
@@ -82,8 +85,16 @@ export default {
 .top-bar {
   opacity: 0.95;
   position: fixed;
+  z-index: 1;
   top: 0px;
   width: 100%;
+
+  // TODO: remove for later version
+  .top-bar-right, .top-bar-left {
+    // Override default stacking for small screen
+    flex-basis: unset;
+  }
+
 
   // shrink/expand effect
   transition-property: padding;
