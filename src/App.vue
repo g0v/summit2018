@@ -32,4 +32,8 @@ export default {
 #app {
   background: linear-gradient($dark-gray, $light-gray, $light-gray);
 }
+
+.mb-50 {
+  margin-bottom: 50px;
+}
 </style>

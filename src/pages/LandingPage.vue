@@ -1,9 +1,9 @@
 <template lang="pug">
   #LandingPage
     HeroImage
-    #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink
+    #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink.mb-50
       //- 我要贊助
-      section#cta.cell.text-center
+      section#cta.cell.text-center.mb-50
         //- a.button.primary.large(href="#sponsor-us")
         a#cta-button.button.primary.large(:href="`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`", target="_blank")
           #cta-button-text
@@ -52,13 +52,13 @@
         h3
           TW 歷年講者
           EN Previous Speakers
-        #speakers.grid-x.align-justify.grid-margin-x
+        #speakers.grid-x.align-justify.grid-margin-x.mb-50
           template(v-for="speaker in speakers")
             SpeakerBrief(:speaker="speaker").cell.large-4.medium-6.flex-child-shrink
 
 
 
-        .grid-x.grid-margin-x
+        .grid-x.grid-margin-x.mb-50
           //- 媒體報導
           .cell.large-4
             h3
