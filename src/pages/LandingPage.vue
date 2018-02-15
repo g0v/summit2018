@@ -66,7 +66,9 @@
           .media-object(v-for="report in reports").stack-for-small
             .media-object-section
               blockquote {{ report.quote }}
-                cite {{ report.title}} - {{ report.name }}
+                cite
+                  a(:href="report.url") {{ report.title}}
+                  span - {{ report.name }}
 
         //- 歷年活動
         h3
