@@ -1,0 +1,5 @@
+export { default as ChangSanCheng } from './Chang-San-Cheng.jpg'
+export { default as FelipeHeusser } from './Felipe-Heusser.jpg'
+export { default as PeggyLo } from './Peggy-Lo.jpg'
+export { default as MiguelAranaCatania } from './Miguel-Arana-Catania.jpg'
+export { default as ClayShirky } from './Clay-Shirky.jpg'
