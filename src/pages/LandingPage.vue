@@ -96,7 +96,11 @@
                 TW 2014 年的首次年會緊接在 318 公民運動之後，聚焦開放國會、參與式民主、網路協作的社會運動。有來自八國長期關注開放政府運動的國際講者，以及國內政府公部門、NGO、媒體、資訊好手，並與中央研究院社會學研究所二十週年慶「跨世紀學運論壇」合辦，促進跨界交流。
                 EN 2016 is a year that Taiwan was ranked No.1 in Open Data Index, that Taiwan elected a new president, and that many g0v participants have entered the government to "reconstruct" the system from inside. g0v Summit 2016 thus emereged reflections on "reconstructing" a better system by civic tech, practicing liquid democracy in Europe, empowering NGOs in Asia, and bridging public-private partnership.
 
-      //- <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/g0v/albums/72157668568138255" title="20160514 / G0V Summit Day1 精選"><img src="https://farm8.staticflickr.com/7444/27061587186_5e097fe67e_m.jpg" width="240" height="160" alt="20160514 / G0V Summit Day1 精選"></a>
+          //- Flickr 內嵌
+          .cell
+            <a data-flickr-embed="true" data-header="true" data-footer="false"  href="https://www.flickr.com/photos/g0v/albums/72157668216196151" title="20160515 / G0V summit 年會 Day2 精選">
+              <img src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_b.jpg" xwidth="640" xheight="284" alt="20160515 / G0V summit 年會 Day2 精選">
+            </a>
 
 </template>
 
