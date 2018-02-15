@@ -1,9 +1,15 @@
 <template lang="pug">
 
 .meida-quote
-  blockquote {{ report.quote }}
+  blockquote
+    img.icon(
+      :src="report.iconUrl",
+      :alt="report.name",
+      :style="{height: report.iconHeight || '3em'}"
+      )
+    p {{ report.quote }}
     cite
-      a(:href="report.url") {{ report.title}}
+      a(:href="report.url", target="_blank") {{ report.title}}
       span - {{ report.name }}
 
 </template>
@@ -29,5 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.icon {
+  margin-bottom: 0.5em;
+}
 </style>
