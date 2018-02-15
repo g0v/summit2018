@@ -35,6 +35,10 @@
         ScrollToTack(tackClass="tack-sponsor-us")
           SponsorUs
 
+      //- 時程
+      section#timelime.cell
+        TheTimeline(:items="timelineItems")
+
       //- Summit hightlight
       section#hightlights.cell.large-10
         h2
