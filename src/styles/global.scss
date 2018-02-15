@@ -1,8 +1,12 @@
 // Source Sans Pro font
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
 // Init Foundation
-@include foundation-everything(true); 
+@include foundation-everything(true);
 // Load icon fonts
 @import './icons';
 // Import Motion UI
 @import '~motion-ui/dist/motion-ui';
+
+h3 {
+  border-bottom: 0.1em solid $primary-color;
+}
