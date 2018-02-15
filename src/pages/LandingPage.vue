@@ -56,8 +56,6 @@
           template(v-for="speaker in speakers")
             SpeakerBrief(:speaker="speaker").cell.large-4.medium-6.flex-child-shrink
 
-
-
         .grid-x.grid-margin-x.mb-50
           //- 媒體報導
           .cell.large-4
@@ -67,10 +65,7 @@
             #reports
               .media-object(v-for="report in reports").stack-for-small
                 .media-object-section
-                  blockquote {{ report.quote }}
-                    cite
-                      a(:href="report.url") {{ report.title}}
-                      span - {{ report.name }}
+                  MediaQuote(:report="report")
 
           //- 歷年活動
           .cell.large-8
@@ -119,12 +114,13 @@
 <script>
 import { mapState } from 'vuex'
 import { HeroImage } from '@/components'
-import { SponsorUs, TheTimeline, SpeakerBrief } from '@/views'
+import { SponsorUs, TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
 export default {
   name: 'landingPage',
+  components: { HeroImage, SponsorUs, TheTimeline, SpeakerBrief, MediaQuote },
   data () {
     return {
       timelineItems: [
@@ -138,8 +134,7 @@ export default {
     ...mapState(['lang']),
     speakers () { return this.lang === 'TW' ? speakers.TW : speakers.EN },
     reports () { return this.lang === 'TW' ? media.TW : media.EN }
-  },
-  components: { HeroImage, SponsorUs, TheTimeline, SpeakerBrief }
+  }
 }
 </script>
 
