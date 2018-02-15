@@ -1,44 +1,51 @@
 <template lang="pug">
   #LandingPage
     HeroImage
-    #content.grid-x.grid-padding-x.align-center
-
-      //- 贊助我們
+    #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink
+      //- 我要贊助
       section#cta.cell.text-center
-        a.button.hollow.secondary.large(href="#sponsor-us")
-          TW 成為贊助夥伴
-          EN Become a Partner
+        //- a.button.primary.large(href="#sponsor-us")
+        a#cta-button.button.primary.large(:href="`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`", target="_blank")
+          #cta-button-text
+            TW 我要贊助
+            EN Sponsor Now
+          #cta-button-text-hover
+            FaIcon(name="envelope")
+            strong &nbsp; g0v-summit-partner-2018@googlegroups.com
 
-      //- 社群簡介
-      section#intro.cell.card.medium-8.align-self-left
-        TW
-          h3 社群簡介
-          p 自 2012 年以來，公民科技運動風起雲湧，以開放透明、公民參與為號召的 g0v 台灣零時政府社群號召了第一場活動，以「寫程式改造社會」為口號，從此開始公民科技之火開始延燒，至今未歇。
-          p 五年多來，在上千位參與者集體的貢獻下，透過一場場黑客松，打造出多項以開放資料、開放政府為精神的資訊平台，以縮短數位落差為初衷，降低公民參與門檻，使得議題審議可立基在具體事實，提升理性討論公共事務的意識。這場開放資料、開放政府運動，g0v 社群也打破了民間與政府對抗的傳統運動路線，開創出台灣公民社會與政府互動的新模式。
-        EN
-          h3 About g0v
-          p g0v (pronounced “gov zero”) is a decentralized civic tech community from Taiwan, advocating transparency of information, building tech solutions for citizens to participate in public affairs from grass-roots.
-          p In the spirit of open source and activism, g0v aims to use technology in the interest of the public good, allowing citizens easy access to vital information and power to shape the civil society. Substituting the “o” with “0″ in gov, we want to use the Internet and digital thinking (0 &amp; 1) to change the traditional “gov”.
-          p Since 2012, g0v has hosted over 50 hackathons and 2 international summits. Thousands of participants from different backgrounds contributed to hundreds of projects, creating new tools to mobilise civic engagement.
+      #paragraphs.cell.large-8.grid-y
 
-      //- 雙年會簡介
-      section#intro.cell.card.medium-8.align-self-right
-        TW
-          h3 雙年會簡介
-          p g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
-        EN
-          h3 About g0v summit
-          p g0v’s biennial summits started in 2014, featuring open government, open source collaboration and civic participation. The past 2 summits have gathered speakers from 19 countries and 2000 local participants. Hosted by volunteers only, g0v summit’s agenda is designed under and for open collaboration. Unconference enables participants to freely host their own sessions. As the tradition, lightening talks open the stage to everyone to share their projects. Operation documents, online shared notes, livestreaming videos and translations are released by open license with the help of volunteer contributors.
+        //- 社群簡介
+        section#intro.cell.card
+          TW.card-section
+            h3 社群簡介
+            p 自 2012 年以來，公民科技運動風起雲湧，以開放透明、公民參與為號召的 g0v 台灣零時政府社群號召了第一場活動，以「寫程式改造社會」為口號，從此開始公民科技之火開始延燒，至今未歇。
+            p 五年多來，在上千位參與者集體的貢獻下，透過一場場黑客松，打造出多項以開放資料、開放政府為精神的資訊平台，以縮短數位落差為初衷，降低公民參與門檻，使得議題審議可立基在具體事實，提升理性討論公共事務的意識。這場開放資料、開放政府運動，g0v 社群也打破了民間與政府對抗的傳統運動路線，開創出台灣公民社會與政府互動的新模式。
+          EN.card-section
+            h3 About g0v
+            p g0v (pronounced “gov zero”) is a decentralized civic tech community from Taiwan, advocating transparency of information, building tech solutions for citizens to participate in public affairs from grass-roots.
+            p In the spirit of open source and activism, g0v aims to use technology in the interest of the public good, allowing citizens easy access to vital information and power to shape the civil society. Substituting the “o” with “0″ in gov, we want to use the Internet and digital thinking (0 &amp; 1) to change the traditional “gov”.
+            p Since 2012, g0v has hosted over 50 hackathons and 2 international summits. Thousands of participants from different backgrounds contributed to hundreds of projects, creating new tools to mobilise civic engagement.
 
-      //- 贊助年會
-      section#sponsor-us.cell.medium-8
-        ScrollToTack(tackClass="tack-sponsor-us")
-          //- SponsorUs
+        //- 雙年會簡介
+        section#intro.cell.card
+          TW.card-section
+            h3 雙年會簡介
+            p g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
+          EN.card-section
+            h3 About g0v summit
+            p g0v’s biennial summits started in 2014, featuring open government, open source collaboration and civic participation. The past 2 summits have gathered speakers from 19 countries and 2000 local participants. Hosted by volunteers only, g0v summit’s agenda is designed under and for open collaboration. Unconference enables participants to freely host their own sessions. As the tradition, lightening talks open the stage to everyone to share their projects. Operation documents, online shared notes, livestreaming videos and translations are released by open license with the help of volunteer contributors.
 
       //- 時程
-      section#timelime.cell
+      section#timelime.cell.large-4
         TheTimeline(:items="timelineItems")
 
+      //- 贊助年會
+      //- section#sponsor-us.cell.medium-8
+      //-   ScrollToTack(tackClass="tack-sponsor-us")
+      //-     SponsorUs
+
+    #summit-highlight.grid-x.grid-padding-x.align-center
       //- Summit hightlight
       section#hightlights.cell.large-10
         h2
@@ -50,13 +57,14 @@
           TW 歷年講者
           EN Previous Speakers
         #speakers.grid-x.align-justify.grid-margin-x
-          .speaker(v-for="speaker in speakers").media-object.medium-4.cell
-            .media-object-section
-              img(:src="speaker.avatarUrl").thumbnail.avatar
-            .media-object-section.main-section
-              h5 {{ speaker.name }}
-                small.speaker-title {{ speaker.title }}
-              p {{ speaker.description }}
+          .speaker.card(v-for="speaker in speakers").media-object.cell.large-4.medium-6.flex-child-shrink
+            .card-section
+              .media-object-section
+                img(:src="speaker.avatarUrl").xthumbnail.avatar
+              .media-object-section.main-section
+                h5 {{ speaker.name }}
+                  small.speaker-title {{ speaker.title }}
+                p {{ speaker.description }}
             .mask.grid-x.align-middle.align-center
               img.photo(:src="speaker.photoUrl")
               a.youtube.button.primary.hollow.flex-container.align-middle(:href="speaker.youtube", target="_blank", :alt="'YouTube video of ' + speaker.name")
@@ -133,12 +141,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#content {
+#event-intro {
   #cta {
     position: relative;
-    top: -50px;
-    button {
-      background-color: $primary-color;
+    #cta-button {
+      border: 1px solid $white;
+      color: $white;
+      #cta-button-text-hover { display: none; }
+      &:hover {
+        #cta-button-text { display: none; }
+        #cta-button-text-hover { display: block; }
+      }
     }
   }
   #intro {}
@@ -146,6 +159,9 @@ export default {
     padding-top: 100px;
     padding-bottom: 50px;
   }
+}
+
+#summit-highlight {
   #hightlights {}
   #speakers {
     .speaker {
@@ -163,8 +179,9 @@ export default {
         }
         .youtube {
           position: absolute;
-          bottom: 0.5em;
-          right: 0.5em;
+          bottom: 20px;
+          right: 20px;
+          margin-bottom: 0;
           background-color: rgba($white, 0.9);
         }
       }
@@ -187,6 +204,7 @@ export default {
 <style lang="scss">
 .tack-sponsor-us {
   @include breakpoint(medium) {
+    opacity: 0.93;
     font-size: 0.75em;
     position: fixed;
     z-index: 1;
