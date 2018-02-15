@@ -1,4 +1,13 @@
 import FaIcon from 'vue-awesome/components/Icon.vue'
+
+// All available icons: https://fontawesome.com/v4.7.0/icons/#
+
+// Timeline
+import 'vue-awesome/icons/globe' // or 'bullhorn'
+import 'vue-awesome/icons/ticket'
+import 'vue-awesome/icons/calendar-check-o'
+
+// Footer
 import 'vue-awesome/icons/github'
 import 'vue-awesome/icons/twitter'
 import 'vue-awesome/icons/facebook'
