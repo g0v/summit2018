@@ -1,7 +1,7 @@
 <template>
-  <font v-if="showSlotContent">
+  <span v-if="showSlotContent">
     <slot></slot>
-  </font>
+  </span>
 </template>
 
 <script>
