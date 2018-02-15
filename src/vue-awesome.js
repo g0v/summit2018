@@ -2,6 +2,9 @@ import FaIcon from 'vue-awesome/components/Icon.vue'
 
 // All available icons: https://fontawesome.com/v4.7.0/icons/#
 
+// CTA
+import 'vue-awesome/icons/envelope'
+
 // Timeline
 import 'vue-awesome/icons/globe' // or 'bullhorn'
 import 'vue-awesome/icons/ticket'
