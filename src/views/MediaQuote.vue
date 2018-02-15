@@ -37,5 +37,6 @@ export default {
 <style lang="scss" scoped>
 .icon {
   margin-bottom: 0.5em;
+  width: auto !important;
 }
 </style>
