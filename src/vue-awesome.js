@@ -1,4 +1,19 @@
 import FaIcon from 'vue-awesome/components/Icon.vue'
+
+// All available icons: https://fontawesome.com/v4.7.0/icons/#
+
+// CTA
+import 'vue-awesome/icons/envelope'
+
+// Timeline
+import 'vue-awesome/icons/globe' // or 'bullhorn'
+import 'vue-awesome/icons/ticket'
+import 'vue-awesome/icons/calendar-check-o'
+
+// Speakers
+import 'vue-awesome/icons/youtube-play'
+
+// Footer
 import 'vue-awesome/icons/github'
 import 'vue-awesome/icons/twitter'
 import 'vue-awesome/icons/facebook'
