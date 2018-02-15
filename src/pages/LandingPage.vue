@@ -58,51 +58,61 @@
 
 
 
-        //- 媒體報導
-        h3
-          TW 媒體報導
-          EN Media Coverage
-        #reports
-          .media-object(v-for="report in reports").stack-for-small
-            .media-object-section
-              blockquote {{ report.quote }}
-                cite
-                  a(:href="report.url") {{ report.title}}
-                  span - {{ report.name }}
+        .grid-x.grid-margin-x
+          //- 媒體報導
+          .cell.large-4
+            h3
+              TW 媒體報導
+              EN Media Coverage
+            #reports
+              .media-object(v-for="report in reports").stack-for-small
+                .media-object-section
+                  blockquote {{ report.quote }}
+                    cite
+                      a(:href="report.url") {{ report.title}}
+                      span - {{ report.name }}
 
-        //- 歷年活動
-        h3
-          TW 歷年活動
-          EN Past Events
-        #previous-events
-          .grid-x.grid-padding-x
-            .cell.medium-4
-              a(href="http://summit.g0v.tw/2016/", target="_blank")
-                img(src="../assets/LandingPage/past-events/summit2016.png").thumbnail
-            .cell.medium-8
-              h5
-                TW 2016 拆後重建
-                EN 2016 g0v summit
-              p
-                TW 2016 年則以「拆政府原地重建」作為主題。時值新舊政府交接，台灣在開放資料評比中排名世界第一，多位社群參與者也進入政府擔任顧問、幕僚等職，在拆解傳統政治模式之後，討論如何以科技建立開放的公私協作新模式。這次有超過千位參與者，與來自 17 國的全球公民科技代表，分享歐洲的新興政治經驗、亞洲推展數位科技到傳統公民團體的經驗、各國數位進入政府搭建溝通橋樑的改造經驗等。
-                EN Right after the Sun Flower Movement, in which digital tools boosted hundreds of thousands of protestors, g0v Summit 2014 focus on open parliament, participatory democracy and online collaboration in social movements. It was also the first attempt to bring cross-displinary discussion among international civic tech hackers, open source communities, NGOs, media, academic and public administration officers.
-          .grid-x.grid-padding-x
-            .cell.medium-4
-              a(href="http://summit.g0v.tw/2014/", target="_blank")
-                img(src="../assets/LandingPage/past-events/summit2014.png").thumbnail
-            .cell.medium-8
-              h5
-                TW 2014 啥米零時政府
-                EN 2014 g0v summit
-              p
-                TW 2014 年的首次年會緊接在 318 公民運動之後，聚焦開放國會、參與式民主、網路協作的社會運動。有來自八國長期關注開放政府運動的國際講者，以及國內政府公部門、NGO、媒體、資訊好手，並與中央研究院社會學研究所二十週年慶「跨世紀學運論壇」合辦，促進跨界交流。
-                EN 2016 is a year that Taiwan was ranked No.1 in Open Data Index, that Taiwan elected a new president, and that many g0v participants have entered the government to "reconstruct" the system from inside. g0v Summit 2016 thus emereged reflections on "reconstructing" a better system by civic tech, practicing liquid democracy in Europe, empowering NGOs in Asia, and bridging public-private partnership.
+          //- 歷年活動
+          .cell.large-8
+            h3
+              TW 歷年活動
+              EN Past Events
+            #previous-events.grid-x
+              .card
+                .grid-x
+                  .cell.card-section.medium-7.small-order-2
+                    a(href="http://summit.g0v.tw/2016/", target="_blank")
+                      h5
+                        TW 2016 拆後重建
+                        EN 2016 g0v summit
+                    p
+                      TW 2016 年則以「拆政府原地重建」作為主題。時值新舊政府交接，台灣在開放資料評比中排名世界第一，多位社群參與者也進入政府擔任顧問、幕僚等職，在拆解傳統政治模式之後，討論如何以科技建立開放的公私協作新模式。這次有超過千位參與者，與來自 17 國的全球公民科技代表，分享歐洲的新興政治經驗、亞洲推展數位科技到傳統公民團體的經驗、各國數位進入政府搭建溝通橋樑的改造經驗等。
+                      EN Right after the Sun Flower Movement, in which digital tools boosted hundreds of thousands of protestors, g0v Summit 2014 focus on open parliament, participatory democracy and online collaboration in social movements. It was also the first attempt to bring cross-displinary discussion among international civic tech hackers, open source communities, NGOs, media, academic and public administration officers.
+                  .cell.card-section.medium-5.small-order-1
+                    a(href="http://summit.g0v.tw/2016/", target="_blank")
+                      img(src="../assets/LandingPage/past-events/summit2016.png").thumbnail
 
-          //- Flickr 內嵌
-          .cell
-            <a data-flickr-embed="true" data-header="true" data-footer="false"  href="https://www.flickr.com/photos/g0v/albums/72157668216196151" title="20160515 / G0V summit 年會 Day2 精選">
-              <img src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_b.jpg" xwidth="640" xheight="284" alt="20160515 / G0V summit 年會 Day2 精選">
-            </a>
+              .card
+                .grid-x
+                  .cell.card-section.medium-6
+                    a(href="http://summit.g0v.tw/2014/", target="_blank")
+                      img(src="../assets/LandingPage/past-events/summit2014.png").thumbnail
+                  .cell.card-section.medium-6
+                    a(href="http://summit.g0v.tw/2014/", target="_blank")
+                      h5
+                        TW 2014 啥米零時政府
+                        EN 2014 g0v summit
+                    p
+                      TW 2014 年的首次年會緊接在 318 公民運動之後，聚焦開放國會、參與式民主、網路協作的社會運動。有來自八國長期關注開放政府運動的國際講者，以及國內政府公部門、NGO、媒體、資訊好手，並與中央研究院社會學研究所二十週年慶「跨世紀學運論壇」合辦，促進跨界交流。
+                      EN 2016 is a year that Taiwan was ranked No.1 in Open Data Index, that Taiwan elected a new president, and that many g0v participants have entered the government to "reconstruct" the system from inside. g0v Summit 2016 thus emereged reflections on "reconstructing" a better system by civic tech, practicing liquid democracy in Europe, empowering NGOs in Asia, and bridging public-private partnership.
+
+              //- Flickr 內嵌
+              .card
+                .card-section
+                  a(href="https://www.flickr.com/people/g0v/" target="_blank") g0v Flickr
+                <a data-flickr-embed="true" data-header="false" data-footer="false"  href="https://www.flickr.com/photos/g0v/albums/72157668216196151" title="20160515 / G0V summit 年會 Day2 精選">
+                  <img src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_b.jpg" xwidth="640" xheight="284" alt="20160515 / G0V summit 年會 Day2 精選">
+                </a>
 
 </template>
 
@@ -134,6 +144,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// #LandingPage {
+//   #event-intro, #summit-highlight {
+//     max-width: 1080px;
+//     margin: auto;
+//   }
+// }
+
 #event-intro {
   #cta {
     position: relative;
