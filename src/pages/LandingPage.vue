@@ -23,8 +23,8 @@
             p 五年多來，在上千位參與者集體的貢獻下，透過一場場黑客松，打造出多項以開放資料、開放政府為精神的資訊平台，以縮短數位落差為初衷，降低公民參與門檻，使得議題審議可立基在具體事實，提升理性討論公共事務的意識。這場開放資料、開放政府運動，g0v 社群也打破了民間與政府對抗的傳統運動路線，開創出台灣公民社會與政府互動的新模式。
           EN.card-section
             h3 About g0v
-            p g0v (pronounced “gov zero”) is a decentralized civic tech community from Taiwan, advocating transparency of information, building tech solutions for citizens to participate in public affairs from grass-roots.
-            p In the spirit of open source and activism, g0v aims to use technology in the interest of the public good, allowing citizens easy access to vital information and power to shape the civil society. Substituting the “o” with “0″ in gov, we want to use the Internet and digital thinking (0 &amp; 1) to change the traditional “gov”.
+            p g0v (pronounced "gov zero") is a decentralized civic tech community from Taiwan, advocating transparency of information, building tech solutions for citizens to participate in public affairs from grass-roots.
+            p In the spirit of open source and activism, g0v aims to use technology in the interest of the public good, allowing citizens easy access to vital information and power to shape the civil society. Substituting the "o" with "0" in gov, we want to use the Internet and digital thinking (0 &amp; 1) to change the traditional "gov".
             p Since 2012, g0v has hosted over 50 hackathons and 2 international summits. Thousands of participants from different backgrounds contributed to hundreds of projects, creating new tools to mobilise civic engagement.
 
         //- 雙年會簡介
@@ -47,11 +47,7 @@
 
     #summit-highlight.grid-x.grid-padding-x.align-center
       //- Summit hightlight
-      section#hightlights.cell.large-10
-        h2
-          TW 峰會亮點
-          EN Summit highlight
-
+      section#hightlights.cell
         //- 重點講者
         h3
           TW 歷年講者
@@ -83,8 +79,8 @@
 
         //- 歷年活動
         h3
-          TW 歷年回顧
-          EN Previous Events
+          TW 歷年活動
+          EN Past Events
         #previous-events
           .grid-x.grid-padding-x
             .cell.medium-4
@@ -107,7 +103,7 @@
                 EN 2014 g0v summit
               p
                 TW 2014 年的首次年會緊接在 318 公民運動之後，聚焦開放國會、參與式民主、網路協作的社會運動。有來自八國長期關注開放政府運動的國際講者，以及國內政府公部門、NGO、媒體、資訊好手，並與中央研究院社會學研究所二十週年慶「跨世紀學運論壇」合辦，促進跨界交流。
-                EN 2016 is a year that Taiwan was ranked No.1 in Open Data Index, that Taiwan elected a new president, and that many g0v participants have entered the government to “reconstruct” the system from inside. g0v Summit 2016 thus emereged reflections on “reconstructing” a better system by civic tech, practicing liquid democracy in Europe, empowering NGOs in Asia, and bridging public-private partnership.
+                EN 2016 is a year that Taiwan was ranked No.1 in Open Data Index, that Taiwan elected a new president, and that many g0v participants have entered the government to "reconstruct" the system from inside. g0v Summit 2016 thus emereged reflections on "reconstructing" a better system by civic tech, practicing liquid democracy in Europe, empowering NGOs in Asia, and bridging public-private partnership.
 
       //- <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/g0v/albums/72157668568138255" title="20160514 / G0V Summit Day1 精選"><img src="https://farm8.staticflickr.com/7444/27061587186_5e097fe67e_m.jpg" width="240" height="160" alt="20160514 / G0V Summit Day1 精選"></a>
 
