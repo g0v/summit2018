@@ -53,19 +53,10 @@
           TW 歷年講者
           EN Previous Speakers
         #speakers.grid-x.align-justify.grid-margin-x
-          .speaker.card(v-for="speaker in speakers").media-object.cell.large-4.medium-6.flex-child-shrink
-            .card-section
-              .media-object-section
-                img(:src="speaker.avatarUrl").xthumbnail.avatar
-              .media-object-section.main-section
-                h5 {{ speaker.name }}
-                  small.speaker-title {{ speaker.title }}
-                p {{ speaker.description }}
-            .mask.grid-x.align-middle.align-center
-              img.photo(:src="speaker.photoUrl")
-              a.youtube.button.primary.hollow.flex-container.align-middle(:href="speaker.youtube", target="_blank", :alt="'YouTube video of ' + speaker.name")
-                FaIcon(name="youtube-play", scale="1.2")
-                span &nbsp; Watch on YouTube
+          template(v-for="speaker in speakers")
+            SpeakerBrief(:speaker="speaker").cell.large-4.medium-6.flex-child-shrink
+
+
 
         //- 媒體報導
         h3
@@ -112,7 +103,7 @@
 <script>
 import { mapState } from 'vuex'
 import { HeroImage } from '@/components'
-import { SponsorUs, TheTimeline } from '@/views'
+import { SponsorUs, TheTimeline, SpeakerBrief } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
@@ -132,7 +123,7 @@ export default {
     speakers () { return this.lang === 'TW' ? speakers.TW : speakers.EN },
     reports () { return this.lang === 'TW' ? media.TW : media.EN }
   },
-  components: { HeroImage, SponsorUs, TheTimeline }
+  components: { HeroImage, SponsorUs, TheTimeline, SpeakerBrief }
 }
 </script>
 
@@ -159,39 +150,7 @@ export default {
 
 #summit-highlight {
   #hightlights {}
-  #speakers {
-    .speaker {
-      position: relative;
-      .mask {
-        display: none;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        background-color: rgba($dark-gray, 0.75);
-        .photo {
-          opacity: 0.9;
-          width: 100%;
-        }
-        .youtube {
-          position: absolute;
-          bottom: 20px;
-          right: 20px;
-          margin-bottom: 0;
-          background-color: rgba($white, 0.9);
-        }
-      }
-      &:hover {
-        .mask {
-          display: flex;
-        }
-      }
-    }
-    .avatar {
-      border-radius: 50%;
-      height: 64px;
-    }
-  }
+  #speakers {}
   #reports {}
   #previous-events {}
 }
