@@ -22,27 +22,27 @@ import { Triggers } from 'zf/foundation.util.triggers'
 // If you comment out a plugin you will need to comment out
 // the corresponding Foundation.plugin line also.
 // This is a template project so they have all been imported.
-import { Abide } from 'zf/foundation.abide'
-import { Accordion } from 'zf/foundation.accordion'
-import { AccordionMenu } from 'zf/foundation.accordionMenu'
-import { Drilldown } from 'zf/foundation.drilldown'
-import { Dropdown } from 'zf/foundation.dropdown'
-import { DropdownMenu } from 'zf/foundation.dropdownMenu'
-import { Equalizer } from 'zf/foundation.equalizer'
-import { Interchange } from 'zf/foundation.interchange'
-import { Magellan } from 'zf/foundation.magellan'
-import { OffCanvas } from 'zf/foundation.offcanvas'
-import { Orbit } from 'zf/foundation.orbit'
-import { ResponsiveMenu } from 'zf/foundation.responsiveMenu'
-import { ResponsiveToggle } from 'zf/foundation.responsiveToggle'
-import { Reveal } from 'zf/foundation.reveal'
-import { Slider } from 'zf/foundation.slider'
-import { SmoothScroll } from 'zf/foundation.smoothScroll'
-import { Sticky } from 'zf/foundation.sticky'
-import { Tabs } from 'zf/foundation.tabs'
-import { Toggler } from 'zf/foundation.toggler'
-import { Tooltip } from 'zf/foundation.tooltip'
-import { ResponsiveAccordionTabs } from 'zf/foundation.responsiveAccordionTabs'
+// import { Abide } from 'zf/foundation.abide'
+// import { Accordion } from 'zf/foundation.accordion'
+// import { AccordionMenu } from 'zf/foundation.accordionMenu'
+// import { Drilldown } from 'zf/foundation.drilldown'
+// import { Dropdown } from 'zf/foundation.dropdown'
+// import { DropdownMenu } from 'zf/foundation.dropdownMenu'
+// import { Equalizer } from 'zf/foundation.equalizer'
+// import { Interchange } from 'zf/foundation.interchange'
+// import { Magellan } from 'zf/foundation.magellan'
+// import { OffCanvas } from 'zf/foundation.offcanvas'
+// import { Orbit } from 'zf/foundation.orbit'
+// import { ResponsiveMenu } from 'zf/foundation.responsiveMenu'
+// import { ResponsiveToggle } from 'zf/foundation.responsiveToggle'
+// import { Reveal } from 'zf/foundation.reveal'
+// import { Slider } from 'zf/foundation.slider'
+// import { SmoothScroll } from 'zf/foundation.smoothScroll'
+// import { Sticky } from 'zf/foundation.sticky'
+// import { Tabs } from 'zf/foundation.tabs'
+// import { Toggler } from 'zf/foundation.toggler'
+// import { Tooltip } from 'zf/foundation.tooltip'
+// import { ResponsiveAccordionTabs } from 'zf/foundation.responsiveAccordionTabs'
 
 // Add jQuery to the window object
 window.$ = jQuery
@@ -72,26 +72,26 @@ Foundation.Timer = Timer
 // so nzf// need to add it to Foundation, just init them.
 Touch.init(jQuery)
 Triggers.init(jQuery, Foundation)
-Foundation.plugin(Abide, 'Abide')
-Foundation.plugin(Accordion, 'Accordion')
-Foundation.plugin(AccordionMenu, 'AccordionMenu')
-Foundation.plugin(Drilldown, 'Drilldown')
-Foundation.plugin(Dropdown, 'Dropdown')
-Foundation.plugin(DropdownMenu, 'DropdownMenu')
-Foundation.plugin(Equalizer, 'Equalizer')
-Foundation.plugin(Interchange, 'Interchange')
-Foundation.plugin(Magellan, 'Magellan')
-Foundation.plugin(OffCanvas, 'OffCanvas')
-Foundation.plugin(Orbit, 'Orbit')
-Foundation.plugin(ResponsiveMenu, 'ResponsiveMenu')
-Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle')
-Foundation.plugin(Reveal, 'Reveal')
-Foundation.plugin(Slider, 'Slider')
-Foundation.plugin(SmoothScroll, 'SmoothScroll')
-Foundation.plugin(Sticky, 'Sticky')
-Foundation.plugin(Tabs, 'Tabs')
-Foundation.plugin(Toggler, 'Toggler')
-Foundation.plugin(Tooltip, 'Tooltip')
-Foundation.plugin(ResponsiveAccordionTabs, 'ResponsiveAccordionTabs')
+// Foundation.plugin(Abide, 'Abide')
+// Foundation.plugin(Accordion, 'Accordion')
+// Foundation.plugin(AccordionMenu, 'AccordionMenu')
+// Foundation.plugin(Drilldown, 'Drilldown')
+// Foundation.plugin(Dropdown, 'Dropdown')
+// Foundation.plugin(DropdownMenu, 'DropdownMenu')
+// Foundation.plugin(Equalizer, 'Equalizer')
+// Foundation.plugin(Interchange, 'Interchange')
+// Foundation.plugin(Magellan, 'Magellan')
+// Foundation.plugin(OffCanvas, 'OffCanvas')
+// Foundation.plugin(Orbit, 'Orbit')
+// Foundation.plugin(ResponsiveMenu, 'ResponsiveMenu')
+// Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle')
+// Foundation.plugin(Reveal, 'Reveal')
+// Foundation.plugin(Slider, 'Slider')
+// Foundation.plugin(SmoothScroll, 'SmoothScroll')
+// Foundation.plugin(Sticky, 'Sticky')
+// Foundation.plugin(Tabs, 'Tabs')
+// Foundation.plugin(Toggler, 'Toggler')
+// Foundation.plugin(Tooltip, 'Tooltip')
+// Foundation.plugin(ResponsiveAccordionTabs, 'ResponsiveAccordionTabs')
 
 export default Foundation
