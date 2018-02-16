@@ -22,11 +22,14 @@ yarn dev
 
 ### 翻譯
 
-src/views/***Page.vue 的檔案（如 [LandingPage.vue](https://github.com/g0v/summit2018/blob/master/src/views/LandingPage.vue) ）基本上就是一般 html 格式，只需注意包在 `<TW>`、`<EN>` 裡的分別是中英文版要顯示的內容即可。
+`src/pages/` 裡的檔案（如 [LandingPage.vue](https://github.com/g0v/summit2018/blob/master/src/views/LandingPage.vue) ）基本上都是以 [pug](https://pugjs.org/zh-cn/language/attributes.html) 的為主 （以前的 jade，一種好讀好寫的 html 變形(?)），只需注意包在 `<TW>`、`<EN>` 裡的分別是中英文版下會顯示的內容即可。有一些重複性的內容（如 好幾篇報導、好幾個講者）會抽出到 `src/assets/` 之類的地方，但總之只要在這個 repo 直接搜尋你想改的文字，應該都找得到對應的檔案。
 
 編輯的時候從 master 隨便開一個 edit/ 開頭 的 branch （e.g. edit/update-landing-page-text），改完之後發 PR 然後直接按 merge [範例](https://github.com/g0v/summit2018/pull/4)）
 
-commit message 格式： `:speech_balloon: 更新g0v組織簡介`
+commit message 格式範例（那個圖案叫speech-balloon）：💬 更新g0v組織簡介zzzz
+
+如果直接在線上改的話就是長這樣：
+![開branch送PR](https://i.imgur.com/YigEsyQ.png)
 
 ## Project structure
 ```
