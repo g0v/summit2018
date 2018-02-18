@@ -11,7 +11,7 @@
             EN Sponsor Now
           #cta-button-text-hover
             FaIcon(name="envelope")
-            strong &nbsp; g0v-summit-partner-2018@googlegroups.com
+            strong &nbsp; partner-2018@summit.g0v.tw
 
       #paragraphs.cell.large-8.grid-y
 
