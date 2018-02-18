@@ -8,7 +8,7 @@
           span.flex-container.align-middle.shahow
             FaIcon(name="g0v-logo", :scale="1.5")
             TW 啥米零時政府
-            EN summmit 2018
+            EN summit 2018
     .top-bar-right
       ul.menu
         //- TODO: add for later version
