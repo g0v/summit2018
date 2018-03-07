@@ -152,6 +152,7 @@ export default {
     #cta-button {
       border: 1px solid $white;
       color: $white;
+      > div { height: 20px; }
       #cta-button-text-hover { display: none; }
       &:hover {
         #cta-button-text { display: none; }

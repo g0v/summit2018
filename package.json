@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
+    "test": "yarn lint",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
