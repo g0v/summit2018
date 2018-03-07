@@ -8,7 +8,8 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "test": "yarn lint",
-    "build": "node build/build.js",
+    "pull_airtable": "./pull_airtable.sh ./static/airtable_data/",
+    "build": "yarn pull_airtable; node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
