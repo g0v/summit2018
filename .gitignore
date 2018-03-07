@@ -1,5 +1,5 @@
 # Airtable data (get it via $ yarn run pull_airtable)
-static/airtable_data/*
+static/airtable_data/*.json
 
 # Build output
 #/docs/
