@@ -5,6 +5,8 @@ node_js:
 branches:
   only:
   - master
+before_script:
+  - yarn pull_airtable
 before_deploy:
   - yarn build
 cache:
