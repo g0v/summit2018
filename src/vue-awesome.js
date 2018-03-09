@@ -19,6 +19,10 @@ import 'vue-awesome/icons/twitter'
 import 'vue-awesome/icons/facebook'
 import 'vue-awesome/icons/slack'
 
+// Sponsors
+import 'vue-awesome/icons/external-link'
+import 'vue-awesome/icons/caret-down'
+
 /* g0v logo ('g0v'). Source: https://github.com/g0v/style-guide/blob/gh-pages/logo/svg/g0v-only.svg */
 FaIcon.register({
   'g0v': {
