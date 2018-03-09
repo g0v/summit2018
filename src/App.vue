@@ -7,6 +7,7 @@
       <router-view></router-view>
     </main>
     <footer>
+      <SponsorSection/>
       <TheFooter/>
     </footer>
   </div>
@@ -14,7 +15,7 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
-import { NavBar, TheFooter } from '@/views'
+import { NavBar, TheFooter, SponsorSection } from '@/views'
 
 export default {
   name: 'app',
@@ -23,7 +24,7 @@ export default {
   },
   computed: mapState(['lang']),
   methods: mapMutations(['toggleLang']),
-  components: { NavBar, TheFooter }
+  components: { NavBar, TheFooter, SponsorSection }
 }
 </script>
 
