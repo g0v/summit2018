@@ -1,0 +1,484 @@
+{
+  "records": [
+    {
+      "id": "recr111114O211111HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "11111 1",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 300,
+                "height": 400
+              },
+              "large": {
+                "url": "http://zh-tw.learnlayout.com/images/logo.png",
+                "width": 300,
+                "height": 400
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "A"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr222224O222222HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "22222 2",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVcAAACTCAMAAAAN4ao8AAABMlBMVEX///9PWFj/xyw+scjY0sTvM0BETk5MVVVHUVFGUFBBTEz09fW5vLxCTEw9SEhwd3fNz8/vLjz/561YYWFjvtH/xRnxW2Sfo6Pr7OyRlpassLDY2tre4OBkbGyFi4taY2N/hYW5u7vEx8ejp6fl5uZ0enrIy8vv8PCXnJzX18iws7N6gICLkZE3QkL/zCn//ff/wwDFwrf/78v/3IbwJDX/yjef1eHf8fXQ6vD/9+PisKmi1+JHscdZlKBUorFYfoVWbnLdyL3mk5D/4p//zk7scXRZiZJNtsxVqLnevrSJy9prwdPkn5rtYGb/2X7/7sdur73lnJj8sz32hkvxTk7xiI3+vTr4kEnxUFDvMEr1eEv7rUUoNjb5nkjzZlL0bkn/1W3/zkzoionwsnv4jDD0e2/+mWgvAAATGklEQVR4nO2d+YPbtpXHxdjGRfGw6Yko8dJQZyROfMSO10k36W6267ZpnTZJd9skPXf3//8XFiAJECQBidJoPNaUX//ioUiC+Ojh4T0QgAaDE+nJ808+oLp4dKob9qJQv3n7wcVFz/W0ev72ZQG153oy0eZ/IaD2XE+k55+8fCpB7bmeQhTqRR1qz/Xaos3/aQtqz/V6ev7J35VQe67X0GtV8++5Xk+vv2p2VD3Xa+v1V/+xG2rP9XC9/urvO5p/z/UoUah7LbXneqBo8+9iqT3XQ/T6Uafm33M9RK8f7e+oeq4H6vWjvx1kqT3XDnry6ACf2nPtpieP/nZo8++57tOTo5p/z3WnnnxzLag9V5WuD7Xn2hKF+sH1qfZc6zoR1J6rpCffvL04EdSeq6T/+9//+vjjU2HtuQp9+PDBX/788lRoe65clOuDB3/6y59PY7U9V66c64MHD//011NYbc+Vq+TKRNF+cE2yPVcuiSuz2h9+fHkdtD1XrhpXZrTf//Dj8f6g58rV5Jqz/e7b4xzCxdOeaykVV6rvv/v2UIdwcfHy7fMnt12f90UarswhfPdtd4dAc7ZPeqiStFyZ/vjfncJamge/fX7bFXnPtJMryxj2oaXNv7fUtvZwfbA7Geubv077uRZoFclY3lHd9vO/r+rEtchza1Z78ZQ2/9t++PdYHbnm+itPxi6e9s1/jw7hSh3CDz9+8PFFb6n7dRjXBw9ffPg/39z2M5+DDuH68MXDX3x2/6P79+fmbT/2e6/OXB++ePCLzz76iFLN1aPdrW5cGdTf/JuAWihcHVnmah6G4fzYq89DHbg+fPHity2ohT46GI4/3CYGApaFjGQxC26iSrenVeAG4dxnTXkfV2qpv/3NfSXUI9AOIxtAaBSCEBM4uzNmG8TYtohFyFU82MOVWerv1ZZaQ+t3K3njWZypEAbrO+GpA8dGZZXQeLCLK4X64b/vh9oZrR+1qeZkvTvgDZagqtsurjSk6g611G60csl1QXvzbip/cwqupPpouTJL/cevDoNaWq22TQ9tDVUm+/IdMrgJRbLNqLk+fPji+3/86v7hUO/ffzb2hpqCU1I3UQhr1kvcd0nh5HJF7RDtt+xs0ORKof7xKEulUNcRQUTDNZCwQgyMJIoiKDkGCDt2fe+nMt5l4cx13SUzEpkrhfqHz46z1JGDEMUE1FxNr0KIvVGRUPibyKrazvQdYji5uBvAM3FIcKWB6pFQ748cAxV31nAd46qPGknHL4ngbZ9xUGCK2lWtruBKfSpL/o+BOnMIEnTUXEPRZ0Gjji80RJLg3Gzdb1KCq1d125RrPqKyK6XaAXVrYLkDUnOdcvdj4KZVVo4XzzUPfXsJ2aod3ZimIuJRci3G/o6BOmlA1XENBTur/fEEcK6qIDaNE8OI5CPBJHOixJmuUw3veTpZZ1SjocazBMMZ+3w9STXfZC5/5niGMZGOrIZZ5FEl003zQsE1CJnYoT/sTP712kxRE6qO65qbq7Ktc08AF+yv6KpQ/scQMhcDiTjX3RILIxakQQRsb9aynWCMbIIREwaW7aSNM8yhY1ugPIHYcB2Kj5Y/lUUzaGZsYxoJ4nV154UNEAsOadnYjpbl4WHkUIn6Eyo7v8PAnB8D1VNnT0quVakqCxoRVFTTYAyc4rZwSh9sWrplUFWtVigENXuiproQOXp5hlUPqC+NRiqN7CnvangMiigV1yjugzhXf9oo2l4U122sZihe3GFwONpnsYd0KamKa8B7LXXXFGbjQrFf42pGPIgouc5Iq1RoRZI3SBXfNSRZdcK0fQcDYbfFdcnP41yXGLWug/l1G9z8QOJ6ANpnmQFaZezmOuNFKz1oQxVXRxRTcM0sVYHIEJVYqjNlEgusQPU5LHM9wdWfi2S/5LpR3vlq2YFrJ7TPsmQXVEPNdcGNBIftD3Vcs2GVoeVcx0qsLHIrLdYUIRsChDpR8aB88EHcEVLPSojoHWDugCR7rZL9gmtaFV1r9IjWZ1P/rnLXD9r9ob8D6jhB2va/i2v1TezHKrhuPemm9PhlFQKzbgeDKtMow4WZCCyyNJi76RiJ8dCi8+LckTdx56G7cTiuoncSOf6oMsGc61z4MYCSqeOJb4yVvLFZ3yAu2OZS5uS+Kjp4No7IXqhqriv+mDBSlKbhWjJAwCKWZdOHEiYDFil9bDMcCfMERfKYcGy8VZiLsr5gI3ODW17WkvMANa75UciKJjbjys0XJUV04QvwYJQHtOaKP5y3u3INtM/W0X5L1XINuR2hTFGUjmt+Acku3TBY0qePOQIifLQfCbth9mHarVLMhBs/+4u7eVJ5I+4ZLFfmmtfDo+FvGFym1Ul4K2I2l1swKXyQKi/QaMXRPht1hqrmGgiuI0U5O7iCqj353EKIFFiJwZx8tCOwpD9KjawihMury78au6q7aRSfk1GdKwRSMfzLkYMZnsyUhZncae3nOsjRPhs5nZp/J65yjbWquIJxdZTbWj1Sc8s7Q9b8eEIsext3GhdiZrWF7UcclZ8zjBJXJMXZy/KwXeuMOOwk/+swrq8+//qLnxvNoPd4rofZK9pKR7mLA/Xhb36YjYWJgQYUqysnXAlKlZ9XXC35hHJotcgGhbiLBblTES1nP1fz88f3mH72rweh3cl1rSinKcEVS53qSgQD9ZOHvDlOKv/KIvax6u2DCKMNELUS/IHEFcrf6KC8CtffFIVSyd25viqh3jsY7c5+K1YU1RTnWjt5aalqXEVA+fFtFe0gy3bWaWOm07wK7mmCb8SToD5wI7jWRoL5VXgSuJWCtFanTlzrUAXaVhbclWsVZ3UZYeVcidwWeVKDJ42zuduVHWx5iCYHyfRSjiTjWmoEsQWdtWTYlR+QSxBHsSWL20rhzXngoef66vM3LagcbdQBrSovEFz3RHc1rrZsTHxArHV37mAh+2NjNx6PZj44qi4xo2YeCxGBGQ+7RHxba1ZDZe4rydzPVWWpsn75n3utVsVVpIVIOd5pZtNC20uJK5JP4VxJs8fhKXKRUaVGGwK0vKU4fWy3s3Bkx6sa13r3qsr/a/ffx/XVp7uhcrTJTrIqrmL4Vf0ywbeKAdVidoZTC2D2cZ1yrmV8PoNWKyyERBpEndrtMS9UvBviXOujQ7M9XEFOUsf11ae65q9C6+nRqtCJYYtmt9P4OM96lFxH3A/sttecTuZh0GBLpMB5tXGod6hXAOZfi+Bac+LCD0CQi/tXzAQwgnquh0DN9eaLL3VWq+Jqig5BMdBT2VxhdEquE6y5e82/coVpFoHauBupDaSZwWTrWfLLjvwlu5prKrzuMBcPCMJCftExKrhqO6qd+tkXXyqtVtnUt4KcItJaibAx71qVXNN62liJV7rVI/rDGFevBnArIzHDSSQ5W/bOUs2Vp8doZ7IYtbl28apqffFlO6xVcq3GL+12wC7SoAKakit/T95IekRopY6MU2/ne7XBfC18LZumo+Y64EVPVbfgOilXldWquybeTKpBaKEqaixSQiXXKlSr9wu8UwGaaXPiO9OM/AbCXmdarvzZsfoWhU7M9V4rY1BzvRTwYFIf850352WoucbqjotfbPsDPyqUyFTE+B3lOknKM+QHEAmHnqsYXqy/80zXI6b1/Ia43qvnuZp5RMJgad+7lI4vq567zB7VXEUiWzssj3KZRawGcc0llPklc92XVhnNyXy492QGr+E6J1UhlUwjf1eOS8d+I1ypfsnRargG0os3yxkWzmDlLqrDfPhKzbVqjdLY+JJ7h3z8SQx5SZ6G2ytzjnz4pza6zu2VvTrUcBWTdYDU+ZnlYAQfp70prjlaludquA5m8jxNAiNnuo0M6a0zRP5OrkPe9YEF5zap5+jCeKW+TcRnrPrcaUijgCJPYm5fxzUQRcdiqkHCExXzxrney5MxSzfxOq6lmLA5mUFUVsO1SoYh2V6my+HaEIlQ4fnEWCKKypZursWLQV8Cb5B1+dUE4pUYcx46roO1GJADzmS4TEdi9YmYFnWzXKl+p51tqX55X8oWddFxnVeXQwykt9gGT1NF9aEdjWeb0RSLeQv5mwezmnxHtqPJZB2J9mKHu7gOxIu0suj20PvNcn3z+SsdVapMv8DAroJuHdfBsjlaVQpMFdVHGFc9Yjk/YJBKA7C1E4ri9VxXSXu4Jn9GQfEGue6GyjTRLIiBcvip5TpwkaJ20JJev0bKMRJkcLc4VEwjoipnGum50juT9mW4wipG4U7N9fGn+6AyhY6iYtBy5Oxdz3XgL1rrv7BR6yczxQwusqgCVtdrOyNklRx3cB0MRs15PtCWX6PdCNc3naAWzx5d1SZ3QmQny9oZkU3yuY7KDCn1bGmoCgJ73EjfAqd2f3p7r5ZJmDMkDyTS+MWO+VjQ8qe8ZHKlHAmYZ1fSAlRsJ7WMnD81OhnXA6Dm8icOJADnU4EslKyb/dy8HCjSTOVyxwkibLyOAGMxVIzO0/tTEyzPiFq3p/iyBBJ2AiHIW1xWX4zJS9bMVzaHU49N/cLIiGaNx1M89XW4dmv+raoH6WS0Hs2G7q750lrNg5TKDbWv6MzijEC7jN8P3fyEw7dQ8OdhEHa77Giuh1rqP5mO49pD3acjuPZQO+hgrj3UTjqIa2+pndWdaw/1EHXl+use6kHqwvVND/Vg7eX65tf/ctvPeI7aw7WHeqR2cO0t9RrSce2hXk9qrj3U66rNtbfUU6jJtYd6Gj3uod6IHvfN/0b0mFvqO9nVcjUP9Vvt3Sk9fnfNf7j1INsUJppUb0jc4eXhG2cFhhe1vh03jrssaHxX+vrrd9T8J4iw7W4QYvvOZBxLZtvlfBXf77yVnmvD9sqToY3PeAuuY7WKiAEt7MTjjE1Ax1756nKMynU9wZVtd72Za6m4guZ07n8CrTzKstwXYeDHlgFh8TI2s68Kew2AcdX1bj1XrgQZQFp2nGK+nj1cLgvLpVx7ez1Ua1CblptvN9PY0rTnerh8q7UkJYKNKViMa9cIrOdaaIRb25CmVzifdWrmGymufH+JDRJUMUF4OWntH+jOxtOYTeHZwdVczkaTy7JTpLeT57z4/h37kZAEtvYiMiezfPLU2jNmg8H0ymYz/YhtFza7SWyAsQUW0oSnNMk3HsRkagZarkuPsPWVdpIvch1fyfPngp9s+6x3RW4qJOrJj0xjzBYDxsUkaBbdMut1LLbEHQOIqg04xzT6xYD+g8hLsZrrNrUhoucACIlDT5jX2skanfemyC0NgWHpkqoifp3E2RYaMM6yLN8lyMDTZRimC9q7ldM4Z7aBvFkwDzYRm4mp5Gp4BjRGQRgOHWBg1kIcKC1/gee+O3pTI8pJN7dP5AUh4Hs5bJGBSgAbq5zEPicGWpQox0DHtVp2t7HyLaFSUm1kENj15cnnrwzpN+io8i1gFN7PJdIy2gkolkjFSFpbzExbzRUJ/0m7SrY1AKqWKNKSumzcc0baQmmJQ0NtrlsoLyNOcp4rQw53fVvDVV63XSwiHGGx6YEB7Q77Tp6TDuK6Kjd4KDXDbD0yW5smeRJ6QyVXEMoXslWG1H/AcpsR0Gl/xHNSjHjl2mpxDWjwsEmF1og15A2ub2NXxAPpRsjP4wH523NJznHLV9uMETj7X6FpaI0MogscW1zZHg4YCKG8cc9wbYsByoxxdSxcCFwFOVeZPXUWzMTT8qjpnflPeii0wYa1bB6M45h5zBbXvFtHkkCWh57ycuEy33IIp19ylfPYFS56MepW/eIS5e4y5yzqHVtd8eoK2UquLnWlcU2T3F4VXNNLIb/FlXVu7H4jlG/EkSHS+mrPXfk2c41jadnLtLjOLcWauIZ/pQiV+ZbsX3mu69t5RIHhHQtemWgA29z6inbpOeoWV+YIW50c279AYrZGmjhLGqihfVvR/y+gFVKPjMbNC85foS0W/5ZivX7uGlTxq7xP6Hi7uMw3aJCHaw1NnCXvVxTBkmRqUScUo7sWvOaaovoPQZkRLPdQbnNNLSnQpK04T74yJHmHoaXNt8TRJeGjAbQBJKtum3ufnVbsN0EWotIrB/FN2NpcBx6sdhtxYJG/hqT6YkKkHx/gXnguLV0eYTSu7ex8hxQgaCA8ytvinP1wBijjUcF1DgyUBfN57kxxseeFGyE+VjCijiNi/13N2PpfNVfIxhAHbHCXFidGCOeYeiF014LXUgHbvh7bMIoMGxuGzcN8wZXtv4KIzXZMGVoQEoOeacFqo/KM5BvDJOz3HCbqfgs6MYAWihJASUo/nbSAmq0R74LMjP1CUCGCRKWreRmubQFg5ftTuka5xya2qy5sA4qDBIbBFTHaXG2wGMR2caGFpDGGlLR3jLxDWk0cz0DI8KZSJd2h+Jksc8k2Viz+n8aJ53nOpEYvzRZRwsID/3LY5uTG2Yj9mHP+C1m1d72mXd9O9u7J9Oedf0Ze9cNsx124wXcxeL19JfCcf5TyvdUdHHl9LxRB7W5pvY5UNNlESLW5Ua9riWAa3Cl28+11PV1ZwDLucOx6WwrT4fI25mT9P9ml6vaP2LcEAAAAAElFTkSuQmCC",
+                "width": 500,
+                "height": 500
+              },
+              "large": {
+                "url": "data:image/png;base64,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",
+                "width": 500,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "A"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr333334O233333HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "33333 3",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "http://zh-tw.learnlayout.com/images/logo.png",
+                "width": 400,
+                "height": 450
+              },
+              "large": {
+                "url": "http://zh-tw.learnlayout.com/images/logo.png",
+                "width": 400,
+                "height": 450
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "B"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr444444O244444HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "44444 4",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://image.freepik.com/free-icon/xbox-logo_318-9975.jpg",
+                "width": 500,
+                "height": 500
+              },
+              "large": {
+                "url": "https://image.freepik.com/free-icon/xbox-logo_318-9975.jpg",
+                "width": 500,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "B"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr555554O255555HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "55555 5",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://via.placeholder.com/250x250",
+                "width": 300,
+                "height": 350
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 300,
+                "height": 350
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "C"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr666664O266666HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "66666 6",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 100,
+                "height": 500
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 100,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "C"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr777774O277777HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "77777 7",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 200,
+                "height": 300
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 200,
+                "height": 300
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "D"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr888884O288888HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "88888 8",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 300,
+                "height": 350
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 300,
+                "height": 350
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "D"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr999994O299999HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "99999 9",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 300,
+                "height": 500
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 300,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "A"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr10101010104O21010101010HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1010101010 10",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 500,
+                "height": 500
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 500,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "A"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr11111111114O21111111111HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1111111111 11",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 400,
+                "height": 500
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 400,
+                "height": 500
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "B"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr12121212124O21212121212HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1212121212 12",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 250,
+                "height": 300
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 250,
+                "height": 300
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "B"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr13131313134O21313131313HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1313131313 13",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 120,
+                "height": 100
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 120,
+                "height": 100
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "C"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr14141414144O21414141414HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1414141414 14",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 100,
+                "height": 200
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 100,
+                "height": 200
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "C"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr15151515154O21515151515HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1515151515 15",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 200,
+                "height": 250
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 200,
+                "height": 250
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "D"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    },
+    {
+      "id": "recr16161616164O21616161616HZWhk9XPP0",
+      "fields": {
+        "SHOW": true,
+        "NAME": "1616161616 16",
+        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
+        "CROPPED_LOGO": [
+          {
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 100,
+                "height": 100
+              },
+              "large": {
+                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
+                "width": 100,
+                "height": 100
+              }
+            }
+          }
+        ],
+        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+        "NAME-CH": "祐生研究基金會",
+        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+        "URL": "http://www.archilife.org/",
+        "CLASS": "D"
+      },
+      "createdTime": "2018-01-20T05:19:08.000Z"
+    }
+  ]
+}
