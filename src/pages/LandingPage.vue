@@ -48,7 +48,7 @@
           template(v-for="speaker in speakers")
             SpeakerBrief(:speaker="speaker").cell.large-4.medium-6.flex-child-shrink
 
-        .grid-x.grid-margin-x.mb-50
+        .grid-x.grid-margin-x
           //- 媒體報導
           .cell.large-4
             h3
@@ -101,6 +101,12 @@
                 <a data-flickr-embed="true" data-header="false" data-footer="false"  href="https://www.flickr.com/photos/g0v/albums/72157692801078814" title="g0v flickr">
                   <img src="https://farm8.staticflickr.com/7589/27000315472_7a08dba237_z.jpg" xwidth="100%" height="auto" alt="g0v flickr">
                 </a>
+
+          //- 尾部贊助商 logo 的標題
+          .cell
+            h3
+              TW 贊助夥伴
+              EN Sponsors
 
 </template>
 
