@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import LandingPage from '@/pages/LandingPage'
+import SponsorPage from '@/pages/SponsorPage'
 
 Vue.use(Router)
 
@@ -13,6 +14,11 @@ export default new Router({
       path: '/',
       name: 'LandingPage',
       component: LandingPage
+    },
+    {
+      path: '/sponsors',
+      name: 'SponsorPage',
+      component: SponsorPage
     }
   ]
 })

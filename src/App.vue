@@ -7,7 +7,7 @@
       <router-view></router-view>
     </main>
     <footer>
-      <SponsorSection/>
+      <SponsorSection v-if="showSponsorFooter"/>
       <TheFooter/>
     </footer>
   </div>
@@ -22,7 +22,12 @@ export default {
   data () {
     return {}
   },
-  computed: mapState(['lang']),
+  computed: {
+    ...mapState(['lang']),
+    showSponsorFooter () {
+      return this.$route.path !== '/sponsors'
+    }
+  },
   methods: mapMutations(['toggleLang']),
   components: { NavBar, TheFooter, SponsorSection }
 }
