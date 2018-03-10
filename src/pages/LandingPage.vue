@@ -4,14 +4,7 @@
     #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink.mb-50
       //- 我要贊助
       section#cta.cell.text-center.mb-50
-        //- a.button.primary.large(href="#sponsor-us")
-        a#cta-button.button.primary.large(:href="`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`", target="_blank")
-          #cta-button-text
-            TW 我要贊助
-            EN Sponsor Now
-          #cta-button-text-hover
-            FaIcon(name="envelope")
-            strong &nbsp; partner-2018@summit.g0v.tw
+        SponsorUsButton
 
       #paragraphs.cell.large-8.grid-y
 
@@ -114,13 +107,13 @@
 <script>
 import { mapState } from 'vuex'
 import { HeroImage } from '@/components'
-import { SponsorUs, TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
+import { SponsorUsButton, TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
 export default {
   name: 'landingPage',
-  components: { HeroImage, SponsorUs, TheTimeline, SpeakerBrief, MediaQuote },
+  components: { HeroImage, SponsorUsButton, TheTimeline, SpeakerBrief, MediaQuote },
   data () {
     return {
       timelineItems: [
@@ -149,16 +142,6 @@ export default {
 #event-intro {
   #cta {
     position: relative;
-    #cta-button {
-      border: 1px solid $white;
-      color: $white;
-      > div { height: 20px; }
-      #cta-button-text-hover { display: none; }
-      &:hover {
-        #cta-button-text { display: none; }
-        #cta-button-text-hover { display: block; }
-      }
-    }
   }
   #intro {}
   #sponsor-us {
