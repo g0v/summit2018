@@ -1,14 +1,20 @@
 <template>
-  <a>
+  <router-link :to="to">
     <span id="wrapper">
       <slot/>
     </span>
-  </a>
+  </router-link>
 </template>
 
 <script>
 export default {
-  name: 'UnderlineLink'
+  name: 'UnderlineLink',
+  props: {
+    to: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

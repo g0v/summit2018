@@ -1,8 +1,12 @@
 <template lang="pug">
-  <div class="sponsor-page">
+
+  .sponsor-page.grid-x.align-center
+
     //- 鑽石級贊助
-    section.class-a
-      h3 鑽石級贊助
+    section.class-a.cell.large-10
+      h3
+        TW 鑽石級贊助
+        EN Diamond
       .project-card.grid-x(v-for="sponsor in sponsors['A']" :key="sponsor.id").grid-margin-x
         .cell.logo-container.small-12.medium-4.large-3.text-center
           a(:href="sponsor.URL" targe="_blank")
@@ -19,8 +23,10 @@
             FaIcon(name="external-link")
 
     //- 黃金級贊助
-    section.class-b
-      h3 黃金級贊助
+    section.class-b.cell.large-10
+      h3
+        TW 黃金級贊助
+        EN Gold
       .project-card.grid-x(v-for="sponsor in sponsors['B']" :key="sponsor.id").grid-margin-x
         .cell.logo-container.small-12.medium-4.large-3.text-center
           a(:href="sponsor.URL" targe="_blank")
@@ -37,8 +43,10 @@
             FaIcon(name="external-link")
 
     //- 白銀級贊助
-    section.class-c
-      h3 白銀級贊助
+    section.class-c.cell.large-10
+      h3
+        TW 白銀級贊助
+        EN Silver
       .grid-x.grid-margin-x
         .cell(v-for="sponsor in sponsors['C']" :key="sponsor.id").small-12.medium-6.large-4
           .project-card
@@ -56,8 +64,10 @@
               FaIcon(name="external-link")
 
     //- 青銅級贊助
-    section.class-d
-      h3 青銅級贊助
+    section.class-d.cell.large-10
+      h3
+        TW 青銅級贊助
+        EN Bronze
       .grid-x.grid-margin-x
         .cell(v-for="sponsor in sponsors['D']" :key="sponsor.id").small-12.medium-6.large-4
           .project-card
@@ -74,16 +84,22 @@
               span {{ sponsor.URL }} &nbsp;
               FaIcon(name="external-link")
 
+    //- 贊助按鈕
+    .cell.text-center.mb-50
+      SponsorUsButton
+
   </div>
 </template>
 
 <script>
-import SponsorData from '../../static/airtable_data/SPONSORS.json'
 import groupBy from 'lodash/groupBy'
 import shuffle from 'lodash/shuffle'
+import SponsorData from '../../static/airtable_data/SPONSORS.json'
+import { SponsorUsButton } from '@/views'
 
 export default {
   name: 'sponsor-page',
+  components: { SponsorUsButton },
   computed: {
     /**
      * 來自 Airtable 的贊助商資料
@@ -91,11 +107,13 @@ export default {
     sponsors () {
       const logoType = window.innerWidth > 640 ? 'large' : 'small'
 
-      const sponsors = SponsorData.records.map(record => ({
-        ...record.fields,
-        LOGO: record.fields.CROPPED_LOGO[0].thumbnails[logoType].url,
-        id: record.id
-      }))
+      const sponsors = SponsorData.records
+        .map(record => ({
+          ...record.fields,
+          LOGO: record.fields.CROPPED_LOGO[0].thumbnails[logoType].url,
+          id: record.id
+        }))
+        .filter(record => record.SHOW)
 
       return groupBy(shuffle(sponsors), 'CLASS')
     }
@@ -106,9 +124,6 @@ export default {
 <style lang="scss" scoped>
 .sponsor-page {
   section {
-    max-width: 83%;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 4rem;
 
     .project-card {
