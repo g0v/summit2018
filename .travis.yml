@@ -17,4 +17,5 @@ deploy:
   keep-history: true
   on:
     branch: master
-
+  edge:
+    branch: pages-ivar-set
