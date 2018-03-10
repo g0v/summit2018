@@ -1,5 +1,5 @@
 <template lang="pug">
-  .top-bar(@scroll="handleScroll", :class="(scrollY>50) && 'shrink'")
+  div#nav-bar: .top-bar(@scroll="handleScroll", :class="(scrollY>50) && 'shrink'")
     //- TODO: add for later version
     //- .top-bar-left.show-for-large
     .top-bar-left
@@ -7,8 +7,8 @@
         li: a(href="/").brand-logo.menu-text
           span.flex-container.align-middle.shahow
             FaIcon(name="g0v-logo", :scale="1.5")
-            TW 啥米零時政府
-            EN summit 2018
+            TW.brand-title 啥米零時政府
+            EN.brand-title summit 2018
     .top-bar-right
       ul.menu
         //- TODO: add for later version
@@ -20,10 +20,10 @@
         //-   UnderlineLink(href="/speakers")
         //-     TW 講者
         //-     EN Speakers
-        //- li
-        //-   UnderlineLink(href="/sponsors")
-        //-     TW 贊助
-        //-     EN Sponsors
+        li
+          UnderlineLink(href="/sponsors")
+            TW 贊助夥伴
+            EN Sponsors
         //- li
         //-   UnderlineLink(href="/transport")
         //-     TW 交通
@@ -82,6 +82,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#nav-bar {
+  margin-bottom: 64px;
+}
+
 .top-bar {
   opacity: 0.95;
   position: fixed;
@@ -113,6 +117,9 @@ export default {
 
   .brand-logo {
     color: inherit;
+    .brand-title {
+      color: white;
+    }
     font {
       @include vertical-center;
     }
