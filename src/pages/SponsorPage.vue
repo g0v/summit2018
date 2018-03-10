@@ -74,16 +74,22 @@
               span {{ sponsor.URL }} &nbsp;
               FaIcon(name="external-link")
 
+    //- 贊助按鈕
+    .text-center.mb-50
+      SponsorUsButton
+
   </div>
 </template>
 
 <script>
-import SponsorData from '../../static/airtable_data/SPONSORS.json'
 import groupBy from 'lodash/groupBy'
 import shuffle from 'lodash/shuffle'
+import SponsorData from '../../static/airtable_data/SPONSORS.json'
+import { SponsorUsButton } from '@/views'
 
 export default {
   name: 'sponsor-page',
+  components: { SponsorUsButton },
   computed: {
     /**
      * 來自 Airtable 的贊助商資料
