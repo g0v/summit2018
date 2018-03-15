@@ -12,6 +12,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
+const PrerenderSpaPlugin = require('prerender-spa-plugin')
 const loadMinified = require('./load-minified')
 
 const env = process.env.NODE_ENV === 'testing'
@@ -103,7 +104,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       },
       {
         from: path.resolve(__dirname, '../404.html'),
-        to: config.build.assetsRoot,
+        to: config.build.assetsRoot
       }
     ]),
     // service worker caching
@@ -113,7 +114,14 @@ const webpackConfig = merge(baseWebpackConfig, {
       staticFileGlobs: ['dist/**/*.{js,html,css}'],
       minify: true,
       stripPrefix: 'dist/'
-    })
+    }),
+    // build 出靜態 HTML 檔
+    new PrerenderSpaPlugin(
+      // Path to compiled app
+      path.join(__dirname, '../dist'),
+      // List of endpoints you wish to prerender
+      ['/', '/sponsors']
+    )
   ]
 })
 
