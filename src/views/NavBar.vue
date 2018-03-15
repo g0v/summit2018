@@ -4,7 +4,7 @@
     //- .top-bar-left.show-for-large
     .top-bar-left
       ul.menu
-        li: a(href="/").brand-logo.menu-text
+        li: router-link(to="/").brand-logo.menu-text
           span.flex-container.align-middle.shahow
             FaIcon(name="g0v-logo", :scale="1.5")
             TW.brand-title 啥米零時政府
@@ -13,31 +13,31 @@
       ul.menu
         //- TODO: add for later version
         //- li
-        //-   UnderlineLink(href="/schedule").disabled
+        //-   UnderlineLink(to="/schedule").disabled
         //-     TW 議程
         //-     EN Schedule
         //- li
-        //-   UnderlineLink(href="/speakers")
+        //-   UnderlineLink(to="/speakers")
         //-     TW 講者
         //-     EN Speakers
         li
-          UnderlineLink(href="/sponsors")
+          UnderlineLink(to="/sponsors")
             TW 贊助夥伴
             EN Sponsors
         //- li
-        //-   UnderlineLink(href="/transport")
+        //-   UnderlineLink(to="/transport")
         //-     TW 交通
         //-     EN Transport
         //- li
-        //-   UnderlineLink(href="/live")
+        //-   UnderlineLink(to="/live")
         //-     TW 直撥
         //-     EN Live
         //- li
-        //-   UnderlineLink(href="/staff")
+        //-   UnderlineLink(to="/staff")
         //-     TW 工作人員
         //-     EN Staff
         //- li
-        //-   UnderlineLink(href="/wiki")
+        //-   UnderlineLink(to="/wiki")
         //-     TW 大會共筆
         //-     EN Wiki
         li
