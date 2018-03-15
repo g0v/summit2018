@@ -2,7 +2,6 @@
   <section class="sponsor-section grid-x grid-padding-x">
     <div
       v-for="sponsor in sponsors"
-      v-if="sponsor.SHOW"
       :class="'cell ' + getClassName(sponsor)"
       :key="sponsor.id"
     >
@@ -61,11 +60,13 @@ export default {
      * 來自 Airtable 的贊助商資料
      */
     sponsors () {
-      const sponsors = SponsorData.records.map(record => ({
-        ...record.fields,
-        LOGO: record.fields.CROPPED_LOGO[0].thumbnails.large.url,
-        id: record.id
-      }))
+      const sponsors = SponsorData.records
+        .filter(record => record.fields.SHOW === true)
+        .map(record => ({
+          ...record.fields,
+          LOGO: record.fields.CROPPED_LOGO[0].thumbnails.large.url,
+          id: record.id
+        }))
 
       if (SHUFFEL_THRESHOLE && sponsors.length >= SHUFFEL_THRESHOLE) {
         return shuffle(sponsors)

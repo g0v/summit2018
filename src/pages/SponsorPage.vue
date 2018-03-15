@@ -108,12 +108,12 @@ export default {
       const logoType = window.innerWidth > 640 ? 'large' : 'small'
 
       const sponsors = SponsorData.records
+        .filter(record => record.fields.SHOW === true)
         .map(record => ({
           ...record.fields,
           LOGO: record.fields.CROPPED_LOGO[0].thumbnails[logoType].url,
           id: record.id
         }))
-        .filter(record => record.SHOW)
 
       return groupBy(shuffle(sponsors), 'CLASS')
     }
