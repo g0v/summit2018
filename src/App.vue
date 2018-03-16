@@ -4,7 +4,7 @@
       <NavBar/>
     </header>
     <main>
-      <router-view></router-view>
+      <router-view/>
     </main>
     <footer>
       <SponsorSection v-if="showSponsorFooter"/>
@@ -18,18 +18,18 @@ import { mapState, mapMutations } from 'vuex'
 import { NavBar, TheFooter, SponsorSection } from '@/views'
 
 export default {
-  name: 'app',
-  data () {
+  name: 'App',
+  components: { NavBar, TheFooter, SponsorSection },
+  data() {
     return {}
   },
   computed: {
     ...mapState(['lang']),
-    showSponsorFooter () {
+    showSponsorFooter() {
       return this.$route.path !== '/sponsors'
-    }
+    },
   },
   methods: mapMutations(['toggleLang']),
-  components: { NavBar, TheFooter, SponsorSection }
 }
 </script>
 

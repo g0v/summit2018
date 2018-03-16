@@ -118,22 +118,44 @@ import speakers from '@/assets/LandingPage/speakers/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
 export default {
-  name: 'landingPage',
-  components: { HeroImage, SponsorUsButton, TheTimeline, SpeakerBrief, MediaQuote },
-  data () {
+  name: 'LandingPage',
+  components: {
+    HeroImage,
+    SponsorUsButton,
+    TheTimeline,
+    SpeakerBrief,
+    MediaQuote,
+  },
+  data() {
     return {
       timelineItems: [
-        { description: 'Call for Paper', time: { tw: '3/15-4/30', en: 'March 15th - April 30th' }, 'fa-icon': 'globe' },
-        { description: { tw: '早鳥報名', en: 'Early bird tickets' }, time: { en: 'est. May', tw: '五月' }, 'fa-icon': 'ticket' },
-        { description: 'g0v Summit', time: { en: 'October 5th - 7th', tw: '10/5-7' }, 'fa-icon': 'calendar-check-o' }
-      ]
+        {
+          description: 'Call for Paper',
+          time: { tw: '3/15-4/30', en: 'March 15th - April 30th' },
+          'fa-icon': 'globe',
+        },
+        {
+          description: { tw: '早鳥報名', en: 'Early bird tickets' },
+          time: { en: 'est. May', tw: '五月' },
+          'fa-icon': 'ticket',
+        },
+        {
+          description: 'g0v Summit',
+          time: { en: 'October 5th - 7th', tw: '10/5-7' },
+          'fa-icon': 'calendar-check-o',
+        },
+      ],
     }
   },
   computed: {
     ...mapState(['lang']),
-    speakers () { return this.lang === 'TW' ? speakers.TW : speakers.EN },
-    reports () { return this.lang === 'TW' ? media.TW : media.EN }
-  }
+    speakers() {
+      return this.lang === 'TW' ? speakers.TW : speakers.EN
+    },
+    reports() {
+      return this.lang === 'TW' ? media.TW : media.EN
+    },
+  },
 }
 </script>
 
@@ -149,7 +171,8 @@ export default {
   #cta {
     position: relative;
   }
-  #intro {}
+  #intro {
+  }
   #sponsor-us {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -157,10 +180,14 @@ export default {
 }
 
 #summit-highlight {
-  #hightlights {}
-  #speakers {}
-  #reports {}
-  #previous-events {}
+  #hightlights {
+  }
+  #speakers {
+  }
+  #reports {
+  }
+  #previous-events {
+  }
 }
 </style>
 
