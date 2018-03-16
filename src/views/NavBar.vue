@@ -7,7 +7,7 @@
         li: router-link(to="/").brand-logo.menu-text
           span.flex-container.align-middle.shahow
             FaIcon(name="g0v-logo", :scale="1.5")
-            TW.brand-title 啥米零時政府
+            TW.brand-title 2018 零時政府高峰會
             EN.brand-title summit 2018
     .top-bar-right
       ul.menu
