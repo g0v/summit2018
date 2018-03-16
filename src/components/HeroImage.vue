@@ -1,10 +1,17 @@
 <template>
   <span>
     <HeroImageMobile v-if="vw < 640"/>
-    <svg @mousemove="handleMousemove" v-else xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 900">
+    <svg
+      v-else
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 1440 900"
+      @mousemove="handleMousemove"
+    >
       <defs>
-        <linearGradient id="linear-gradient-black-hole-back" x1="846.12" y1="708.59" x2="1401.45" y2="708.59" gradientTransform="translate(886.96 -598.66) rotate(47.5)"
-          gradientUnits="userSpaceOnUse">
+        <linearGradient id="linear-gradient-black-hole-back" x1="846.12" y1="708.59"
+                        x2="1401.45" y2="708.59" gradientTransform="translate(886.96 -598.66) rotate(47.5)"
+                        gradientUnits="userSpaceOnUse">
           <stop offset="0" />
           <stop offset="0.02" stop-color="#030303" />
           <stop offset="0.25" stop-color="#1d1b1b" />
@@ -12,19 +19,25 @@
           <stop offset="0.73" stop-color="#3a3736" />
           <stop offset="1" stop-color="#3e3a39" />
         </linearGradient>
-        <linearGradient id="linear-gradient-core-lower" x1="808.21" y1="560.04" x2="907.14" y2="642.19" gradientUnits="userSpaceOnUse">
+        <linearGradient id="linear-gradient-core-lower" x1="808.21" y1="560.04"
+                        x2="907.14" y2="642.19"
+                        gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#231815" />
           <stop offset="0.33" stop-color="#261c19" />
           <stop offset="0.68" stop-color="#302927" />
           <stop offset="1" stop-color="#3e3a39" />
         </linearGradient>
-        <linearGradient id="linear-gradient-core-upper" x1="667.32" y1="426.86" x2="785.38" y2="539.07" gradientUnits="userSpaceOnUse">
+        <linearGradient id="linear-gradient-core-upper" x1="667.32" y1="426.86"
+                        x2="785.38" y2="539.07"
+                        gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#3e3a39" />
           <stop offset="0.32" stop-color="#302927" />
           <stop offset="0.67" stop-color="#261c19" />
           <stop offset="1" stop-color="#231815" />
         </linearGradient>
-        <linearGradient id="linear-gradient-ring-back-center" x1="954.66" y1="262.66" x2="807.9" y2="402.13" gradientUnits="userSpaceOnUse">
+        <linearGradient id="linear-gradient-ring-back-center" x1="954.66" y1="262.66"
+                        x2="807.9" y2="402.13"
+                        gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#b81c22" />
           <stop offset="0.38" stop-color="#b61c22" />
           <stop offset="0.6" stop-color="#ad1c22" />
@@ -32,9 +45,12 @@
           <stop offset="0.93" stop-color="#8c1c21" />
           <stop offset="1" stop-color="#801c21" />
         </linearGradient>
-        <linearGradient id="linear-gradient-5" x1="511.54" y1="649.94" x2="648.75" y2="649.94" xlink:href="#linear-gradient-ring-back-center"
+        <linearGradient id="linear-gradient-5" x1="511.54" y1="649.94"
+                        x2="648.75" y2="649.94" xlink:href="#linear-gradient-ring-back-center"
         />
-        <linearGradient id="linear-gradient-black-hole-upper" x1="-39.97" y1="-89.6" x2="178.42" y2="88.52" gradientTransform="translate(43.34 -62.08) rotate(47.5)" gradientUnits="userSpaceOnUse">
+        <linearGradient id="linear-gradient-black-hole-upper" x1="-39.97" y1="-89.6"
+                        x2="178.42" y2="88.52"
+                        gradientTransform="translate(43.34 -62.08) rotate(47.5)" gradientUnits="userSpaceOnUse">
           <stop offset="0" />
           <stop offset="0.23" stop-color="#111010" />
           <stop offset="0.73" stop-color="#322e2e" />
@@ -54,10 +70,14 @@
         </g>
 
         <!-- 虛線 -->
-        <line ref="dashed-line" x1="102.21" y1="-80.12" x2="1467.88" y2="1266.23" style="fill:none;stroke:#70706e;stroke-miterlimit:10;stroke-width:2px;stroke-dasharray:6.897319793701172"/>
+        <line ref="dashed-line" x1="102.21" y1="-80.12"
+              x2="1467.88" y2="1266.23"
+              style="fill:none;stroke:#70706e;stroke-miterlimit:10;stroke-width:2px;stroke-dasharray:6.897319793701172"/>
 
         <!-- 下方黑洞 後 -->
-        <ellipse ref="fade-in-0" data-delay="0.5" cx="1123.78" cy="708.59" rx="401.55" ry="79.85" transform="translate(-157.87 1058.38) rotate(-47.5)" style="fill:url(#linear-gradient-black-hole-back)" />
+        <ellipse ref="fade-in-0" data-delay="0.5" cx="1123.78"
+                 cy="708.59" rx="401.55"
+                 ry="79.85" transform="translate(-157.87 1058.38) rotate(-47.5)" style="fill:url(#linear-gradient-black-hole-back)" />
         <path ref="fade-in-1" style="fill:#e55760" d="M851.94,993.7c4.15-14.29,16.76-44.12,54.77-99.8,41.83-61.28,101.55-134.68,168.16-206.69C1140.69,616.06,1208.57,551.36,1266,505c52.62-42.47,81.82-57.9,96.26-63.52l39.65-42.93c-5.15-4.65-14.09-10-27.89-10-16,0-35.67,7.15-61.77,22.5-22.07,13-48.14,31.57-77.5,55.26-59.24,47.8-129,114.26-196.4,187.12-75.12,81.2-140.5,162.68-184.09,229.43-21.8,33.38-37.2,61.66-45.76,84-4.55,11.89-18.38,48.07,4.33,69.08l0.21,0.19,39.41-42.67Z"/>
 
         <g ref="shooting-star-8" data-duration="0.7">
@@ -177,7 +197,9 @@
           <path fill="#e55760" transform="translate(-1 -1)" d="M1402.25,398.87l-0.34-.3-39.65,42.93,0.87-.34c-4.15,14.29-16.77,44.12-54.76,99.79-41.83,61.28-101.55,134.69-168.16,206.69-65.82,71.15-133.7,135.85-191.12,182.19C896,972.69,866.72,988,852.45,993.5L813,1036.17c5.13,4.67,14.1,10.14,28,10.14,16,0,35.67-7.15,61.77-22.5,22.07-13,48.14-31.57,77.5-55.26,59.24-47.81,129-114.26,196.4-187.12,75.13-81.2,140.5-162.68,184.1-229.43,21.8-33.38,37.2-61.66,45.76-84C1411.13,456.07,1425,419.88,1402.25,398.87Z" />
           <path fill="#dae0d1" d="M1362.25,441.51l0.87-.36,0,0v0l-1.71,5.7c-0.62,1.88-1.33,3.74-2,5.61l-1,2.8-1.15,2.75-2.29,5.5c-1.61,3.63-3.37,7.2-5,10.8-0.82,1.81-1.78,3.55-2.68,5.32l-2.75,5.29c-0.93,1.76-1.8,3.55-2.78,5.28l-2.93,5.19c-2,3.45-3.88,6.94-5.91,10.36l-6.17,10.2c-2.06,3.4-4.1,6.81-6.28,10.13l-6.47,10-3.24,5c-1.1,1.72-2.23,3.3-3.35,5L1294,565.72c-9.27,12.91-18.53,25.87-28.19,38.46-9.46,12.77-19.42,25.14-29.25,37.63l-15.08,18.44-7.55,9.21-7.7,9.09-15.45,18.14L1175,714.59l-7.88,8.94-8,8.82-16,17.64-16.33,17.33-8.16,8.65-8.3,8.56-16.62,17.1-16.88,16.82-8.47,8.38-8.6,8.25-17.22,16.47-17.48,16.19c-5.8,5.43-11.81,10.63-17.74,15.91s-11.85,10.58-17.94,15.68-12.06,10.34-18.2,15.39l-18.55,15-2.34,1.88-2.36,1.81L943.21,937l-9.44,7.23-2.37,1.8L929,947.77l-4.84,3.49-9.68,7-9.87,6.69-4.94,3.34-5.05,3.17c-13.41,8.49-27.29,16.47-42.15,22.07l5.42-2.43c1.79-.85,3.53-1.8,5.3-2.69l2.64-1.36,2.58-1.48,5.14-3c1.73-1,3.38-2.06,5.06-3.1l5-3.16c0.83-.53,1.68-1,2.5-1.59l2.45-1.67,4.9-3.34,4.9-3.34,4.8-3.49,9.6-7,9.39-7.24,4.69-3.62,2.34-1.81,2.31-1.88,9.25-7.48,4.63-3.74,2.31-1.87,2.24-1.9L968,911c11.86-10.49,23.83-20.84,35.39-31.66,11.73-10.63,23.09-21.66,34.62-32.51l17-16.6,8.48-8.31,8.35-8.45,16.73-16.86L1105,779.5l8.23-8.55,8.13-8.68,16.23-17.35,16-17.53,8-8.76,7.88-8.88L1185.32,692l15.51-18,7.77-9,7.63-9.1,15.24-18.22,14.93-18.46c5-6.1,9.89-12.36,14.77-18.59l7.32-9.35c1.21-1.56,2.46-3.11,3.65-4.68l3.56-4.74,14.27-19,13.91-19.3c1.14-1.61,2.36-3.22,3.44-4.82l3.35-4.9,6.7-9.8c2.28-3.24,4.42-6.56,6.57-9.88l6.47-10c2.13-3.34,4.13-6.74,6.21-10.11l3.09-5.07c1-1.68,2-3.43,3-5.14l2.94-5.16c1-1.73,2-3.42,2.88-5.19,1.81-3.52,3.7-7,5.44-10.55l2.54-5.37,1.27-2.68,1.15-2.74c0.75-1.83,1.54-3.65,2.25-5.5l2-5.61,0,0Z" />
 
-          <ellipse cx="92.21" cy="18.21" rx="546.12" ry="108.6" transform="translate(16.49 73.89) rotate(-47.5)" style="fill:url(#linear-gradient-black-hole-upper)"/>
+          <ellipse cx="92.21" cy="18.21" rx="546.12"
+                   ry="108.6" transform="translate(16.49 73.89) rotate(-47.5)"
+                   style="fill:url(#linear-gradient-black-hole-upper)"/>
 
           <!-- 上方黑洞 外圈 -->
           <path fill="#e55760" d="M-277.49,406c5.64-19.43,22.8-60,74.49-135.73C-146.12,186.89-64.9,87.06,25.7-10.86c89.52-96.77,181.83-184.76,259.93-247.78C357.2-316.4,396.91-337.39,416.54-345l53.93-58.39c-7-6.32-19.16-13.65-37.93-13.65-21.82,0-48.52,9.72-84,30.6-30,17.65-65.48,42.94-105.41,75.16C162.56-246.29,67.7-155.91-24-56.82c-102.17,110.44-191.09,221.25-250.37,312-29.65,45.4-50.59,83.86-62.23,114.31-6.18,16.17-25,65.38,5.9,94l0.29,0.26,53.6-58Z" />
@@ -255,28 +277,28 @@ import HeroImageMobile from '@/components/HeroImageMobile'
 import { mapState } from 'vuex'
 
 export default {
-  name: 'hero-image',
+  name: 'HeroImage',
   components: { HeroImageMobile },
-  data () {
+  data() {
     return {
       vh: window.innerHeight,
       vw: window.innerWidth,
       pdx: 1,
-      pdy: 1
+      pdy: 1,
     }
   },
   // svg 內無法用 <TW/>、<EN/>
   computed: mapState(['lang']),
-  mounted () {
+  mounted() {
     window.addEventListener('resize', this.handleResize)
     this.tweenShootingStars()
     this.tweenFadeInItems()
   },
-  destroied () {
+  destroied() {
     window.removeEventListener('resize', this.handleResize)
   },
   methods: {
-    tweenShootingStars () {
+    tweenShootingStars() {
       Object.keys(this.$refs)
         .filter(key => key.includes('shooting-star-'))
         .forEach(key => {
@@ -286,11 +308,11 @@ export default {
           tween.from(node, duration || 1, {
             x: `+=${this.vw}`,
             delay: delay || 0.3,
-            ease: Power3.SlowMo
+            ease: Power3.SlowMo,
           })
         })
     },
-    tweenFadeInItems () {
+    tweenFadeInItems() {
       Object.keys(this.$refs)
         .filter(key => key.includes('fade-in-'))
         .forEach(key => {
@@ -300,11 +322,11 @@ export default {
           tween.from(node, duration || 0.5, {
             opacity: 0,
             delay: delay || 0,
-            ease: Power1.SlowMo
+            ease: Power1.SlowMo,
           })
         })
     },
-    handleMousemove (event) {
+    handleMousemove(event) {
       const moveX = event.clientX
       const moveY = event.clientY
       const dx = moveX - this.vw / 2
@@ -312,11 +334,11 @@ export default {
       this.pdx = Math.sign(dx) * Math.sqrt(Math.abs(dx))
       this.pdy = Math.sign(dy) * Math.sqrt(Math.abs(dy))
     },
-    handleResize (event) {
+    handleResize(event) {
       this.vh = window.innerHeight
       this.vw = window.innerWidth
-    }
-  }
+    },
+  },
 }
 </script>
 

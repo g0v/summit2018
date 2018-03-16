@@ -22,20 +22,20 @@
 import has from 'lodash/has'
 
 export default {
-  name: 'speaker-brief',
+  name: 'SpeakerBrief',
   props: {
     speaker: {
       type: Object,
-      isRequired: true,
-      validator: (speaker) =>
+      required: true,
+      validator: speaker =>
         has(speaker, 'name') &&
         has(speaker, 'title') &&
         has(speaker, 'description') &&
         has(speaker, 'photoUrl') &&
         has(speaker, 'avatarUrl') &&
-        has(speaker, 'youtube')
-    }
-  }
+        has(speaker, 'youtube'),
+    },
+  },
 }
 </script>
 
@@ -45,7 +45,7 @@ export default {
   .mask {
     display: flex;
     opacity: 0;
-    transition: opacity .2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
     position: absolute;
     height: 100%;
     width: 100%;

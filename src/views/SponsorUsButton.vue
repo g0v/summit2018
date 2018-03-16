@@ -11,20 +11,27 @@
 
 <script>
 export default {
-  name: 'sponsor-us-button'
+  name: 'SponsorUsButton',
 }
 </script>
 
 <style lang="scss" scoped>
-
-    .cta-button {
-      border: 1px solid $white;
-      color: $white;
-      > div { height: 20px; }
-      .cta-button-text-hover { display: none; }
-      &:hover {
-        .cta-button-text { display: none; }
-        .cta-button-text-hover { display: block; }
-      }
+.cta-button {
+  border: 1px solid $white;
+  color: $white;
+  > div {
+    height: 20px;
+  }
+  .cta-button-text-hover {
+    display: none;
+  }
+  &:hover {
+    .cta-button-text {
+      display: none;
     }
+    .cta-button-text-hover {
+      display: block;
+    }
+  }
+}
 </style>
