@@ -94,12 +94,12 @@
                       EN The 2014 summit took place right after the Sunflower Movement, in which digital tools boosted hundreds of thousands of protestors to take the streets. This summit focused on open parliament, participatory democracy and online collaboration in social movements. It was also the first attempt to bring cross-displinary discussion among international civic tech hackers, open source communities, NGOs, media, academic and public servants.
 
               //- Flickr 內嵌
-              .card.flex-child-shrink
+              .card
                 .card-section
                   h5: a(href="https://www.flickr.com/photos/g0v/albums/with/72157692801078814" target="_blank") g0v Flickr
                 //- .card-section
                 <a data-flickr-embed="true" data-header="false" data-footer="false"  href="https://www.flickr.com/photos/g0v/albums/72157692801078814" title="g0v flickr">
-                  <img src="https://farm8.staticflickr.com/7589/27000315472_7a08dba237_z.jpg" xwidth="100%" height="auto" alt="g0v flickr">
+                  <img alt="g0v flickr" src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_c.jpg" width="100%" height="auto">
                 </a>
 
           //- 尾部贊助商 logo 的標題
