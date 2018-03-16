@@ -1,33 +1,32 @@
 <template>
-  <span :class="[bindClass, 'scroll-to-tack']" ref="wrapper">
+  <span ref="wrapper" :class="[bindClass, 'scroll-to-tack']">
     <slot/>
   </span>
 </template>
 
 <script>
-
 export default {
-  name: 'scroll-to-tack',
+  name: 'ScrollToTack',
   props: {
     tackClass: {
       type: String,
-      default: 'tack-right-bottom'
-    }
+      default: 'tack-right-bottom',
+    },
   },
-  data () {
+  data() {
     return {
-      offsetTop: undefined
+      offsetTop: undefined,
     }
   },
   computed: {
-    bindClass () {
-      return (this.$store.state.scrollY >= this.offsetTop) ? this.tackClass : ''
-    }
+    bindClass() {
+      return this.$store.state.scrollY >= this.offsetTop ? this.tackClass : ''
+    },
   },
-  mounted () {
+  mounted() {
     window.foo = this.$refs['wrapper']
     this.offsetTop = this.$refs['wrapper'].offsetTop
-  }
+  },
 }
 </script>
 

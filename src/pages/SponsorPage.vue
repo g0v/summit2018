@@ -98,13 +98,13 @@ import SponsorData from '../../static/airtable_data/SPONSORS.json'
 import { SponsorUsButton } from '@/views'
 
 export default {
-  name: 'sponsor-page',
+  name: 'SponsorPage',
   components: { SponsorUsButton },
   computed: {
     /**
      * 來自 Airtable 的贊助商資料
      */
-    sponsors () {
+    sponsors() {
       const logoType = window.innerWidth > 640 ? 'large' : 'small'
 
       const sponsors = SponsorData.records
@@ -112,12 +112,12 @@ export default {
         .map(record => ({
           ...record.fields,
           LOGO: record.fields.CROPPED_LOGO[0].thumbnails[logoType].url,
-          id: record.id
+          id: record.id,
         }))
 
       return groupBy(shuffle(sponsors), 'CLASS')
-    }
-  }
+    },
+  },
 }
 </script>
 
