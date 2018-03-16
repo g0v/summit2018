@@ -12,9 +12,9 @@ export default {
   props: {
     to: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 
@@ -35,6 +35,4 @@ export default {
     transform: scaleX(1);
   }
 }
-
-
 </style>

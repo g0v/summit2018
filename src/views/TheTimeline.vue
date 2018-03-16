@@ -21,19 +21,21 @@ import every from 'lodash/every'
 import has from 'lodash/has'
 
 export default {
-  name: 'the-timeline',
+  name: 'TheTimeline',
   props: {
     items: {
       type: Array,
       default: () => [],
       validator: items =>
-        every(items, (item) =>
-          has(item, 'fa-icon') &&
-          has(item, 'time') &&
-          has(item, 'description')
-        )
-    }
-  }
+        every(
+          items,
+          item =>
+            has(item, 'fa-icon') &&
+            has(item, 'time') &&
+            has(item, 'description')
+        ),
+    },
+  },
 }
 </script>
 
@@ -197,6 +199,4 @@ $timeline-item-card-radius: $global-radius;
     }
   }
 }
-
-
 </style>

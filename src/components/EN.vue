@@ -1,6 +1,6 @@
 <template>
   <span v-if="showSlotContent">
-    <slot></slot>
+    <slot/>
   </span>
 </template>
 
@@ -10,13 +10,12 @@ import { mapState } from 'vuex'
 export default {
   name: 'EN',
   computed: mapState({
-    showSlotContent (state) {
+    showSlotContent(state) {
       return state.lang === 'EN'
-    }
-  })
+    },
+  }),
 }
 </script>
 
 <style lang="scss" scoped>
-
 </style>
