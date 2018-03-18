@@ -17,6 +17,7 @@
             <h5 class="name">
               <EN >{{ sponsor['NAME'] }}</EN>
               <TW>{{ sponsor['NAME-CH'] }}</TW>
+              <!-- <small>{{ sponsor['CLASS'] }}</small> -->
               <a class="link" v-if="sponsor.URL" :href="sponsor.URL" target="_blank">
                 <FaIcon name="external-link"/>
               </a>
@@ -83,10 +84,16 @@ export default {
         return 'selected small-12 medium-9 large-5'
       }
       switch (sponsor.CLASS) {
-        case 'A': return 'class-a small-6 medium-5 large-4'
-        case 'B': return 'class-b small-5 medium-4 large-3'
-        case 'C': return 'class-c small-4 medium-3 large-2'
-        case 'D': return 'class-d small-4 medium-3 large-2'
+        case 'EVANGELIST':
+          return 'class-a small-6 medium-5 large-4'
+        case 'ACTIVIST':
+          return 'class-b small-5 medium-4 large-3'
+        case 'CIVICIST':
+          return 'class-c small-4 medium-3 large-2'
+        case 'SUPPORTER':
+        case 'IN_KIND':
+        case 'MEDIA_PARTNER':
+          return 'class-d small-4 medium-3 large-2'
         default:
           console.log('Sponsor instance has invalid value "CLASS": ', sponsor)
       }
