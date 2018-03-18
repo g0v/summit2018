@@ -13,12 +13,12 @@ export default new Router({
     {
       path: '/',
       name: 'LandingPage',
-      component: LandingPage
+      component: LandingPage,
     },
     {
       path: '/sponsors',
       name: 'SponsorPage',
-      component: SponsorPage
-    }
-  ]
+      component: SponsorPage,
+    },
+  ],
 })
