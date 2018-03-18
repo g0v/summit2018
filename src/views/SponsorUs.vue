@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: 'sponsor-us'
+  name: 'SponsorUs',
 }
 </script>
 

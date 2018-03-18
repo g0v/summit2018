@@ -59,25 +59,25 @@ import { mapState, mapMutations } from 'vuex'
 import throttle from 'lodash/throttle'
 
 export default {
-  name: 'nav-bar',
-  data () {
+  name: 'NavBar',
+  data() {
     return {
-      shrink: false
+      shrink: false,
     }
   },
   computed: mapState(['lang', 'scrollY']),
-  mounted () {
+  mounted() {
     window.addEventListener('scroll', throttle(this.handleScroll, 300))
   },
-  destroied () {
+  destroied() {
     window.removeEventListener('scroll', throttle(this.handleScroll, 300))
   },
   methods: {
-    handleScroll () {
+    handleScroll() {
       this.setScrollY({ scrollY: window.scrollY })
     },
-    ...mapMutations(['toggleLang', 'setScrollY'])
-  }
+    ...mapMutations(['toggleLang', 'setScrollY']),
+  },
 }
 </script>
 
@@ -94,15 +94,15 @@ export default {
   width: 100%;
 
   // TODO: remove for later version
-  .top-bar-right, .top-bar-left {
+  .top-bar-right,
+  .top-bar-left {
     // Override default stacking for small screen
     flex-basis: unset;
   }
 
-
   // shrink/expand effect
   transition-property: padding;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
   &.shrink {
     padding: 0px;
   }

@@ -6,8 +6,9 @@
       :key="sponsor.id"
     >
       <div
-        class="card" @click="selected = (selected === sponsor.id ? null : sponsor.id)"
         :style="{backgroundImage: `url(${sponsor.LOGO})`}"
+        class="card"
+        @click="selected = (selected === sponsor.id ? null : sponsor.id)"
       >
         <!-- Hover 時的遮罩 -->
         <div class="overlay">
@@ -17,8 +18,7 @@
             <h5 class="name">
               <EN >{{ sponsor['NAME'] }}</EN>
               <TW>{{ sponsor['NAME-CH'] }}</TW>
-              <!-- <small>{{ sponsor['CLASS'] }}</small> -->
-              <a class="link" v-if="sponsor.URL" :href="sponsor.URL" target="_blank">
+              <a v-if="sponsor.URL" :href="sponsor.URL" class="link" target="_blank">
                 <FaIcon name="external-link"/>
               </a>
             </h5>
@@ -49,37 +49,37 @@ import sortBy from 'lodash/sortBy'
 const SHUFFEL_THRESHOLE = null // 5
 
 export default {
-  name: 'sponsor-section',
-  data () {
+  name: 'SponsorSection',
+  data() {
     return {
       /** 當下選取的贊助商 id */
-      selected: null
+      selected: null,
     }
   },
   computed: {
     /**
      * 來自 Airtable 的贊助商資料
      */
-    sponsors () {
+    sponsors() {
       const sponsors = SponsorData.records
         .filter(record => record.fields.SHOW === true)
         .map(record => ({
           ...record.fields,
           LOGO: record.fields.CROPPED_LOGO[0].thumbnails.large.url,
-          id: record.id
+          id: record.id,
         }))
 
       if (SHUFFEL_THRESHOLE && sponsors.length >= SHUFFEL_THRESHOLE) {
         return shuffle(sponsors)
       }
       return sortBy(sponsors, 'CLASS')
-    }
+    },
   },
   methods: {
     /**
      * 不同等級贊助商有不同卡片大小
      */
-    getClassName (sponsor) {
+    getClassName(sponsor) {
       if (sponsor.id === this.selected) {
         return 'selected small-12 medium-9 large-5'
       }
@@ -97,8 +97,8 @@ export default {
         default:
           console.log('Sponsor instance has invalid value "CLASS": ', sponsor)
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -106,7 +106,7 @@ export default {
 .sponsor-section {
   ._hide {
     opacity: 0;
-    transition: opacity .3s ease-in .1s;
+    transition: opacity 0.3s ease-in 0.1s;
   }
 
   ._show {
@@ -115,14 +115,22 @@ export default {
   }
 
   .cell {
-    transition: width .4s ease-in-out; // TODO: use <transition-group> to tween neighboor cells
-    .card { height: 7rem; }
+    transition: width 0.4s ease-in-out; // TODO: use <transition-group> to tween neighboor cells
+    .card {
+      height: 7rem;
+    }
     &.selected {
       .card {
         height: auto;
-        .overlay { .content { @extend ._show }};
+        .overlay {
+          .content {
+            @extend ._show;
+          }
+        }
       }
-      .blur-footer { display: none; }
+      .blur-footer {
+        display: none;
+      }
     }
   }
 
@@ -140,7 +148,7 @@ export default {
     .overlay {
       cursor: pointer;
       .content {
-        padding: .5rem;
+        padding: 0.5rem;
         @extend ._hide;
         &:hover {
           @extend ._show;
@@ -182,6 +190,4 @@ export default {
     border-top: 3px solid $classD;
   }
 }
-
-
 </style>

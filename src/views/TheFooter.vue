@@ -37,10 +37,10 @@
 
 <script>
 export default {
-  name: 'the-footer',
-  data () {
+  name: 'TheFooter',
+  data() {
     return {}
-  }
+  },
 }
 </script>
 
@@ -58,5 +58,7 @@ export default {
 #copyright {
   margin-bottom: 0px;
 }
-.border {border: 1px solid rgba($color: #000000, $alpha: 0);}
+.border {
+  border: 1px solid rgba($color: #000000, $alpha: 0);
+}
 </style>

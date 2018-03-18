@@ -59,7 +59,7 @@ import SponsorData from '../../static/airtable_data/SPONSORS.json'
 import { SponsorUsButton } from '@/views'
 
 export default {
-  name: 'sponsor-page',
+  name: 'SponsorPage',
   components: { SponsorUsButton },
   computed: {
     /**
@@ -93,12 +93,12 @@ export default {
         .map(record => ({
           ...record.fields,
           LOGO: record.fields.CROPPED_LOGO[0].thumbnails[logoType].url,
-          id: record.id
+          id: record.id,
         }))
 
       return groupBy(shuffle(sponsors), 'CLASS')
-    }
-  }
+    },
+  },
 }
 </script>
 
