@@ -2,57 +2,17 @@
 
   .sponsor-page.grid-x.align-center
 
-    //- 鑽石級贊助
-    section.class-a.cell.large-10
-      h3
-        TW 鑽石級贊助
-        EN Diamond
-      .project-card.grid-x(v-for="sponsor in sponsors['A']" :key="sponsor.id").grid-margin-x
-        .cell.logo-container.small-12.medium-4.large-3.text-center
-          a(:href="sponsor.URL" targe="_blank")
-            img.logo(:src="sponsor.LOGO")
-        .cell.small-12.medium-8.large-9
-          h4
-            EN {{ sponsor['NAME'] }}
-            TW {{ sponsor['NAME-CH'] }}
-          p
-            EN {{ sponsor['BIO'] }}
-            TW {{ sponsor['BIO-CH'] }}
-          a(:href="sponsor.URL" targe="_blank")
-            span {{ sponsor.URL }} &nbsp;
-            FaIcon(name="external-link")
-
-    //- 黃金級贊助
-    section.class-b.cell.large-10
-      h3
-        TW 黃金級贊助
-        EN Gold
-      .project-card.grid-x(v-for="sponsor in sponsors['B']" :key="sponsor.id").grid-margin-x
-        .cell.logo-container.small-12.medium-4.large-3.text-center
-          a(:href="sponsor.URL" targe="_blank")
-            img.logo(:src="sponsor.LOGO")
-        .cell.small-12.medium-8.large-9
-          h4
-            EN {{ sponsor['NAME'] }}
-            TW {{ sponsor['NAME-CH'] }}
-          p
-            EN {{ sponsor['BIO'] }}
-            TW {{ sponsor['BIO-CH'] }}
-          a(:href="sponsor.URL" targe="_blank")
-            span {{ sponsor.URL }} &nbsp;
-            FaIcon(name="external-link")
-
-    //- 白銀級贊助
-    section.class-c.cell.large-10
-      h3
-        TW 白銀級贊助
-        EN Silver
-      .grid-x.grid-margin-x
-        .cell(v-for="sponsor in sponsors['C']" :key="sponsor.id").small-12.medium-6.large-4
-          .project-card
-            .logo-container.text-center
-              a(:href="sponsor.URL" targe="_blank")
-                img.logo(:src="sponsor.LOGO")
+    //- Row view (Evangelist, Activist, Civicist, Supporter)
+    template(v-for="classType in rowViewClasses")
+      section(v-if="sponsorsByClass[classType._key]").class-a.cell.large-10
+        h3
+          TW {{ classType.TW }}
+          EN {{ classType.EN }}
+        .project-card.grid-x(v-for="sponsor in sponsorsByClass[classType._key]" :key="sponsor.id").grid-margin-x
+          .cell.logo-container.small-12.medium-4.large-3.text-center
+            a(:href="sponsor.URL" targe="_blank")
+              img.logo(:src="sponsor.LOGO")
+          .cell.small-12.medium-8.large-9
             h4
               EN {{ sponsor['NAME'] }}
               TW {{ sponsor['NAME-CH'] }}
@@ -63,26 +23,27 @@
               span {{ sponsor.URL }} &nbsp;
               FaIcon(name="external-link")
 
-    //- 青銅級贊助
-    section.class-d.cell.large-10
-      h3
-        TW 青銅級贊助
-        EN Bronze
-      .grid-x.grid-margin-x
-        .cell(v-for="sponsor in sponsors['D']" :key="sponsor.id").small-12.medium-6.large-4
-          .project-card
-            .logo-container.text-center
+    //- Column view (IN_KIND, MEDIA_PARTNER)
+    template(v-for="classType in columnViewClasses")
+      section(v-if="sponsorsByClass[classType._key]").class-b.cell.large-10
+        h3
+          TW {{ classType.TW }}
+          EN {{ classType.EN }}
+        .grid-x.grid-margin-x
+          .cell(v-for="sponsor in sponsorsByClass[classType._key]" :key="sponsor.id").small-12.medium-6.large-4
+            .project-card
+              .logo-container.text-center
+                a(:href="sponsor.URL" targe="_blank")
+                  img.logo(:src="sponsor.LOGO")
+              h4
+                EN {{ sponsor['NAME'] }}
+                TW {{ sponsor['NAME-CH'] }}
+              p
+                EN {{ sponsor['BIO'] }}
+                TW {{ sponsor['BIO-CH'] }}
               a(:href="sponsor.URL" targe="_blank")
-                img.logo(:src="sponsor.LOGO")
-            h4
-              EN {{ sponsor['NAME'] }}
-              TW {{ sponsor['NAME-CH'] }}
-            p
-              EN {{ sponsor['BIO'] }}
-              TW {{ sponsor['BIO-CH'] }}
-            a(:href="sponsor.URL" targe="_blank")
-              span {{ sponsor.URL }} &nbsp;
-              FaIcon(name="external-link")
+                span {{ sponsor.URL }} &nbsp;
+                FaIcon(name="external-link")
 
     //- 贊助按鈕
     .cell.text-center.mb-50
@@ -102,9 +63,29 @@ export default {
   components: { SponsorUsButton },
   computed: {
     /**
+     * 顯示為一橫列的等級
+     */
+    rowViewClasses() {
+      return [
+        { _key: 'EVANGELIST', TW: 'Evangelist', EN: 'Evangelist' },
+        { _key: 'ACTIVIST', TW: 'Activist', EN: 'Activist' },
+        { _key: 'CIVICIST', TW: 'Civicist', EN: 'Civicist' },
+      ]
+    },
+    /**
+     * 顯示為欄的等級
+     */
+    columnViewClasses() {
+      return [
+        { _key: 'SUPPORTER', TW: 'Supporter', EN: 'Supporter' },
+        { _key: 'IN_KIND', TW: 'In Kind', EN: 'In Kind' },
+        { _key: 'MEDIA_PARTNER', TW: 'Media Partner', EN: 'Media Partner' },
+      ]
+    },
+    /**
      * 來自 Airtable 的贊助商資料
      */
-    sponsors() {
+    sponsorsByClass() {
       const logoType = window.innerWidth > 640 ? 'large' : 'small'
 
       const sponsors = SponsorData.records
@@ -123,6 +104,8 @@ export default {
 
 <style lang="scss" scoped>
 .sponsor-page {
+  padding: 0.5em;
+
   section {
     margin-bottom: 4rem;
 

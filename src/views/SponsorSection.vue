@@ -84,13 +84,15 @@ export default {
         return 'selected small-12 medium-9 large-5'
       }
       switch (sponsor.CLASS) {
-        case 'A':
+        case 'EVANGELIST':
           return 'class-a small-6 medium-5 large-4'
-        case 'B':
+        case 'ACTIVIST':
           return 'class-b small-5 medium-4 large-3'
-        case 'C':
+        case 'CIVICIST':
           return 'class-c small-4 medium-3 large-2'
-        case 'D':
+        case 'SUPPORTER':
+        case 'IN_KIND':
+        case 'MEDIA_PARTNER':
           return 'class-d small-4 medium-3 large-2'
         default:
           console.log('Sponsor instance has invalid value "CLASS": ', sponsor)
