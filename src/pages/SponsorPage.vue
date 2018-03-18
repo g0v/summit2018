@@ -65,27 +65,27 @@ export default {
     /**
      * 顯示為一橫列的等級
      */
-    rowViewClasses () {
+    rowViewClasses() {
       return [
         { _key: 'EVANGELIST', TW: 'Evangelist', EN: 'Evangelist' },
         { _key: 'ACTIVIST', TW: 'Activist', EN: 'Activist' },
-        { _key: 'CIVICIST', TW: 'Civicist', EN: 'Civicist' }
+        { _key: 'CIVICIST', TW: 'Civicist', EN: 'Civicist' },
       ]
     },
     /**
      * 顯示為欄的等級
      */
-    columnViewClasses () {
+    columnViewClasses() {
       return [
         { _key: 'SUPPORTER', TW: 'Supporter', EN: 'Supporter' },
         { _key: 'IN_KIND', TW: 'In Kind', EN: 'In Kind' },
-        { _key: 'MEDIA_PARTNER', TW: 'Media Partner', EN: 'Media Partner' }
+        { _key: 'MEDIA_PARTNER', TW: 'Media Partner', EN: 'Media Partner' },
       ]
     },
     /**
      * 來自 Airtable 的贊助商資料
      */
-    sponsorsByClass () {
+    sponsorsByClass() {
       const logoType = window.innerWidth > 640 ? 'large' : 'small'
 
       const sponsors = SponsorData.records
