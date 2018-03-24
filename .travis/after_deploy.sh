@@ -29,7 +29,7 @@ echo -e ">>> Current Repo:$REPO --- Travis Branch:$TRAVIS_BRANCH"
 
 # Update submodule for main repo
 git clone git://github.com/g0v/summit.g0v.tw.git
-cd summit.g0v.tw.git
+cd summit.g0v.tw
 git remote
 git submodule update --remote
 git config user.email lawrencechou1024@gmail.com
