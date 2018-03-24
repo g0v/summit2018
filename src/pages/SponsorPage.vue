@@ -54,7 +54,6 @@
 
 <script>
 import groupBy from 'lodash/groupBy'
-import shuffle from 'lodash/shuffle'
 import SponsorData from '../../static/airtable_data/SPONSORS.json'
 import { SponsorUsButton } from '@/views'
 
@@ -96,7 +95,7 @@ export default {
           id: record.id,
         }))
 
-      return groupBy(shuffle(sponsors), 'CLASS')
+      return groupBy(sponsors, 'CLASS')
     },
   },
 }

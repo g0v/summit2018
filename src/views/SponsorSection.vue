@@ -43,7 +43,6 @@
 <script>
 import SponsorData from '../../static/airtable_data/SPONSORS.json'
 import shuffle from 'lodash/shuffle'
-import sortBy from 'lodash/sortBy'
 
 /** 設定贊助商大於一定數量，則打亂顯示順序，單純以卡片大小分別 */
 const SHUFFEL_THRESHOLE = null // 5
@@ -72,7 +71,7 @@ export default {
       if (SHUFFEL_THRESHOLE && sponsors.length >= SHUFFEL_THRESHOLE) {
         return shuffle(sponsors)
       }
-      return sortBy(sponsors, 'CLASS')
+      return sponsors
     },
   },
   methods: {
