@@ -1,7 +1,7 @@
 #!/bin/bash
 [  "$TRAVIS_PULL_REQUEST" != "false" ] || [  "$TRAVIS_BRANCH" != "master" ] && echo -e "\n" && exit 0
 
-git remote set-url origin git://github.com/g0v/summit.g0v.tw.git
+git remote set-url origin https://github.com/g0v/summit.g0v.tw.git
 git config --global user.email "lawrencechou1024@gmail.com"
 git config --global user.name "choznerol"
 mkdir -p ~/.ssh
