@@ -31,7 +31,7 @@ for TABLE_NAME in $TABLES
 do
   echo "Fetchinging $TABLE_NAME"
 
-  curl "https://api.airtable.com/v0/appE5bjcvPZjbkp81/${TABLE_NAME}?maxRecords=3&view=Grid%20view" \
+  curl "https://api.airtable.com/v0/appE5bjcvPZjbkp81/${TABLE_NAME}?view=Grid%20view" \
   -H "Authorization: Bearer ${AIRTABLE_KEY_G0V_SUMMIT_2018}" \
   > ${SAVE_TO}${TABLE_NAME}.json
 done
