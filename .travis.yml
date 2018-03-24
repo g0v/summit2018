@@ -5,6 +5,9 @@ node_js:
 branches:
   only:
   - master
+env:
+  global:
+    - secure: "k7SrvCji0ARlWjaO56MyU2k4VzDsqsTyi3nLHDRkFMcm6GcuxPMnggZ+cHKYvem0K7CW+r5/jMNWn2z6cavEd/N1HJmbDGYiucgIDTw5aSQztUMMdbXMJdsIxQei7JD3laei++UP+u2JFSvLtTWRQdXLV41qpgFxO06fsviDy266JJRkU9ejpn1e5+ePIiYSxrlZdaTQS9E542NZQVt6YkNHjcJa5zmIKPpReGHBBCXeiT1ETl4ASpMaViniNh+8GjmTSs7TDWLeBHuXN+3chEuJ9ozAsaUEpK/M7eUItJTEm2vcBIk8U12rbxYXHBzaiIU9W4JQp9SA1Eaau3TWzug49wUnUI/0QbmSkgO7TxHXs6SgfvkhIxQvF5GEU0Um454lfIseeJHP8c5lSA4iwQnb1SmfyxCLTSmkDvR6cWA5liAn4G6hukQ9EGs/vSuSrFNM8CDKpDjtaxy5NpLZKCfSjHkk3jS7Xln70itml/psyHVidn1K8Ct/+EVYjsmFNaSWHq5g1HGVbFki/Uulc3uWegPVipWpBWtEShwGtbh5H+oCgZyWffsMf5SXmrId3rRqMgjTgfC4H5TpL3P76K0+MetJKBx7/p/aQC8e7US6YNR9bXLPbUQ/6yibIrx53uvTSa7+4xWtCmc++LU3Lygol6TGAD/Z4RGHYBEA9CU="
 before_deploy:
   - yarn build
 cache:
@@ -19,3 +22,5 @@ deploy:
     branch: master
   edge:
     branch: pages-ivar-set
+after_deploy:
+  - .travis/after_deploy.sh
