@@ -30,10 +30,13 @@ echo -e ">>> Current Repo:$REPO --- Travis Branch:$TRAVIS_BRANCH"
 # Update submodule for main repo
 git clone git://github.com/g0v/summit.g0v.tw.git
 cd summit.g0v.tw
-git remote
+git status
+echo "Before submodule update: `cd 2018; git describe --always`"
+git submodule init
 git submodule update --remote
+echo "After submodule update: `cd 2018; git describe --always`"
 git config user.email lawrencechou1024@gmail.com
 git config user.name choznerol
 git add 2018
 git commit -m "update submodule '2018' to `cd 2018; git describe --always`"
-git push gh-pages > /dev/null 2>&1
+git push
