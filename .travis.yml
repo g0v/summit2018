@@ -23,4 +23,5 @@ deploy:
   edge:
     branch: pages-ivar-set
 after_deploy:
+  - chmod +x .travis/after_deploy.sh
   - .travis/after_deploy.sh
