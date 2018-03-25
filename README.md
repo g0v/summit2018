@@ -32,8 +32,9 @@ commit message 格式範例（那個圖案叫speech-balloon）：💬 更新g0v�
 ![開branch送PR](https://i.imgur.com/YigEsyQ.png)
 
 ### 更新贊助商、議程、講者資料
-1. 到 [Airtable 資料庫](https://airtable.com/invite/l?inviteId=invgmSI7Kq7mpXF1B&inviteToken=e0e3636599e4e385248fc8b714a89c7ec662a4d8cdb73b0143a311cd37f74b93) 更新相關資料、圖片。*編輯權限請 slack 工作群組裡的連結或私訊 @choznerol*
-2. 網站 24 小時會自動跑更新一次（通常是凌晨 4 點），如果要馬上更新，可以到 Travis CI 的 Build 頁面 https://travis-ci.org/g0v/summit2018/builds 點選 trigger build、確認，跑完後等待 2~5 分鐘網站上就會更新囉
+1. 到 [Airtable 資料庫](https://airtable.com/invite/l?inviteId=invgmSI7Kq7mpXF1B&inviteToken=e0e3636599e4e385248fc8b714a89c7ec662a4d8cdb73b0143a311cd37f74b93) 更新相關資料、圖片。**編輯權限請到 slack 工作群組裡找邀請連結或私訊 @choznerol**
+2. 網站每天會自動更新一次（通常是凌晨 4 點），如果要馬上更新，可以到 [Travis CI 的 Build 頁面](https://travis-ci.org/g0v/summit2018/builds) 點選 trigger build、確認，跑完後等待 2~5 分鐘網站上就會更新囉
+
 ![screen shot 2018-03-25 at 12 08 37 pm](https://user-images.githubusercontent.com/12410942/37871683-6de7a312-3026-11e8-92e4-9a313a53a7f8.png)
 
 
