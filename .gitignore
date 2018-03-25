@@ -18,7 +18,3 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
-
-\.travis/deploy-key
-
-\.travis/deploy-key\.pub

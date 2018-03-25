@@ -7,7 +7,7 @@ branches:
   - master
 env:
   global:
-    - secure: "odAsYvKfSioYsUDDdUpJQe3V+UtqhbP5f7DpkpoW+PPe8HRDVOKVBPxTLGpqUug8BTHxCC5QiMwp/BcLKN+o+cILiRF13uFtz4KTBuCA1Y3BAQHssNVzAaABHGaFJzNGGidBBU3CWo8V2E1cVJ8VHRSw8UTxGLiARIOyMELfA10ixViGNjv1bR2Fobn8tnBxK5tz08m4x1KByI4PwRDE87pAIkREAfohT+KYuGYhYv01Cip52/I1ITxsgGeqFYvHHqua6L85Acz9Dt74Y17Lb9kCR03VYn/KCC9+xiYsoDUCCRyJUJKSnkIxxKT1BylcnXqALywmgCYaRewsDst7B/X/s3rkNKnD1YIHZu4anff9/lMqlZU1ZTjtkll5CAZR50jxIKj0XBvcPZCqf0sLPGPAPDVcy08sSQDhWoGu00uxDfhN3Bx8pDbddsmkdKJjMYb7LtOUIiCwJIus6Jq5hXYIaua7NmJHxxpk7VAlJczOAPb6Gr6BkHe4SgKvMJjCU4hm4WNxkCvgBY2Awr+2+RuuXH0cYtLmyen9ccEMWP90NZYkKyVecZnHLrqcG4HPS0+r6xyicBZdrpR8qX9eyKQl0FxHCKQek9RejOjx0779TGz5ZqY1j+oerp4aSDeMcXGWHz12Gl6E+ebWlPYfdc/OT4RmMctpt0Rs5IBdcZI="
+    - secure: "NEMZOnQr++vM6ZibnCjukL9duIGKZQy6x/pRx3Yo424qfzPO+3GomdekCmL+YBfg5OlS9PaDWMYQWmZk0zE2yo8JmjITauZjjBp/e29ASc1WIkt6BCPSpejf5NPhYVkU6xzLsl8SxtSyOAWtAP2aY20Hjx3mBczLkh2rkp9ryD6I9PdQWaGvhXRQgcmzFLocyQxYVC5OJSCDkMwC7omORnUAp0adVBwFsF3ETBmEH/ZSkM1JdlTGurtx266Lbekb3hd4MS2dSmxpzD8NvN40M2y2n+Xr35g+VRuwoS5HTMlOeHh4y9Wio160lwNSxbOC2fNnM2RNALfGj5lSBSbcMHb3U/W5LxuZFb8ppCDul3OsFRgWoRs9K4I0CWaY1akh5Aju71Dya1waJV4IynAOcch68M6xLA3ZcVwVVvfsdCUsnCnYH5gV/CWNclNDjgMglOgKjvulOTJ5xmxgw8EXJTtGnmJsdhOu6z94g+wfFV7vOG36P0Q+gBC29jtLtrXNAigOHH2rNcElCFs0dbt39WJ9YvyBJymHx/+SaMA1qpykT2W3m5w1EqzkZzBc6n+ucGAc5amDD+h2mdWt0qjpwsZ6MpQSXSFTOqRj1MhbvpIPsfqxRgsUXSWv1qYmvyH0sBB5vK3MGUIZl0oygNVEo/yM/eKuOGKdZAzO9GnL8V4="
 before_deploy:
   - yarn build
 cache:
@@ -23,5 +23,5 @@ deploy:
   edge:
     branch: pages-ivar-set
 after_deploy:
-  - chmod +x .travis/after_deploy.sh
-  - .travis/after_deploy.sh
+  - chmod +x ./after_deploy.sh
+  - "./after_deploy.sh"
