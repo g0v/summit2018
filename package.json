@@ -9,7 +9,7 @@
     "start": "node build/dev-server.js",
     "test": "yarn lint",
     "pull_airtable": "./pull_airtable.sh ./static/airtable_data/",
-    "build": "yarn pull_airtable; node build/build.js",
+    "build": "yarn pull_airtable && node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix --ext .js,.vue src "
   },
