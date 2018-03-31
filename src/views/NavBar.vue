@@ -6,7 +6,7 @@
       ul.menu
         li: router-link(to="/").brand-logo.menu-text
           span.flex-container.align-middle.shahow
-            FaIcon(name="g0v-logo", :scale="1.5")
+            FaIcon.brand-icon(name="g0v-logo", :scale="1.5")
             TW.brand-title 2018 零時政府高峰會
             EN.brand-title summit 2018
     .top-bar-right
@@ -117,8 +117,12 @@ export default {
 
   .brand-logo {
     color: inherit;
+    .brand-icon {
+      margin-right: 0.7rem;
+      color: #eee;
+    }
     .brand-title {
-      color: white;
+      color: #eee;
     }
     font {
       @include vertical-center;
