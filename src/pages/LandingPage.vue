@@ -25,9 +25,12 @@
           TW.card-section
             h3 雙年會簡介
             p g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
+            p: a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9") 活動行為準則
           EN.card-section
             h3 About g0v summit
             p The g0v summit is a biennial event which focuses on open government, open source collaboration and civic participation. It was established in 2014 by the g0v community. The past two summits have gathered speakers from 19 countries and more than 2,000 local and international participants. The summit is run by volunteers, and it itself is a huge collaborative project of the community. We aim to build an open environment for everyone. Volunteers will help write online shared notes, make livestreaming videos, and do realtime translation, all of these are released under open licenses. Besides formal sessions, we emphasize on “unconference”, which enables participants to host sessions and organize their own summit. As part of the tradition in open source events, the summit always ends with lightening talks when everyone can share their projects on the stage.
+            p: a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9") CODE OF CONDUCT
+
       //- 時程
       section#timelime.cell.large-4
         TheTimeline(:items="timelineItems")
