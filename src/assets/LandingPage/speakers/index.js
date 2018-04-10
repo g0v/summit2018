@@ -23,7 +23,7 @@ export default {
     },
     {
       name: '羅珮琪',
-      title: '沒有人，衛福部專員',
+      title: '潛入衛福部中',
       avatarUrl: avatar.PeggyLo,
       photoUrl: photo.PeggyLo,
       description:
