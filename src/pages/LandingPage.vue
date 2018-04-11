@@ -134,7 +134,7 @@ export default {
       timelineItems: [
         {
           description: 'Call for Paper',
-          time: { tw: '3/15-4/30', en: 'March 15th - April 30th' },
+          time: { tw: '4/12-4/23', en: 'April 12th - April 23th' },
           'fa-icon': 'globe',
         },
         {
