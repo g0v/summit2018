@@ -3396,6 +3396,10 @@ ignore@^3.1.2, ignore@^3.3.3, ignore@^3.3.5, ignore@^3.3.6:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
 
+image-focus@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/image-focus/-/image-focus-1.0.3.tgz#4c83455ee413ffae7fc9a6a423764e93b08f5f66"
+
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"

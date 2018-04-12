@@ -55,7 +55,8 @@ module.exports = {
           resolve('src'),
           resolve('test'),
           resolve('node_modules/foundation-sites/js'),
-          resolve('node_modules/vue-awesome')
+          resolve('node_modules/vue-awesome'),
+          resolve('node_modules/image-focus')
         ]
       },
       {

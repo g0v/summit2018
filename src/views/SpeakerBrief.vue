@@ -11,7 +11,7 @@
           small.speaker-title {{ speaker.title }}
         p {{ speaker.description }}
   .mask.grid-x.align-middle.align-center
-    img.photo(:src="speaker.photoUrl")
+    FocusImage(:photo-url="speaker.photoUrl", :x="speaker.photoFocusPoint.x", :y="speaker.photoFocusPoint.y").photo-container
     a.youtube.button.primary.hollow.flex-container.align-middle(:href="speaker.youtube", target="_blank", :alt="'YouTube video of ' + speaker.name")
       FaIcon(name="youtube-play", scale="1.2")
       span &nbsp; Watch on YouTube
@@ -20,9 +20,11 @@
 
 <script>
 import has from 'lodash/has'
+import { FocusImage } from '@/components'
 
 export default {
   name: 'SpeakerBrief',
+  components: { FocusImage },
   props: {
     speaker: {
       type: Object,
@@ -51,9 +53,14 @@ export default {
     width: 100%;
     overflow: hidden;
     background-color: rgba($dark-gray, 0.75);
-    .photo {
-      opacity: 0.9;
+    top: 0px;
+    left: 0px;
+    .photo-container {
       width: 100%;
+      height: 100%;
+      & > .photo {
+        opacity: 0.9;
+      }
     }
     .youtube {
       position: absolute;
