@@ -39,7 +39,8 @@ export default {
 <style lang="scss" scoped>
 .cta-button {
   border: 1px solid $white;
-  margin: 1em initial;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
   color: $white;
   > div {
     height: 20px;
