@@ -4,7 +4,8 @@
     #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink.mb-50
       //- 我要贊助
       section#cta.cell.text-center.mb-50
-        SponsorUsButton
+        CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
+        CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
 
       #paragraphs.cell.large-8.grid-y
 
@@ -115,8 +116,8 @@
 
 <script>
 import { mapState } from 'vuex'
-import { HeroImage } from '@/components'
-import { SponsorUsButton, TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
+import { CtaButton, HeroImage } from '@/components'
+import { TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
@@ -124,7 +125,7 @@ export default {
   name: 'LandingPage',
   components: {
     HeroImage,
-    SponsorUsButton,
+    CtaButton,
     TheTimeline,
     SpeakerBrief,
     MediaQuote,

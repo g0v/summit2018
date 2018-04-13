@@ -1,6 +1,5 @@
 export { default as NavBar } from './NavBar'
 export { default as TheFooter } from './TheFooter'
-export { default as SponsorUsButton } from './SponsorUsButton'
 export { default as SponsorSection } from './SponsorSection'
 export { default as TheTimeline } from './TheTimeline'
 export { default as SpeakerBrief } from './SpeakerBrief'
