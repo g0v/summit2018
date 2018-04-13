@@ -11,8 +11,11 @@
         TW {{ item.time.tw || item.time }}
         EN {{ item.time.en || item.time }}
       p
-        TW {{ item.description.tw || item.description }}
-        EN {{ item.description.en || item.description }}
+        div
+          TW {{ item.description.tw || item.description }}&nbsp;
+          EN {{ item.description.en || item.description }}&nbsp;
+        a(v-if="item.href" :href="item.href" target="_blank")
+          FaIcon(name="external-link")
 
 </template>
 
@@ -80,17 +83,6 @@ $timeline-item-card-radius: $global-radius;
     content: '';
     display: table;
     width: 100%;
-  }
-
-  a {
-    color: $timeline-item-font-color;
-    font-weight: bold;
-    transition: $timeline-transition;
-
-    &:hover {
-      box-shadow: 0 1px 0px 0px $timeline-item-font-color;
-      transition: $timeline-transition;
-    }
   }
 
   .timeline-item {
