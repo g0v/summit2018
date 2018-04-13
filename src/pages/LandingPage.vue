@@ -133,13 +133,28 @@ export default {
     return {
       timelineItems: [
         {
-          description: 'Call for Paper',
+          description: { tw: '社群貢獻者申請', en: 'Contributor Registration' },
+          time: { en: 'From today to May 30th', tw: '即日起 - 5/30' },
+          'fa-icon': 'ticket',
+        },
+        {
+          description: { tw: '徵稿', en: 'Call for Paper' },
           time: { tw: '即日起至 6/30', en: 'From today to June 30th' },
           'fa-icon': 'globe',
         },
         {
-          description: { tw: '早鳥報名', en: 'Early bird tickets' },
-          time: { en: 'est. May', tw: '五月' },
+          description: { tw: '早鳥票', en: 'Early Bird Program' },
+          time: { en: 'From today to June 30th', tw: '即日起 - 6/30' },
+          'fa-icon': 'ticket',
+        },
+        {
+          description: { tw: '公布議程', en: 'Announce the Agenda' },
+          time: { en: 'Late July', tw: '7月下旬' },
+          'fa-icon': 'list',
+        },
+        {
+          description: { tw: '一般票', en: 'Standard Ticket' },
+          time: { en: 'Aug. 1st', tw: '8/1' },
           'fa-icon': 'ticket',
         },
         {
