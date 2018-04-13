@@ -134,7 +134,7 @@ export default {
       timelineItems: [
         {
           description: 'Call for Paper',
-          time: { tw: '即日起至 6/30', en: 'From today to June 20th' },
+          time: { tw: '即日起至 6/30', en: 'From today to June 30th' },
           'fa-icon': 'globe',
         },
         {
