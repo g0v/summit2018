@@ -137,6 +137,7 @@ export default {
           description: { tw: '社群貢獻者申請', en: 'Contributor Registration' },
           time: { en: 'Now until May 30th', tw: '即日起 - 5/30' },
           'fa-icon': 'ticket',
+          href: 'https://g0v-summit2018.kktix.cc/events/conf',
         },
         {
           description: { tw: '徵稿', en: 'Call for Paper' },
@@ -147,6 +148,7 @@ export default {
           description: { tw: '早鳥票', en: 'Early Bird Program' },
           time: { en: 'Now until June 30th', tw: '即日起 - 6/30' },
           'fa-icon': 'ticket',
+          href: 'https://g0v-summit2018.kktix.cc/events/contributor',
         },
         {
           description: { tw: '公布議程', en: 'Announce the Agenda' },
