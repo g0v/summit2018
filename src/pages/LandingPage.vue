@@ -134,17 +134,17 @@ export default {
       timelineItems: [
         {
           description: { tw: '社群貢獻者申請', en: 'Contributor Registration' },
-          time: { en: 'From today to May 30th', tw: '即日起 - 5/30' },
+          time: { en: 'Now until May 30th', tw: '即日起 - 5/30' },
           'fa-icon': 'ticket',
         },
         {
           description: { tw: '徵稿', en: 'Call for Paper' },
-          time: { tw: '即日起至 6/30', en: 'From today to June 30th' },
+          time: { tw: '即日起至 6/30', en: 'Now until June 30th' },
           'fa-icon': 'globe',
         },
         {
           description: { tw: '早鳥票', en: 'Early Bird Program' },
-          time: { en: 'From today to June 30th', tw: '即日起 - 6/30' },
+          time: { en: 'Now until June 30th', tw: '即日起 - 6/30' },
           'fa-icon': 'ticket',
         },
         {
@@ -154,12 +154,12 @@ export default {
         },
         {
           description: { tw: '一般票', en: 'Standard Ticket' },
-          time: { en: 'Aug. 1st', tw: '8/1' },
+          time: { en: 'August 1st', tw: '8/1' },
           'fa-icon': 'ticket',
         },
         {
           description: 'g0v Summit',
-          time: { en: 'October 5th - 7th', tw: '10/5-7' },
+          time: { en: 'October 5th - 7th', tw: '10/5 - 7' },
           'fa-icon': 'calendar-check-o',
         },
       ],
