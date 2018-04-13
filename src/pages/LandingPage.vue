@@ -150,7 +150,7 @@ export default {
         {
           description: { tw: '公布議程', en: 'Announce the Agenda' },
           time: { en: 'Late July', tw: '7月下旬' },
-          'fa-icon': 'ticket',
+          'fa-icon': 'list',
         },
         {
           description: { tw: '一般票', en: 'Standard Ticket' },
