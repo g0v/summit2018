@@ -47,7 +47,13 @@
 
     //- 贊助按鈕
     .cell.text-center.mb-50
-      SponsorUsButton
+      CtaButton(
+        TW="我要贊助"
+        EN="Sponsor Now"
+        TW_hover="g0v-summit-partner-2018@googlegroups.com"
+        EN_hover="g0v-summit-partner-2018@googlegroups.com"
+        href=`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`
+      )
 
   </div>
 </template>
@@ -55,11 +61,11 @@
 <script>
 import groupBy from 'lodash/groupBy'
 import SponsorData from '../../static/airtable_data/SPONSORS.json'
-import { SponsorUsButton } from '@/views'
+import { CtaButton } from '@/components'
 
 export default {
   name: 'SponsorPage',
-  components: { SponsorUsButton },
+  components: { CtaButton },
   computed: {
     /**
      * 顯示為一橫列的等級
