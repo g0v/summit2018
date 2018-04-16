@@ -21,6 +21,10 @@
         //-     TW 講者
         //-     EN Speakers
         li
+          UnderlineLink(to="/cfp")
+            TW 講者徵求
+            EN Call for Paper
+        li
           UnderlineLink(to="/sponsors")
             TW 贊助夥伴
             EN Sponsors
