@@ -1,5 +1,5 @@
 <template>
-  <span v-if="showSlotContent">
+  <span v-if="showSlotContent" class="en">
     <slot/>
   </span>
 </template>

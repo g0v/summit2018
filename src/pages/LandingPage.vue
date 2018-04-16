@@ -144,7 +144,8 @@ export default {
           description: { tw: '徵稿', en: 'Call for Paper' },
           time: { tw: '即日起至 6/30', en: 'Now until June 30th' },
           'fa-icon': 'globe',
-          href: 'https://docs.google.com/document/d/1ErCqlMQapiUlpFp-hjQPPc5Y99O5OmCAnK1wy8NudKY/edit#heading=h.c8t217imjz30',
+          href:
+            'https://docs.google.com/document/d/1ErCqlMQapiUlpFp-hjQPPc5Y99O5OmCAnK1wy8NudKY/edit#heading=h.c8t217imjz30',
         },
         {
           description: { tw: '早鳥票', en: 'Early Bird Program' },
