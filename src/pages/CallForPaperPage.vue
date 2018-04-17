@@ -81,11 +81,16 @@
               p If you are based outside Taiwan, you are eligible to apply for a travel stipend for transportation and accomodation. If you already have a sponsor, they will be listed as an official sponsor of g0v Summit.
               p **THIS IS A CALL FOR PROPOSAL**  Event registration will open later this year. Aside from submitting (now) a proposal to be a speaker, you will also be able to sign up for a session during the unconf and/or lightning talk during the Summit.
 
+            CtaButton(TW='投稿' EN='Submit proposal' href="https://docs.google.com/forms/d/e/1FAIpQLSeESRbF_tmRUzaAFdEcTl5vhor7thL3ahpiR3wDAJaSVUXFhw/viewform")
+
 </template>
 
 <script>
+import { CtaButton } from '@/components'
+
 export default {
   name: 'CallForPaperPage',
+  components: { CtaButton },
   computed: {
     topicsOnStage() {
       return {
