@@ -1,5 +1,5 @@
 <template lang="pug">
-  #call-for-paper-page
+  #call-for-paper-page.mb-50
     .grid-y
       .cell
         .grid-x.grid-padding-x.grid-margin-x
@@ -25,13 +25,16 @@
               h3 Calling for proposals now
               p Like our vibrant community, g0v Summit is great thanks to contributors’ efforts. This year, we strive to make the Summit an open platform for sharing and brainstorming ideas and projects. We hope that engineers and researchers, activists and creators, keep changing our society through technology, expertise, and the power of collaboration. If you have something to share that fits the topics below, we sincerely invite you to submit your proposal and to become a contributor.
 
+            .text-center
+              CtaButton(TW='馬上投稿' EN='Submit a proposal' href="https://docs.google.com/forms/d/e/1FAIpQLSeESRbF_tmRUzaAFdEcTl5vhor7thL3ahpiR3wDAJaSVUXFhw/viewform")
+
           //- 主題區塊
           .cell.large-12.large-order-3
             h3
               TW 我們關注的主題
               EN Topics
             .grid-x.grid-padding-x
-              .cell.large-7
+              .topicsGroup.cell.large-7
                 //-
                 h4 公民科技台上 / Civic Tech Project On Stage
                 .grid-y
@@ -41,7 +44,7 @@
                       .card-section(v-for="topic in topics")
                         p.topic {{ topic }}
 
-              .cell.large-5
+              .topicsGroup.cell.large-5
                 //-
                 h4 公民科技台下 / Behind the Scenes
                 .grid-y
@@ -80,8 +83,6 @@
               h3 Travel stipend
               p If you are based outside Taiwan, you are eligible to apply for a travel stipend for transportation and accomodation. If you already have a sponsor, they will be listed as an official sponsor of g0v Summit.
               p **THIS IS A CALL FOR PROPOSAL**  Event registration will open later this year. Aside from submitting (now) a proposal to be a speaker, you will also be able to sign up for a session during the unconf and/or lightning talk during the Summit.
-
-            CtaButton(TW='投稿' EN='Submit proposal' href="https://docs.google.com/forms/d/e/1FAIpQLSeESRbF_tmRUzaAFdEcTl5vhor7thL3ahpiR3wDAJaSVUXFhw/viewform")
 
 </template>
 
@@ -183,7 +184,7 @@ h3 {
 .category {
   display: inline;
   padding: 0.3em;
-  background: rgba(229, 87, 96, 0.75);
+  background: rgba($primary-color, 0.75);
 }
 .topic {
   &:hover {
