@@ -6,7 +6,8 @@
       section#cta.cell.text-center.mb-50
         CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
         CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
-        CtaButton(TW='講者徵求' EN='Call for Paper' href="https://docs.google.com/document/d/1ErCqlMQapiUlpFp-hjQPPc5Y99O5OmCAnK1wy8NudKY/edit#heading=h.c8t217imjz30")
+        // - TODO: Do not hard code url
+        CtaButton(TW='講者徵求' EN='Call for Paper' href="http://summit.g0v.tw/2018/cfp")
 
       #paragraphs.cell.large-8.grid-y
 
@@ -144,8 +145,8 @@ export default {
           description: { tw: '徵稿', en: 'Call for Paper' },
           time: { tw: '即日起至 6/30', en: 'Now until June 30th' },
           'fa-icon': 'globe',
-          href:
-            'https://docs.google.com/document/d/1ErCqlMQapiUlpFp-hjQPPc5Y99O5OmCAnK1wy8NudKY/edit#heading=h.c8t217imjz30',
+          // TODO: Do not hard code url
+          href: 'http://summit.g0v.tw/2018/cfp',
         },
         {
           description: { tw: '早鳥票', en: 'Early Bird Program' },
