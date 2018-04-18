@@ -122,7 +122,7 @@ export default {
           '群眾的力量與限制 / Power and limits of crowdsourcing',
           '政府、企業及公民社會的協作 / Collaboration between government, corporations and civil society',
         ],
-        '涵容的未來 / Bridging divides, healing world, invision future': [
+        '涵容的未來 / Bridge divides, heal the world, envision the future': [
           '污染、替代能源、環境永續 / Pollution, alternative energy & environmental sustainability',
           '人權及數位人權之戰 / Fighting for human rights and digital rights',
           '性別平權、酷兒人權 / Gender equality and LGBTQ rights',
