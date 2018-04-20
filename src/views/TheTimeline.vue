@@ -15,6 +15,7 @@
           TW {{ item.description.tw || item.description }}&nbsp;
           EN {{ item.description.en || item.description }}&nbsp;
         a(v-if="item.href" :href="item.href" target="_blank")
+          span Link
           FaIcon(name="external-link")
 
 </template>
