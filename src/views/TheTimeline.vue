@@ -115,7 +115,7 @@ $timeline-item-card-radius: $global-radius;
     }
 
     .timeline-content {
-      padding: 20px;
+      padding: 15px 20px;
       text-align: right;
       transition: $timeline-transition;
       width: 45%;
