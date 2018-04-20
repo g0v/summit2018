@@ -21,7 +21,7 @@
               TW {{ sponsor['BIO-CH'] }}
             a(:href="sponsor.URL" targe="_blank")
               span {{ sponsor.URL }} &nbsp;
-              FaIcon(name="external-link")
+              FaIcon(name="external-link" v-if="sponsor.URL")
 
     //- Column view (IN_KIND, MEDIA_PARTNER)
     template(v-for="classType in columnViewClasses")
