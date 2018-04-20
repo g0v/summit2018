@@ -11,3 +11,10 @@ h3 {
   border-bottom: 0.1em solid $primary-color;
   margin-bottom: 1rem;
 }
+
+// For all <FaIcon> components
+.fa-icon {
+  margin-right: .3em;
+  margin-left: .3em;
+  vertical-align: text-bottom;
+}

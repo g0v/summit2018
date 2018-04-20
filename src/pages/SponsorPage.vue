@@ -20,7 +20,7 @@
               EN {{ sponsor['BIO'] }}
               TW {{ sponsor['BIO-CH'] }}
             a(:href="sponsor.URL" targe="_blank")
-              span {{ sponsor.URL }} &nbsp;
+              span {{ sponsor.URL }}
               FaIcon(name="external-link" v-if="sponsor.URL")
 
     //- Column view (IN_KIND, MEDIA_PARTNER)
@@ -42,7 +42,7 @@
                 EN {{ sponsor['BIO'] }}
                 TW {{ sponsor['BIO-CH'] }}
               a(:href="sponsor.URL" targe="_blank")
-                span {{ sponsor.URL }} &nbsp;
+                span {{ sponsor.URL }}
                 FaIcon(name="external-link")
 
     //- 贊助按鈕
