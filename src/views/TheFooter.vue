@@ -28,6 +28,9 @@
         li(title="Co-edited event documents")
           a(href="http://beta.hackfoldr.org/g0v-summit2018/", target="_blank")
             FaIcon(name="hackfoldr")
+        li(title="Mail to organizer")
+          a(href="mailto:g0v-summit-committee-2018@googlegroups.com", target="_blank")
+            FaIcon(name="envelope-o")
     .cell.medium-shrink.small-expand.border.grid-x.align-middle.align-center
       small: p#copyright.text-center Copyright © g0v Summit 2018・
         a(href="https://github.com/g0v/summit2018", target="_blank") Source
