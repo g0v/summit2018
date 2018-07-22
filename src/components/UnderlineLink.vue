@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a {
+  color: $body-font-color;
+  font-weight: bold;
+}
+
 #wrapper {
   display: inline-block;
 
