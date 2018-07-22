@@ -239,7 +239,7 @@ th {
   // height: ??px;
 
   // TODO: Remove after above is fixed. This infomation should only be in <AgendumCell>
-  background-color: #f7f7f7;
+  background-color: $dark-gray;
   & > * {
     height: 100%;
   }
