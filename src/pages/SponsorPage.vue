@@ -4,8 +4,8 @@
 
     //- Row view (Evangelist, Activist, Civicist, Supporter)
     template(v-for="classType in rowViewClasses")
-      section(v-if="sponsorsByClass[classType._key]").class-a.cell.large-10
-        h3
+      section(v-if="sponsorsByClass[classType._key]").class-a.cell
+        h4
           TW {{ classType.TW }}
           EN {{ classType.EN }}
         .project-card.grid-x(v-for="sponsor in sponsorsByClass[classType._key]" :key="sponsor.id").grid-margin-x
@@ -13,7 +13,7 @@
             a(:href="sponsor.URL" targe="_blank")
               img.logo(:src="sponsor.LOGO")
           .cell.small-12.medium-8.large-9
-            h4
+            h6: b
               EN {{ sponsor['NAME'] }}
               TW {{ sponsor['NAME-CH'] }}
             p
@@ -25,8 +25,8 @@
 
     //- Column view (IN_KIND, MEDIA_PARTNER)
     template(v-for="classType in columnViewClasses")
-      section(v-if="sponsorsByClass[classType._key]").class-b.cell.large-10
-        h3
+      section(v-if="sponsorsByClass[classType._key]").class-b.cell
+        h4
           TW {{ classType.TW }}
           EN {{ classType.EN }}
         .grid-x.grid-margin-x
@@ -35,7 +35,7 @@
               .logo-container.text-center
                 a(:href="sponsor.URL" targe="_blank")
                   img.logo(:src="sponsor.LOGO")
-              h4
+              h6: b
                 EN {{ sponsor['NAME'] }}
                 TW {{ sponsor['NAME-CH'] }}
               p
@@ -110,7 +110,11 @@ export default {
   padding: 0.5em;
 
   section {
-    margin-bottom: 4rem;
+    max-width: $global-width;
+    h4 {
+      margin-top: 100px;
+      margin-bottom: 40px;
+    }
 
     .project-card {
       margin-bottom: 3rem;
@@ -123,19 +127,6 @@ export default {
         max-height: 100%;
       }
     }
-  }
-
-  .class-a {
-    // h3 { border-bottom-color: $classA }
-  }
-  .class-b {
-    // h3 { border-bottom-color: $classB }
-  }
-  .class-c {
-    // h3 { border-bottom-color: $classC }
-  }
-  .class-d {
-    // h3 { border-bottom-color: $classD }
   }
 }
 </style>
