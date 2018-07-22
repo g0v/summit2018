@@ -26,6 +26,9 @@
 # 安裝套件
 yarn
 
+# 抓取 Airtable 上的議程、講者等資料
+AIRTABLE_KEY_G0V_SUMMIT_2018=<Your_key_for_Airtable>  yarn pull_airtable
+
 # 在 localhost:8080 跑 dev server 開發
 yarn dev
 ```
