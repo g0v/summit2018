@@ -6,6 +6,8 @@
       section#cta.cell.text-center.mb-50
         CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
         CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
+        // - TODO: Do not hard code url
+        CtaButton(TW='講者徵求' EN='Call for Paper' href="http://summit.g0v.tw/2018/cfp")
 
       #paragraphs.cell.large-8.grid-y
 
@@ -147,18 +149,20 @@ export default {
           description: { tw: '社群貢獻者申請', en: 'Contributor Registration' },
           time: { en: 'Now until May 30th', tw: '即日起 - 5/30' },
           'fa-icon': 'ticket',
-          href: 'https://g0v-summit2018.kktix.cc/events/conf',
+          href: 'https://g0v-summit2018.kktix.cc/events/contributor',
         },
         {
           description: { tw: '徵稿', en: 'Call for Paper' },
           time: { tw: '即日起至 6/30', en: 'Now until June 30th' },
           'fa-icon': 'globe',
+          // TODO: Do not hard code url
+          href: 'http://summit.g0v.tw/2018/cfp',
         },
         {
           description: { tw: '早鳥票', en: 'Early Bird Program' },
           time: { en: 'Now until June 30th', tw: '即日起 - 6/30' },
           'fa-icon': 'ticket',
-          href: 'https://g0v-summit2018.kktix.cc/events/contributor',
+          href: 'https://g0v-summit2018.kktix.cc/events/conf',
         },
         {
           description: { tw: '公布議程', en: 'Announce the Agenda' },

@@ -166,8 +166,7 @@
         <tspan y="836">
           <tspan v-if="lang==='TW'">中央研究院人文館</tspan>
           <tspan v-else y="834" class="smaller">
-            <tspan x="204">Joint Library of Humanities and Social</tspan>
-            <tspan x="204" dy="28">Sciences, Academia Sinica</tspan>
+            <tspan x="204">Taipei</tspan>
           </tspan>
           <tspan>
             <!-- <tspan v-if="lang==='TW'">/ 台北市南港區研究院路二段128號</tspan> -->

@@ -1,7 +1,7 @@
 // Source Sans Pro font
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
 // Init Foundation
-@include foundation-everything(true);
+@include foundation-everything($prototype: true);
 // Load icon fonts
 @import './icons';
 // Import Motion UI
@@ -10,6 +10,13 @@
 h3 {
   border-bottom: 0.1em solid $primary-color;
   margin-bottom: 1rem;
+}
+
+// For all <FaIcon> components
+.fa-icon {
+  margin-right: .3em;
+  margin-left: .3em;
+  vertical-align: text-bottom;
 }
 
 h4 {
