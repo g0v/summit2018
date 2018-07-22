@@ -103,6 +103,7 @@ export default {
 
 <style lang="scss" scoped>
 .sponsor-section {
+  background-color: $dark-gray;
   ._hide {
     opacity: 0;
     transition: opacity 0.3s ease-in 0.1s;
