@@ -1,11 +1,7 @@
 <template>
   <section id="speaker-page" class="grid-container">
-    <div class="grid-x grid-margin-x">
-      <template v-for="(speaker, index) in speakers">
-        <!-- Spacers push five <SpeakerIntro/> in a row -->
-        <div v-if="index!==0&&index%5===0" :key="`1st-spacer:${speaker.id}`" class="spacer cell large-1 medium-0 small-0"/>
-        <div v-if="index%5===0" :key="`2nd-spacer:${speaker.id}`" class="spacer cell large-1 medium-0 small-0"/>
-
+    <div class="grid-x grid-margin-x large-up-5">
+      <template v-for="speaker in speakers">
         <!-- Speaker avatar and title -->
         <SpeakerIntro
           :key="`speaker-intro:${speaker.id}`"
@@ -38,10 +34,5 @@ export default {
 #speaker-page {
   margin-top: 140px;
   margin-bottom: 140px;
-
-  // TODO: Spacers are used to get five <SpeakerInfo/> in a row. Try better approch.
-  // .spacer {
-  //   border: 1px dashed green;
-  // }
 }
 </style>
