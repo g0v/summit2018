@@ -4,6 +4,7 @@ import LandingPage from '@/pages/LandingPage'
 import SponsorPage from '@/pages/SponsorPage'
 import CallForPaperPage from '@/pages/CallForPaperPage'
 import AgendaPage from '@/pages/AgendaPage'
+import SpeakerPage from '@/pages/SpeakerPage'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/agenda',
       name: 'AgendaPage',
       component: AgendaPage,
+    },
+    {
+      path: '/speakers',
+      name: 'SpeakerPage',
+      component: SpeakerPage,
     },
   ],
 })
