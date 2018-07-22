@@ -1,43 +1,48 @@
 <template>
-  <section class="sponsor-section grid-x grid-padding-x">
-    <div
-      v-for="sponsor in sponsors"
-      :class="'cell ' + getClassName(sponsor)"
-      :key="sponsor.id"
-    >
-      <div
-        :style="{backgroundImage: `url(${sponsor.LOGO})`}"
-        class="card"
-        @click="selected = (selected === sponsor.id ? null : sponsor.id)"
-      >
-        <!-- Hover 時的遮罩 -->
-        <div class="overlay">
-          <div class="content">
+  <div class="sponsor-section">
+    <div class="grid-container">
+      <h4><TW>贊助夥伴</TW><EN>Sponsors</EN></h4>
+      <section class="grid-x grid-padding-x align-center">
+        <div
+          v-for="sponsor in sponsors"
+          :class="'cell ' + getClassName(sponsor)"
+          :key="sponsor.id"
+        >
+          <div
+            :style="{backgroundImage: `url(${sponsor.LOGO})`}"
+            class="card"
+            @click="selected = (selected === sponsor.id ? null : sponsor.id)"
+          >
+            <!-- Hover 時的遮罩 -->
+            <div class="overlay">
+              <div class="content">
 
-            <!-- 贊助商名稱 -->
-            <h5 class="name">
-              <EN >{{ sponsor['NAME'] }}</EN>
-              <TW>{{ sponsor['NAME-CH'] }}</TW>
-              <a v-if="sponsor.URL" :href="sponsor.URL" class="link" target="_blank">
-                <FaIcon name="external-link"/>
-              </a>
-            </h5>
+                <!-- 贊助商名稱 -->
+                <h5 class="name">
+                  <EN >{{ sponsor['NAME'] }}</EN>
+                  <TW>{{ sponsor['NAME-CH'] }}</TW>
+                  <a v-if="sponsor.URL" :href="sponsor.URL" class="link" target="_blank">
+                    <FaIcon name="external-link"/>
+                  </a>
+                </h5>
 
-            <!-- 介紹文字 -->
-            <p class="bio">
-              <EN>{{ sponsor['BIO'] }}</EN>
-              <TW>{{ sponsor['BIO-CH'] }}</TW>
-            </p>
+                <!-- 介紹文字 -->
+                <p class="bio">
+                  <EN>{{ sponsor['BIO'] }}</EN>
+                  <TW>{{ sponsor['BIO-CH'] }}</TW>
+                </p>
 
-            <!-- 展開符號 -->
-            <span class="blur-footer">
-              <FaIcon name="caret-down"/>
-            </span>
+                <!-- 展開符號 -->
+                <span class="blur-footer">
+                  <FaIcon name="caret-down"/>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -104,6 +109,10 @@ export default {
 <style lang="scss" scoped>
 .sponsor-section {
   background-color: $dark-gray;
+  h4 {
+    padding: 30px 0;
+  }
+
   ._hide {
     opacity: 0;
     transition: opacity 0.3s ease-in 0.1s;
@@ -172,22 +181,18 @@ export default {
     }
   }
 
-  // 不同等級的顏色分別
+  // 不同等級的大小分別
   .class-a .card {
     height: 8rem;
-    border-top: 5px solid $classA;
   }
   .class-b .card {
     height: 7rem;
-    border-top: 4px solid $classB;
   }
   .class-c .card {
     height: 6rem;
-    border-top: 3px solid $classC;
   }
   .class-d .card {
     height: 5rem;
-    border-top: 3px solid $classD;
   }
 }
 </style>

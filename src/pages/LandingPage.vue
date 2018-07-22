@@ -118,12 +118,6 @@
                   <img alt="g0v flickr" src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_c.jpg" width="100%" height="auto">
                 </a>
 
-          //- 尾部贊助商 logo 的標題
-          .cell
-            h3
-              TW 贊助夥伴
-              EN Sponsors
-
 </template>
 
 <script>
