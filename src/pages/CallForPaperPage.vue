@@ -26,7 +26,7 @@
               p Like our vibrant community, g0v Summit is great thanks to contributors’ efforts. This year, we strive to make the Summit an open platform for sharing and brainstorming ideas and projects. We hope that engineers and researchers, activists and creators, keep changing our society through technology, expertise, and the power of collaboration. If you have something to share that fits the topics below, we sincerely invite you to submit your proposal and to become a contributor.
 
             .text-center
-              CtaButton(TW='馬上投稿' EN='Submit a proposal' href="https://docs.google.com/forms/d/e/1FAIpQLSeESRbF_tmRUzaAFdEcTl5vhor7thL3ahpiR3wDAJaSVUXFhw/viewform")
+              CtaButton(TW='馬上投稿（已截止）' EN='Submit a proposal（closed）' href="https://docs.google.com/forms/d/e/1FAIpQLSeESRbF_tmRUzaAFdEcTl5vhor7thL3ahpiR3wDAJaSVUXFhw/viewform")
 
           //- 主題區塊
           .cell.large-12.large-order-3

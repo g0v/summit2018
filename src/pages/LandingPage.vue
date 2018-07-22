@@ -6,8 +6,6 @@
       section#cta.cell.text-center.mb-50
         CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
         CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
-        // - TODO: Do not hard code url
-        CtaButton(TW='講者徵求' EN='Call for Paper' href="http://summit.g0v.tw/2018/cfp")
 
       #paragraphs.cell.large-8.grid-y
 
@@ -117,12 +115,6 @@
                 <a data-flickr-embed="true" data-header="false" data-footer="false"  href="https://www.flickr.com/photos/g0v/albums/72157692801078814" title="g0v flickr">
                   <img alt="g0v flickr" src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_c.jpg" width="100%" height="auto">
                 </a>
-
-          //- 尾部贊助商 logo 的標題
-          .cell
-            h3
-              TW 贊助夥伴
-              EN Sponsors
 
 </template>
 
