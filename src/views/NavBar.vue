@@ -16,10 +16,10 @@
         //-   UnderlineLink(to="/schedule").disabled
         //-     TW 議程
         //-     EN Schedule
-        //- li
-        //-   UnderlineLink(to="/speakers")
-        //-     TW 講者
-        //-     EN Speakers
+        li
+          UnderlineLink(to="/speakers")
+            TW 講者
+            EN Speakers
         li
           UnderlineLink(to="/cfp")
             TW 講者徵求
