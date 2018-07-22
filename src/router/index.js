@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import LandingPage from '@/pages/LandingPage'
 import SponsorPage from '@/pages/SponsorPage'
 import CallForPaperPage from '@/pages/CallForPaperPage'
+import AgendaPage from '@/pages/AgendaPage'
 
 Vue.use(Router)
 
@@ -25,6 +26,11 @@ export default new Router({
       path: '/cfp',
       name: 'CallForPaperPage',
       component: CallForPaperPage,
+    },
+    {
+      path: '/agenda',
+      name: 'AgendaPage',
+      component: AgendaPage,
     },
   ],
 })
