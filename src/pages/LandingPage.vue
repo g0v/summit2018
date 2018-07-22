@@ -6,8 +6,6 @@
       section#cta.cell.text-center.mb-50
         CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
         CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
-        // - TODO: Do not hard code url
-        CtaButton(TW='講者徵求' EN='Call for Paper' href="http://summit.g0v.tw/2018/cfp")
 
       #paragraphs.cell.large-8.grid-y
 
