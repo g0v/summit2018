@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$timeline-color: $white;
+$timeline-color: $dark-gray;
 $timeline-transition: all 0.25s ease-in;
 $timeline-item-card-bg: $card-background; // $white;
 $timeline-item-font-color: $black; // $white;
