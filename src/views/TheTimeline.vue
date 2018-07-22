@@ -15,6 +15,7 @@
           TW {{ item.description.tw || item.description }}&nbsp;
           EN {{ item.description.en || item.description }}&nbsp;
         a(v-if="item.href" :href="item.href" target="_blank")
+          span Link
           FaIcon(name="external-link")
 
 </template>
@@ -114,7 +115,7 @@ $timeline-item-card-radius: $global-radius;
     }
 
     .timeline-content {
-      padding: 20px;
+      padding: 15px 20px;
       text-align: right;
       transition: $timeline-transition;
       width: 45%;
