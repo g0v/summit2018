@@ -1,0 +1,2025 @@
+{
+  "records": [
+    {
+      "id": "bdc26091-d326-46df-ac1c-ff5629c34eaf",
+      "fields": {
+        "TITLE": "入場時間",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-05T07:30:00+08:00",
+        "END": "2018-10-05T09:00:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "40ab2412-a5e7-4b83-846c-c4a030ed7e98",
+      "fields": {
+        "TITLE": "開幕",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-05T09:00:00+08:00",
+        "END": "2018-10-05T09:10:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "bb0f3495-9929-425b-b653-cc5407844b15",
+      "fields": {
+        "TITLE": "人工智慧民主化在台灣",
+        "summary":
+          "有人說，資料是新時代的石油；那麼，人工智慧（AI）就是新時代的電力，未來將不會有任何現代產業與AI無關。\n\n問題在於 AI 技術的引入會面臨兩大挑戰，挑戰一，AI 是解決特定問題的技術；挑戰二，AI 並沒有辦法 plug & play（即插即用）。幸運的是，這一波（也是人類史上的第三波）的AI浪潮伴隨著「人工智慧民主化 （AI Democratization）」的趨勢，最重要的概念是，AI技術不應該只被某些跨國企業所壟斷，應該讓所有需要的人都有機會參與及使用。\n\n我個人所看到的是機會，因為這個AI民主化趨勢，AI技術發展在各領域所帶來的機會無窮無盡，是習慣等待國外大廠解決方案的我們應該把握的。當然，目前普遍遇到的挑戰是 AI 人才的缺乏，台灣人工智慧學校為此而成立。希望很快地讓「找不到人才」不再成為企業發展人工智慧的障礙，同時建立「自己的問題自己解決」的文化，打破被技術殖民的慣性，重建社會自信。\n\n我將在這場演講中，分享台灣人工智慧學校的來龍去脈，如何從一個稱為 Project Theta 的計畫開始，慢慢確認人才培育的需求，以及形塑台灣人工智慧學校的雛型。這個故事從 2017 年三月的某個早晨開始...",
+        "VENUE": "ALL",
+        "START": "2018-10-05T09:10:00+08:00",
+        "END": "2018-10-05T10:00:00+08:00",
+        "SLI.DO": "SITCON18-K1",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "ca0eeb7a-c2a0-4748-8dd2-976a9931a3df",
+      "fields": {
+        "TITLE": "計算中的遊戲與模仿",
+        "summary":
+          "科技中，有許多從遊戲和模仿啟發的概念與方法。圖靈測試及生成對抗網路都是有名的例子。\n因為大眾媒體的特性，在報導熱門科技時，常會較為誇大。但科學技術的領域廣大，有許多錯綜複雜的道路。還有許多其他的遊覽路線。\n我們將沿著遊戲與模仿這個主軸，瀏覽一些不同的技術及理論。其中一些與熱門的深度學習和區塊鏈有關，另一些則是基礎的理論像是微積分有關。",
+        "VENUE": "ALL",
+        "START": "2018-10-05T10:10:00+08:00",
+        "END": "2018-10-05T11:00:00+08:00",
+        "SLI.DO": "SITCON18-K2",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "d946b6e1-d826-4c64-86a4-bf013bcc0c06",
+      "fields": {
+        "TITLE": "奔跑吧！台北：遊戲開發經驗分享",
+        "summary":
+          "本議程將分享簡訊設計製作柯市府網頁遊戲《奔跑吧！台北》的相關經驗，關於我們如何在兩個半月內從零開始企劃、美術繪製、動態製作、前端實作到遊戲上線。 由於團隊人數少、且遊戲開發經驗並不多，因此在這段摸索的過程中，我們學到了不少遊戲開發的知識、踩了很多雷、也發生許多有趣的事，希望能藉此機會將這些幕後花絮與會眾分享。大家一起來奔跑吧！！！",
+        "VENUE": "R0",
+        "START": "2018-10-05T11:10:00+08:00",
+        "END": "2018-10-05T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T01",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "97f3ae3d-100e-4f78-87eb-61795a733600",
+      "fields": {
+        "TITLE": "午餐",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-05T11:50:00+08:00",
+        "END": "2018-10-05T12:40:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "a2a06a0e-e086-43db-8d63-6c6b40bd9bd6",
+      "fields": {
+        "TITLE": "台灣學術環境網路的監管與治理",
+        "summary":
+          "除了日前美國 FCC 正式宣佈廢除網路中立性法案，引發大眾對企業資本控制網路的擔憂外；以維護國家資安爲目的的《資通安全管理法》草案也在國內引起關注，部分聲音反對政府以資訊安全爲由過度擴大其監控人民的權力；而在臺灣校園學術網路現場的網路限制，甚至是 TANet 的角色問題也都經常引發使用者質疑。\n學校網路鎖挖礦、鎖 P2P 真的合理嗎？爲什麼計中可以錄我上網的封包？PTT 跟無名從學網開始發展是因爲什麼？TANET 跟校園網路又是什麼關係、如何運作的呢？\n在 SITCON 2017 的 Keynote 演講中，我們討論了資訊安全與網路治理的關係，以及人們身處現代科技中所忽略甚至犧牲的權利。《一九八四》書中的老大哥是否已出現在現代網路中？今年的 SITCON 論壇，我們將邀集網路監管工作的參與者一同對談，從學術網路出發，討論網路監管對使用者造成的影響。",
+        "VENUE": "R0",
+        "START": "2018-10-05T12:40:00+08:00",
+        "END": "2018-10-05T14:10:00+08:00",
+        "SLI.DO": "SITCON18-P",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "a868e04f-d113-4de7-9131-c5d417f21463",
+      "fields": {
+        "TITLE": "休息時間",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-05T14:10:00+08:00",
+        "END": "2018-10-05T14:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "f3c6853d-2b0e-464c-8837-9411455961d8",
+      "fields": {
+        "TITLE": "深度學習如何深度學習",
+        "summary":
+          "目標客群是對 AI、deep learning 有興趣，但礙於學校未開課，或是不知道從何開始，還沒有學習很深入（還沒有深厚實作能力）的人。\n會介紹 deep learning 是什麼，主流的 Python frameworks 有哪些\n接著分享適合打基礎的線上課程\n再講深入造化的資源（Facebook 社團、論文網站、Youtube channels、Medium 文章、讀書會......）\n最後提出能夠有所「產出」的方式（研究、實習），以及爭取機會的管道",
+        "VENUE": "R0",
+        "START": "2018-10-05T14:50:00+08:00",
+        "END": "2018-10-05T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S01",
+        "slide":
+          "https://docs.google.com/presentation/d/1pnLqrJNLHRFuDvJcg_x8QkLT2Da67qixdEGjZbSUYxs/edit?usp=sharing",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "f5f60401-513a-420c-aaff-2e3bd495feae",
+      "fields": {
+        "TITLE": "Use AI to make our own anime girl face",
+        "summary":
+          "近年來 Deep Learning 興起，人人都在用 AI 翻轉各行各業，身為專業的動漫迷當然也要利用 AI 來創造屬於自己的動漫女孩？",
+        "VENUE": "R0",
+        "START": "2018-10-05T15:05:00+08:00",
+        "END": "2018-10-05T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S02",
+        "slide":
+          "https://www.slideshare.net/ssuser90c8ab/use-ai-to-make-our-own-anime-girl-face-89933023/ssuser90c8ab/use-ai-to-make-our-own-anime-girl-face-89933023",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "a4e52ef0-f96c-4f83-8331-69e34212dfcd",
+      "fields": {
+        "TITLE": "我單槍匹馬的開源貢獻之路",
+        "summary":
+          "本議程，主要是分享兩年來在 GitHub 上的開源貢獻，還有過程中所遇到的趣事以及我的貢獻對於專案日後的影響。",
+        "VENUE": "R0",
+        "START": "2018-10-05T15:20:00+08:00",
+        "END": "2018-10-05T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S03",
+        "slide":
+          "https://speakerdeck.com/peter279k/wo-dan-qiang-pi-ma-de-kai-yuan-gong-xian-zhi-lu",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "88b10a10-773e-46fa-a89e-4b1fe17ed145",
+      "fields": {
+        "TITLE": "從學生到放火實習生的奇幻旅程",
+        "summary":
+          "去年暑假到 P 公司實習至今七個月，從讀程式碼到開發新功能，終於成為有生產力的人員。期間除了深刻感受到維護商業服務與自己開發專案，在流程與其他諸多細節上的差異外，同時要試圖平衡感情、課業、工作、休息等等。這場議程著重在經驗分享，不會有任何技術上的討論，希望能讓對實習迷惘的學生們有所啟發。",
+        "VENUE": "R0",
+        "START": "2018-10-05T15:40:00+08:00",
+        "END": "2018-10-05T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T02",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "82bb24ad-0bd0-4c5d-9cd6-73514c5bab3e",
+      "fields": {
+        "TITLE": "想學 OS, 從 MINIX 開始",
+        "summary":
+          "Linux kernel 原始碼已經超過兩千萬行, 若直接貿然的學習 Linux , 將會引來一身挫折, 顯然 Linux kernel 已經不是初學者最好的選擇, 而 MINIX 本身就是一個用來做教學的 OS 在原始碼的撰寫上以淺顯易懂為主, 不像 Linux 是以效能為導向的原始碼艱澀難懂, 而我所帶來的是 MINIX 的現況以及特色",
+        "VENUE": "R0",
+        "START": "2018-10-05T16:30:00+08:00",
+        "END": "2018-10-05T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T03",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "99467ffb-2ba1-4d73-bf54-9e2af09588c5",
+      "fields": {
+        "TITLE":
+          "Lightning Talk\n全台最大天氣 App 上線啦\n文件處理必勝法\n在學校推廣數位加密貨幣理念是不是搞錯了什麼？\nROS&Gazebo Robot Simulation\n捍衛兩蔣，從資安做起\n在雲林推開源是不是搞錯了什麼 !?\nSITA （SITCON x HK）",
+        "summary":
+          "全台最大天氣 App 上線啦 - Eric\n文件處理必勝法 - 林博仁\n在學校推廣數位加密貨幣理念是不是搞錯了什麼？ - qaxrbwll\nROS&Gazebo Robot Simulation - 張舜傑\n捍衛兩蔣，從資安做起 - 藏鏡人\n在雲林推開源是不是搞錯了什麼 !? - 0 夢\nSITA （SITCON x HK）- Gianna & Clara",
+        "VENUE": "ALL",
+        "START": "2018-10-05T17:25:00+08:00",
+        "END": "2018-10-05T17:45:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "45a9c6da-4a71-448c-9332-1de5ba36b203",
+      "fields": {
+        "TITLE": "閉幕",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-05T17:45:00+08:00",
+        "END": "2018-10-05T17:55:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "980dab0d-c937-43ea-a975-3dd6ff1bfe05",
+      "fields": {
+        "TITLE": "瀏覽器開發與開源經驗",
+        "summary":
+          "過去我突然想往開源社群發展，誤打誤撞便開始了我對 Mozilla 的 Servo 專案的貢獻之路。Servo 專案是新一代瀏覽器引擎，強調平行化處理，因此處理速度會更快。在上面我算是活躍社群貢獻者，日積月累下來對瀏覽器引擎開發也有更深的理解！這場演講將分兩部分，先介紹原理、談一下進階的實作方式，再分享過去我在開源上的心路歷程。",
+        "VENUE": "R1",
+        "START": "2018-10-05T11:10:00+08:00",
+        "END": "2018-10-05T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T11",
+        "SLIDE": "https://github.com/tigercosmos/SITCON2018",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "773c7691-59e2-434c-9a9f-0c38cce30584",
+      "fields": {
+        "TITLE":
+          "人工智慧背後的黑暗故事: 當人人都懂人工智慧後，對資安領域會產生甚麼質變",
+        "summary":
+          "當資料驅動的人工智慧興起，假想每個人都透過吳恩達，李宏毅老師的課程而成為 AI 專家，對於有 30 年老經驗的趨勢科技會造成甚麼挑戰。而根據最新報告，5 年內人工智慧恐淪駭客利器，它會如何影響你（妳）所身處的物聯世代？趨勢科技又該如何因應，保護企業與個人的資訊安全。無論未來是否選擇進入資安領域，迎戰 AI，仍在學的你們必須有什麼準備。",
+        "VENUE": "R1",
+        "START": "2018-10-05T12:00:00+08:00",
+        "END": "2018-10-05T12:30:00+08:00",
+        "SLI.DO": "SITCON18-SP1",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "08c2816d-ea25-4169-89e6-dc0e0bc7b9a4",
+      "fields": {
+        "TITLE": "由淺入坑區塊鏈～從認識架構到應用智能合約！",
+        "summary":
+          "隨著科技的發展，網路逐漸引領世界，而如何在網路上取得信任，便成為了眾人注目的難題。\n透過區塊鏈的概念，我們得以將不易被信任的合約內容，存於區塊鏈中，將其化為智能合約，形成永恆的紀錄！\n相信參與這堂議程，必能使得大眾對未來的網路發展更加理解；透過電腦科學的普及，也能使去中心化與社群圈踏出更大的一步！",
+        "VENUE": "R1",
+        "START": "2018-10-05T12:40:00+08:00",
+        "END": "2018-10-05T13:20:00+08:00",
+        "SLI.DO": "SITCON18-T12",
+        "slide":
+          "https://speakerdeck.com/williammou/you-qian-ru-keng-qu-kuai-lian-cong-ren-shi-jia-gou-dao-ying-yong-zhi-neng-he-yue",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "3e1990e5-17bc-45ad-8a77-b2eab939724c",
+      "fields": {
+        "TITLE": "跨越時間軸 - 創造美好使用者體驗",
+        "summary":
+          "前端發展得非常快速，瀏覽器對於 JS 非同步處理也越來越順暢。針對使用者網頁體驗上需求越趨複雜，本議程將以提升『UX』為目的主軸，呈現一系列的應用來介紹 RxJS 的觀念，將複雜非同步之行為簡化成漂亮而且好管理的程式碼。",
+        "VENUE": "R1",
+        "START": "2018-10-05T13:30:00+08:00",
+        "END": "2018-10-05T14:10:00+08:00",
+        "SLI.DO": "SITCON18-T13",
+        "slide":
+          "https://docs.google.com/presentation/d/1Js18_A0ph2q2LH4KgZtmw7WA4fY3TNYp-N6edVuPLGI/edit?usp=sharing",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "d6daa14b-39ef-410b-883c-0b1c3ae02a60",
+      "fields": {
+        "TITLE": "600 秒學會 UI 設計",
+        "summary":
+          "使用者介面（UI）廣泛應用於我們生活中，小至網頁前端，大至廣告招牌，都需要仰賴 UI 設計來優化使用者體驗。很遺憾地，由於美術課都被拿去上數學，平時又遭受華國美學摧殘，一般人早已喪失正常的設計能力。本議程藉由UI發展史的風格轉變，帶出各種設計技巧，如排版架構，配色原理等，讓大家重新設計出賞心悅目的使用者介面。",
+        "VENUE": "R1",
+        "START": "2018-10-05T14:50:00+08:00",
+        "END": "2018-10-05T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S11",
+        "SLIDE": "https://goo.gl/Y1YNa6",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "3845cd7d-985b-4993-8ef8-fdf7a190d5ad",
+      "fields": {
+        "TITLE": "東方與西方的文化差異討論",
+        "summary":
+          "Discussion on cultural differences between Easterners & Westerners (東方與西方的文化差異討論)",
+        "VENUE": "R1",
+        "START": "2018-10-05T15:05:00+08:00",
+        "END": "2018-10-05T15:15:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "": "// 無",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "729b8687-378b-4d3c-9332-578558951df6",
+      "fields": {
+        "TITLE": "泡沫列車：一趟加密貨幣的經濟之旅",
+        "summary":
+          "金融秩序逐漸鬆動，這班列車，是開往未來的重要關鍵！趨漸成熟的金融體系享受中心化的大權在握，疏忽區塊鏈新技術的崛起，與背後「去中心化」的核心訴求，中本聰以實際行動證明決心，讓舊有秩序不得不陷入反思，搭上前往未知未來的列車。這趟乍看泡沫的旅程，卻成為重整金融的必經過程！區塊鏈這大型去中心化帳本風靡市場，世界掀起全面改革！\n人類無窮欲望伴隨的投機行為，讓眾多加密貨幣市價一飛衝天，許多人因此一夜致富，沒有趕上潮流的人們，紛紛看衰市場預言泡沫化即將來臨，但要反思的，不僅只是表面科技……從中心化到去中心化訴求，在極速飛馳的泡沫列車之上，政府權力是否面臨挑戰，2008 年後備受質疑的金融體系能否接納新科技找到更好的方向，讓政經市場重新繁榮？（感謝《屍速列車》熱情贊助文案）",
+        "VENUE": "R1",
+        "START": "2018-10-05T15:40:00+08:00",
+        "END": "2018-10-05T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T14",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "5c4865f2-4448-4de5-abdb-bf1686cad7d8",
+      "fields": {
+        "TITLE": "為什麼做好遊戲那麼難？｜獨立團隊的秘辛分享－誰是國王",
+        "summary":
+          "遊戲到底是怎麼誕生的呢？在大三時剛好有機會與同學組成團隊，一起製作遊戲，但是獨立遊戲要面臨的挑戰遠比我們想像中的多更多，在這次 SITCON 我希望能夠透過自身的經驗，講解多人遊戲的程式與美術設計會遇到的困難點，還有獨立團隊在遊戲開發上會遇到的大小問題，希望讓想加入遊戲圈的朋友可以有大概的了解。",
+        "VENUE": "R1",
+        "START": "2018-10-05T16:30:00+08:00",
+        "END": "2018-10-05T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T15",
+        "SLIDE": "",
+        "": "// 不提供",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "408d3cd1-2004-4a0c-bd8c-e0067ccaa98f",
+      "fields": {
+        "TITLE": "空拍機廣域的監測路徑規劃",
+        "summary":
+          "日前，無人機的應用日益增廣，許多人都使用無人機空拍和收集地區的數據，空拍機是更有彈性，方便和廉價比以往的觀測方式，但是還未有主流的空拍機監控路徑規劃的方法，大部分目前的方式是基於直觀的做出決策操作，顯然地，這方法是是不夠有效率的，因此我們提出空拍機的監控路徑規劃演算是基於天際線查詢的概念，這個方法可以幫助監測人員有更高的效率，實驗結果則證明這個方法的有效性。",
+        "VENUE": "R1",
+        "START": "2018-10-05T15:20:00+08:00",
+        "END": "2018-10-05T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S13",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "a0c36986-ee48-455f-ac4b-83832c29bac0",
+      "fields": {
+        "TITLE": "現代檔案系統 ZFS 的簡介與應用",
+        "summary":
+          "這場議程將以 ZFS 為主軸來介紹一些現代檔案系統上的功能以及特色，例如內建的 Volume Manager/RAID，以及 Incremental Snapshot Backup。再來會介紹這些功能跟特色在各類儲存應用上好用在哪裡。",
+        "VENUE": "R2",
+        "START": "2018-10-05T11:10:00+08:00",
+        "END": "2018-10-05T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T21",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "dec606cc-dbb2-414e-9cba-22be5fbeb472",
+      "fields": {
+        "TITLE": "台灣網路青年論壇ｘ鍵盤青年",
+        "summary":
+          "網路公民社會需要一個中立而公開的場域進行意見溝通與討論，由青年學子主動與積極參與，透過多元聲音的交流，能形成一個以自由、民主與相互尊重為根基的公共論壇（Public Forum）。台灣網路青年論壇讓青年學子有更多與同儕進行議題討論，關心網際網路技術、經濟、社會、安全等重要議題，一起為台灣未來網路的發展開啟無限可能。\n*本論壇由財團法人台灣網路資訊中心贊助*",
+        "VENUE": "R2",
+        "START": "2018-10-05T12:00:00+08:00",
+        "END": "2018-10-05T12:30:00+08:00",
+        "SLI.DO": "SITCON18-SP2",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "af2c7ac0-5940-4809-afe5-f532f3c27b5b",
+      "fields": {
+        "TITLE": "交大校園用電分析",
+        "summary":
+          "在這場 Talk 的前半部分中，我會說明資料分析過程，從資料取得與清理，到視覺化與分析；後半部分著重專案執行經驗。若對於資料分析有興趣，或想開始分析校園用電，可以來這場！",
+        "VENUE": "R2",
+        "START": "2018-10-05T12:40:00+08:00",
+        "END": "2018-10-05T13:20:00+08:00",
+        "SLI.DO": "SITCON18-T22",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "5b528aaa-7a47-4774-8cd6-2ee59f16e6e1",
+      "fields": {
+        "TITLE": "蘊含著強大力量的 GTK 啊，封印解除！",
+        "summary":
+          "兩位 GNOME 愛好者以生活經驗出發，深入淺出介紹使用 GTK  的祕訣，讓 GNOME 成為更加賞心悅目且適合日常使用的作業系統。並將分享使用 Python 駕馭龐大的 GTK 函式庫的經驗，讓寫出跨平台的原生桌面應用程式不再只是 Electron 的專長！",
+        "VENUE": "R2",
+        "START": "2018-10-05T15:40:00+08:00",
+        "END": "2018-10-05T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T25",
+        "SLIDE": "https://goo.gl/S5dJZj",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "92f700d8-8292-4371-abc0-7670acb3acb8",
+      "fields": {
+        "TITLE": "校園百寶盒",
+        "summary":
+          "你覺得校園行政系統或者教學系統頁面不好看嗎？又或者學校系統不支援手機，平板的網頁呈現。當你覺得煩燥時，何不自己造一個，讓自己擁有更好的校園學習體驗！",
+        "VENUE": "R2",
+        "START": "2018-10-05T14:50:00+08:00",
+        "END": "2018-10-05T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S21",
+        "SLIDE": "https://1drv.ms/b/s!Av124FbBx2WUo3OliKbY7kt_4tby",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "b8998705-c6e2-4c48-ae76-984f23b54719",
+      "fields": {
+        "TITLE": "校園駭客-看你學號() return 你家住址;",
+        "summary":
+          "駭客有了你的學號 3秒內就可以獲取你的住址? 怎麼做到的?\n\n我該怎麼保護自己? 應該不會是我吧? 學校的校務系統安全嗎?  身分證末4碼超重要??\n\n這場議程內，你可以了解到目前新穎的學生個資外洩問題，且是在全台無論公私立高中職，都很常見的重大疏失。",
+        "VENUE": "R2",
+        "START": "2018-10-05T15:05:00+08:00",
+        "END": "2018-10-05T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S22",
+        "slide":
+          "https://drive.google.com/file/d/1ff_GHJOf6t6gsDVBzHXxnZkDsfn5PKwi/view?usp=sharing",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "ea7e6263-8b49-45d5-a093-d995aa50df08",
+      "fields": {
+        "TITLE": "GPU計算入門 - with OpenCL",
+        "summary":
+          "嫌不管怎麼優化程式都跑得不夠快？想要跟上 GPU 運算的潮流嗎？那來聽如何用 OpenCL 在 GPU 上跑你的程式吧！！OpenCL 是一個由眾多廠商共同支援的程式標準，可以讓工程師們把複雜的運算交給 GPU 甚至其他種類的處理器執行。\n\n這次會從 0 開始介紹何謂程式的平行化、OpenCL 的運作方法與原理，最後時間允許的話將會展示 OpenCL 實際運行的樣子！",
+        "VENUE": "R2",
+        "START": "2018-10-05T13:30:00+08:00",
+        "END": "2018-10-05T14:10:00+08:00",
+        "SLI.DO": "SITCON18-T24",
+        "slide":
+          "https://www.slideshare.net/marty4/sitcon2018intro-to-gpu-computing-with-opencl",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "35598abf-4efe-48fc-93a4-3d539e6f6c47",
+      "fields": {
+        "TITLE": "Club Mate 與德國駭客精神：34C3 大會實錄",
+        "summary":
+          "什麼是真正的駭客精神呢？是醉心於技術的人？還是在各大 CTF 過關斬將的 Geek 呢？本議程將由已連續兩年領隊前往德國漢堡/萊比錫參與 Chaos Communication Congress 的 Jeremy 帶領大家深入了解每年吸引超過一萬人參與的 CCC 大會，以及德國對駭客精神的獨到之處。",
+        "VENUE": "R2",
+        "START": "2018-10-05T16:30:00+08:00",
+        "END": "2018-10-05T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T23",
+        "slide":
+          "https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "01752990-2c41-4c0b-bddd-d5918b5ea082",
+      "fields": {
+        "TITLE": "Vault 7 考古挖寶記",
+        "summary":
+          "Vault 7 乃 Wikileaks 從 CIA 中洩露資料，進而整理出來的專案內容，實質內容包羅萬象，包含各式入侵程式、輔助工具、分析報告。之前在某種緣分下，講者開始閱讀內容，在每週閱讀下，對 Vault 7 有更多瞭解與認識，透過此議程分享研讀的心路歷程。",
+        "VENUE": "R2",
+        "START": "2018-10-05T15:20:00+08:00",
+        "END": "2018-10-05T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S23",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "f97a5e91-d350-413b-b766-1fab9e886538",
+      "fields": {
+        "TITLE": "你媽知道你在寫 Functional 嗎？",
+        "summary":
+          "函數式程式設計、函式編程、Functional Programming，可能很多人聽過，也可能很多人寫過，也可能你用函數式的方法寫得正開心但你卻不知道。有人視其為一種程式設計方法、也有人視為數學的分支。這場議程我會盡我所知介紹 FP 的歷史與意義。\n內容會包含 FP 的歷史、程式與證明的關聯、萬能的 λ、現今常見的函數式程式語言、與物件導向和程序式語言中 FP 的影子。\n標題來由是我跟一名老師說我在讀 Functional Programming，他回：怎麼這麼跟錢過不去呢？故有感而發。",
+        "VENUE": "R3",
+        "START": "2018-10-05T11:10:00+08:00",
+        "END": "2018-10-05T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T31",
+        "slide":
+          "https://docs.google.com/presentation/d/1q-xsU6uZd5s0wFOjq4Ug4hYj0X72h2muvoTnO1fK2Zs/edit?usp=sharing",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "2cbf6663-b26f-4865-a731-b2d2e5420b9d",
+      "fields": {
+        "TITLE": "讀 scheme 魔法書 SICP",
+        "summary":
+          "SICP 是一本以 scheme 為基礎的程式設計教科書，以古老卻現代的 scheme 語言，介紹資料結構、演算法、各種編程範式。本人以 js 入門函數式編程，在 scheme 找到我所以為的終點。",
+        "VENUE": "R3",
+        "START": "2018-10-05T14:50:00+08:00",
+        "END": "2018-10-05T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S31",
+        "SLIDE": "https://hackmd.io/p/HJBq3jqDM",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "c2229258-66f6-4b32-9b62-c25921ab6e89",
+      "fields": {
+        "TITLE": "CCNS Radio - 社辦點歌電台",
+        "summary":
+          "想在社辦架一個區網點歌系統，但找不到符合需求的套件，正苦惱該找怎樣的解決方案時有個聲音對我說「找不到套件？不會自幹喔！」，於是 CCNS Radio 就誕生了。這次將簡介我開發這系統的起源、架構、及用到的技術，包含Socket.io、Discord bot、及如何讓電台能透過 Google Home 控制。",
+        "VENUE": "R3",
+        "START": "2018-10-05T15:05:00+08:00",
+        "END": "2018-10-05T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S32",
+        "SLIDE": "https://goo.gl/Wzt2BN",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "6a84a26c-ac79-4a7f-bf4a-365d9092b2ed",
+      "fields": {
+        "TITLE": "怪怪的資訊研究社及社團經營秘辛",
+        "summary":
+          "本議程將由兩位松山高中的學生來分享這一年資研社做了什麼奇怪的事情，以及跟校方溝通的故事。最後會和台下的同學們簡單聊聊資訊相關社團的發展方向及可以做的事情。",
+        "VENUE": "R3",
+        "START": "2018-10-05T15:20:00+08:00",
+        "END": "2018-10-05T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S33",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "49bf7831-7bfe-405b-8aeb-5246ea7a5885",
+      "fields": {
+        "TITLE": "在風塵中找回楓葉與沙灘-追尋 MapleBBS 歷史與未來",
+        "summary":
+          "BBS，電子布告欄系統，是六、七年級生的網路共同回憶，其中批踢踢實業坊( telnet://ptt.cc )到現在仍因討論話題五花八門，而引起大家注意。而事實上 Ptt 及 21 世紀台灣的 BBS 站幾乎都由清大資工發行的 MapleBBS 2 或 3 修改編譯而成的，並藉由轉信機制讓不同站台相互交流。這樣的特性為近代網路史掀起怎樣的風波呢? 讓我們藉由殘存的腳步一同追尋吧!",
+        "VENUE": "R3",
+        "START": "2018-10-05T15:40:00+08:00",
+        "END": "2018-10-05T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T32",
+        "slide":
+          "https://drive.google.com/file/d/1p9M5zPrBxwXCSFatmJ9xuVeJNLZbW2Z4/view?usp=sharing",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "2a3e3157-8e3e-472f-9918-41c40ca3cc91",
+      "fields": {
+        "TITLE": "Analysis and Improvement of IOTA PoW Implementation",
+        "summary":
+          "IOTA is a distributed ledger for the Internet of Things. There are several IOTA Pow (Proof of Work) implementations, including C, SSE, Javascript and OpenCL. In this session, we will evaluate each implementation and launch a new project \"dcurl\" to improve IOTA PoW library (ccurl) about 70% performance.",
+        "VENUE": "R3",
+        "START": "2018-10-05T16:30:00+08:00",
+        "END": "2018-10-05T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T33",
+        "slide":
+          "https://www.slideshare.net/ChenWei15/sitcon2018-analysis-and-improvement-of-iota-pow-implementation",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "c1e5149b-f601-4b30-ae89-74a34f61c502",
+      "fields": {
+        "TITLE": "高中生社群及程式學習經驗談",
+        "summary":
+          "向國家優質高中生推廣社群參與，以輕鬆的氣氛討論高中生在資訊領域的無限可能，並探討社群參與對於高中生的意義。",
+        "VENUE": "S",
+        "START": "2018-10-05T11:10:00+08:00",
+        "END": "2018-10-05T11:30:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "33370928-c894-447f-b8b2-b57ee2eabd2f",
+      "fields": {
+        "TITLE": "Socket和他的伺服器夥伴們",
+        "summary":
+          "自己用純 C 的 socket 寫一個簡單的 web server 後，找到的一些效能優化方法如 select, poll 到 epoll 的使用心得；以及一些對現在伺服器軟體的相關技術的理解",
+        "VENUE": "S",
+        "START": "2018-10-05T11:40:00+08:00",
+        "END": "2018-10-05T12:00:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "21af0af3-0a71-43a7-ad7f-b480570ac819",
+      "fields": {
+        "TITLE": "我在臺南一中專題課得到了甚麼?",
+        "summary":
+          "敝人為臺南一中數理資優班之一名小小，本班最具代表性之課程極為專題研究，本篇將就專題研究之內容緣起，至舉辦成果發表會之心路歷程，以及資訊社群之參與與各位做一大略之介紹，以期推動大眾對資優教育之了解。",
+        "VENUE": "S",
+        "START": "2018-10-05T15:30:00+08:00",
+        "END": "2018-10-05T15:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "0020f76d-ebd5-4319-9326-70cc1c9f1cf7",
+      "fields": {
+        "TITLE": "在批踢踢經營看板，在網路社群做倡議。",
+        "summary":
+          "由PTT看板推廣中心專案經理介紹一個默默無名的使用者如何由板友發展至看板經營管理的板主，分享篳路藍縷的過程與經驗，介紹看板活動銜接平權理念的案例（卡片交換網站、全站歌唱大賽）在每次過程中如何使用資訊技術創造出最小可行產品方案，以不花錢的形式辦看板活動。",
+        "VENUE": "S",
+        "START": "2018-10-05T16:00:00+08:00",
+        "END": "2018-10-05T16:20:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "fbc4ab4c-0f15-4834-b505-013bb5c040e4",
+      "fields": {
+        "TITLE": "Dcard 實習的所見所聞",
+        "summary":
+          "對實習有興趣嗎? 實習究竟會看到一間公司的哪些面向? 在 Unconf 可以跟大家分享我是如何在實習中成長，又看到了公司哪些不同的東西。技術線的部分跟一些心得都會提到，有任何問題也可以一起討論喔！",
+        "VENUE": "S",
+        "START": "2018-10-05T16:30:00+08:00",
+        "END": "2018-10-05T16:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "a7f7dfcf-bb05-49c4-9e8f-d85d9a92fa21",
+      "fields": {
+        "TITLE": "YouTube 不要砍我影片R",
+        "summary":
+          "小弟最討厭資訊從網路上消失了，所以寫了隻簡單的 Shell Script 來把 YouTube 上的影片自動備份到 Google Drive，後來進而擴充了網頁查詢介面、Telegram 的 bot、分散式架構。本議程會探討其中使用的工具及技術。",
+        "VENUE": "S",
+        "START": "2018-10-05T17:00:00+08:00",
+        "END": "2018-10-05T17:20:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": ["recW0C4LTPiRvmtAN"]
+      }
+    },
+    {
+      "id": "bdc26091-d326-46df-ac1c-ff5629c34eaf",
+      "fields": {
+        "TITLE": "入場時間",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-06T08:00:00+08:00",
+        "END": "2018-10-06T09:00:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "40ab2412-a5e7-4b83-846c-c4a030ed7e98",
+      "fields": {
+        "TITLE": "開幕",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-06T09:00:00+08:00",
+        "END": "2018-10-06T09:10:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "bb0f3495-9929-425b-b653-cc5407844b15",
+      "fields": {
+        "TITLE": "人工智慧民主化在台灣",
+        "summary": "有人說，資料是新時代的石油；那麼，人工智慧（AI）就是新時代的電力，未來將不會有任何現代產業與AI無關。\n\n問題在於 AI 技術的引入會面臨兩大挑戰，挑戰一，AI 是解決特定問題的技術；挑戰二，AI 並沒有辦法 plug & play（即插即用）。幸運的是，這一波（也是人類史上的第三波）的AI浪潮伴隨著「人工智慧民主化 （AI Democratization）」的趨勢，最重要的概念是，AI技術不應該只被某些跨國企業所壟斷，應該讓所有需要的人都有機會參與及使用。\n\n我個人所看到的是機會，因為這個AI民主化趨勢，AI技術發展在各領域所帶來的機會無窮無盡，是習慣等待國外大廠解決方案的我們應該把握的。當然，目前普遍遇到的挑戰是 AI 人才的缺乏，台灣人工智慧學校為此而成立。希望很快地讓「找不到人才」不再成為企業發展人工智慧的障礙，同時建立「自己的問題自己解決」的文化，打破被技術殖民的慣性，重建社會自信。\n\n我將在這場演講中，分享台灣人工智慧學校的來龍去脈，如何從一個稱為 Project Theta 的計畫開始，慢慢確認人才培育的需求，以及形塑台灣人工智慧學校的雛型。這個故事從 2017 年三月的某個早晨開始...",
+        "VENUE": "ALL",
+        "START": "2018-10-06T09:10:00+08:00",
+        "END": "2018-10-06T10:00:00+08:00",
+        "SLI.DO": "SITCON18-K1",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "ca0eeb7a-c2a0-4748-8dd2-976a9931a3df",
+      "fields": {
+        "TITLE": "計算中的遊戲與模仿",
+        "summary": "科技中，有許多從遊戲和模仿啟發的概念與方法。圖靈測試及生成對抗網路都是有名的例子。\n因為大眾媒體的特性，在報導熱門科技時，常會較為誇大。但科學技術的領域廣大，有許多錯綜複雜的道路。還有許多其他的遊覽路線。\n我們將沿著遊戲與模仿這個主軸，瀏覽一些不同的技術及理論。其中一些與熱門的深度學習和區塊鏈有關，另一些則是基礎的理論像是微積分有關。",
+        "VENUE": "ALL",
+        "START": "2018-10-06T10:10:00+08:00",
+        "END": "2018-10-06T11:00:00+08:00",
+        "SLI.DO": "SITCON18-K2",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "d946b6e1-d826-4c64-86a4-bf013bcc0c06",
+      "fields": {
+        "TITLE": "奔跑吧！台北：遊戲開發經驗分享",
+        "summary": "本議程將分享簡訊設計製作柯市府網頁遊戲《奔跑吧！台北》的相關經驗，關於我們如何在兩個半月內從零開始企劃、美術繪製、動態製作、前端實作到遊戲上線。 由於團隊人數少、且遊戲開發經驗並不多，因此在這段摸索的過程中，我們學到了不少遊戲開發的知識、踩了很多雷、也發生許多有趣的事，希望能藉此機會將這些幕後花絮與會眾分享。大家一起來奔跑吧！！！",
+        "VENUE": "R0",
+        "START": "2018-10-06T11:10:00+08:00",
+        "END": "2018-10-06T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T01",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "97f3ae3d-100e-4f78-87eb-61795a733600",
+      "fields": {
+        "TITLE": "午餐",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-06T11:50:00+08:00",
+        "END": "2018-10-06T12:40:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a2a06a0e-e086-43db-8d63-6c6b40bd9bd6",
+      "fields": {
+        "TITLE": "台灣學術環境網路的監管與治理",
+        "summary": "除了日前美國 FCC 正式宣佈廢除網路中立性法案，引發大眾對企業資本控制網路的擔憂外；以維護國家資安爲目的的《資通安全管理法》草案也在國內引起關注，部分聲音反對政府以資訊安全爲由過度擴大其監控人民的權力；而在臺灣校園學術網路現場的網路限制，甚至是 TANet 的角色問題也都經常引發使用者質疑。\n學校網路鎖挖礦、鎖 P2P 真的合理嗎？爲什麼計中可以錄我上網的封包？PTT 跟無名從學網開始發展是因爲什麼？TANET 跟校園網路又是什麼關係、如何運作的呢？\n在 SITCON 2017 的 Keynote 演講中，我們討論了資訊安全與網路治理的關係，以及人們身處現代科技中所忽略甚至犧牲的權利。《一九八四》書中的老大哥是否已出現在現代網路中？今年的 SITCON 論壇，我們將邀集網路監管工作的參與者一同對談，從學術網路出發，討論網路監管對使用者造成的影響。",
+        "VENUE": "R0",
+        "START": "2018-10-06T12:40:00+08:00",
+        "END": "2018-10-06T14:10:00+08:00",
+        "SLI.DO": "SITCON18-P",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a868e04f-d113-4de7-9131-c5d417f21463",
+      "fields": {
+        "TITLE": "休息時間",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-06T14:10:00+08:00",
+        "END": "2018-10-06T14:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "f3c6853d-2b0e-464c-8837-9411455961d8",
+      "fields": {
+        "TITLE": "深度學習如何深度學習",
+        "summary": "目標客群是對 AI、deep learning 有興趣，但礙於學校未開課，或是不知道從何開始，還沒有學習很深入（還沒有深厚實作能力）的人。\n會介紹 deep learning 是什麼，主流的 Python frameworks 有哪些\n接著分享適合打基礎的線上課程\n再講深入造化的資源（Facebook 社團、論文網站、Youtube channels、Medium 文章、讀書會......）\n最後提出能夠有所「產出」的方式（研究、實習），以及爭取機會的管道",
+        "VENUE": "R0",
+        "START": "2018-10-06T14:50:00+08:00",
+        "END": "2018-10-06T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S01",
+        "slide": "https://docs.google.com/presentation/d/1pnLqrJNLHRFuDvJcg_x8QkLT2Da67qixdEGjZbSUYxs/edit?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "f5f60401-513a-420c-aaff-2e3bd495feae",
+      "fields": {
+        "TITLE": "Use AI to make our own anime girl face",
+        "summary": "近年來 Deep Learning 興起，人人都在用 AI 翻轉各行各業，身為專業的動漫迷當然也要利用 AI 來創造屬於自己的動漫女孩？",
+        "VENUE": "R0",
+        "START": "2018-10-06T15:05:00+08:00",
+        "END": "2018-10-06T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S02",
+        "slide": "https://www.slideshare.net/ssuser90c8ab/use-ai-to-make-our-own-anime-girl-face-89933023/ssuser90c8ab/use-ai-to-make-our-own-anime-girl-face-89933023",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a4e52ef0-f96c-4f83-8331-69e34212dfcd",
+      "fields": {
+        "TITLE": "我單槍匹馬的開源貢獻之路",
+        "summary": "本議程，主要是分享兩年來在 GitHub 上的開源貢獻，還有過程中所遇到的趣事以及我的貢獻對於專案日後的影響。",
+        "VENUE": "R0",
+        "START": "2018-10-06T15:20:00+08:00",
+        "END": "2018-10-06T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S03",
+        "slide": "https://speakerdeck.com/peter279k/wo-dan-qiang-pi-ma-de-kai-yuan-gong-xian-zhi-lu",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "88b10a10-773e-46fa-a89e-4b1fe17ed145",
+      "fields": {
+        "TITLE": "從學生到放火實習生的奇幻旅程",
+        "summary": "去年暑假到 P 公司實習至今七個月，從讀程式碼到開發新功能，終於成為有生產力的人員。期間除了深刻感受到維護商業服務與自己開發專案，在流程與其他諸多細節上的差異外，同時要試圖平衡感情、課業、工作、休息等等。這場議程著重在經驗分享，不會有任何技術上的討論，希望能讓對實習迷惘的學生們有所啟發。",
+        "VENUE": "R0",
+        "START": "2018-10-06T15:40:00+08:00",
+        "END": "2018-10-06T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T02",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "82bb24ad-0bd0-4c5d-9cd6-73514c5bab3e",
+      "fields": {
+        "TITLE": "想學 OS, 從 MINIX 開始",
+        "summary": "Linux kernel 原始碼已經超過兩千萬行, 若直接貿然的學習 Linux , 將會引來一身挫折, 顯然 Linux kernel 已經不是初學者最好的選擇, 而 MINIX 本身就是一個用來做教學的 OS 在原始碼的撰寫上以淺顯易懂為主, 不像 Linux 是以效能為導向的原始碼艱澀難懂, 而我所帶來的是 MINIX 的現況以及特色",
+        "VENUE": "R0",
+        "START": "2018-10-06T16:30:00+08:00",
+        "END": "2018-10-06T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T03",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "99467ffb-2ba1-4d73-bf54-9e2af09588c5",
+      "fields": {
+        "TITLE": "Lightning Talk\n全台最大天氣 App 上線啦\n文件處理必勝法\n在學校推廣數位加密貨幣理念是不是搞錯了什麼？\nROS&Gazebo Robot Simulation\n捍衛兩蔣，從資安做起\n在雲林推開源是不是搞錯了什麼 !?\nSITA （SITCON x HK）",
+        "summary": "全台最大天氣 App 上線啦 - Eric\n文件處理必勝法 - 林博仁\n在學校推廣數位加密貨幣理念是不是搞錯了什麼？ - qaxrbwll\nROS&Gazebo Robot Simulation - 張舜傑\n捍衛兩蔣，從資安做起 - 藏鏡人\n在雲林推開源是不是搞錯了什麼 !? - 0 夢\nSITA （SITCON x HK）- Gianna & Clara",
+        "VENUE": "ALL",
+        "START": "2018-10-06T17:25:00+08:00",
+        "END": "2018-10-06T17:45:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "45a9c6da-4a71-448c-9332-1de5ba36b203",
+      "fields": {
+        "TITLE": "閉幕",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-06T17:45:00+08:00",
+        "END": "2018-10-06T17:55:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "980dab0d-c937-43ea-a975-3dd6ff1bfe05",
+      "fields": {
+        "TITLE": "瀏覽器開發與開源經驗",
+        "summary": "過去我突然想往開源社群發展，誤打誤撞便開始了我對 Mozilla 的 Servo 專案的貢獻之路。Servo 專案是新一代瀏覽器引擎，強調平行化處理，因此處理速度會更快。在上面我算是活躍社群貢獻者，日積月累下來對瀏覽器引擎開發也有更深的理解！這場演講將分兩部分，先介紹原理、談一下進階的實作方式，再分享過去我在開源上的心路歷程。",
+        "VENUE": "R1",
+        "START": "2018-10-06T11:10:00+08:00",
+        "END": "2018-10-06T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T11",
+        "SLIDE": "https://github.com/tigercosmos/SITCON2018",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "773c7691-59e2-434c-9a9f-0c38cce30584",
+      "fields": {
+        "TITLE": "人工智慧背後的黑暗故事: 當人人都懂人工智慧後，對資安領域會產生甚麼質變",
+        "summary": "當資料驅動的人工智慧興起，假想每個人都透過吳恩達，李宏毅老師的課程而成為 AI 專家，對於有 30 年老經驗的趨勢科技會造成甚麼挑戰。而根據最新報告，5 年內人工智慧恐淪駭客利器，它會如何影響你（妳）所身處的物聯世代？趨勢科技又該如何因應，保護企業與個人的資訊安全。無論未來是否選擇進入資安領域，迎戰 AI，仍在學的你們必須有什麼準備。",
+        "VENUE": "R1",
+        "START": "2018-10-06T12:00:00+08:00",
+        "END": "2018-10-06T12:30:00+08:00",
+        "SLI.DO": "SITCON18-SP1",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "08c2816d-ea25-4169-89e6-dc0e0bc7b9a4",
+      "fields": {
+        "TITLE": "由淺入坑區塊鏈～從認識架構到應用智能合約！",
+        "summary": "隨著科技的發展，網路逐漸引領世界，而如何在網路上取得信任，便成為了眾人注目的難題。\n透過區塊鏈的概念，我們得以將不易被信任的合約內容，存於區塊鏈中，將其化為智能合約，形成永恆的紀錄！\n相信參與這堂議程，必能使得大眾對未來的網路發展更加理解；透過電腦科學的普及，也能使去中心化與社群圈踏出更大的一步！",
+        "VENUE": "R1",
+        "START": "2018-10-06T12:40:00+08:00",
+        "END": "2018-10-06T13:20:00+08:00",
+        "SLI.DO": "SITCON18-T12",
+        "slide": "https://speakerdeck.com/williammou/you-qian-ru-keng-qu-kuai-lian-cong-ren-shi-jia-gou-dao-ying-yong-zhi-neng-he-yue",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "3e1990e5-17bc-45ad-8a77-b2eab939724c",
+      "fields": {
+        "TITLE": "跨越時間軸 - 創造美好使用者體驗",
+        "summary": "前端發展得非常快速，瀏覽器對於 JS 非同步處理也越來越順暢。針對使用者網頁體驗上需求越趨複雜，本議程將以提升『UX』為目的主軸，呈現一系列的應用來介紹 RxJS 的觀念，將複雜非同步之行為簡化成漂亮而且好管理的程式碼。",
+        "VENUE": "R1",
+        "START": "2018-10-06T13:30:00+08:00",
+        "END": "2018-10-06T14:10:00+08:00",
+        "SLI.DO": "SITCON18-T13",
+        "slide": "https://docs.google.com/presentation/d/1Js18_A0ph2q2LH4KgZtmw7WA4fY3TNYp-N6edVuPLGI/edit?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "d6daa14b-39ef-410b-883c-0b1c3ae02a60",
+      "fields": {
+        "TITLE": "600 秒學會 UI 設計",
+        "summary": "使用者介面（UI）廣泛應用於我們生活中，小至網頁前端，大至廣告招牌，都需要仰賴 UI 設計來優化使用者體驗。很遺憾地，由於美術課都被拿去上數學，平時又遭受華國美學摧殘，一般人早已喪失正常的設計能力。本議程藉由UI發展史的風格轉變，帶出各種設計技巧，如排版架構，配色原理等，讓大家重新設計出賞心悅目的使用者介面。",
+        "VENUE": "R1",
+        "START": "2018-10-06T14:50:00+08:00",
+        "END": "2018-10-06T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S11",
+        "SLIDE": "https://goo.gl/Y1YNa6",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "3845cd7d-985b-4993-8ef8-fdf7a190d5ad",
+      "fields": {
+        "TITLE": "東方與西方的文化差異討論",
+        "summary": "Discussion on cultural differences between Easterners & Westerners (東方與西方的文化差異討論)",
+        "VENUE": "R1",
+        "START": "2018-10-06T15:05:00+08:00",
+        "END": "2018-10-06T15:15:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "": "// 無",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "729b8687-378b-4d3c-9332-578558951df6",
+      "fields": {
+        "TITLE": "泡沫列車：一趟加密貨幣的經濟之旅",
+        "summary": "金融秩序逐漸鬆動，這班列車，是開往未來的重要關鍵！趨漸成熟的金融體系享受中心化的大權在握，疏忽區塊鏈新技術的崛起，與背後「去中心化」的核心訴求，中本聰以實際行動證明決心，讓舊有秩序不得不陷入反思，搭上前往未知未來的列車。這趟乍看泡沫的旅程，卻成為重整金融的必經過程！區塊鏈這大型去中心化帳本風靡市場，世界掀起全面改革！\n人類無窮欲望伴隨的投機行為，讓眾多加密貨幣市價一飛衝天，許多人因此一夜致富，沒有趕上潮流的人們，紛紛看衰市場預言泡沫化即將來臨，但要反思的，不僅只是表面科技……從中心化到去中心化訴求，在極速飛馳的泡沫列車之上，政府權力是否面臨挑戰，2008 年後備受質疑的金融體系能否接納新科技找到更好的方向，讓政經市場重新繁榮？（感謝《屍速列車》熱情贊助文案）",
+        "VENUE": "R1",
+        "START": "2018-10-06T15:40:00+08:00",
+        "END": "2018-10-06T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T14",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "5c4865f2-4448-4de5-abdb-bf1686cad7d8",
+      "fields": {
+        "TITLE": "為什麼做好遊戲那麼難？｜獨立團隊的秘辛分享－誰是國王",
+        "summary": "遊戲到底是怎麼誕生的呢？在大三時剛好有機會與同學組成團隊，一起製作遊戲，但是獨立遊戲要面臨的挑戰遠比我們想像中的多更多，在這次 SITCON 我希望能夠透過自身的經驗，講解多人遊戲的程式與美術設計會遇到的困難點，還有獨立團隊在遊戲開發上會遇到的大小問題，希望讓想加入遊戲圈的朋友可以有大概的了解。",
+        "VENUE": "R1",
+        "START": "2018-10-06T16:30:00+08:00",
+        "END": "2018-10-06T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T15",
+        "SLIDE": "",
+        "": "// 不提供",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "408d3cd1-2004-4a0c-bd8c-e0067ccaa98f",
+      "fields": {
+        "TITLE": "空拍機廣域的監測路徑規劃",
+        "summary": "日前，無人機的應用日益增廣，許多人都使用無人機空拍和收集地區的數據，空拍機是更有彈性，方便和廉價比以往的觀測方式，但是還未有主流的空拍機監控路徑規劃的方法，大部分目前的方式是基於直觀的做出決策操作，顯然地，這方法是是不夠有效率的，因此我們提出空拍機的監控路徑規劃演算是基於天際線查詢的概念，這個方法可以幫助監測人員有更高的效率，實驗結果則證明這個方法的有效性。",
+        "VENUE": "R1",
+        "START": "2018-10-06T15:20:00+08:00",
+        "END": "2018-10-06T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S13",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a0c36986-ee48-455f-ac4b-83832c29bac0",
+      "fields": {
+        "TITLE": "現代檔案系統 ZFS 的簡介與應用",
+        "summary": "這場議程將以 ZFS 為主軸來介紹一些現代檔案系統上的功能以及特色，例如內建的 Volume Manager/RAID，以及 Incremental Snapshot Backup。再來會介紹這些功能跟特色在各類儲存應用上好用在哪裡。",
+        "VENUE": "R2",
+        "START": "2018-10-06T11:10:00+08:00",
+        "END": "2018-10-06T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T21",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "dec606cc-dbb2-414e-9cba-22be5fbeb472",
+      "fields": {
+        "TITLE": "台灣網路青年論壇ｘ鍵盤青年",
+        "summary": "網路公民社會需要一個中立而公開的場域進行意見溝通與討論，由青年學子主動與積極參與，透過多元聲音的交流，能形成一個以自由、民主與相互尊重為根基的公共論壇（Public Forum）。台灣網路青年論壇讓青年學子有更多與同儕進行議題討論，關心網際網路技術、經濟、社會、安全等重要議題，一起為台灣未來網路的發展開啟無限可能。\n*本論壇由財團法人台灣網路資訊中心贊助*",
+        "VENUE": "R2",
+        "START": "2018-10-06T12:00:00+08:00",
+        "END": "2018-10-06T12:30:00+08:00",
+        "SLI.DO": "SITCON18-SP2",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "af2c7ac0-5940-4809-afe5-f532f3c27b5b",
+      "fields": {
+        "TITLE": "交大校園用電分析",
+        "summary": "在這場 Talk 的前半部分中，我會說明資料分析過程，從資料取得與清理，到視覺化與分析；後半部分著重專案執行經驗。若對於資料分析有興趣，或想開始分析校園用電，可以來這場！",
+        "VENUE": "R2",
+        "START": "2018-10-06T12:40:00+08:00",
+        "END": "2018-10-06T13:20:00+08:00",
+        "SLI.DO": "SITCON18-T22",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "5b528aaa-7a47-4774-8cd6-2ee59f16e6e1",
+      "fields": {
+        "TITLE": "蘊含著強大力量的 GTK 啊，封印解除！",
+        "summary": "兩位 GNOME 愛好者以生活經驗出發，深入淺出介紹使用 GTK  的祕訣，讓 GNOME 成為更加賞心悅目且適合日常使用的作業系統。並將分享使用 Python 駕馭龐大的 GTK 函式庫的經驗，讓寫出跨平台的原生桌面應用程式不再只是 Electron 的專長！",
+        "VENUE": "R2",
+        "START": "2018-10-06T15:40:00+08:00",
+        "END": "2018-10-06T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T25",
+        "SLIDE": "https://goo.gl/S5dJZj",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "92f700d8-8292-4371-abc0-7670acb3acb8",
+      "fields": {
+        "TITLE": "校園百寶盒",
+        "summary": "你覺得校園行政系統或者教學系統頁面不好看嗎？又或者學校系統不支援手機，平板的網頁呈現。當你覺得煩燥時，何不自己造一個，讓自己擁有更好的校園學習體驗！",
+        "VENUE": "R2",
+        "START": "2018-10-06T14:50:00+08:00",
+        "END": "2018-10-06T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S21",
+        "SLIDE": "https://1drv.ms/b/s!Av124FbBx2WUo3OliKbY7kt_4tby",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "b8998705-c6e2-4c48-ae76-984f23b54719",
+      "fields": {
+        "TITLE": "校園駭客-看你學號() return 你家住址;",
+        "summary": "駭客有了你的學號 3秒內就可以獲取你的住址? 怎麼做到的?\n\n我該怎麼保護自己? 應該不會是我吧? 學校的校務系統安全嗎?  身分證末4碼超重要??\n\n這場議程內，你可以了解到目前新穎的學生個資外洩問題，且是在全台無論公私立高中職，都很常見的重大疏失。",
+        "VENUE": "R2",
+        "START": "2018-10-06T15:05:00+08:00",
+        "END": "2018-10-06T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S22",
+        "slide": "https://drive.google.com/file/d/1ff_GHJOf6t6gsDVBzHXxnZkDsfn5PKwi/view?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "ea7e6263-8b49-45d5-a093-d995aa50df08",
+      "fields": {
+        "TITLE": "GPU計算入門 - with OpenCL",
+        "summary": "嫌不管怎麼優化程式都跑得不夠快？想要跟上 GPU 運算的潮流嗎？那來聽如何用 OpenCL 在 GPU 上跑你的程式吧！！OpenCL 是一個由眾多廠商共同支援的程式標準，可以讓工程師們把複雜的運算交給 GPU 甚至其他種類的處理器執行。\n\n這次會從 0 開始介紹何謂程式的平行化、OpenCL 的運作方法與原理，最後時間允許的話將會展示 OpenCL 實際運行的樣子！",
+        "VENUE": "R2",
+        "START": "2018-10-06T13:30:00+08:00",
+        "END": "2018-10-06T14:10:00+08:00",
+        "SLI.DO": "SITCON18-T24",
+        "slide": "https://www.slideshare.net/marty4/sitcon2018intro-to-gpu-computing-with-opencl",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "35598abf-4efe-48fc-93a4-3d539e6f6c47",
+      "fields": {
+        "TITLE": "Club Mate 與德國駭客精神：34C3 大會實錄",
+        "summary": "什麼是真正的駭客精神呢？是醉心於技術的人？還是在各大 CTF 過關斬將的 Geek 呢？本議程將由已連續兩年領隊前往德國漢堡/萊比錫參與 Chaos Communication Congress 的 Jeremy 帶領大家深入了解每年吸引超過一萬人參與的 CCC 大會，以及德國對駭客精神的獨到之處。",
+        "VENUE": "R2",
+        "START": "2018-10-06T16:30:00+08:00",
+        "END": "2018-10-06T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T23",
+        "slide": "https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "01752990-2c41-4c0b-bddd-d5918b5ea082",
+      "fields": {
+        "TITLE": "Vault 7 考古挖寶記",
+        "summary": "Vault 7 乃 Wikileaks 從 CIA 中洩露資料，進而整理出來的專案內容，實質內容包羅萬象，包含各式入侵程式、輔助工具、分析報告。之前在某種緣分下，講者開始閱讀內容，在每週閱讀下，對 Vault 7 有更多瞭解與認識，透過此議程分享研讀的心路歷程。",
+        "VENUE": "R2",
+        "START": "2018-10-06T15:20:00+08:00",
+        "END": "2018-10-06T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S23",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "f97a5e91-d350-413b-b766-1fab9e886538",
+      "fields": {
+        "TITLE": "你媽知道你在寫 Functional 嗎？",
+        "summary": "函數式程式設計、函式編程、Functional Programming，可能很多人聽過，也可能很多人寫過，也可能你用函數式的方法寫得正開心但你卻不知道。有人視其為一種程式設計方法、也有人視為數學的分支。這場議程我會盡我所知介紹 FP 的歷史與意義。\n內容會包含 FP 的歷史、程式與證明的關聯、萬能的 λ、現今常見的函數式程式語言、與物件導向和程序式語言中 FP 的影子。\n標題來由是我跟一名老師說我在讀 Functional Programming，他回：怎麼這麼跟錢過不去呢？故有感而發。",
+        "VENUE": "R3",
+        "START": "2018-10-06T11:10:00+08:00",
+        "END": "2018-10-06T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T31",
+        "slide": "https://docs.google.com/presentation/d/1q-xsU6uZd5s0wFOjq4Ug4hYj0X72h2muvoTnO1fK2Zs/edit?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "2cbf6663-b26f-4865-a731-b2d2e5420b9d",
+      "fields": {
+        "TITLE": "讀 scheme 魔法書 SICP",
+        "summary": "SICP 是一本以 scheme 為基礎的程式設計教科書，以古老卻現代的 scheme 語言，介紹資料結構、演算法、各種編程範式。本人以 js 入門函數式編程，在 scheme 找到我所以為的終點。",
+        "VENUE": "R3",
+        "START": "2018-10-06T14:50:00+08:00",
+        "END": "2018-10-06T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S31",
+        "SLIDE": "https://hackmd.io/p/HJBq3jqDM",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "c2229258-66f6-4b32-9b62-c25921ab6e89",
+      "fields": {
+        "TITLE": "CCNS Radio - 社辦點歌電台",
+        "summary": "想在社辦架一個區網點歌系統，但找不到符合需求的套件，正苦惱該找怎樣的解決方案時有個聲音對我說「找不到套件？不會自幹喔！」，於是 CCNS Radio 就誕生了。這次將簡介我開發這系統的起源、架構、及用到的技術，包含Socket.io、Discord bot、及如何讓電台能透過 Google Home 控制。",
+        "VENUE": "R3",
+        "START": "2018-10-06T15:05:00+08:00",
+        "END": "2018-10-06T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S32",
+        "SLIDE": "https://goo.gl/Wzt2BN",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "6a84a26c-ac79-4a7f-bf4a-365d9092b2ed",
+      "fields": {
+        "TITLE": "怪怪的資訊研究社及社團經營秘辛",
+        "summary": "本議程將由兩位松山高中的學生來分享這一年資研社做了什麼奇怪的事情，以及跟校方溝通的故事。最後會和台下的同學們簡單聊聊資訊相關社團的發展方向及可以做的事情。",
+        "VENUE": "R3",
+        "START": "2018-10-06T15:20:00+08:00",
+        "END": "2018-10-06T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S33",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "49bf7831-7bfe-405b-8aeb-5246ea7a5885",
+      "fields": {
+        "TITLE": "在風塵中找回楓葉與沙灘-追尋 MapleBBS 歷史與未來",
+        "summary": "BBS，電子布告欄系統，是六、七年級生的網路共同回憶，其中批踢踢實業坊( telnet://ptt.cc )到現在仍因討論話題五花八門，而引起大家注意。而事實上 Ptt 及 21 世紀台灣的 BBS 站幾乎都由清大資工發行的 MapleBBS 2 或 3 修改編譯而成的，並藉由轉信機制讓不同站台相互交流。這樣的特性為近代網路史掀起怎樣的風波呢? 讓我們藉由殘存的腳步一同追尋吧!",
+        "VENUE": "R3",
+        "START": "2018-10-06T15:40:00+08:00",
+        "END": "2018-10-06T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T32",
+        "slide": "https://drive.google.com/file/d/1p9M5zPrBxwXCSFatmJ9xuVeJNLZbW2Z4/view?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "2a3e3157-8e3e-472f-9918-41c40ca3cc91",
+      "fields": {
+        "TITLE": "Analysis and Improvement of IOTA PoW Implementation",
+        "summary": "IOTA is a distributed ledger for the Internet of Things. There are several IOTA Pow (Proof of Work) implementations, including C, SSE, Javascript and OpenCL. In this session, we will evaluate each implementation and launch a new project \"dcurl\" to improve IOTA PoW library (ccurl) about 70% performance.",
+        "VENUE": "R3",
+        "START": "2018-10-06T16:30:00+08:00",
+        "END": "2018-10-06T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T33",
+        "slide": "https://www.slideshare.net/ChenWei15/sitcon2018-analysis-and-improvement-of-iota-pow-implementation",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "c1e5149b-f601-4b30-ae89-74a34f61c502",
+      "fields": {
+        "TITLE": "高中生社群及程式學習經驗談",
+        "summary": "向國家優質高中生推廣社群參與，以輕鬆的氣氛討論高中生在資訊領域的無限可能，並探討社群參與對於高中生的意義。",
+        "VENUE": "S",
+        "START": "2018-10-06T11:10:00+08:00",
+        "END": "2018-10-06T11:30:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "33370928-c894-447f-b8b2-b57ee2eabd2f",
+      "fields": {
+        "TITLE": "Socket和他的伺服器夥伴們",
+        "summary": "自己用純 C 的 socket 寫一個簡單的 web server 後，找到的一些效能優化方法如 select, poll 到 epoll 的使用心得；以及一些對現在伺服器軟體的相關技術的理解",
+        "VENUE": "S",
+        "START": "2018-10-06T11:40:00+08:00",
+        "END": "2018-10-06T12:00:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "21af0af3-0a71-43a7-ad7f-b480570ac819",
+      "fields": {
+        "TITLE": "我在臺南一中專題課得到了甚麼?",
+        "summary": "敝人為臺南一中數理資優班之一名小小，本班最具代表性之課程極為專題研究，本篇將就專題研究之內容緣起，至舉辦成果發表會之心路歷程，以及資訊社群之參與與各位做一大略之介紹，以期推動大眾對資優教育之了解。",
+        "VENUE": "S",
+        "START": "2018-10-06T15:30:00+08:00",
+        "END": "2018-10-06T15:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "0020f76d-ebd5-4319-9326-70cc1c9f1cf7",
+      "fields": {
+        "TITLE": "在批踢踢經營看板，在網路社群做倡議。",
+        "summary": "由PTT看板推廣中心專案經理介紹一個默默無名的使用者如何由板友發展至看板經營管理的板主，分享篳路藍縷的過程與經驗，介紹看板活動銜接平權理念的案例（卡片交換網站、全站歌唱大賽）在每次過程中如何使用資訊技術創造出最小可行產品方案，以不花錢的形式辦看板活動。",
+        "VENUE": "S",
+        "START": "2018-10-06T16:00:00+08:00",
+        "END": "2018-10-06T16:20:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "fbc4ab4c-0f15-4834-b505-013bb5c040e4",
+      "fields": {
+        "TITLE": "Dcard 實習的所見所聞",
+        "summary": "對實習有興趣嗎? 實習究竟會看到一間公司的哪些面向? 在 Unconf 可以跟大家分享我是如何在實習中成長，又看到了公司哪些不同的東西。技術線的部分跟一些心得都會提到，有任何問題也可以一起討論喔！",
+        "VENUE": "S",
+        "START": "2018-10-06T16:30:00+08:00",
+        "END": "2018-10-06T16:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a7f7dfcf-bb05-49c4-9e8f-d85d9a92fa21",
+      "fields": {
+        "TITLE": "YouTube 不要砍我影片R",
+        "summary": "小弟最討厭資訊從網路上消失了，所以寫了隻簡單的 Shell Script 來把 YouTube 上的影片自動備份到 Google Drive，後來進而擴充了網頁查詢介面、Telegram 的 bot、分散式架構。本議程會探討其中使用的工具及技術。",
+        "VENUE": "S",
+        "START": "2018-10-06T17:00:00+08:00",
+        "END": "2018-10-06T17:20:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "bdc26091-d326-46df-ac1c-ff5629c34eaf",
+      "fields": {
+        "TITLE": "入場時間",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-07T08:30:00+08:00",
+        "END": "2018-10-07T09:00:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "40ab2412-a5e7-4b83-846c-c4a030ed7e98",
+      "fields": {
+        "TITLE": "開幕",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-07T09:00:00+08:00",
+        "END": "2018-10-07T09:10:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "bb0f3495-9929-425b-b653-cc5407844b15",
+      "fields": {
+        "TITLE": "人工智慧民主化在台灣",
+        "summary": "有人說，資料是新時代的石油；那麼，人工智慧（AI）就是新時代的電力，未來將不會有任何現代產業與AI無關。\n\n問題在於 AI 技術的引入會面臨兩大挑戰，挑戰一，AI 是解決特定問題的技術；挑戰二，AI 並沒有辦法 plug & play（即插即用）。幸運的是，這一波（也是人類史上的第三波）的AI浪潮伴隨著「人工智慧民主化 （AI Democratization）」的趨勢，最重要的概念是，AI技術不應該只被某些跨國企業所壟斷，應該讓所有需要的人都有機會參與及使用。\n\n我個人所看到的是機會，因為這個AI民主化趨勢，AI技術發展在各領域所帶來的機會無窮無盡，是習慣等待國外大廠解決方案的我們應該把握的。當然，目前普遍遇到的挑戰是 AI 人才的缺乏，台灣人工智慧學校為此而成立。希望很快地讓「找不到人才」不再成為企業發展人工智慧的障礙，同時建立「自己的問題自己解決」的文化，打破被技術殖民的慣性，重建社會自信。\n\n我將在這場演講中，分享台灣人工智慧學校的來龍去脈，如何從一個稱為 Project Theta 的計畫開始，慢慢確認人才培育的需求，以及形塑台灣人工智慧學校的雛型。這個故事從 2017 年三月的某個早晨開始...",
+        "VENUE": "ALL",
+        "START": "2018-10-07T09:10:00+08:00",
+        "END": "2018-10-07T10:00:00+08:00",
+        "SLI.DO": "SITCON18-K1",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "ca0eeb7a-c2a0-4748-8dd2-976a9931a3df",
+      "fields": {
+        "TITLE": "計算中的遊戲與模仿",
+        "summary": "科技中，有許多從遊戲和模仿啟發的概念與方法。圖靈測試及生成對抗網路都是有名的例子。\n因為大眾媒體的特性，在報導熱門科技時，常會較為誇大。但科學技術的領域廣大，有許多錯綜複雜的道路。還有許多其他的遊覽路線。\n我們將沿著遊戲與模仿這個主軸，瀏覽一些不同的技術及理論。其中一些與熱門的深度學習和區塊鏈有關，另一些則是基礎的理論像是微積分有關。",
+        "VENUE": "ALL",
+        "START": "2018-10-07T10:10:00+08:00",
+        "END": "2018-10-07T11:00:00+08:00",
+        "SLI.DO": "SITCON18-K2",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "d946b6e1-d826-4c64-86a4-bf013bcc0c06",
+      "fields": {
+        "TITLE": "奔跑吧！台北：遊戲開發經驗分享",
+        "summary": "本議程將分享簡訊設計製作柯市府網頁遊戲《奔跑吧！台北》的相關經驗，關於我們如何在兩個半月內從零開始企劃、美術繪製、動態製作、前端實作到遊戲上線。 由於團隊人數少、且遊戲開發經驗並不多，因此在這段摸索的過程中，我們學到了不少遊戲開發的知識、踩了很多雷、也發生許多有趣的事，希望能藉此機會將這些幕後花絮與會眾分享。大家一起來奔跑吧！！！",
+        "VENUE": "R0",
+        "START": "2018-10-07T11:10:00+08:00",
+        "END": "2018-10-07T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T01",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "97f3ae3d-100e-4f78-87eb-61795a733600",
+      "fields": {
+        "TITLE": "午餐",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-07T11:50:00+08:00",
+        "END": "2018-10-07T12:40:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a2a06a0e-e086-43db-8d63-6c6b40bd9bd6",
+      "fields": {
+        "TITLE": "台灣學術環境網路的監管與治理",
+        "summary": "除了日前美國 FCC 正式宣佈廢除網路中立性法案，引發大眾對企業資本控制網路的擔憂外；以維護國家資安爲目的的《資通安全管理法》草案也在國內引起關注，部分聲音反對政府以資訊安全爲由過度擴大其監控人民的權力；而在臺灣校園學術網路現場的網路限制，甚至是 TANet 的角色問題也都經常引發使用者質疑。\n學校網路鎖挖礦、鎖 P2P 真的合理嗎？爲什麼計中可以錄我上網的封包？PTT 跟無名從學網開始發展是因爲什麼？TANET 跟校園網路又是什麼關係、如何運作的呢？\n在 SITCON 2017 的 Keynote 演講中，我們討論了資訊安全與網路治理的關係，以及人們身處現代科技中所忽略甚至犧牲的權利。《一九八四》書中的老大哥是否已出現在現代網路中？今年的 SITCON 論壇，我們將邀集網路監管工作的參與者一同對談，從學術網路出發，討論網路監管對使用者造成的影響。",
+        "VENUE": "R0",
+        "START": "2018-10-07T12:40:00+08:00",
+        "END": "2018-10-07T14:10:00+08:00",
+        "SLI.DO": "SITCON18-P",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a868e04f-d113-4de7-9131-c5d417f21463",
+      "fields": {
+        "TITLE": "休息時間",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-07T14:10:00+08:00",
+        "END": "2018-10-07T14:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "f3c6853d-2b0e-464c-8837-9411455961d8",
+      "fields": {
+        "TITLE": "深度學習如何深度學習",
+        "summary": "目標客群是對 AI、deep learning 有興趣，但礙於學校未開課，或是不知道從何開始，還沒有學習很深入（還沒有深厚實作能力）的人。\n會介紹 deep learning 是什麼，主流的 Python frameworks 有哪些\n接著分享適合打基礎的線上課程\n再講深入造化的資源（Facebook 社團、論文網站、Youtube channels、Medium 文章、讀書會......）\n最後提出能夠有所「產出」的方式（研究、實習），以及爭取機會的管道",
+        "VENUE": "R0",
+        "START": "2018-10-07T14:50:00+08:00",
+        "END": "2018-10-07T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S01",
+        "slide": "https://docs.google.com/presentation/d/1pnLqrJNLHRFuDvJcg_x8QkLT2Da67qixdEGjZbSUYxs/edit?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "f5f60401-513a-420c-aaff-2e3bd495feae",
+      "fields": {
+        "TITLE": "Use AI to make our own anime girl face",
+        "summary": "近年來 Deep Learning 興起，人人都在用 AI 翻轉各行各業，身為專業的動漫迷當然也要利用 AI 來創造屬於自己的動漫女孩？",
+        "VENUE": "R0",
+        "START": "2018-10-07T15:05:00+08:00",
+        "END": "2018-10-07T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S02",
+        "slide": "https://www.slideshare.net/ssuser90c8ab/use-ai-to-make-our-own-anime-girl-face-89933023/ssuser90c8ab/use-ai-to-make-our-own-anime-girl-face-89933023",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a4e52ef0-f96c-4f83-8331-69e34212dfcd",
+      "fields": {
+        "TITLE": "我單槍匹馬的開源貢獻之路",
+        "summary": "本議程，主要是分享兩年來在 GitHub 上的開源貢獻，還有過程中所遇到的趣事以及我的貢獻對於專案日後的影響。",
+        "VENUE": "R0",
+        "START": "2018-10-07T15:20:00+08:00",
+        "END": "2018-10-07T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S03",
+        "slide": "https://speakerdeck.com/peter279k/wo-dan-qiang-pi-ma-de-kai-yuan-gong-xian-zhi-lu",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "88b10a10-773e-46fa-a89e-4b1fe17ed145",
+      "fields": {
+        "TITLE": "從學生到放火實習生的奇幻旅程",
+        "summary": "去年暑假到 P 公司實習至今七個月，從讀程式碼到開發新功能，終於成為有生產力的人員。期間除了深刻感受到維護商業服務與自己開發專案，在流程與其他諸多細節上的差異外，同時要試圖平衡感情、課業、工作、休息等等。這場議程著重在經驗分享，不會有任何技術上的討論，希望能讓對實習迷惘的學生們有所啟發。",
+        "VENUE": "R0",
+        "START": "2018-10-07T15:40:00+08:00",
+        "END": "2018-10-07T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T02",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "82bb24ad-0bd0-4c5d-9cd6-73514c5bab3e",
+      "fields": {
+        "TITLE": "想學 OS, 從 MINIX 開始",
+        "summary": "Linux kernel 原始碼已經超過兩千萬行, 若直接貿然的學習 Linux , 將會引來一身挫折, 顯然 Linux kernel 已經不是初學者最好的選擇, 而 MINIX 本身就是一個用來做教學的 OS 在原始碼的撰寫上以淺顯易懂為主, 不像 Linux 是以效能為導向的原始碼艱澀難懂, 而我所帶來的是 MINIX 的現況以及特色",
+        "VENUE": "R0",
+        "START": "2018-10-07T16:30:00+08:00",
+        "END": "2018-10-07T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T03",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "99467ffb-2ba1-4d73-bf54-9e2af09588c5",
+      "fields": {
+        "TITLE": "Lightning Talk\n全台最大天氣 App 上線啦\n文件處理必勝法\n在學校推廣數位加密貨幣理念是不是搞錯了什麼？\nROS&Gazebo Robot Simulation\n捍衛兩蔣，從資安做起\n在雲林推開源是不是搞錯了什麼 !?\nSITA （SITCON x HK）",
+        "summary": "全台最大天氣 App 上線啦 - Eric\n文件處理必勝法 - 林博仁\n在學校推廣數位加密貨幣理念是不是搞錯了什麼？ - qaxrbwll\nROS&Gazebo Robot Simulation - 張舜傑\n捍衛兩蔣，從資安做起 - 藏鏡人\n在雲林推開源是不是搞錯了什麼 !? - 0 夢\nSITA （SITCON x HK）- Gianna & Clara",
+        "VENUE": "ALL",
+        "START": "2018-10-07T17:25:00+08:00",
+        "END": "2018-10-07T17:45:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "45a9c6da-4a71-448c-9332-1de5ba36b203",
+      "fields": {
+        "TITLE": "閉幕",
+        "SUMMARY": "",
+        "VENUE": "ALL",
+        "START": "2018-10-07T17:45:00+08:00",
+        "END": "2018-10-07T17:55:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "980dab0d-c937-43ea-a975-3dd6ff1bfe05",
+      "fields": {
+        "TITLE": "瀏覽器開發與開源經驗",
+        "summary": "過去我突然想往開源社群發展，誤打誤撞便開始了我對 Mozilla 的 Servo 專案的貢獻之路。Servo 專案是新一代瀏覽器引擎，強調平行化處理，因此處理速度會更快。在上面我算是活躍社群貢獻者，日積月累下來對瀏覽器引擎開發也有更深的理解！這場演講將分兩部分，先介紹原理、談一下進階的實作方式，再分享過去我在開源上的心路歷程。",
+        "VENUE": "R1",
+        "START": "2018-10-07T11:10:00+08:00",
+        "END": "2018-10-07T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T11",
+        "SLIDE": "https://github.com/tigercosmos/SITCON2018",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "773c7691-59e2-434c-9a9f-0c38cce30584",
+      "fields": {
+        "TITLE": "人工智慧背後的黑暗故事: 當人人都懂人工智慧後，對資安領域會產生甚麼質變",
+        "summary": "當資料驅動的人工智慧興起，假想每個人都透過吳恩達，李宏毅老師的課程而成為 AI 專家，對於有 30 年老經驗的趨勢科技會造成甚麼挑戰。而根據最新報告，5 年內人工智慧恐淪駭客利器，它會如何影響你（妳）所身處的物聯世代？趨勢科技又該如何因應，保護企業與個人的資訊安全。無論未來是否選擇進入資安領域，迎戰 AI，仍在學的你們必須有什麼準備。",
+        "VENUE": "R1",
+        "START": "2018-10-07T12:00:00+08:00",
+        "END": "2018-10-07T12:30:00+08:00",
+        "SLI.DO": "SITCON18-SP1",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "08c2816d-ea25-4169-89e6-dc0e0bc7b9a4",
+      "fields": {
+        "TITLE": "由淺入坑區塊鏈～從認識架構到應用智能合約！",
+        "summary": "隨著科技的發展，網路逐漸引領世界，而如何在網路上取得信任，便成為了眾人注目的難題。\n透過區塊鏈的概念，我們得以將不易被信任的合約內容，存於區塊鏈中，將其化為智能合約，形成永恆的紀錄！\n相信參與這堂議程，必能使得大眾對未來的網路發展更加理解；透過電腦科學的普及，也能使去中心化與社群圈踏出更大的一步！",
+        "VENUE": "R1",
+        "START": "2018-10-07T12:40:00+08:00",
+        "END": "2018-10-07T13:20:00+08:00",
+        "SLI.DO": "SITCON18-T12",
+        "slide": "https://speakerdeck.com/williammou/you-qian-ru-keng-qu-kuai-lian-cong-ren-shi-jia-gou-dao-ying-yong-zhi-neng-he-yue",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "3e1990e5-17bc-45ad-8a77-b2eab939724c",
+      "fields": {
+        "TITLE": "跨越時間軸 - 創造美好使用者體驗",
+        "summary": "前端發展得非常快速，瀏覽器對於 JS 非同步處理也越來越順暢。針對使用者網頁體驗上需求越趨複雜，本議程將以提升『UX』為目的主軸，呈現一系列的應用來介紹 RxJS 的觀念，將複雜非同步之行為簡化成漂亮而且好管理的程式碼。",
+        "VENUE": "R1",
+        "START": "2018-10-07T13:30:00+08:00",
+        "END": "2018-10-07T14:10:00+08:00",
+        "SLI.DO": "SITCON18-T13",
+        "slide": "https://docs.google.com/presentation/d/1Js18_A0ph2q2LH4KgZtmw7WA4fY3TNYp-N6edVuPLGI/edit?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "d6daa14b-39ef-410b-883c-0b1c3ae02a60",
+      "fields": {
+        "TITLE": "600 秒學會 UI 設計",
+        "summary": "使用者介面（UI）廣泛應用於我們生活中，小至網頁前端，大至廣告招牌，都需要仰賴 UI 設計來優化使用者體驗。很遺憾地，由於美術課都被拿去上數學，平時又遭受華國美學摧殘，一般人早已喪失正常的設計能力。本議程藉由UI發展史的風格轉變，帶出各種設計技巧，如排版架構，配色原理等，讓大家重新設計出賞心悅目的使用者介面。",
+        "VENUE": "R1",
+        "START": "2018-10-07T14:50:00+08:00",
+        "END": "2018-10-07T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S11",
+        "SLIDE": "https://goo.gl/Y1YNa6",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "3845cd7d-985b-4993-8ef8-fdf7a190d5ad",
+      "fields": {
+        "TITLE": "東方與西方的文化差異討論",
+        "summary": "Discussion on cultural differences between Easterners & Westerners (東方與西方的文化差異討論)",
+        "VENUE": "R1",
+        "START": "2018-10-07T15:05:00+08:00",
+        "END": "2018-10-07T15:15:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "": "// 無",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "729b8687-378b-4d3c-9332-578558951df6",
+      "fields": {
+        "TITLE": "泡沫列車：一趟加密貨幣的經濟之旅",
+        "summary": "金融秩序逐漸鬆動，這班列車，是開往未來的重要關鍵！趨漸成熟的金融體系享受中心化的大權在握，疏忽區塊鏈新技術的崛起，與背後「去中心化」的核心訴求，中本聰以實際行動證明決心，讓舊有秩序不得不陷入反思，搭上前往未知未來的列車。這趟乍看泡沫的旅程，卻成為重整金融的必經過程！區塊鏈這大型去中心化帳本風靡市場，世界掀起全面改革！\n人類無窮欲望伴隨的投機行為，讓眾多加密貨幣市價一飛衝天，許多人因此一夜致富，沒有趕上潮流的人們，紛紛看衰市場預言泡沫化即將來臨，但要反思的，不僅只是表面科技……從中心化到去中心化訴求，在極速飛馳的泡沫列車之上，政府權力是否面臨挑戰，2008 年後備受質疑的金融體系能否接納新科技找到更好的方向，讓政經市場重新繁榮？（感謝《屍速列車》熱情贊助文案）",
+        "VENUE": "R1",
+        "START": "2018-10-07T15:40:00+08:00",
+        "END": "2018-10-07T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T14",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "5c4865f2-4448-4de5-abdb-bf1686cad7d8",
+      "fields": {
+        "TITLE": "為什麼做好遊戲那麼難？｜獨立團隊的秘辛分享－誰是國王",
+        "summary": "遊戲到底是怎麼誕生的呢？在大三時剛好有機會與同學組成團隊，一起製作遊戲，但是獨立遊戲要面臨的挑戰遠比我們想像中的多更多，在這次 SITCON 我希望能夠透過自身的經驗，講解多人遊戲的程式與美術設計會遇到的困難點，還有獨立團隊在遊戲開發上會遇到的大小問題，希望讓想加入遊戲圈的朋友可以有大概的了解。",
+        "VENUE": "R1",
+        "START": "2018-10-07T16:30:00+08:00",
+        "END": "2018-10-07T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T15",
+        "SLIDE": "",
+        "": "// 不提供",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "408d3cd1-2004-4a0c-bd8c-e0067ccaa98f",
+      "fields": {
+        "TITLE": "空拍機廣域的監測路徑規劃",
+        "summary": "日前，無人機的應用日益增廣，許多人都使用無人機空拍和收集地區的數據，空拍機是更有彈性，方便和廉價比以往的觀測方式，但是還未有主流的空拍機監控路徑規劃的方法，大部分目前的方式是基於直觀的做出決策操作，顯然地，這方法是是不夠有效率的，因此我們提出空拍機的監控路徑規劃演算是基於天際線查詢的概念，這個方法可以幫助監測人員有更高的效率，實驗結果則證明這個方法的有效性。",
+        "VENUE": "R1",
+        "START": "2018-10-07T15:20:00+08:00",
+        "END": "2018-10-07T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S13",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a0c36986-ee48-455f-ac4b-83832c29bac0",
+      "fields": {
+        "TITLE": "現代檔案系統 ZFS 的簡介與應用",
+        "summary": "這場議程將以 ZFS 為主軸來介紹一些現代檔案系統上的功能以及特色，例如內建的 Volume Manager/RAID，以及 Incremental Snapshot Backup。再來會介紹這些功能跟特色在各類儲存應用上好用在哪裡。",
+        "VENUE": "R2",
+        "START": "2018-10-07T11:10:00+08:00",
+        "END": "2018-10-07T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T21",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "dec606cc-dbb2-414e-9cba-22be5fbeb472",
+      "fields": {
+        "TITLE": "台灣網路青年論壇ｘ鍵盤青年",
+        "summary": "網路公民社會需要一個中立而公開的場域進行意見溝通與討論，由青年學子主動與積極參與，透過多元聲音的交流，能形成一個以自由、民主與相互尊重為根基的公共論壇（Public Forum）。台灣網路青年論壇讓青年學子有更多與同儕進行議題討論，關心網際網路技術、經濟、社會、安全等重要議題，一起為台灣未來網路的發展開啟無限可能。\n*本論壇由財團法人台灣網路資訊中心贊助*",
+        "VENUE": "R2",
+        "START": "2018-10-07T12:00:00+08:00",
+        "END": "2018-10-07T12:30:00+08:00",
+        "SLI.DO": "SITCON18-SP2",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "af2c7ac0-5940-4809-afe5-f532f3c27b5b",
+      "fields": {
+        "TITLE": "交大校園用電分析",
+        "summary": "在這場 Talk 的前半部分中，我會說明資料分析過程，從資料取得與清理，到視覺化與分析；後半部分著重專案執行經驗。若對於資料分析有興趣，或想開始分析校園用電，可以來這場！",
+        "VENUE": "R2",
+        "START": "2018-10-07T12:40:00+08:00",
+        "END": "2018-10-07T13:20:00+08:00",
+        "SLI.DO": "SITCON18-T22",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "5b528aaa-7a47-4774-8cd6-2ee59f16e6e1",
+      "fields": {
+        "TITLE": "蘊含著強大力量的 GTK 啊，封印解除！",
+        "summary": "兩位 GNOME 愛好者以生活經驗出發，深入淺出介紹使用 GTK  的祕訣，讓 GNOME 成為更加賞心悅目且適合日常使用的作業系統。並將分享使用 Python 駕馭龐大的 GTK 函式庫的經驗，讓寫出跨平台的原生桌面應用程式不再只是 Electron 的專長！",
+        "VENUE": "R2",
+        "START": "2018-10-07T15:40:00+08:00",
+        "END": "2018-10-07T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T25",
+        "SLIDE": "https://goo.gl/S5dJZj",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "92f700d8-8292-4371-abc0-7670acb3acb8",
+      "fields": {
+        "TITLE": "校園百寶盒",
+        "summary": "你覺得校園行政系統或者教學系統頁面不好看嗎？又或者學校系統不支援手機，平板的網頁呈現。當你覺得煩燥時，何不自己造一個，讓自己擁有更好的校園學習體驗！",
+        "VENUE": "R2",
+        "START": "2018-10-07T14:50:00+08:00",
+        "END": "2018-10-07T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S21",
+        "SLIDE": "https://1drv.ms/b/s!Av124FbBx2WUo3OliKbY7kt_4tby",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "b8998705-c6e2-4c48-ae76-984f23b54719",
+      "fields": {
+        "TITLE": "校園駭客-看你學號() return 你家住址;",
+        "summary": "駭客有了你的學號 3秒內就可以獲取你的住址? 怎麼做到的?\n\n我該怎麼保護自己? 應該不會是我吧? 學校的校務系統安全嗎?  身分證末4碼超重要??\n\n這場議程內，你可以了解到目前新穎的學生個資外洩問題，且是在全台無論公私立高中職，都很常見的重大疏失。",
+        "VENUE": "R2",
+        "START": "2018-10-07T15:05:00+08:00",
+        "END": "2018-10-07T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S22",
+        "slide": "https://drive.google.com/file/d/1ff_GHJOf6t6gsDVBzHXxnZkDsfn5PKwi/view?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "ea7e6263-8b49-45d5-a093-d995aa50df08",
+      "fields": {
+        "TITLE": "GPU計算入門 - with OpenCL",
+        "summary": "嫌不管怎麼優化程式都跑得不夠快？想要跟上 GPU 運算的潮流嗎？那來聽如何用 OpenCL 在 GPU 上跑你的程式吧！！OpenCL 是一個由眾多廠商共同支援的程式標準，可以讓工程師們把複雜的運算交給 GPU 甚至其他種類的處理器執行。\n\n這次會從 0 開始介紹何謂程式的平行化、OpenCL 的運作方法與原理，最後時間允許的話將會展示 OpenCL 實際運行的樣子！",
+        "VENUE": "R2",
+        "START": "2018-10-07T13:30:00+08:00",
+        "END": "2018-10-07T14:10:00+08:00",
+        "SLI.DO": "SITCON18-T24",
+        "slide": "https://www.slideshare.net/marty4/sitcon2018intro-to-gpu-computing-with-opencl",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "35598abf-4efe-48fc-93a4-3d539e6f6c47",
+      "fields": {
+        "TITLE": "Club Mate 與德國駭客精神：34C3 大會實錄",
+        "summary": "什麼是真正的駭客精神呢？是醉心於技術的人？還是在各大 CTF 過關斬將的 Geek 呢？本議程將由已連續兩年領隊前往德國漢堡/萊比錫參與 Chaos Communication Congress 的 Jeremy 帶領大家深入了解每年吸引超過一萬人參與的 CCC 大會，以及德國對駭客精神的獨到之處。",
+        "VENUE": "R2",
+        "START": "2018-10-07T16:30:00+08:00",
+        "END": "2018-10-07T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T23",
+        "slide": "https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "01752990-2c41-4c0b-bddd-d5918b5ea082",
+      "fields": {
+        "TITLE": "Vault 7 考古挖寶記",
+        "summary": "Vault 7 乃 Wikileaks 從 CIA 中洩露資料，進而整理出來的專案內容，實質內容包羅萬象，包含各式入侵程式、輔助工具、分析報告。之前在某種緣分下，講者開始閱讀內容，在每週閱讀下，對 Vault 7 有更多瞭解與認識，透過此議程分享研讀的心路歷程。",
+        "VENUE": "R2",
+        "START": "2018-10-07T15:20:00+08:00",
+        "END": "2018-10-07T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S23",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "f97a5e91-d350-413b-b766-1fab9e886538",
+      "fields": {
+        "TITLE": "你媽知道你在寫 Functional 嗎？",
+        "summary": "函數式程式設計、函式編程、Functional Programming，可能很多人聽過，也可能很多人寫過，也可能你用函數式的方法寫得正開心但你卻不知道。有人視其為一種程式設計方法、也有人視為數學的分支。這場議程我會盡我所知介紹 FP 的歷史與意義。\n內容會包含 FP 的歷史、程式與證明的關聯、萬能的 λ、現今常見的函數式程式語言、與物件導向和程序式語言中 FP 的影子。\n標題來由是我跟一名老師說我在讀 Functional Programming，他回：怎麼這麼跟錢過不去呢？故有感而發。",
+        "VENUE": "R3",
+        "START": "2018-10-07T11:10:00+08:00",
+        "END": "2018-10-07T11:50:00+08:00",
+        "SLI.DO": "SITCON18-T31",
+        "slide": "https://docs.google.com/presentation/d/1q-xsU6uZd5s0wFOjq4Ug4hYj0X72h2muvoTnO1fK2Zs/edit?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "2cbf6663-b26f-4865-a731-b2d2e5420b9d",
+      "fields": {
+        "TITLE": "讀 scheme 魔法書 SICP",
+        "summary": "SICP 是一本以 scheme 為基礎的程式設計教科書，以古老卻現代的 scheme 語言，介紹資料結構、演算法、各種編程範式。本人以 js 入門函數式編程，在 scheme 找到我所以為的終點。",
+        "VENUE": "R3",
+        "START": "2018-10-07T14:50:00+08:00",
+        "END": "2018-10-07T15:00:00+08:00",
+        "SLI.DO": "SITCON18-S31",
+        "SLIDE": "https://hackmd.io/p/HJBq3jqDM",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "c2229258-66f6-4b32-9b62-c25921ab6e89",
+      "fields": {
+        "TITLE": "CCNS Radio - 社辦點歌電台",
+        "summary": "想在社辦架一個區網點歌系統，但找不到符合需求的套件，正苦惱該找怎樣的解決方案時有個聲音對我說「找不到套件？不會自幹喔！」，於是 CCNS Radio 就誕生了。這次將簡介我開發這系統的起源、架構、及用到的技術，包含Socket.io、Discord bot、及如何讓電台能透過 Google Home 控制。",
+        "VENUE": "R3",
+        "START": "2018-10-07T15:05:00+08:00",
+        "END": "2018-10-07T15:15:00+08:00",
+        "SLI.DO": "SITCON18-S32",
+        "SLIDE": "https://goo.gl/Wzt2BN",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "6a84a26c-ac79-4a7f-bf4a-365d9092b2ed",
+      "fields": {
+        "TITLE": "怪怪的資訊研究社及社團經營秘辛",
+        "summary": "本議程將由兩位松山高中的學生來分享這一年資研社做了什麼奇怪的事情，以及跟校方溝通的故事。最後會和台下的同學們簡單聊聊資訊相關社團的發展方向及可以做的事情。",
+        "VENUE": "R3",
+        "START": "2018-10-07T15:20:00+08:00",
+        "END": "2018-10-07T15:30:00+08:00",
+        "SLI.DO": "SITCON18-S33",
+        "SLIDE": "",
+        "": "// 未完成",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "49bf7831-7bfe-405b-8aeb-5246ea7a5885",
+      "fields": {
+        "TITLE": "在風塵中找回楓葉與沙灘-追尋 MapleBBS 歷史與未來",
+        "summary": "BBS，電子布告欄系統，是六、七年級生的網路共同回憶，其中批踢踢實業坊( telnet://ptt.cc )到現在仍因討論話題五花八門，而引起大家注意。而事實上 Ptt 及 21 世紀台灣的 BBS 站幾乎都由清大資工發行的 MapleBBS 2 或 3 修改編譯而成的，並藉由轉信機制讓不同站台相互交流。這樣的特性為近代網路史掀起怎樣的風波呢? 讓我們藉由殘存的腳步一同追尋吧!",
+        "VENUE": "R3",
+        "START": "2018-10-07T15:40:00+08:00",
+        "END": "2018-10-07T16:20:00+08:00",
+        "SLI.DO": "SITCON18-T32",
+        "slide": "https://drive.google.com/file/d/1p9M5zPrBxwXCSFatmJ9xuVeJNLZbW2Z4/view?usp=sharing",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "2a3e3157-8e3e-472f-9918-41c40ca3cc91",
+      "fields": {
+        "TITLE": "Analysis and Improvement of IOTA PoW Implementation",
+        "summary": "IOTA is a distributed ledger for the Internet of Things. There are several IOTA Pow (Proof of Work) implementations, including C, SSE, Javascript and OpenCL. In this session, we will evaluate each implementation and launch a new project \"dcurl\" to improve IOTA PoW library (ccurl) about 70% performance.",
+        "VENUE": "R3",
+        "START": "2018-10-07T16:30:00+08:00",
+        "END": "2018-10-07T17:10:00+08:00",
+        "SLI.DO": "SITCON18-T33",
+        "slide": "https://www.slideshare.net/ChenWei15/sitcon2018-analysis-and-improvement-of-iota-pow-implementation",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "c1e5149b-f601-4b30-ae89-74a34f61c502",
+      "fields": {
+        "TITLE": "高中生社群及程式學習經驗談",
+        "summary": "向國家優質高中生推廣社群參與，以輕鬆的氣氛討論高中生在資訊領域的無限可能，並探討社群參與對於高中生的意義。",
+        "VENUE": "S",
+        "START": "2018-10-07T11:10:00+08:00",
+        "END": "2018-10-07T11:30:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "33370928-c894-447f-b8b2-b57ee2eabd2f",
+      "fields": {
+        "TITLE": "Socket和他的伺服器夥伴們",
+        "summary": "自己用純 C 的 socket 寫一個簡單的 web server 後，找到的一些效能優化方法如 select, poll 到 epoll 的使用心得；以及一些對現在伺服器軟體的相關技術的理解",
+        "VENUE": "S",
+        "START": "2018-10-07T11:40:00+08:00",
+        "END": "2018-10-07T12:00:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "21af0af3-0a71-43a7-ad7f-b480570ac819",
+      "fields": {
+        "TITLE": "我在臺南一中專題課得到了甚麼?",
+        "summary": "敝人為臺南一中數理資優班之一名小小，本班最具代表性之課程極為專題研究，本篇將就專題研究之內容緣起，至舉辦成果發表會之心路歷程，以及資訊社群之參與與各位做一大略之介紹，以期推動大眾對資優教育之了解。",
+        "VENUE": "S",
+        "START": "2018-10-07T15:30:00+08:00",
+        "END": "2018-10-07T15:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "0020f76d-ebd5-4319-9326-70cc1c9f1cf7",
+      "fields": {
+        "TITLE": "在批踢踢經營看板，在網路社群做倡議。",
+        "summary": "由PTT看板推廣中心專案經理介紹一個默默無名的使用者如何由板友發展至看板經營管理的板主，分享篳路藍縷的過程與經驗，介紹看板活動銜接平權理念的案例（卡片交換網站、全站歌唱大賽）在每次過程中如何使用資訊技術創造出最小可行產品方案，以不花錢的形式辦看板活動。",
+        "VENUE": "S",
+        "START": "2018-10-07T16:00:00+08:00",
+        "END": "2018-10-07T16:20:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "fbc4ab4c-0f15-4834-b505-013bb5c040e4",
+      "fields": {
+        "TITLE": "Dcard 實習的所見所聞",
+        "summary": "對實習有興趣嗎? 實習究竟會看到一間公司的哪些面向? 在 Unconf 可以跟大家分享我是如何在實習中成長，又看到了公司哪些不同的東西。技術線的部分跟一些心得都會提到，有任何問題也可以一起討論喔！",
+        "VENUE": "S",
+        "START": "2018-10-07T16:30:00+08:00",
+        "END": "2018-10-07T16:50:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    },
+    {
+      "id": "a7f7dfcf-bb05-49c4-9e8f-d85d9a92fa21",
+      "fields": {
+        "TITLE": "YouTube 不要砍我影片R",
+        "summary": "小弟最討厭資訊從網路上消失了，所以寫了隻簡單的 Shell Script 來把 YouTube 上的影片自動備份到 Google Drive，後來進而擴充了網頁查詢介面、Telegram 的 bot、分散式架構。本議程會探討其中使用的工具及技術。",
+        "VENUE": "S",
+        "START": "2018-10-07T17:00:00+08:00",
+        "END": "2018-10-07T17:20:00+08:00",
+        "SLI.DO": "",
+        "SLIDE": "",
+        "SPEAKER": [
+          "recW0C4LTPiRvmtAN"
+        ]
+      }
+    }
+  ]
+}
