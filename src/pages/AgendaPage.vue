@@ -101,7 +101,7 @@ section#agenda {
 
 section#maps {
   .map {
-    max-width: 900px;
+    max-width: $global-width;
   }
 }
 </style>
