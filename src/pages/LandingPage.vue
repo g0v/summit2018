@@ -56,6 +56,12 @@
       section#hightlights.cell
         //- 重點講者
         h3
+          TW 2018 Keynote
+          EN 2018 Keynote
+        #keynotes.grid-x.align-justify.grid-margin-x.mb-50
+          template(v-for="keynote in keynotes")
+            KeynoteBrief(:keynote="keynote").cell.large-6.medium-6.flex-child-shrink
+        h3
           TW 歷年講者
           EN Past Speakers
         #speakers.grid-x.align-justify.grid-margin-x.mb-50
@@ -121,8 +127,9 @@
 <script>
 import { mapState } from 'vuex'
 import { CtaButton, HeroImage } from '@/components'
-import { TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
+import { TheTimeline, SpeakerBrief, MediaQuote, KeynoteBrief } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
+import keynotes from '@/assets/LandingPage/keynotes/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
 export default {
@@ -133,6 +140,7 @@ export default {
     TheTimeline,
     SpeakerBrief,
     MediaQuote,
+    KeynoteBrief,
   },
   data() {
     return {
@@ -176,6 +184,9 @@ export default {
   },
   computed: {
     ...mapState(['lang']),
+    keynotes() {
+      return this.lang === 'TW' ? keynotes.TW : keynotes.EN
+    },
     speakers() {
       return this.lang === 'TW' ? speakers.TW : speakers.EN
     },
