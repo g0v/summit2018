@@ -36,10 +36,10 @@
         //-   UnderlineLink(to="/live")
         //-     TW 直撥
         //-     EN Live
-        //- li
-        //-   UnderlineLink(to="/staff")
-        //-     TW 工作人員
-        //-     EN Staff
+        li
+          UnderlineLink(to="/staff")
+            TW 工作人員
+            EN Staff
         //- li
         //-   UnderlineLink(to="/wiki")
         //-     TW 大會共筆
