@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import SPEAKERS from './SPEAKERS.json'
 import SCHEDULE from './SCHEDULE.json'
+import STAFF from './STAFF.json'
 
 // 展開 Airtable 回傳的 json 中的 `fields` 欄位
 const extractFields = record => _.assign({ id: record.id }, record.fields)
@@ -33,3 +34,5 @@ export const NORMALIZED_SCHEDULE = normalize(
   'SPEAKER',
   extractAllFields(SPEAKERS.records)
 )
+
+export const NORMALIZED_STAFF = extractAllFields(STAFF.records)
