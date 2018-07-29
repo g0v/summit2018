@@ -4,10 +4,10 @@
       <div v-for="group in staffs" :key="group.name" class="line">
         <div class="title"><h4 class="title">{{ group.name }}</h4></div>
         <div class="members">
-          <a v-for="staff in group.data" 
-             :key="staff.name" 
-             :href="staff.LINK" 
-             :class="{ nolink: staff.LINK === undefined }" 
+          <a v-for="staff in group.data"
+             :key="staff.name"
+             :href="staff.LINK"
+             :class="{ nolink: staff.LINK === undefined }"
              class="member"
              target="_blank">
             <img v-if="staff.AVASTER !== undefined" :src="staff.AVASTER" :alt="staff.NAME" class="thumbnail avatar">
@@ -104,6 +104,8 @@ section#staff
           hieght: 80px
           border-radius: 50%
           text-algin: center
+        .thumbnail
+          margin-bottom: 0.2rem
         .name
           font-size: 1rem
           display: block
