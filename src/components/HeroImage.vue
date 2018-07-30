@@ -252,14 +252,14 @@
           <text id="time-location-info">
             <tspan x="103" y="800" class="small">2018/10/5-7</tspan>
             <tspan x="100" y="836">
-              <tspan v-if="lang==='TW'">中央研究院人文館</tspan>
+              <tspan v-if="lang==='TW'">中央研究院 人文社會科學館</tspan>
               <tspan v-else>
-                <tspan>Taipei</tspan>
+                <tspan>Building of Humanities and Social Sciences, Academia Sinica</tspan>
               </tspan>
               <tspan>
                 <!-- <tspan v-if="lang==='TW'">/ 台北市南港區研究院路二段128號</tspan> -->
                 <a class="small" target="_blank" href="https://www.google.com.tw/maps/place/Joint+Library+of+Humanities+and+Social+Sciences,+Academia+Sinica/@25.041189,121.6128625,19z/data=!4m8!1m2!2m1!1z5Lit5aSu56CU56m26Zmi5Lq65paH6aSo!3m4!1s0x3442ab46ae2ef65b:0x53ceacf197917004!8m2!3d25.041087!4d121.6117">
-                  <tspan v-if="lang==='TW'">地圖</tspan><tspan v-else>map</tspan>
+                  <tspan v-if="lang==='TW'">地圖</tspan><tspan v-else>MAP</tspan>
                 </a>
               </tspan>
             </tspan>
