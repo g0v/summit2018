@@ -4,7 +4,7 @@
     #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink.mb-50
       //- 我要贊助
       section#cta.cell.text-center.mb-50
-        CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
+        CtaButton(TW='一般票' EN='Registration' href="https://g0v-summit2018.kktix.cc/events/conf")
         CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
 
       #paragraphs.cell.large-8.grid-y
