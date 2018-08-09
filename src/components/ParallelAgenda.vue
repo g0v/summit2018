@@ -10,7 +10,7 @@
             :id="thread"
             :key="`th:${thread}`"
           >
-            {{ thread }}
+            <!-- {{ thread }} -->
           </th>
         </tr>
       </thead>
@@ -18,7 +18,7 @@
         <tr v-for="time in timeLabels" :key="`time:${formatTime(time)}`">
           <!-- Time -->
           <td class="time-label-cell">
-            <span class="time-label">{{ formatTime(time) }}</span>
+            <!-- <span class="time-label">{{ formatTime(time) }}</span> -->
           </td>
 
           <!-- Common thread cell -->
