@@ -227,10 +227,19 @@ th {
 
 .time-label-cell {
   vertical-align: top;
+  width: 4rem;
+  white-space: nowrap;
   .time-label {
     position: relative;
     top: -0.75rem;
     margin: 0 10px;
+  }
+}
+
+// Visually center the table by padding the space taken by time-label-cell for large screen
+@media only screen and (min-width: 1024px) {
+  .ParallelAgenda {
+    padding-right: 4rem;
   }
 }
 
