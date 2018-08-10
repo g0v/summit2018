@@ -58,7 +58,7 @@ Object.keys(proxyTable).forEach(function (context) {
 
 // 此為 vue-template/webpack 預設開啟功能，但 GitHub page 不支援)
 // handle fallback for HTML5 history API
-//app.use(require('connect-history-api-fallback')())/
+app.use(require('connect-history-api-fallback')())
 
 // serve webpack bundle output
 app.use(devMiddleware)
