@@ -13,8 +13,12 @@
             <img v-if="staff.AVASTER !== undefined" :src="staff.AVASTER" :alt="staff.NAME" class="thumbnail avatar">
             <gravatar-image v-else :email="staff.EMAIL" :alt="staff.NAME" class="thumbnail avatar" />
             <div class="name">
-              <TW>{{ staff['NAME-CH'] ? staff['NAME-CH']:staff.NAME }}</TW>
-              <EN>{{ staff.NAME ? staff.NAME:staff['NAME-CH'] }}</EN>
+              <TW>{{ staff['NAME-CH'] || staff.NAME }}</TW>
+              <EN>{{ staff.NAME || staff['NAME-CH'] }}</EN>
+            </div>
+            <div class="description">
+              <TW><small>{{ staff['TITLE-CH'] || staff.TITLE }}</small></TW>
+              <EN><small>{{ staff.TITLE || staff['TITLE-CH'] }}</small></EN>
             </div>
           </a>
         </div>
@@ -36,6 +40,7 @@ export default {
   data() {
     let groups = [
       '總籌組',
+      '議程委員',
       '議程組',
       '合作夥伴組',
       '行政組',
@@ -83,7 +88,7 @@ section#staff
   margin: 100px 0 120px
   .line
     padding: 15px
-    font-size: 0px;
+    font-size: 0px
     *
       display: inline-block
       vertical-align: top
@@ -109,6 +114,8 @@ section#staff
         .name
           font-size: 1rem
           display: block
+        .description
+          font-size: initial
     .nolink:hover
       cursor: default
 </style>
