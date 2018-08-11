@@ -10,7 +10,7 @@
              :class="{ nolink: staff.LINK === undefined }"
              class="member"
              target="_blank">
-            <img v-if="staff.AVASTER !== undefined" :src="staff.AVASTER" :alt="staff.NAME" class="thumbnail avatar">
+            <img v-if="staff.AVATAR" :src="staff.AVATAR[0].url" :alt="staff.NAME" class="thumbnail avatar">
             <gravatar-image v-else :email="staff.EMAIL" :alt="staff.NAME" class="thumbnail avatar" />
             <div class="name">
               <TW>{{ staff['NAME-CH'] || staff.NAME }}</TW>
@@ -106,7 +106,7 @@ section#staff
         width: 100px
         img
           width: 80px
-          hieght: 80px
+          height: 80px
           border-radius: 50%
           text-algin: center
         .thumbnail
