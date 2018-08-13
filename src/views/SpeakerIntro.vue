@@ -16,13 +16,16 @@
     <!-- Name and Title -->
     <h6>
       <b>
-        <TW>{{ speaker.NAME }}</TW><EN>{{ speaker.NAME_EN }}</EN>
+        <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
+        <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
       </b>
     </h6>
     <div>
-      <TW>{{ speaker.TITLE1 }}</TW><EN>{{ speaker.TITLE1_EN }}</EN>
+      <TW>{{ speaker.TITLE1 || speaker.TITLE1_EN }}</TW>
+      <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
       <br>
-      <TW>{{ speaker.TITLE2 }}</TW><EN>{{ speaker.TITLE2_EN }}</EN>
+      <TW>{{ speaker.TITLE2 || speaker.TITLE2_EN }}</TW>
+      <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
     </div>
   </div>
 </template>
