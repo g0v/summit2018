@@ -6,20 +6,19 @@
       ul.menu
         li: router-link(to="/").brand-logo.menu-text
           span.flex-container.align-middle.shahow
-            FaIcon.brand-icon(name="g0v-logo", :scale="1.5")
+            img.brand-icon(src="@/assets/svg/g0v.svg")
             TW.brand-title 2018 零時政府高峰會
             EN.brand-title summit 2018
     .top-bar-right
       ul.menu
-        //- TODO: add for later version
-        //- li
-        //-   UnderlineLink(to="/schedule").disabled
-        //-     TW 議程
-        //-     EN Schedule
         li
           UnderlineLink(to="/speakers")
             TW 講者
             EN Speakers
+        li
+          UnderlineLink(to="/agenda").disabled
+            TW 議程
+            EN Agenda
         li
           UnderlineLink(to="/cfp")
             TW 講者徵求
@@ -36,22 +35,18 @@
         //-   UnderlineLink(to="/live")
         //-     TW 直撥
         //-     EN Live
-        //- li
-        //-   UnderlineLink(to="/staff")
-        //-     TW 工作人員
-        //-     EN Staff
+        li
+          UnderlineLink(to="/staff")
+            TW 工作人員
+            EN Staff
         //- li
         //-   UnderlineLink(to="/wiki")
         //-     TW 大會共筆
         //-     EN Wiki
         li
           a(@click="toggleLang")
-            span(v-if="lang === 'TW'")
-              b 中
-              span /En
-            span(v-else)
-              span 中/
-              b En
+            b(v-if="lang === 'TW'") English
+            b(v-else) 中文
         //- li
         //-   input(type="search", placeholder="Search")
         //- li
@@ -109,6 +104,7 @@ export default {
   transition-duration: 0.2s;
   &.shrink {
     padding: 0px;
+    border-bottom: 1px solid $dark-gray;
   }
 
   @include breakpoint(small only) {
@@ -122,11 +118,11 @@ export default {
   .brand-logo {
     color: inherit;
     .brand-icon {
-      margin-right: 0.7rem;
-      color: #eee;
+      height: 60px;
     }
     .brand-title {
-      color: #eee;
+      color: $primary-color;
+      font-size: 24px;
     }
     font {
       @include vertical-center;

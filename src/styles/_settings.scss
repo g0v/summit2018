@@ -85,7 +85,8 @@ $foundation-palette: (
 );
 $light-gray: #e9e5e5;
 $medium-gray: #c9c7c7;
-$dark-gray: #DDDFDB; // #8a8a8a;
+$dark-gray: #f7f7f7; // #8a8a8a;
+$darker-gray: #cdcccd; // Added
 $black: #0a0a0a;
 $white: #fefefe;
 $classA: slateGray; // 鑽石級贊助
@@ -858,8 +859,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-// $topbar-background: $light-gray;
-$topbar-background: map-get($foundation-palette, secondary);
+$topbar-background: $white; // $light-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

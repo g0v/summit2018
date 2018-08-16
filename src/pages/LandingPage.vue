@@ -4,10 +4,8 @@
     #event-intro.grid-x.grid-padding-x.align-center.flex-child-shrink.mb-50
       //- 我要贊助
       section#cta.cell.text-center.mb-50
-        CtaButton(TW='早鳥票' EN='Early Bird Program' href="https://g0v-summit2018.kktix.cc/events/conf")
+        CtaButton(TW='一般票' EN='Registration' href="https://g0v-summit2018.kktix.cc/events/conf")
         CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
-        // - TODO: Do not hard code url
-        CtaButton(TW='講者徵求' EN='Call for Paper' href="http://summit.g0v.tw/2018/cfp")
 
       #paragraphs.cell.large-8.grid-y
 
@@ -57,6 +55,12 @@
       //- Summit hightlight
       section#hightlights.cell
         //- 重點講者
+        h3
+          TW 2018 Keynote
+          EN 2018 Keynote
+        #keynotes.grid-x.align-justify.grid-margin-x.mb-50
+          template(v-for="keynote in keynotes")
+            KeynoteBrief(:keynote="keynote").cell.large-6.medium-6.flex-child-shrink
         h3
           TW 歷年講者
           EN Past Speakers
@@ -118,19 +122,14 @@
                   <img alt="g0v flickr" src="https://farm8.staticflickr.com/7588/26460319244_975d4dd47e_c.jpg" width="100%" height="auto">
                 </a>
 
-          //- 尾部贊助商 logo 的標題
-          .cell
-            h3
-              TW 贊助夥伴
-              EN Sponsors
-
 </template>
 
 <script>
 import { mapState } from 'vuex'
 import { CtaButton, HeroImage } from '@/components'
-import { TheTimeline, SpeakerBrief, MediaQuote } from '@/views'
+import { TheTimeline, SpeakerBrief, MediaQuote, KeynoteBrief } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
+import keynotes from '@/assets/LandingPage/keynotes/index.js'
 import media from '@/assets/LandingPage/media/index.js'
 
 export default {
@@ -141,6 +140,7 @@ export default {
     TheTimeline,
     SpeakerBrief,
     MediaQuote,
+    KeynoteBrief,
   },
   data() {
     return {
@@ -184,6 +184,9 @@ export default {
   },
   computed: {
     ...mapState(['lang']),
+    keynotes() {
+      return this.lang === 'TW' ? keynotes.TW : keynotes.EN
+    },
     speakers() {
       return this.lang === 'TW' ? speakers.TW : speakers.EN
     },

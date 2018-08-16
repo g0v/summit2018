@@ -10,7 +10,7 @@
             :id="thread"
             :key="`th:${thread}`"
           >
-            {{ thread }}
+            <!-- {{ thread }} -->
           </th>
         </tr>
       </thead>
@@ -18,7 +18,7 @@
         <tr v-for="time in timeLabels" :key="`time:${formatTime(time)}`">
           <!-- Time -->
           <td class="time-label-cell">
-            <span class="time-label">{{ formatTime(time) }}</span>
+            <!-- <span class="time-label">{{ formatTime(time) }}</span> -->
           </td>
 
           <!-- Common thread cell -->
@@ -227,10 +227,19 @@ th {
 
 .time-label-cell {
   vertical-align: top;
+  width: 4rem;
+  white-space: nowrap;
   .time-label {
     position: relative;
     top: -0.75rem;
     margin: 0 10px;
+  }
+}
+
+// Visually center the table by padding the space taken by time-label-cell for large screen
+@media only screen and (min-width: 1024px) {
+  .ParallelAgenda {
+    padding-right: 4rem;
   }
 }
 
@@ -239,7 +248,7 @@ th {
   // height: ??px;
 
   // TODO: Remove after above is fixed. This infomation should only be in <AgendumCell>
-  background-color: #f7f7f7;
+  background-color: $dark-gray;
   & > * {
     height: 100%;
   }
