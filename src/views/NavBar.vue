@@ -11,15 +11,14 @@
             EN.brand-title summit 2018
     .top-bar-right
       ul.menu
-        //- TODO: add for later version
+        li
+          UnderlineLink(to="/speakers")
+            TW 講者
+            EN Speakers
         li
           UnderlineLink(to="/agenda").disabled
             TW 議程
             EN Agenda
-        //- li
-        //-   UnderlineLink(to="/speakers")
-        //-     TW 講者
-        //-     EN Speakers
         li
           UnderlineLink(to="/cfp")
             TW 講者徵求
