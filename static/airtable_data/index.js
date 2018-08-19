@@ -16,9 +16,9 @@ export const extractAllFields = records => records.map(extractFields)
  * @param {Object[]} linkedRecords 用來 populate 用的資料
  */
 export const populateRecord = (record, path, linkedRecords) => {
-  const fk = get(record, `${path}[0]`)
-  const value = find(linkedRecords, ['id', fk])
-  return assign(record, { [path]: value })
+  const fks = get(record, `${path}`)
+  const values = fks ? fks.map(fk => find(linkedRecords, ['id', fk])) : []
+  return assign(record, { [path]: values })
 }
 
 /**
