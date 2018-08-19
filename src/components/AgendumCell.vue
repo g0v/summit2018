@@ -13,6 +13,7 @@
 
 <script>
 import has from 'lodash/has'
+import isEmpty from 'lodash/isEmpty'
 
 export default {
   name: 'AgendumCell',
@@ -32,12 +33,13 @@ export default {
     },
     subtitle() {
       const { SPEAKER } = this.agendum
-      return SPEAKER
-        ? {
-            TW: SPEAKER.NAME,
-            EN: SPEAKER.NAME_EN || SPEAKER.NAME,
-          }
-        : null
+      if (isEmpty(SPEAKER)) {
+        return null
+      }
+      return {
+        TW: SPEAKER.map(s => s.NAME).join(' '),
+        EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(' '),
+      }
     },
   },
 }

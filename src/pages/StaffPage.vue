@@ -32,7 +32,7 @@ import { mapState } from 'vuex'
 import { GravatarImage } from '@/components'
 import groupBy from 'lodash/groupBy'
 
-import { NORMALIZED_STAFF } from '@/../static/airtable_data/index'
+import { POPULATED_STAFF } from '@/../static/airtable_data/index'
 
 export default {
   name: 'StaffPage',
@@ -57,7 +57,7 @@ export default {
       '記錄組',
     ]
 
-    let tempStaffs = NORMALIZED_STAFF
+    let tempStaffs = POPULATED_STAFF
     tempStaffs = groupBy(tempStaffs, record => record.GROUP)
     let staffs = Object.keys(tempStaffs).map(element => {
       return {
