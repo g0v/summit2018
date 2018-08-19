@@ -15,14 +15,14 @@
 
 <script>
 import SpeakerIntro from '@/views/SpeakerIntro'
-import { NORMALIZED_SPEAKERS } from '@/../static/airtable_data'
+import { POPULATED_SPEAKERS } from '@/../static/airtable_data'
 
 export default {
   name: 'SpeakerPage',
   components: { SpeakerIntro },
   computed: {
     speakers() {
-      return NORMALIZED_SPEAKERS.filter(
+      return POPULATED_SPEAKERS.filter(
         speaker => speaker['SHOW'] && speaker['NAME']
       )
     },
