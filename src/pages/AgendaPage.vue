@@ -41,13 +41,13 @@ import filter from 'lodash/filter'
 import sortBy from 'lodash/sortBy'
 import groupBy from 'lodash/groupBy'
 
-import { NORMALIZED_SCHEDULE } from '@/../static/airtable_data/index'
+import { POPULATED_SCHEDULE } from '@/../static/airtable_data/index'
 
 export default {
   name: 'AgendaPage',
   components: { CapsuleRadioButton, ParallelAgenda, AgendumCell },
   data() {
-    let schedule = NORMALIZED_SCHEDULE.map(record => ({
+    let schedule = POPULATED_SCHEDULE.map(record => ({
       ...record,
       START: new Date(record.START),
       END: new Date(record.END),
