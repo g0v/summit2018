@@ -33,7 +33,7 @@
     </defs>
     <title>hero-vertical</title>
     <g>
-      <rect x="-5" y="-12" width="612" height="860" style="fill:#dddfdb" />
+      <rect x="-5" y="-12" width="612" height="860" style="fill:#fff" />
       <line x1="-163" y1="-60" x2="827" y2="916" style="fill:none;stroke:#70706e;stroke-miterlimit:10;stroke-dasharray:5" />
       <ellipse cx="520.68" cy="507.34" rx="265.31"
                ry="52.76" transform="translate(-205.14 548.45) rotate(-47.5)" style="fill:#3c3e3d"
