@@ -1,5 +1,5 @@
 <template>
-  <div class="agendum-cell">
+  <div class="agendum-cell" @click="goToAgendum">
     <h6>
       <TW>{{ title['TW'] }}</TW>
       <EN>{{ title['EN'] }}</EN>
@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import router from '@/router'
 import has from 'lodash/has'
 import isEmpty from 'lodash/isEmpty'
 
@@ -41,6 +42,24 @@ export default {
         EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(' '),
       }
     },
+    slug() {
+      if (this.agendum.TITLE_EN) {
+        return encodeURIComponent(
+          this.agendum.TITLE_EN.toLowerCase()
+            .replace(/[:.,，。\s]/g, '-')
+            .replace(/["'#?!]/g, '')
+            .slice(0, 80)
+        )
+      }
+    },
+  },
+  methods: {
+    goToAgendum() {
+      router.push({
+        name: 'AgendaPage',
+        params: { agendumId: this.agendum.id, slug: this.slug },
+      })
+    },
   },
 }
 </script>
@@ -48,5 +67,6 @@ export default {
 <style lang="scss" scoped>
 .agendum-cell {
   padding: 20px 0;
+  cursor: pointer;
 }
 </style>
