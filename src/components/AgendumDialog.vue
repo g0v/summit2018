@@ -1,21 +1,22 @@
 <template>
-  <div v-if="open" class="agendum-dialog">
-    <div class="dialog-wrapper">
-      <section class="dialog">
-        <header class="header">
-          <h5>
-            <TW>{{ agendum.TITLE }}</TW>
-            <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
-          </h5>
-          <button
-            class="close-icon"
-            aria-label="Close Dialog"
-            @click="$emit('close')"
-          >&times;</button>
-        </header>
-        <div class="details">
-          <!-- TODO -->
-          <!-- <div
+  <transition name="fade">
+    <div v-if="open" class="agendum-dialog">
+      <div class="dialog-wrapper">
+        <section class="dialog">
+          <header class="header">
+            <h5>
+              <TW>{{ agendum.TITLE }}</TW>
+              <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
+            </h5>
+            <button
+              class="close-icon"
+              aria-label="Close Dialog"
+              @click="$emit('close')"
+            >&times;</button>
+          </header>
+          <div class="details">
+            <!-- TODO -->
+            <!-- <div
             v-for="(speaker, index) in speakers"
             :key="`agendum-info-row:${index}`"
             class="agendum-info-row grid-x align-justify"
@@ -44,15 +45,16 @@
               :alt="speaker.NAME_EN || speaker.NAME"
             >
           </div> -->
-          <p>
-            <TW>{{ agendum.SUMMARY }}</TW>
-            <EN>{{ agendum.SUMMARY_EN || agendum.SUMMARY }}</EN>
-          </p>
-        </div>
-      </section>
+            <p>
+              <TW>{{ agendum.SUMMARY }}</TW>
+              <EN>{{ agendum.SUMMARY_EN || agendum.SUMMARY }}</EN>
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="modal" @click="$emit('close')" />
     </div>
-    <div class="modal" @click="$emit('close')" />
-  </div>
+  </transition>
 </template>
 
 <script>
@@ -87,7 +89,6 @@ export default {
   position: fixed;
   top: 0;
   margin: auto;
-  padding: 1rem;
   height: 100%;
   overflow-y: scroll;
   .dialog {
@@ -136,5 +137,15 @@ export default {
   right: 0;
   left: 0;
   bottom: 0;
+}
+
+// Transition
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.15s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
