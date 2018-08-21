@@ -36,6 +36,7 @@
 import CapsuleRadioButton from '@/components/CapsuleRadioButton'
 import ParallelAgenda from '@/components/ParallelAgenda'
 import AgendumCell from '@/components/AgendumCell'
+import { formatDate } from '@/utils'
 import get from 'lodash/get'
 import filter from 'lodash/filter'
 import sortBy from 'lodash/sortBy'
@@ -71,22 +72,8 @@ export default {
     },
     formatDate(d) {
       const month = [
-        'Jan.',
-        'Feb.',
-        'Mar.',
-        'Apr.',
-        'May',
-        'Jun.',
-        'Jul.',
-        'Aug.',
-        'Sept.',
-        'Oct.',
-        'Nov. ',
-      ][d.getMonth()]
-      let date =
-        get(['1st', '2nd', '3rd'], `${d.getDate()}`) || `${d.getDate()}th`
-      return `${month} ${date}`
     },
+    formatDate,
   },
 }
 </script>
