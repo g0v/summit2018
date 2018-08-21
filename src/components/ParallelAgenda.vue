@@ -10,15 +10,15 @@
             :id="thread"
             :key="`th:${thread}`"
           >
-            <!-- {{ thread }} -->
+            {{ thread }}
           </th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="time in timeLabels" :key="`time:${formatTime(time)}`">
+        <tr v-for="(time, index) in timeLabels" :key="`time:day${index+1}:${formatTime(time)}`">
           <!-- Time -->
           <td class="time-label-cell">
-            <!-- <span class="time-label">{{ formatTime(time) }}</span> -->
+            <span class="time-label">{{ formatTime(time) }}</span>
           </td>
 
           <!-- Common thread cell -->
@@ -65,10 +65,10 @@ import sortBy from 'lodash/sortBy'
 import assign from 'lodash/assign'
 import groupBy from 'lodash/groupBy'
 import isString from 'lodash/isString'
-import padStart from 'lodash/padStart'
 import mapValues from 'lodash/mapValues'
 import findIndex from 'lodash/findIndex'
 import uniqBy from 'lodash/uniqBy'
+import { formatTime } from '@/utils'
 
 const isEqualDateWith = time1 => time2 => time1.getTime() === time2.getTime()
 
@@ -202,11 +202,7 @@ export default {
       return agendum
     },
     /** Format Data object to `hh:mm` */
-    formatTime(time) {
-      const hour = padStart(time.getHours(), 2, '0')
-      const minute = padStart(time.getMinutes(), 2, '0')
-      return `${hour}:${minute}`
-    },
+    formatTime,
   },
 }
 </script>

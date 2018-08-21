@@ -88,7 +88,7 @@ export default {
 .top-bar {
   opacity: 0.95;
   position: fixed;
-  z-index: 1;
+  z-index: $nav-bar-z-index;
   top: 0px;
   width: 100%;
 
