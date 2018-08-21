@@ -15,36 +15,31 @@
             >&times;</button>
           </header>
           <div class="details">
-            <!-- TODO -->
-            <!-- <div
-            v-for="(speaker, index) in speakers"
-            :key="`agendum-info-row:${index}`"
-            class="agendum-info-row grid-x align-justify"
-          >
-            <div class="grid-y align-justify">
-              <big v-if="index === 0">
-                <b class="venue">{{ agendum.VENUE }}</b>
-                <span class="time">{{ formatTime(agendum.START) }} - {{ formatTime(agendum.END) }}</span>
-              </big>
-              <span>
-                <TW>{{ speaker.NAME }}</TW>
-                <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
-              </span>
-              <span v-if="speaker.TITLE1" class="speaker-title">
-                <TW>{{ speaker.TITLE1 }}</TW>
-                <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
-              </span>
-              <span v-if="speaker.TITLE2" class="speaker-title">
-                <TW>{{ speaker.TITLE2 }}</TW>
-                <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
-              </span>
-            </div>
-            <img
-              v-if="speaker.AVATAR"
-              :src="speaker.AVATAR[0].url"
-              :alt="speaker.NAME_EN || speaker.NAME"
+            <span
+              v-for="(speaker, index) in speakers"
+              :key="`agendum-info-row:${index}`"
+              class="agendum-info-row grid-x align-justify"
             >
-          </div> -->
+              <div class="grid-y align-spaced align-top">
+                <big v-if="index === 0">
+                  <b class="venue">{{ agendum.VENUE }}</b>
+                  <span class="time">{{ formatTime(agendum.START) }} - {{ formatTime(agendum.END) }}</span>
+                </big>
+                <span>
+                  <TW>{{ speaker.NAME }}</TW>
+                  <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+                </span>
+                <span class="speaker-title">
+                  <TW>{{ speaker.TITLE1 }}</TW>
+                  <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
+                </span>
+                <span v-if="speaker.TITLE2" class="speaker-title">
+                  <TW>{{ speaker.TITLE2 }}</TW>
+                  <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
+                </span>
+              </div>
+              <SpeakerAvatar :speaker="speaker" />
+            </span>
             <p>
               <TW>{{ agendum.SUMMARY }}</TW>
               <EN>{{ agendum.SUMMARY_EN || agendum.SUMMARY }}</EN>
@@ -58,10 +53,12 @@
 </template>
 
 <script>
+import SpeakerAvatar from '@/views/SpeakerAvatar'
 import { formatTime } from '@/utils'
 
 export default {
   name: 'AgendumDialog',
+  components: { SpeakerAvatar },
   props: {
     open: {
       type: Boolean,
@@ -112,12 +109,18 @@ export default {
     }
     .details {
       padding: 15px;
-      .venue {
-        color: $primary-color;
-      }
-      .time,
-      .speaker-title {
-        color: $secondary-color;
+      .agendum-info-row {
+        margin-bottom: 25px;
+        &:last-of-type {
+          margin-bottom: 65px;
+        }
+        .venue {
+          color: $primary-color;
+        }
+        .time,
+        .speaker-title {
+          color: $secondary-color;
+        }
       }
     }
     @include breakpoint(medium) {
