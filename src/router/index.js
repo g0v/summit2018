@@ -6,6 +6,7 @@ import CallForPaperPage from '@/pages/CallForPaperPage'
 import AgendaPage from '@/pages/AgendaPage'
 import SpeakerPage from '@/pages/SpeakerPage'
 import StaffPage from '@/pages/StaffPage'
+import NotFound from '@/pages/NotFound'
 
 Vue.use(Router)
 
@@ -30,7 +31,7 @@ const router = new Router({
       component: CallForPaperPage,
     },
     {
-      path: '/agenda',
+      path: '/agenda/:agendumId?/:slug?',
       name: 'AgendaPage',
       component: AgendaPage,
     },
@@ -43,6 +44,14 @@ const router = new Router({
       path: '/staff',
       name: 'StaffPage',
       component: StaffPage,
+    },
+    {
+      path: '/404',
+      component: NotFound,
+    },
+    {
+      path: '*',
+      redirect: '/404',
     },
   ],
 })
