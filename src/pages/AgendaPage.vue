@@ -1,13 +1,13 @@
 <template>
   <div id="AgendaPage" class="grid-x align-center">
     <section id="agenda" class="cell large-10 text-center">
-      <!-- <CapsuleRadioButton
+      <CapsuleRadioButton
         id="date-picker"
         :options="dates"
         v-model="activeDate"
         lazy
         debounce="500"
-      /> --><br><br><br><br><!-- Temporarily -->
+      />
       <ParallelAgenda
         :agenda="schedule[activeDate]"
         :agendum-props-mapper="agendumPropsMapper"
