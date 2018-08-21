@@ -7,6 +7,7 @@
 // Import Motion UI
 @import '~motion-ui/dist/motion-ui';
 
+// Global styles
 h3 {
   border-bottom: 0.1em solid $primary-color;
   margin-bottom: 1rem;
@@ -21,4 +22,8 @@ h3 {
 
 h4 {
   color: $primary-color;
+}
+
+section {
+  max-width: 1140px;
 }

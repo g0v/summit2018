@@ -5,3 +5,9 @@
 @import "./settings";
 // Load Foundation
 @import "~foundation-sites/scss/foundation";
+
+// All z-index
+$agendum-dialog-z-index: 400;
+$agendum-modal-z-index: 300;
+$nav-bar-z-index: 200;
+$agendum-cell-hover-z-index: 100;
