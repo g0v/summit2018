@@ -9,6 +9,7 @@
             v-for="thread in threads"
             :id="thread"
             :key="`th:${thread}`"
+            :style="tdStyle"
           >
             {{ thread }}
           </th>
@@ -17,38 +18,49 @@
       <tbody>
         <tr v-for="(time, index) in timeLabels" :key="`time:day${index+1}:${formatTime(time)}`">
           <!-- Time -->
-          <td class="time-label-cell">
+          <td :style="tdStyle" class="time-label-cell">
             <span class="time-label">{{ formatTime(time) }}</span>
           </td>
 
           <!-- Common thread cell -->
-          <td
-            v-if="getAgendum(time, commonThread)"
-            :colspan="threads.length"
-            class="agendum-cell"
-          >
-            <component
-              :is="agendumComponent"
-              :agendum="getAgendum(time, commonThread)"
-            />
-          </td>
-
-          <!-- Agendum cell -->
-          <template
-            v-for="thread in threads"
-          >
+          <template v-if="getAgendum(time, commonThread)">
             <td
-              v-if="getRowSpan(time, thread) > 0"
-              :rowspan="getRowSpan(time, thread)"
-              :headers="thread"
-              :key="`th:${thread}`"
+              :colspan="threads.length"
+              :style="tdStyle"
               class="agendum-cell"
             >
               <component
                 :is="agendumComponent"
-                :agendum="getAgendum(time, thread)"
+                :agendum="getAgendum(time, commonThread)"
               />
             </td>
+          </template>
+
+          <!-- Agendum cell -->
+          <template v-else>
+            <template v-for="thread in threads">
+              <!-- Render agendum cell for this time/thread slot ... -->
+              <template v-if="getRowSpan(time, thread) > 0">
+                <td
+                  :rowspan="getRowSpan(time, thread)"
+                  :headers="thread"
+                  :key="`agendum:${time}:${thread}`"
+                  :style="tdStyle"
+                  class="agendum-cell"
+                >
+                  <component
+                    :is="agendumComponent"
+                    :agendum="getAgendum(time, thread)"
+                  />
+                </td>
+              </template>
+              <!-- ... Or render a placeholder, if the time/venue slot is idle -->
+              <template v-else>
+                <template v-if="isIdle(time, thread)">
+                  <td :key="`agendum:${time}:${thread}:placeholder`" :style="tdStyle"/>
+                </template>
+              </template>
+            </template>
           </template>
         </tr>
       </tbody>
@@ -189,6 +201,9 @@ export default {
         })
       })
     },
+    tdStyle() {
+      return { maxWidth: `${100 / this.threads.length}%` }
+    },
   },
   methods: {
     /** Get rowspan of an agendum cell */
@@ -200,6 +215,28 @@ export default {
     getAgendum(time, thread) {
       const agendum = get(this.agendaWithRowSpan, `${thread}.${time}`)
       return agendum
+    },
+    /** Determine if a given time/thread slot is idle (no agendum) */
+    isIdle(timeToCheck, thread) {
+      let earlierEvent = null // the agendum right before the time/thread slot
+      let timeLabelIndex = null // the index in `timeLabels` of the given time/thread slot
+      for (let i = this.timeLabels.length - 1; i > 0; i--) {
+        const timeLabel = this.timeLabels[i]
+        if (timeToCheck.getTime() === timeLabel.getTime()) {
+          timeLabelIndex = i
+        }
+        if (timeLabelIndex) {
+          earlierEvent = this.getAgendum(timeLabel, thread)
+          if (earlierEvent) {
+            const rowspan = this.getRowSpan(timeLabel, thread)
+            // if the space taken by earlier event is equal or bigger then the index, it's overlappying
+            const isNotOverlaypping = timeLabelIndex > i + rowspan - 1
+            return isNotOverlaypping
+          }
+        }
+      }
+
+      return true
     },
     /** Format Data object to `hh:mm` */
     formatTime,
@@ -220,7 +257,7 @@ th {
 
 .time-label-cell {
   vertical-align: top;
-  width: 4rem;
+  width: 64px;
   white-space: nowrap;
   .time-label {
     position: relative;

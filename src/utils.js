@@ -15,7 +15,7 @@ export const formatDate = d => {
     'Oct.',
     'Nov. ',
   ][d.getMonth()]
-  let date = get(['1st', '2nd', '3rd'], `${d.getDate()}`) || `${d.getDate()}th`
+  let date = get(['1st', '2nd', '3rd'], d.getDate() - 1) || `${d.getDate()}th`
   return `${month} ${date}`
 }
 
