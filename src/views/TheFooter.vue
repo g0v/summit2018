@@ -1,5 +1,5 @@
 <template lang="pug">
-section
+div#the-footer
   #footer-container.grid-container
     #footer.grid-x.align-justify
       .cell.auto.grid-x.align-middle.border
@@ -34,7 +34,7 @@ section
               FaIcon(name="envelope-o")
       .cell.medium-shrink.small-expand.border.grid-x.align-middle.align-center
         small: p#copyright.text-center Copyright © g0v Summit 2018・
-          a(href="https://github.com/g0v/summit2018", target="_blank") Source
+          a(href="https://github.com/g0v/summit2018", target="_blank") Source Code
 
 </template>
 
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-section {
+#the-footer {
   height: 100px;
   background-color: $dark-gray;
   border-top: 2px solid $darker-gray;
