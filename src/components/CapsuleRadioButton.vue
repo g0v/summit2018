@@ -41,6 +41,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.capsule-radio-button {
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
+}
+
 button {
   cursor: pointer;
   height: 40px;
@@ -59,7 +65,13 @@ button {
 
 .spacer {
   display: inline-block;
-  width: 48px;
-  border-top: 2px solid $primary-color;
+  @media screen and (max-width: 640px) {
+    height: 8px;
+    border-left: 2px solid $primary-color;
+  }
+  @media screen and (min-width: 640px) {
+    width: 48px;
+    border-top: 2px solid $primary-color;
+  }
 }
 </style>
