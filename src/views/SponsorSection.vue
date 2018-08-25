@@ -99,7 +99,8 @@ export default {
         case 'MEDIA_PARTNER':
           return 'class-d small-4 medium-3 large-2'
         default:
-          console.log('Sponsor instance has invalid value "CLASS": ', sponsor)
+          // Hide for unknow sponsor class
+          return 'hide'
       }
     },
   },
