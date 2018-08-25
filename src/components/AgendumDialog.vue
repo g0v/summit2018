@@ -87,6 +87,7 @@ export default {
   top: 0;
   margin: auto;
   height: 100%;
+  width: 100%;
   overflow-y: scroll;
   .dialog {
     background: white;
