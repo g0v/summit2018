@@ -4,10 +4,16 @@
       <div
         v-for="speaker in speakers"
         :key="`speaker-intro:${speaker.id}`"
+        :id="speaker.id"
         class="speaker-intro cell large-2 medium-3 small-6 text-center"
       >
         <!-- Speaker avatar and title -->
-        <SpeakerAvatar :speaker="speaker"/>
+        <component
+          :is="speaker.agendumLink ? 'router-link' : 'span'"
+          :to="speaker.agendumLink"
+        >
+          <SpeakerAvatar :speaker="speaker"/>
+        </component>
         <!-- Name and Title -->
         <h6>
           <b>
@@ -28,6 +34,8 @@
 </template>
 
 <script>
+import has from 'lodash/has'
+import get from 'lodash/get'
 import SpeakerAvatar from '@/views/SpeakerAvatar'
 import { POPULATED_SPEAKERS } from '@/../static/airtable_data'
 
@@ -38,7 +46,21 @@ export default {
     speakers() {
       return POPULATED_SPEAKERS.filter(
         speaker => speaker['SHOW'] && speaker['NAME']
-      )
+      ).map(this._mapFirstAgendumLink)
+    },
+  },
+  methods: {
+    // 若該講者有對應的 agenda 資料，則附上 agendumDialog 的超連結
+    _mapFirstAgendumLink(speaker) {
+      return has(speaker, 'SCHEDULE[0]')
+        ? {
+            ...speaker,
+            agendumLink: has(speaker, 'SCHEDULE[0]') && {
+              name: 'AgendaPage',
+              params: { agendumId: get(speaker, 'SCHEDULE[0].id') },
+            },
+          }
+        : speaker
     },
   },
 }
