@@ -45,7 +45,6 @@ import CapsuleRadioButton from '@/components/CapsuleRadioButton'
 import ParallelAgenda from '@/components/ParallelAgenda'
 import AgendumCell from '@/components/AgendumCell'
 import AgendumDialog from '@/components/AgendumDialog'
-import { formatDate } from '@/utils'
 import get from 'lodash/get'
 import find from 'lodash/find'
 import filter from 'lodash/filter'
@@ -99,7 +98,13 @@ export default {
     closeDialog() {
       router.push({ name: 'AgendaPage' })
     },
-    formatDate,
+    formatDate(date) {
+      return date.toLocaleDateString('en-US', {
+        timeZone: 'Asia/Taipei',
+        month: 'short',
+        day: 'numeric',
+      })
+    },
     get,
   },
 }
