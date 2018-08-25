@@ -80,7 +80,6 @@ import isString from 'lodash/isString'
 import mapValues from 'lodash/mapValues'
 import findIndex from 'lodash/findIndex'
 import uniqBy from 'lodash/uniqBy'
-import { formatTime } from '@/utils'
 
 const isEqualDateWith = time1 => time2 => time1.getTime() === time2.getTime()
 
@@ -163,7 +162,7 @@ export default {
       const endTimes = this.sortedAgenda.map(
         agendum => agendum[this.agendaKeyOfEndTime]
       )
-      const getTime = time => time.getTime()
+      const getTime = date => date.getTime()
       const times = sortBy(
         uniqBy([...startTimes, ...endTimes], getTime),
         getTime
@@ -238,8 +237,15 @@ export default {
 
       return true
     },
-    /** Format Data object to `hh:mm` */
-    formatTime,
+    /** Format ISO 8601 Data object to `hh:mm` */
+    formatTime(date) {
+      return date.toLocaleTimeString('zh-TW', {
+        hour12: false,
+        timeZone: 'Asia/Taipei',
+        hour: '2-digit',
+        minute: '2-digit',
+      })
+    },
   },
 }
 </script>
