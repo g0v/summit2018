@@ -40,7 +40,8 @@ export default {
 <style lang="scss" scoped>
 .avatar {
   height: 130px;
-  widows: 130px;
+  width: 130px;
   border-radius: 65px;
+  object-fit: cover;
 }
 </style>
