@@ -54,7 +54,6 @@
 
 <script>
 import SpeakerAvatar from '@/views/SpeakerAvatar'
-import { formatTime } from '@/utils'
 
 export default {
   name: 'AgendumDialog',
@@ -75,7 +74,13 @@ export default {
     },
   },
   methods: {
-    formatTime: timeString => formatTime(new Date(timeString)),
+    formatTime: timeString =>
+      new Date(timeString).toLocaleTimeString('zh-TW', {
+        timeZone: 'Asia/Taipei',
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+      }),
   },
 }
 </script>
