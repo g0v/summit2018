@@ -54,11 +54,18 @@ const router = new Router({
       redirect: '/404',
     },
   ],
-})
-
-router.afterEach(() => {
-  // Scroll to top
-  window.scroll(0, 0)
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      // Return to last position for `popstate` (i.e. click Next/Prev button of browser)
+      return savedPosition
+    } else if (to.hash) {
+      // URL hash navigation
+      return { selector: to.hash }
+    } else if (to.name !== from.name) {
+      // Scroll to top if change page
+      return { x: 0, y: 0 }
+    }
+  },
 })
 
 export default router
