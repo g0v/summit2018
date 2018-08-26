@@ -1,5 +1,5 @@
 <template>
-  <div class="agendum-cell" @click="goToAgendum">
+  <div class="agendum-cell text-center" @click="goToAgendum">
     <h6>
       <TW>{{ title['TW'] }}</TW>
       <EN>{{ title['EN'] }}</EN>
