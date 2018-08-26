@@ -17,7 +17,10 @@ export const extractAllFields = records => records.map(extractFields)
  */
 export const populateRecord = (record, path, linkedRecords) => {
   const fks = get(record, `${path}`)
-  const values = fks ? fks.map(fk => find(linkedRecords, ['id', fk])) : []
+  // TODO: Airtable 回來的 [<foreign key>] 不知為何順序倒過來，如果之後修好了再拿掉 reverse()
+  const values = fks
+    ? fks.reverse().map(fk => find(linkedRecords, ['id', fk]))
+    : []
   return assign(record, { [path]: values })
 }
 
