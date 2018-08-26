@@ -10,16 +10,16 @@ module.exports = {
   },
   env: {
     browser: true,
+    jest: true,
   },
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
   extends: [
     'standard',
     'prettier',
+    'plugin:jest/recommended',
     'plugin:vue/recommended', // or 'plugin:vue/base'
   ],
-  plugins: [
-    'prettier', 'vue'
-  ],
+  plugins: ['prettier', 'vue', 'jest'],
   // add your custom rules here
   rules: {
     // allow paren-less arrow functions
@@ -34,18 +34,24 @@ module.exports = {
     'comma-dangle': ['warn', 'only-multiline'],
     'no-var': 'warn',
 
-    'prettier/prettier': ['warn', {
-      'trailingComma': 'es5',
-      'singleQuote': true,
-      'semi': false,
-    }],
-
-    'vue/max-attributes-per-line': ['warn', {
-      singleline: 5,
-      multiline: {
-        max: 3,
-        allowFirstLine: true,
+    'prettier/prettier': [
+      'warn',
+      {
+        trailingComma: 'es5',
+        singleQuote: true,
+        semi: false,
       },
-    }],
-  }
+    ],
+
+    'vue/max-attributes-per-line': [
+      'warn',
+      {
+        singleline: 5,
+        multiline: {
+          max: 3,
+          allowFirstLine: true,
+        },
+      },
+    ],
+  },
 }
