@@ -21,7 +21,7 @@
             <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
           </b>
         </h6>
-        <div>
+        <div class="speaker-titles">
           <TW>{{ speaker.TITLE1 || speaker.TITLE1_EN }}</TW>
           <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
           <br>
@@ -73,6 +73,10 @@ export default {
   .speaker-intro {
     h6 {
       margin-top: 18px;
+      margin-bottom: 8px;
+    }
+    .speaker-titles {
+      font-size: 14px;
     }
     margin-bottom: 35px;
   }

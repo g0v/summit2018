@@ -4,10 +4,11 @@
       <div class="dialog-wrapper">
         <section class="dialog">
           <header class="header">
-            <h5>
+            <h1 @click="copyCurrentURL">
+              #
               <TW>{{ agendum.TITLE }}</TW>
               <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
-            </h5>
+            </h1>
             <button
               class="close-icon"
               aria-label="Close Dialog"
@@ -15,34 +16,39 @@
             >&times;</button>
           </header>
           <div class="details">
+            <p>
+              <b class="venue">{{ agendum.VENUE }}</b>
+              <span class="time">{{ formatTime(agendum.START) }} - {{ formatTime(agendum.END) }}</span>
+            </p>
             <span
               v-for="(speaker, index) in speakers"
-              :key="`agendum-info-row:${index}`"
-              class="agendum-info-row grid-x align-justify"
+              :key="`speaker-info-row:${index}`"
+              class="speaker-info-row grid-x align-justify"
             >
-              <div class="grid-y align-spaced align-top">
-                <big v-if="index === 0">
-                  <b class="venue">{{ agendum.VENUE }}</b>
-                  <span class="time">{{ formatTime(agendum.START) }} - {{ formatTime(agendum.END) }}</span>
-                </big>
-                <span>
-                  <TW>{{ speaker.NAME }}</TW>
-                  <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
-                </span>
-                <span class="speaker-title">
-                  <TW>{{ speaker.TITLE1 }}</TW>
-                  <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
-                </span>
-                <span v-if="speaker.TITLE2" class="speaker-title">
-                  <TW>{{ speaker.TITLE2 }}</TW>
-                  <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
-                </span>
+              <div>
+                <div class="grid-y align-spaced align-top">
+                  <span>
+                    <TW>{{ speaker.NAME }}</TW>
+                    <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+                  </span>
+                  <small class="speaker-title">
+                    <TW>{{ speaker.TITLE1 }}</TW>
+                    <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
+                  </small>
+                  <small v-if="speaker.TITLE2" class="speaker-title">
+                    <TW>{{ speaker.TITLE2 }}</TW>
+                    <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
+                  </small>
+                  <TW v-if="speaker.BIO || speaker.BIO_EN" class="biography align-self-top">{{ speaker.BIO }}</TW>
+                  <EN v-if="speaker.BIO_EN" class="biography align-self-top">{{ speaker.BIO_EN || speaker.BIO }}</EN>
+                </div>
               </div>
               <SpeakerAvatar :speaker="speaker" />
             </span>
+            <h2><b>Abstract</b></h2>
             <p>
-              <TW>{{ agendum.SUMMARY }}</TW>
-              <EN>{{ agendum.SUMMARY_EN || agendum.SUMMARY }}</EN>
+              <TW>{{ agendum.ABSTRACT || agendum.ABSTRACT_EN }}</TW>
+              <EN>{{ agendum.ABSTRACT_EN }}</EN>
             </p>
           </div>
         </section>
@@ -81,6 +87,7 @@ export default {
         hour: '2-digit',
         minute: '2-digit',
       }),
+    copyCurrentURL() {},
   },
 }
 </script>
@@ -105,8 +112,10 @@ export default {
       justify-content: space-between;
       align-items: middle;
       padding: 25px;
-      h5 {
+      h1 {
+        font-size: 18px;
         margin: 0;
+        cursor: pointer;
       }
       .close-icon {
         color: $primary-color;
@@ -115,18 +124,24 @@ export default {
     }
     .details {
       padding: 15px;
-      .agendum-info-row {
+      .venue {
+        color: $primary-color;
+      }
+      .speaker-info-row {
+        flex-wrap: nowrap;
         margin-bottom: 25px;
         &:last-of-type {
           margin-bottom: 65px;
         }
-        .venue {
-          color: $primary-color;
-        }
         .time,
         .speaker-title {
           color: $secondary-color;
+          margin-bottom: 0.5rem;
         }
+      }
+      h2 {
+        font-size: 18px;
+        color: $primary-color;
       }
     }
     @include breakpoint(medium) {
