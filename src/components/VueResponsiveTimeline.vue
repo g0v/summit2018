@@ -99,7 +99,7 @@ export default {
       type: Object,
       default: () => ({
         fontSize: '22px',
-        color: '#E55760',
+        color: 'black',
       }),
     },
     /** styles for ur>li>span>.subtitle */
@@ -152,13 +152,17 @@ export default {
             '--li-border-top': bulletLine,
             '--li-border-left': timeline,
             '--li-last-child-border-width': `${timelineThickness} 0`,
-            '--event-wrapper-top': '0px',
+            '--event-wrapper-top-odd': '0px',
+            '--event-wrapper-top-even': '0px',
+            '--event-wrapper-left': '2rem',
           }
         : {
             '--li-border-top': timeline,
             '--li-border-left': bulletLine,
             '--li-last-child-border-width': `0 ${timelineThickness}`,
-            '--event-wrapper-bottom': '0px',
+            '--event-wrapper-top-odd': '3.5rem',
+            '--event-wrapper-top-even': '10rem',
+            '--event-wrapper-left': '7px',
           }
 
       return Object.assign(patch, this.cssVariables)
@@ -173,7 +177,7 @@ export default {
   },
   methods: {
     onResize() {
-      this.isSmallScreen = window.innerWidth <= this.breakpoint
+      this.isSmallScreen = window.innerWidth < this.breakpoint
     },
   },
 }
@@ -218,9 +222,17 @@ export default {
       // Wrapper of title and subtitle
       span.event-wrapper {
         position: absolute;
-        top: var(--event-wrapper-top);
-        bottom: var(--event-wrapper-bottom);
-        left: var(--event-wrapper-left, 14px);
+        left: var(--event-wrapper-left, 1rem);
+      }
+      &:nth-child(odd) {
+        span.event-wrapper {
+          top: var(--event-wrapper-top-odd);
+        }
+      }
+      &:nth-child(even) {
+        span.event-wrapper {
+          top: var(--event-wrapper-top-even);
+        }
       }
     }
   }
