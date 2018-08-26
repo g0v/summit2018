@@ -1,7 +1,7 @@
 <template>
   <div class="sponsor-section">
     <div class="grid-container">
-      <h4><TW>贊助夥伴</TW><EN>Sponsors</EN></h4>
+      <h1><TW>贊助夥伴</TW><EN>Sponsors</EN></h1>
       <section class="grid-x grid-padding-x align-center">
         <div
           v-for="sponsor in sponsors"
@@ -110,9 +110,6 @@ export default {
 <style lang="scss" scoped>
 .sponsor-section {
   background-color: $dark-gray;
-  h4 {
-    padding: 30px 0;
-  }
 
   ._hide {
     opacity: 0;

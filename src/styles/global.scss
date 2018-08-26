@@ -8,6 +8,14 @@
 @import '~motion-ui/dist/motion-ui';
 
 // Global styles
+h1 {
+  color: $primary-color;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 26px;
+}
+
 h3 {
   border-bottom: 0.1em solid $primary-color;
   margin-bottom: 1rem;
@@ -26,4 +34,5 @@ h4 {
 
 section {
   max-width: 1140px;
+  margin: 10px;
 }
