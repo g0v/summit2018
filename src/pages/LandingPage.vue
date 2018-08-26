@@ -39,8 +39,9 @@
             span &nbsp;&nbsp;|&nbsp;&nbsp;
             a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9") Code of Conduct
 
-    #timeline
-      section Timeline
+    #timeline-wrapper.mb-50
+      section#timeline
+        VueResponsiveTimeline(:items="timelineItems" :breakpoint="1024")
 
     #summit-highlight.grid-y.align-middle.mb-50
 
@@ -114,8 +115,8 @@
 
 <script>
 import { mapState } from 'vuex'
-import { CtaButton, HeroImage } from '@/components'
-import { TheTimeline, SpeakerBrief, MediaQuote, KeynoteBrief } from '@/views'
+import { CtaButton, HeroImage, VueResponsiveTimeline } from '@/components'
+import { SpeakerBrief, MediaQuote, KeynoteBrief } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
 import keynotes from '@/assets/LandingPage/keynotes/index.js'
 import media from '@/assets/LandingPage/media/index.js'
@@ -125,47 +126,41 @@ export default {
   components: {
     HeroImage,
     CtaButton,
-    TheTimeline,
     SpeakerBrief,
     MediaQuote,
     KeynoteBrief,
+    VueResponsiveTimeline,
   },
   data() {
     return {
-      timelineItems: [
+      timeline: [
         {
-          description: { tw: '社群貢獻者申請', en: 'Contributor Registration' },
-          time: { en: 'Now until May 30th', tw: '即日起 - 5/30' },
-          'fa-icon': 'ticket',
+          description: { TW: '社群貢獻者申請', EN: 'Contributor Registration' },
+          time: { EN: 'Until May 30th', TW: '即日起至 5/30' },
           href: 'https://g0v-summit2018.kktix.cc/events/contributor',
         },
         {
-          description: { tw: '徵稿', en: 'Call for Paper' },
-          time: { tw: '即日起至 6/30', en: 'Now until June 30th' },
-          'fa-icon': 'globe',
+          description: { TW: '徵稿', EN: 'Call for Paper' },
+          time: { TW: '即日起至 6/30', EN: 'Until June 30th' },
           // TODO: Do not hard code url
-          href: 'http://summit.g0v.tw/2018/cfp',
+          href: 'http://summit.g0v.TW/2018/cfp',
         },
         {
-          description: { tw: '早鳥票', en: 'Early Bird Program' },
-          time: { en: 'Now until June 30th', tw: '即日起 - 6/30' },
-          'fa-icon': 'ticket',
+          description: { TW: '早鳥票', EN: 'Early Bird Program' },
+          time: { EN: 'Until June 30th', TW: '即日起至 6/30' },
           href: 'https://g0v-summit2018.kktix.cc/events/conf',
         },
         {
-          description: { tw: '公布議程', en: 'Announce the Agenda' },
-          time: { en: 'Late July', tw: '7月下旬' },
-          'fa-icon': 'list',
+          description: { TW: '公布議程', EN: 'Announce the Agenda' },
+          time: { EN: 'Late July', TW: '7月下旬' },
         },
         {
-          description: { tw: '一般票', en: 'Standard Ticket' },
-          time: { en: 'August 1st', tw: '8/1' },
-          'fa-icon': 'ticket',
+          description: { TW: '一般票', EN: 'Standard Ticket' },
+          time: { EN: 'August 1st', TW: '8/1' },
         },
         {
           description: 'g0v Summit',
-          time: { en: 'October 5th - 7th', tw: '10/5 - 7' },
-          'fa-icon': 'calendar-check-o',
+          time: { EN: 'Oct 5th - 7th', TW: '10/5 - 7' },
         },
       ],
     }
@@ -181,12 +176,23 @@ export default {
     reports() {
       return this.lang === 'TW' ? media.TW : media.EN
     },
+    timelineItems() {
+      return this.timeline.map((item, index) => ({
+        title: item.time[this.lang] || item.time,
+        subtitle: item.description[this.lang] || item.description,
+        date: index,
+      }))
+    },
   },
 }
 </script>
 
 <style lang="scss" scoped>
-#timeline {
+#timeline-wrapper {
   background-color: #e7e7e7;
+  padding: 100px 1rem;
+  #timeline {
+    margin: auto;
+  }
 }
 </style>
