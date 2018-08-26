@@ -4,10 +4,10 @@
       <TW>{{ title['TW'] }}</TW>
       <EN>{{ title['EN'] }}</EN>
     </h6>
-    <span v-if="subtitle !== null">
+    <small v-if="subtitle !== null">
       <TW>{{ subtitle['TW'] }}</TW>
       <EN>{{ subtitle['EN'] }}</EN>
-    </span>
+    </small>
   </div>
 </template>
 

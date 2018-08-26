@@ -269,6 +269,9 @@ th {
     position: relative;
     top: -0.75rem;
     margin: 0 10px;
+    @include breakpoint(small only) {
+      margin: 0;
+    }
   }
 }
 
