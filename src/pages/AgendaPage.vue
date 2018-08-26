@@ -27,10 +27,10 @@
     </section>
 
     <section id="maps" class="cell large-10">
-      <h4>
+      <h1>
         <TW>活動會場</TW>
         <EN>Venue</EN>
-      </h4>
+      </h1>
       <div class="text-center">
         <img class="map" src="@/assets/AgendaPage/3F.svg" alt="3F 場地圖" >
         <img class="map" src="@/assets/AgendaPage/4F.svg" alt="4F 場地圖" >
