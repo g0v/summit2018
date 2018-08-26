@@ -1,6 +1,6 @@
 <template>
   <div id="AgendaPage" class="grid-x align-center">
-    <section id="agenda" class="cell large-10 text-center">
+    <section id="agenda" class="cell large-10">
       <CapsuleRadioButton
         id="date-picker"
         :options="dates"
