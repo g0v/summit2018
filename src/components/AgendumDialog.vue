@@ -6,7 +6,7 @@
           <header class="header">
             <h1 @click="copyCurrentURL">
               #
-              <TW>{{ agendum.TITLE }}</TW>
+              <TW>{{ agendum.TITLE || agendum.TITLE_EN }}</TW>
               <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
             </h1>
             <button
@@ -28,19 +28,19 @@
               <div>
                 <div class="grid-y align-spaced align-top">
                   <span>
-                    <TW>{{ speaker.NAME }}</TW>
+                    <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
                     <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
                   </span>
                   <small class="speaker-title">
-                    <TW>{{ speaker.TITLE1 }}</TW>
+                    <TW>{{ speaker.TITLE1 || speaker.TITLE1_EN }}</TW>
                     <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
                   </small>
-                  <small v-if="speaker.TITLE2" class="speaker-title">
-                    <TW>{{ speaker.TITLE2 }}</TW>
+                  <small v-if="speaker.TITLE2 || speaker.TITLE2_EN" class="speaker-title">
+                    <TW>{{ speaker.TITLE2 || speaker.TITLE2_EN }}</TW>
                     <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
                   </small>
-                  <TW v-if="speaker.BIO || speaker.BIO_EN" class="biography align-self-top">{{ speaker.BIO }}</TW>
-                  <EN v-if="speaker.BIO_EN" class="biography align-self-top">{{ speaker.BIO_EN || speaker.BIO }}</EN>
+                  <TW class="biography align-self-top">{{ speaker.BIO || speaker.BIO_EN }}</TW>
+                  <EN class="biography align-self-top">{{ speaker.BIO_EN || speaker.BIO }}</EN>
                 </div>
               </div>
               <SpeakerAvatar :speaker="speaker" />
@@ -48,7 +48,7 @@
             <h2><b>Abstract</b></h2>
             <p>
               <TW>{{ agendum.ABSTRACT || agendum.ABSTRACT_EN }}</TW>
-              <EN>{{ agendum.ABSTRACT_EN }}</EN>
+              <EN>{{ agendum.ABSTRACT_EN || agendum.ABSTRACT }}</EN>
             </p>
           </div>
         </section>
