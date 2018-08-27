@@ -1,5 +1,8 @@
 <template>
-  <div class="agendum-cell text-center" @click="goToAgendum">
+  <div
+    :class="['agendum-cell', 'text-center', { 'pointer': shouldShowDialog }]"
+    @click="goToAgendum"
+  >
     <h6>
       <TW>{{ title['TW'] }}</TW>
       <EN>{{ title['EN'] }}</EN>
@@ -52,13 +55,27 @@ export default {
         )
       }
     },
+    shouldShowDialog() {
+      return (
+        has(this.agendum, 'ABSTRACT') ||
+        has(this.agendum, 'ABSTRACT_EN') ||
+        has(this.agendum, 'speaker.NAME') ||
+        has(this.agendum, 'speaker.NAME_EN') ||
+        has(this.agendum, 'speaker.TITLE1') ||
+        has(this.agendum, 'speaker.TITLE1_EN') ||
+        has(this.agendum, 'speaker.BIO') ||
+        has(this.agendum, 'speaker.BIO_EN')
+      )
+    },
   },
   methods: {
     goToAgendum() {
-      router.push({
-        name: 'AgendaPage',
-        params: { agendumId: this.agendum.id, slug: this.slug },
-      })
+      if (this.shouldShowDialog) {
+        router.push({
+          name: 'AgendaPage',
+          params: { agendumId: this.agendum.id, slug: this.slug },
+        })
+      }
     },
   },
 }
@@ -67,6 +84,8 @@ export default {
 <style lang="scss" scoped>
 .agendum-cell {
   padding: 20px 0;
-  cursor: pointer;
+  .pointer {
+    cursor: pointer;
+  }
 }
 </style>
