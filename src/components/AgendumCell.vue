@@ -1,6 +1,8 @@
 <template>
   <div
     :class="['agendum-cell', 'text-center', { 'pointer': shouldShowDialog }]"
+    :role="shouldShowDialog && 'link'"
+    tabindex="0"
     @click="goToAgendum"
   >
     <h6>
