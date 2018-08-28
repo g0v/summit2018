@@ -43,8 +43,8 @@ export default {
         return null
       }
       return {
-        TW: SPEAKER.map(s => s.NAME).join(' '),
-        EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(' '),
+        TW: SPEAKER.map(s => s.NAME).join('、'),
+        EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(', '),
       }
     },
     slug() {
