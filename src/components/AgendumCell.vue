@@ -6,12 +6,12 @@
     @click="goToAgendum"
   >
     <h6>
-      <TW>{{ title['TW'] }}</TW>
-      <EN>{{ title['EN'] }}</EN>
+      <TW>{{ title['TW'] || title['EN'] }}</TW>
+      <EN>{{ title['EN'] || title['TW'] }}</EN>
     </h6>
     <small v-if="subtitle !== null">
-      <TW>{{ subtitle['TW'] }}</TW>
-      <EN>{{ subtitle['EN'] }}</EN>
+      <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
+      <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
     </small>
   </div>
 </template>
@@ -33,7 +33,7 @@ export default {
   computed: {
     title() {
       return {
-        TW: this.agendum['TITLE'],
+        TW: this.agendum['TITLE'] || this.agendum['TITLE_EN'],
         EN: this.agendum['TITLE_EN'] || this.agendum['TITLE'],
       }
     },
@@ -43,8 +43,8 @@ export default {
         return null
       }
       return {
-        TW: SPEAKER.map(s => s.NAME).join(' '),
-        EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(' '),
+        TW: SPEAKER.map(s => s.NAME || s.NAME_EN).join('、'),
+        EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(', '),
       }
     },
     slug() {
