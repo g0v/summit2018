@@ -1,6 +1,10 @@
 <template>
   <div class="ParallelAgenda">
     <table>
+      <colgroup>
+        <col style="width: 2.7rem">
+        <col v-for="(_, index) in threads" :key="index">
+      </colgroup>
       <!-- Header -->
       <thead>
         <tr>
@@ -9,7 +13,6 @@
             v-for="thread in threads"
             :id="thread"
             :key="`th:${thread}`"
-            :style="tdStyle"
           >
             {{ thread }}
           </th>
@@ -18,7 +21,7 @@
       <tbody>
         <tr v-for="(time, index) in timeLabels" :key="`time:day${index+1}:${formatTime(time)}`">
           <!-- Time -->
-          <td :style="tdStyle" class="time-label-cell">
+          <td class="time-label-cell">
             <span class="time-label">{{ formatTime(time) }}</span>
           </td>
 
@@ -26,7 +29,6 @@
           <template v-if="getAgendum(time, commonThread)">
             <td
               :colspan="threads.length"
-              :style="tdStyle"
               class="agendum-cell"
             >
               <component
@@ -45,7 +47,6 @@
                   :rowspan="getRowSpan(time, thread)"
                   :headers="thread"
                   :key="`agendum:${time}:${thread}`"
-                  :style="tdStyle"
                   class="agendum-cell"
                 >
                   <component
@@ -57,7 +58,7 @@
               <!-- ... Or render a placeholder, if the time/venue slot is idle -->
               <template v-else>
                 <template v-if="isIdle(time, thread)">
-                  <td :key="`agendum:${time}:${thread}:placeholder`" :style="tdStyle"/>
+                  <td :key="`agendum:${time}:${thread}:placeholder`" />
                 </template>
               </template>
             </template>
@@ -200,9 +201,6 @@ export default {
         })
       })
     },
-    tdStyle() {
-      return { maxWidth: `${100 / this.threads.length}%` }
-    },
   },
   methods: {
     /** Get rowspan of an agendum cell */
@@ -251,6 +249,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+table {
+  table-layout: fixed;
+}
+
 td,
 th {
   color: #3c3e3d;
@@ -263,14 +265,14 @@ th {
 
 .time-label-cell {
   vertical-align: top;
-  width: 64px;
   white-space: nowrap;
   .time-label {
     position: relative;
     top: -0.75rem;
-    margin: 0 10px;
+    left: -10px;
+    // TODO: Remove after responsive layout is implemented
     @include breakpoint(small only) {
-      margin: 0;
+      left: 0;
     }
   }
 }
@@ -278,7 +280,7 @@ th {
 // Visually center the table by padding the space taken by time-label-cell for large screen
 @media only screen and (min-width: 1024px) {
   .ParallelAgenda {
-    padding-right: 4rem;
+    padding-right: 2.7rem;
   }
 }
 
