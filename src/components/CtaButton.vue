@@ -1,59 +1,70 @@
-<template lang="pug">
-  a.cta-button.button.primary.large(:href="href", target="_blank")
-    .cta-button-text
-      TW {{ TW }}
-      EN {{ EN }}
-    .cta-button-text-hover
-      TW {{ TW_hover || EN_hover || TW }}
-      EN {{ EN_hover || TW_hover || EN }}
+<template>
+  <span :style="block && ({display: 'block'})">
+    <a :href="href" :class="`cta-button button primary ${size}`" target="_blank">
+      <span :class="{'hide-on-hover': hasCustomHoverText}">
+        <slot/>
+      </span>
+      <span v-if="hasCustomHoverText" class="show-on-hover">
+        {{ hoverText }}
+      </span>
+    </a>
+  </span>
 </template>
 
 <script>
 export default {
   name: 'CtaButton',
   props: {
-    TW: {
-      type: String,
-      required: true,
-    },
-    EN: {
-      type: String,
-      required: true,
-    },
-    TW_hover: {
-      type: String,
-      default: null,
-    },
-    EN_hover: {
-      type: String,
-      default: null,
-    },
     href: {
       type: String,
       required: true,
+    },
+    hoverText: {
+      type: String,
+      default: () => undefined,
+    },
+    block: {
+      type: Boolean,
+      default: () => false,
+    },
+    /**
+     * Foundation Button component - sizing (https://foundation.zurb.com/sites/docs/button.html#sizing)
+     *
+     * Allow values: ["tiny", "small", "large", "expanded", "small expanded"]
+     */
+    size: {
+      type: String,
+      default: () => '',
+    },
+  },
+  computed: {
+    hasCustomHoverText() {
+      return this.hoverText !== undefined
     },
   },
 }
 </script>
 
 <style lang="scss" scoped>
-.cta-button {
-  border-radius: 500px;
+a.cta-button {
+  border-radius: 100px;
   border: 1px solid $white;
   margin-right: 0.5em;
   margin-left: 0.5em;
   color: $white;
-  > div {
-    height: 20px;
+
+  > span {
+    padding: 0 0.8rem;
   }
-  .cta-button-text-hover {
+
+  .show-on-hover {
     display: none;
   }
   &:hover {
-    .cta-button-text {
+    .hide-on-hover {
       display: none;
     }
-    .cta-button-text-hover {
+    .show-on-hover {
       display: block;
     }
   }
