@@ -137,30 +137,35 @@ export default {
         {
           description: { TW: '社群貢獻者申請', EN: 'Contributor Registration' },
           time: { EN: 'Until May 30th', TW: '即日起至 5/30' },
+          date: new Date(2018, 5, 30),
           href: 'https://g0v-summit2018.kktix.cc/events/contributor',
         },
         {
           description: { TW: '徵稿', EN: 'Call for Paper' },
-          time: { TW: '即日起至 6/30', EN: 'Until June 30th' },
-          // TODO: Do not hard code url
+          time: { EN: 'Until June 30th ', TW: '即日起至 6/30' },
+          date: new Date(2018, 6, 30, 1),
           href: 'http://summit.g0v.TW/2018/cfp',
         },
         {
           description: { TW: '早鳥票', EN: 'Early Bird Program' },
           time: { EN: 'Until June 30th', TW: '即日起至 6/30' },
+          date: new Date(2018, 6, 30, 2),
           href: 'https://g0v-summit2018.kktix.cc/events/conf',
         },
         {
           description: { TW: '公布議程', EN: 'Announce the Agenda' },
           time: { EN: 'Late July', TW: '7月下旬' },
+          date: new Date(2018, 7, 25),
         },
         {
           description: { TW: '一般票', EN: 'Standard Ticket' },
           time: { EN: 'August 1st', TW: '8/1' },
+          date: new Date(2018, 8, 1),
         },
         {
           description: 'g0v Summit',
           time: { EN: 'Oct 5th - 7th', TW: '10/5 - 7' },
+          date: new Date(2018, 10, 5),
         },
       ],
     }
@@ -177,10 +182,10 @@ export default {
       return this.lang === 'TW' ? media.TW : media.EN
     },
     timelineItems() {
-      return this.timeline.map((item, index) => ({
-        title: item.time[this.lang] || item.time,
-        subtitle: item.description[this.lang] || item.description,
-        date: index,
+      return this.timeline.map(({ time, description, date }) => ({
+        title: time[this.lang] || time,
+        subtitle: description[this.lang] || description,
+        date,
       }))
     },
   },
