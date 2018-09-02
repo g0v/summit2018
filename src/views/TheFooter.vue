@@ -24,7 +24,7 @@ div#the-footer
             a(href="http://join.g0v.today/", target="_blank")
               FaIcon(name="slack")
           li(title="g0v github")
-            a(href="https://github.com/g0v", target="_blank")
+            a(href="https://github.com/g0v/summit2018", target="_blank")
               FaIcon(name="github")
           li(title="Co-edited event documents")
             a(href="http://beta.hackfoldr.org/g0v-summit2018/", target="_blank")
@@ -34,7 +34,7 @@ div#the-footer
               FaIcon(name="envelope-o")
       .cell.medium-shrink.small-expand.border.grid-x.align-middle.align-center
         small: p#copyright.text-center Copyright © g0v Summit 2018・
-          a(href="https://github.com/g0v/summit2018", target="_blank") Source Code
+          a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9", target="_blank") CODE OF CONDUCT
 
 </template>
 
