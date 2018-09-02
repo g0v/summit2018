@@ -37,3 +37,15 @@ section {
   max-width: 1140px;
   margin: 10px;
 }
+
+.debug {
+  outline: 1px dashed green;
+}
+
+// .mb-25, .mb-50, .mb-75, .mb-100, .mb-125, .mb-150
+$margins: 25, 50, 75, 100, 125, 150;
+@each $margin in $margins {
+  .mb-#{$margin} {
+    margin-bottom:  #{$margin}px;
+  }
+}

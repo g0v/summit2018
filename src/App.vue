@@ -53,8 +53,4 @@ export default {
 
 <style lang="scss">
 @import './styles/global';
-
-.mb-50 {
-  margin-bottom: 50px;
-}
 </style>
