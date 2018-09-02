@@ -3,12 +3,8 @@ import find from 'lodash/find'
 import assign from 'lodash/assign'
 import SPEAKERS from './SPEAKERS.json'
 import SCHEDULE from './SCHEDULE.json'
-import STAFF from './STAFF.json'
-
-// 展開 Airtable 回傳的 json 中的 `fields` 欄位
-export const extractFields = record => assign({ id: record.id }, record.fields)
-
-export const extractAllFields = records => records.map(extractFields)
+export { default as STAFF } from './STAFF.json'
+export { default as SPONSORS } from './SPONSORS.json'
 
 /**
  * @param {Object} record Airtable response 的單個 json object
@@ -32,16 +28,6 @@ export const populateRecord = (record, path, linkedRecords) => {
 export const populateRecords = (records, path, linkedRecords) =>
   records.map(record => populateRecord(record, path, linkedRecords))
 
-export const POPULATED_SPEAKERS = populateRecords(
-  extractAllFields(SPEAKERS.records),
-  'SCHEDULE',
-  extractAllFields(SCHEDULE.records)
-)
+export const POPULATED_SPEAKERS = populateRecords(SPEAKERS, 'SCHEDULE', SCHEDULE)
 
-export const POPULATED_SCHEDULE = populateRecords(
-  extractAllFields(SCHEDULE.records),
-  'SPEAKER',
-  extractAllFields(SPEAKERS.records)
-)
-
-export const POPULATED_STAFF = extractAllFields(STAFF.records)
+export const POPULATED_SCHEDULE = populateRecords(SCHEDULE, 'SPEAKER', SPEAKERS)
