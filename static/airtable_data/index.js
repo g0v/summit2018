@@ -3,7 +3,8 @@ import find from 'lodash/find'
 import assign from 'lodash/assign'
 import SPEAKERS from './SPEAKERS.json'
 import SCHEDULE from './SCHEDULE.json'
-import STAFF from './STAFF.json'
+export { default as STAFF } from './STAFF.json'
+export { default as SPONSORS } from './SPONSORS.json'
 
 /**
  * @param {Object} record Airtable response 的單個 json object

@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import SponsorData from '../../static/airtable_data/SPONSORS.json'
+import { SPONSORS } from '@/../static/airtable_data'
 import shuffle from 'lodash/shuffle'
 
 /** 設定贊助商大於一定數量，則打亂顯示順序，單純以卡片大小分別 */
@@ -65,13 +65,13 @@ export default {
      * 來自 Airtable 的贊助商資料
      */
     sponsors() {
-      const sponsors = SponsorData.records
-        .filter(record => record.fields.SHOW === true)
-        .map(record => ({
-          ...record.fields,
-          LOGO: record.fields.CROPPED_LOGO[0].thumbnails.large.url,
+      const sponsors = SPONSORS.filter(record => record.SHOW === true).map(
+        record => ({
+          ...record,
+          LOGO: record.CROPPED_LOGO[0].thumbnails.large.url,
           id: record.id,
-        }))
+        })
+      )
 
       if (SHUFFEL_THRESHOLE && sponsors.length >= SHUFFEL_THRESHOLE) {
         return shuffle(sponsors)

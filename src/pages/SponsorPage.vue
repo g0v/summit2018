@@ -60,7 +60,7 @@
 
 <script>
 import groupBy from 'lodash/groupBy'
-import SponsorData from '../../static/airtable_data/SPONSORS.json'
+import { SPONSORS } from '@/../static/airtable_data'
 import { CtaButton } from '@/components'
 
 export default {
@@ -91,13 +91,13 @@ export default {
      * 來自 Airtable 的贊助商資料
      */
     sponsorsByClass() {
-      const sponsors = SponsorData.records
-        .filter(record => record.fields.SHOW === true)
-        .map(record => ({
-          ...record.fields,
-          LOGO: record.fields.CROPPED_LOGO[0].thumbnails.large.url,
+      const sponsors = SPONSORS.filter(record => record.SHOW === true).map(
+        record => ({
+          ...record,
+          LOGO: record.CROPPED_LOGO[0].thumbnails.large.url,
           id: record.id,
-        }))
+        })
+      )
 
       return groupBy(sponsors, 'CLASS')
     },
