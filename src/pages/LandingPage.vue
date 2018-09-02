@@ -1,10 +1,6 @@
 <template lang="pug">
   #LandingPage
-    HeroImage
-    //- 我要贊助
-    section#cta.text-center.mb-50
-      CtaButton(TW='一般票' EN='Registration' href="https://g0v-summit2018.kktix.cc/events/conf")
-      CtaButton(TW='貢獻者票' EN='Contributor Registration' href="https://g0v-summit2018.kktix.cc/events/contributor")
+    HeroImage(class="mb-50")
     #event-intro.grid-y.align-middle.mb-50
       //- 社群簡介
       section
@@ -115,8 +111,8 @@
 
 <script>
 import { mapState } from 'vuex'
-import { CtaButton, HeroImage, VueResponsiveTimeline } from '@/components'
-import { SpeakerBrief, MediaQuote, KeynoteBrief } from '@/views'
+import { VueResponsiveTimeline } from '@/components'
+import { SpeakerBrief, MediaQuote, KeynoteBrief, HeroImage } from '@/views'
 import speakers from '@/assets/LandingPage/speakers/index.js'
 import keynotes from '@/assets/LandingPage/keynotes/index.js'
 import media from '@/assets/LandingPage/media/index.js'
@@ -125,7 +121,6 @@ export default {
   name: 'LandingPage',
   components: {
     HeroImage,
-    CtaButton,
     SpeakerBrief,
     MediaQuote,
     KeynoteBrief,
