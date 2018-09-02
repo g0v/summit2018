@@ -1,6 +1,6 @@
 <template lang="pug">
   #LandingPage
-    HeroImage(class="mb-50")
+    HeroImage(class="mb-150")
     #event-intro.grid-y.align-middle.mb-50
       //- 社群簡介
       section
