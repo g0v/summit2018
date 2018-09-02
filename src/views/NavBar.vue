@@ -19,10 +19,10 @@
           UnderlineLink(to="/agenda").disabled
             TW 議程
             EN Agenda
-        li
-          UnderlineLink(to="/cfp")
-            TW 講者徵求
-            EN Call for Paper
+        //- li
+        //-   UnderlineLink(to="/cfp")
+        //-     TW 講者徵求
+        //-     EN Call for Paper
         li
           UnderlineLink(to="/sponsors")
             TW 贊助夥伴

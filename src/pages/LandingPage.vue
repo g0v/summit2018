@@ -24,7 +24,7 @@
             span &nbsp;&nbsp;|&nbsp;&nbsp;
             a(href="mailto:g0v-summit-2018-pr@googlegroups.com") 媒體聯絡
             span &nbsp;&nbsp;|&nbsp;&nbsp;
-            a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9") 活動行為準則
+            router-link(:to="{ name: 'CallForPaperPage' }") 投稿 (已截止)
         EN
           h1 About g0v summit
           p The g0v summit is a biennial event which focuses on open government, open source collaboration and civic participation. It was established in 2014 by the g0v community. The past two summits have gathered speakers from 19 countries and more than 2,000 local and international participants. The summit is run by volunteers, and it itself is a huge collaborative project of the community. We aim to build an open environment for everyone. Volunteers will help write online shared notes, make livestreaming videos, and do realtime translation, all of these are released under open licenses. Besides formal sessions, we emphasize on “unconference”, which enables participants to host sessions and organize their own summit. As part of the tradition in open source events, the summit always ends with lightening talks when everyone can share their projects on the stage.
@@ -33,7 +33,7 @@
             span &nbsp;&nbsp;|&nbsp;&nbsp;
             a(href="mailto:g0v-summit-2018-pr@googlegroups.com") Media Contact
             span &nbsp;&nbsp;|&nbsp;&nbsp;
-            a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9") Code of Conduct
+            router-link(:to="{ name: 'CallForPaperPage' }") Call For Paper (Closed)
 
     #timeline-wrapper.mb-50
       section#timeline
