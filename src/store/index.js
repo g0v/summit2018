@@ -3,11 +3,19 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+const BREAKPOINT = 640
+
 const store = new Vuex.Store({
   strict: process.env.NODE_ENV !== 'production',
   state: {
     lang: 'EN',
     scrollY: 0,
+    innerWidth: 0,
+  },
+  getters: {
+    isSmallScreen: state => {
+      return state.innerWidth <= BREAKPOINT
+    },
   },
   mutations: {
     toggleLang(state) {
@@ -16,6 +24,9 @@ const store = new Vuex.Store({
     },
     setScrollY(state, payload) {
       state.scrollY = payload.scrollY
+    },
+    setWindowInnerWidth(state, payload) {
+      state.innerWidth = payload.innerWidth
     },
   },
 })
