@@ -9,7 +9,7 @@
     "start": "node build/dev-server.js",
     "test": "yarn lint && jest",
     "test:watch": "jest --watch",
-    "pull_airtable": "./pull_airtable.sh ./static/airtable_data/",
+    "pull_airtable": "node ./scripts/pull_airtable.js",
     "build": "yarn pull_airtable && node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix --ext .js,.vue src "
@@ -28,6 +28,7 @@
     "what-input": "^4.3.1"
   },
   "devDependencies": {
+    "airtable": "^0.5.6",
     "autoprefixer": "^7.1.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
