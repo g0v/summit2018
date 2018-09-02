@@ -5,7 +5,7 @@
         <section class="dialog">
           <header class="header">
             <h1 @click="copyCurrentURL">
-              #
+              #{{ agendum.ID }}
               <TW>{{ agendum.TITLE || agendum.TITLE_EN }}</TW>
               <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
             </h1>
@@ -18,6 +18,7 @@
           <div class="details">
             <p>
               <b class="venue">{{ agendum.VENUE }}</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <span class="time">{{ formatTime(agendum.START) }} - {{ formatTime(agendum.END) }}</span>
             </p>
             <span
@@ -26,24 +27,31 @@
               class="speaker-info-row grid-x align-justify"
             >
               <div>
-                <div class="grid-y align-spaced align-top">
-                  <span>
-                    <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
-                    <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
-                  </span>
-                  <small class="speaker-title">
+                <SpeakerAvatar :speaker="speaker" class="speaker-avatar hide-for-small-only" />
+              </div>
+              <div>
+                <div class="speaker-title">
+                  <SpeakerAvatar :speaker="speaker" class="speaker-avatar show-for-small-only" />
+                  <div>
+                    <b>
+                      <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
+                      <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+                    </b>
+                  </div>
+                  <small>
                     <TW>{{ speaker.TITLE1 || speaker.TITLE1_EN }}</TW>
                     <EN>{{ speaker.TITLE1_EN || speaker.TITLE1 }}</EN>
+                    <span v-if="speaker.TITLE2 || speaker.TITLE2_EN" class="speaker-title">
+                      <TW>{{ speaker.TITLE2 || speaker.TITLE2_EN }}</TW>
+                      <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
+                    </span>
                   </small>
-                  <small v-if="speaker.TITLE2 || speaker.TITLE2_EN" class="speaker-title">
-                    <TW>{{ speaker.TITLE2 || speaker.TITLE2_EN }}</TW>
-                    <EN>{{ speaker.TITLE2_EN || speaker.TITLE2 }}</EN>
-                  </small>
+                </div>
+                <p>
                   <TW class="biography align-self-top">{{ speaker.BIO || speaker.BIO_EN }}</TW>
                   <EN class="biography align-self-top">{{ speaker.BIO_EN || speaker.BIO }}</EN>
-                </div>
+                </p>
               </div>
-              <SpeakerAvatar :speaker="speaker" />
             </span>
             <h2><b>Abstract</b></h2>
             <p>
@@ -93,6 +101,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.title-font {
+  font-size: 24px;
+  letter-spacing: 1.6px;
+}
+
 .dialog-wrapper {
   z-index: $agendum-dialog-z-index;
   position: fixed;
@@ -125,23 +138,34 @@ export default {
     .details {
       padding: 15px;
       .venue {
+        @extend .title-font;
         color: $primary-color;
+        font-weight: bold;
+      }
+      .time {
+        @extend .title-font;
       }
       .speaker-info-row {
         flex-wrap: nowrap;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         &:last-of-type {
-          margin-bottom: 65px;
+          margin-bottom: 45px;
         }
-        .time,
+        .speaker-avatar {
+          margin-right: 35px;
+          margin-bottom: 30px;
+        }
         .speaker-title {
           color: $secondary-color;
-          margin-bottom: 0.5rem;
+          font-size: 20px;
+          letter-spacing: 2.25px;
+          margin-bottom: 18px;
         }
       }
       h2 {
-        font-size: 18px;
+        @extend .title-font;
         color: $primary-color;
+        font-weight: bold;
       }
     }
     @include breakpoint(medium) {
