@@ -1,5 +1,5 @@
 <template lang="pug">
-  div#nav-bar: .top-bar(@scroll="handleScroll", :class="(scrollY>50) && 'shrink'")
+  div#nav-bar: .top-bar(:class="{shrink: scrollY > 50}")
     //- TODO: add for later version
     //- .top-bar-left.show-for-large
     .top-bar-left
@@ -55,7 +55,6 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
-import throttle from 'lodash/throttle'
 
 export default {
   name: 'NavBar',
@@ -65,17 +64,8 @@ export default {
     }
   },
   computed: mapState(['lang', 'scrollY']),
-  mounted() {
-    window.addEventListener('scroll', throttle(this.handleScroll, 300))
-  },
-  destroied() {
-    window.removeEventListener('scroll', throttle(this.handleScroll, 300))
-  },
   methods: {
-    handleScroll() {
-      this.setScrollY({ scrollY: window.scrollY })
-    },
-    ...mapMutations(['toggleLang', 'setScrollY']),
+    ...mapMutations(['toggleLang']),
   },
 }
 </script>
