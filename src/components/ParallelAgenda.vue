@@ -31,6 +31,8 @@
               :colspan="threads.length"
               class="agendum-cell"
             >
+              <!-- TODO: User Scoped Slot instead.
+                         (https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots) -->
               <component
                 :is="agendumComponent"
                 :agendum="getAgendum(time, commonThread)"
