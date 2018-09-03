@@ -24,14 +24,13 @@
             <span
               v-for="(speaker, index) in speakers"
               :key="`speaker-info-row:${index}`"
-              class="speaker-info-row grid-x align-justify"
+              class="speaker-info-row grid-x flex-container flex-dir-column medium-flex-dir-row"
             >
               <div>
-                <SpeakerAvatar :speaker="speaker" class="speaker-avatar hide-for-small-only" />
+                <SpeakerAvatar :speaker="speaker" class="speaker-avatar" />
               </div>
               <div>
                 <div class="speaker-title">
-                  <SpeakerAvatar :speaker="speaker" class="speaker-avatar show-for-small-only" />
                   <div>
                     <b>
                       <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
