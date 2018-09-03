@@ -261,7 +261,7 @@ th {
   text-align: center;
 
   // TODO: Avoid using $body-background, achieve full height <agendum-component/> then use padding instead
-  border: 3px solid $body-background;
+  outline: 3px solid $body-background;
   padding: 0px;
 }
 
@@ -286,14 +286,11 @@ th {
   }
 }
 
-.agendum-cell {
-  // TODO: Dynamically set this by js, so that <agendum-component/> can vertically fill the cell
-  // height: ??px;
-
-  // TODO: Remove after above is fixed. This infomation should only be in <AgendumCell>
+td.agendum-cell {
+  position: relative;
+  // FIX: Make child's height fill <td> to avoid $dark-gray and hard-coded padding-top here
+  // See https://stackoverflow.com/questions/3215553/make-a-div-fill-an-entire-table-cell/14163076
+  padding-top: 18px;
   background-color: $dark-gray;
-  & > * {
-    height: 100%;
-  }
 }
 </style>
