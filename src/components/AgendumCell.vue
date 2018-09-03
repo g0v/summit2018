@@ -5,11 +5,12 @@
     tabindex="0"
     @click="goToAgendum"
   >
-    <h6>
+    <div v-if="label" class="label">{{ label }}</div>
+    <h6 class="title">
       <TW>{{ title['TW'] || title['EN'] }}</TW>
       <EN>{{ title['EN'] || title['TW'] }}</EN>
     </h6>
-    <small v-if="subtitle !== null">
+    <small v-if="subtitle !== null" class="subtitle">
       <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
       <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
     </small>
@@ -46,6 +47,9 @@ export default {
         TW: SPEAKER.map(s => s.NAME || s.NAME_EN).join('、'),
         EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(', '),
       }
+    },
+    label() {
+      return this.agendum.TYPE
     },
     slug() {
       if (this.agendum.TITLE_EN) {
@@ -85,9 +89,32 @@ export default {
 
 <style lang="scss" scoped>
 .agendum-cell {
-  padding: 20px 0;
+  // position: relative;  // Instead, <td> is set to relative.
+  padding: 20px 10px;
+  background-color: $dark-gray;
+  .title {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 16px;
+  }
+  .subtitle {
+    color: black;
+    font-size: 12px;
+  }
   .pointer {
     cursor: pointer;
+  }
+  .label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: white;
+    height: 24px;
+    width: 72px;
+    background-color: $primary-color;
+    border-radius: 0 24px 24px 0;
   }
 }
 </style>
