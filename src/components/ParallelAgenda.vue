@@ -1,5 +1,5 @@
 <template>
-  <div class="ParallelAgenda">
+  <div :style="cssVariables" class="ParallelAgenda">
     <table>
       <colgroup>
         <col style="width: 2.7rem">
@@ -132,6 +132,13 @@ export default {
       type: Boolean,
       default: () => false,
     },
+    /**  */
+    cssVariables: {
+      type: Object,
+      default: () => ({
+        '--border-color': 'white',
+      }),
+    },
   },
   computed: {
     /**
@@ -255,13 +262,14 @@ table {
   table-layout: fixed;
 }
 
+tr {
+  border: unset;
+}
+
 td,
 th {
   color: #3c3e3d;
   text-align: center;
-
-  // TODO: Avoid using $body-background, achieve full height <agendum-component/> then use padding instead
-  outline: 3px solid $body-background;
   padding: 0px;
 }
 
@@ -288,9 +296,7 @@ th {
 
 td.agendum-cell {
   position: relative;
-  // FIX: Make child's height fill <td> to avoid $dark-gray and hard-coded padding-top here
-  // See https://stackoverflow.com/questions/3215553/make-a-div-fill-an-entire-table-cell/14163076
-  padding-top: 18px;
-  background-color: $dark-gray;
+  overflow: hidden;
+  border: 3px solid var(--border-color, white);
 }
 </style>

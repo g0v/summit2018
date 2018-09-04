@@ -1,20 +1,25 @@
 <template>
-  <div
-    :class="['agendum-cell', 'text-center', { 'pointer': shouldShowDialog }]"
+  <a
+    :class="['agendum-cell-link', 'text-center', { 'pointer': shouldShowDialog }]"
     :role="shouldShowDialog && 'link'"
     tabindex="0"
     @click="goToAgendum"
   >
-    <div v-if="label" class="label">{{ label }}</div>
-    <h6 class="title">
-      <TW>{{ title['TW'] || title['EN'] }}</TW>
-      <EN>{{ title['EN'] || title['TW'] }}</EN>
-    </h6>
-    <small v-if="subtitle !== null" class="subtitle">
-      <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
-      <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
-    </small>
-  </div>
+    <div class="agendum-cell">
+      <div v-if="label" class="label">{{ label }}</div>
+      <h6
+        :style="label && {marginTop: '30px'}"
+        class="title"
+      >
+        <TW>{{ title['TW'] || title['EN'] }}</TW>
+        <EN>{{ title['EN'] || title['TW'] }}</EN>
+      </h6>
+      <small v-if="subtitle !== null" class="subtitle">
+        <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
+        <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
+      </small>
+    </div>
+  </a>
 </template>
 
 <script>
@@ -88,33 +93,39 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.agendum-cell {
-  // position: relative;  // Instead, <td> is set to relative.
-  padding: 20px 10px;
+.agendum-cell-link {
+  // Hack the table content to vertically fill <td> (https://stackoverflow.com/a/15801081/6739302)
+  display: block;
+  margin: -10em;
+  padding: 10em;
   background-color: $dark-gray;
-  .title {
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 16px;
-  }
-  .subtitle {
-    color: black;
-    font-size: 12px;
-  }
-  .pointer {
-    cursor: pointer;
-  }
-  .label {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    color: white;
-    height: 24px;
-    width: 72px;
-    background-color: $primary-color;
-    border-radius: 0 24px 24px 0;
+
+  .agendum-cell {
+    padding: 20px 10px;
+    .title {
+      color: black;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 16px;
+    }
+    .subtitle {
+      color: black;
+      font-size: 12px;
+    }
+    .pointer {
+      cursor: pointer;
+    }
+    .label {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      color: white;
+      height: 24px;
+      width: 72px;
+      background-color: $primary-color;
+      border-radius: 0 24px 24px 0;
+    }
   }
 }
 </style>
