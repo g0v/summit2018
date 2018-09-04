@@ -4,11 +4,16 @@
       <div class="dialog-wrapper">
         <section class="dialog">
           <header class="header">
-            <h1 @click="copyCurrentURL">
-              #{{ agendum.ID }}
-              <TW>{{ agendum.TITLE || agendum.TITLE_EN }}</TW>
-              <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
-            </h1>
+            <div>
+              <h1 @click="copyCurrentURL">
+                #{{ agendum.ID }}
+                <TW>{{ agendum.TITLE || agendum.TITLE_EN }}</TW>
+                <EN>{{ agendum.TITLE_EN || agendum.TITLE }}</EN>
+              </h1>
+              <a v-if="agendum.SLIDE" :href="agendum.SLIDE" class="slide-link" target="_blank">
+                <img src="@/assets/AgendaPage/slide.png" title="Open slide in new tab" alt="Slide icon">
+              </a>
+            </div>
             <button
               class="close-icon"
               aria-label="Close Dialog"
@@ -127,6 +132,11 @@ export default {
       h1 {
         font-size: 18px;
         margin: 0;
+        cursor: pointer;
+        display: inline;
+      }
+      .slide-link {
+        margin-left: 0.9rem;
         cursor: pointer;
       }
       .close-icon {
