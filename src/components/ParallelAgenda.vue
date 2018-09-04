@@ -29,7 +29,7 @@
           <template v-if="getAgendum(time, commonThread)">
             <td
               :colspan="threads.length"
-              class="agendum-cell"
+              class="agendum-cell common-thread"
             >
               <!-- TODO: User Scoped Slot instead.
                          (https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots) -->
@@ -262,6 +262,11 @@ table {
   table-layout: fixed;
 }
 
+th,
+.common-thread {
+  text-align: center;
+}
+
 tr {
   border: unset;
 }
@@ -269,7 +274,6 @@ tr {
 td,
 th {
   color: #3c3e3d;
-  text-align: center;
   padding: 0px;
 }
 

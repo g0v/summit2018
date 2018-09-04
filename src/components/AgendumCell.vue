@@ -1,6 +1,6 @@
 <template>
   <a
-    :class="['agendum-cell-link', 'text-center', { 'pointer': shouldShowDialog }]"
+    :class="['agendum-cell-link', { 'pointer': shouldShowDialog }]"
     :role="shouldShowDialog && 'link'"
     tabindex="0"
     @click="goToAgendum"
