@@ -1,5 +1,5 @@
 <template>
-  <div class="ParallelAgenda">
+  <div :style="cssVariables" class="ParallelAgenda">
     <table>
       <colgroup>
         <col style="width: 2.7rem">
@@ -29,7 +29,7 @@
           <template v-if="getAgendum(time, commonThread)">
             <td
               :colspan="threads.length"
-              class="agendum-cell"
+              class="agendum-cell common-thread"
             >
               <!-- TODO: User Scoped Slot instead.
                          (https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots) -->
@@ -49,6 +49,7 @@
                   :rowspan="getRowSpan(time, thread)"
                   :headers="thread"
                   :key="`agendum:${time}:${thread}`"
+                  :style="has(getAgendum(time, thread), 'TRACK') && ({ borderBottom: 'unset', borderTop: 'unset' })"
                   class="agendum-cell"
                 >
                   <component
@@ -72,6 +73,7 @@
 </template>
 
 <script>
+import has from 'lodash/has'
 import get from 'lodash/get'
 import every from 'lodash/every'
 import keyBy from 'lodash/keyBy'
@@ -131,6 +133,13 @@ export default {
     isAgendaSorted: {
       type: Boolean,
       default: () => false,
+    },
+    /**  */
+    cssVariables: {
+      type: Object,
+      default: () => ({
+        '--border-color': 'white',
+      }),
     },
   },
   computed: {
@@ -246,6 +255,8 @@ export default {
         minute: '2-digit',
       })
     },
+    has,
+    get,
   },
 }
 </script>
@@ -255,13 +266,18 @@ table {
   table-layout: fixed;
 }
 
+th,
+.common-thread {
+  text-align: center;
+}
+
+tr {
+  border: unset;
+}
+
 td,
 th {
   color: #3c3e3d;
-  text-align: center;
-
-  // TODO: Avoid using $body-background, achieve full height <agendum-component/> then use padding instead
-  outline: 3px solid $body-background;
   padding: 0px;
 }
 
@@ -288,9 +304,7 @@ th {
 
 td.agendum-cell {
   position: relative;
-  // FIX: Make child's height fill <td> to avoid $dark-gray and hard-coded padding-top here
-  // See https://stackoverflow.com/questions/3215553/make-a-div-fill-an-entire-table-cell/14163076
-  padding-top: 18px;
-  background-color: $dark-gray;
+  overflow: hidden;
+  border: 3px solid var(--border-color, white);
 }
 </style>

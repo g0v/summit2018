@@ -1,20 +1,39 @@
 <template>
-  <div
-    :class="['agendum-cell', 'text-center', { 'pointer': shouldShowDialog }]"
+  <a
+    :class="['agendum-cell-link', { 'pointer': shouldShowDialog }]"
     :role="shouldShowDialog && 'link'"
     tabindex="0"
     @click="goToAgendum"
   >
-    <div v-if="label" class="label">{{ label }}</div>
-    <h6 class="title">
-      <TW>{{ title['TW'] || title['EN'] }}</TW>
-      <EN>{{ title['EN'] || title['TW'] }}</EN>
-    </h6>
-    <small v-if="subtitle !== null" class="subtitle">
-      <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
-      <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
-    </small>
-  </div>
+    <div class="agendum-cell">
+      <!-- Label -->
+      <b v-if="label" class="label">{{ label }}</b>
+      <div v-if="label" class="label-spacer"/>
+
+      <!-- Series (Visible if first of series) -->
+      <div
+        v-if="seriesName"
+        :class="['series-name', {'hide': indexInSeries > 0}]"
+      >
+        {{ seriesName }}
+      </div>
+
+      <!-- Title -->
+      <h6 class="title">
+        <TW>{{ title['TW'] || title['EN'] }}</TW>
+        <EN>{{ title['EN'] || title['TW'] }}</EN>
+      </h6>
+
+      <!-- Subtitle -->
+      <small v-if="subtitle !== null" class="subtitle">
+        <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
+        <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
+      </small>
+
+      <!-- Selerator (show to replace border-bottom of <td>, if not first of series) -->
+      <span v-if="indexInSeries && indexInSeries > 0" class="series-seperator"/>
+    </div>
+  </a>
 </template>
 
 <script>
@@ -29,6 +48,10 @@ export default {
       type: Object,
       required: true,
       validator: info => has(info, 'TITLE'),
+    },
+    indexInSeries: {
+      type: Boolean,
+      default: null,
     },
   },
   computed: {
@@ -50,6 +73,9 @@ export default {
     },
     label() {
       return this.agendum.TYPE
+    },
+    seriesName() {
+      return this.agendum.TRACK
     },
     slug() {
       if (this.agendum.TITLE_EN) {
@@ -88,33 +114,53 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.agendum-cell {
-  // position: relative;  // Instead, <td> is set to relative.
-  padding: 20px 10px;
+.agendum-cell-link {
+  // Hack the table content to vertically fill <td> (https://stackoverflow.com/a/15801081/6739302)
+  display: block;
+  margin: -20em;
+  padding: 20em;
   background-color: $dark-gray;
-  .title {
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 16px;
-  }
-  .subtitle {
-    color: black;
-    font-size: 12px;
-  }
-  .pointer {
-    cursor: pointer;
-  }
-  .label {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    color: white;
-    height: 24px;
-    width: 72px;
-    background-color: $primary-color;
-    border-radius: 0 24px 24px 0;
+
+  .agendum-cell {
+    padding: 20px 10px;
+    .title {
+      color: black;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 16px;
+    }
+    .subtitle {
+      color: black;
+      font-size: 12px;
+    }
+    .pointer {
+      cursor: pointer;
+    }
+    .label {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      color: white;
+      height: 24px;
+      width: 72px;
+      background-color: $primary-color;
+      border-radius: 0 24px 24px 0;
+    }
+    .label-spacer {
+      height: 30px;
+    }
+    .series-name {
+      color: $primary-color;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+    .series-seperator {
+      color: orange;
+      height: 2px;
+      width: 90%;
+    }
   }
 }
 </style>
