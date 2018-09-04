@@ -6,18 +6,32 @@
     @click="goToAgendum"
   >
     <div class="agendum-cell">
-      <div v-if="label" class="label">{{ label }}</div>
-      <h6
-        :style="label && {marginTop: '30px'}"
-        class="title"
+      <!-- Label -->
+      <b v-if="label" class="label">{{ label }}</b>
+      <div v-if="label" class="label-spacer"/>
+
+      <!-- Series (Visible if first of series) -->
+      <div
+        v-if="seriesName"
+        :class="['series-name', {'hide': indexInSeries > 0}]"
       >
+        {{ seriesName }}
+      </div>
+
+      <!-- Title -->
+      <h6 class="title">
         <TW>{{ title['TW'] || title['EN'] }}</TW>
         <EN>{{ title['EN'] || title['TW'] }}</EN>
       </h6>
+
+      <!-- Subtitle -->
       <small v-if="subtitle !== null" class="subtitle">
         <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
         <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
       </small>
+
+      <!-- Selerator (show to replace border-bottom of <td>, if not first of series) -->
+      <span v-if="indexInSeries && indexInSeries > 0" class="series-seperator"/>
     </div>
   </a>
 </template>
@@ -34,6 +48,10 @@ export default {
       type: Object,
       required: true,
       validator: info => has(info, 'TITLE'),
+    },
+    indexInSeries: {
+      type: Boolean,
+      default: null,
     },
   },
   computed: {
@@ -55,6 +73,9 @@ export default {
     },
     label() {
       return this.agendum.TYPE
+    },
+    seriesName() {
+      return this.agendum.TRACK
     },
     slug() {
       if (this.agendum.TITLE_EN) {
@@ -96,8 +117,8 @@ export default {
 .agendum-cell-link {
   // Hack the table content to vertically fill <td> (https://stackoverflow.com/a/15801081/6739302)
   display: block;
-  margin: -10em;
-  padding: 10em;
+  margin: -20em;
+  padding: 20em;
   background-color: $dark-gray;
 
   .agendum-cell {
@@ -125,6 +146,20 @@ export default {
       width: 72px;
       background-color: $primary-color;
       border-radius: 0 24px 24px 0;
+    }
+    .label-spacer {
+      height: 30px;
+    }
+    .series-name {
+      color: $primary-color;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+    .series-seperator {
+      color: orange;
+      height: 2px;
+      width: 90%;
     }
   }
 }
