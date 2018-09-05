@@ -56,7 +56,7 @@ export default {
         ? {
             ...speaker,
             agendumLink: has(speaker, 'SCHEDULE[0]') && {
-              name: 'AgendaPage',
+              name: 'SpeakerPage',
               params: { agendumId: get(speaker, 'SCHEDULE[0].id') },
             },
           }
