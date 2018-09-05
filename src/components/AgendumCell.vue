@@ -138,6 +138,7 @@ export default {
     }
     .label {
       position: absolute;
+      text-align: center;
       top: 10px;
       left: 0;
       color: white;
@@ -145,6 +146,8 @@ export default {
       width: 72px;
       background-color: $primary-color;
       border-radius: 0 24px 24px 0;
+      padding-left: 0;
+      padding-right: 0;
     }
     .label-spacer {
       height: 30px;
