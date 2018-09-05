@@ -49,7 +49,7 @@
                   :rowspan="getRowSpan(time, thread)"
                   :headers="thread"
                   :key="`agendum:${time}:${thread}`"
-                  :style="has(getAgendum(time, thread), 'TRACK') && ({ borderBottom: 'unset', borderTop: 'unset' })"
+                  :style="maybeHideBorder(time, thread)"
                   class="agendum-cell"
                 >
                   <component
@@ -73,7 +73,6 @@
 </template>
 
 <script>
-import has from 'lodash/has'
 import get from 'lodash/get'
 import every from 'lodash/every'
 import keyBy from 'lodash/keyBy'
@@ -255,8 +254,12 @@ export default {
         minute: '2-digit',
       })
     },
-    has,
-    get,
+    /** Remove border between (vertically) consecutive sessions of same series */
+    maybeHideBorder(time, thread) {
+      const { TRACK } = this.getAgendum(time, thread)
+      // FIX: If two consecutive sessions are of different series, border between them will also be unset
+      return TRACK ? { borderBottom: 'unset', borderTop: 'unset' } : null
+    },
   },
 }
 </script>
