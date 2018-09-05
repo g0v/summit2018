@@ -194,9 +194,16 @@ export default {
     },
     /** Add `rowspan` to agendum accroding to index offset of start and end time */
     agendaWithRowSpan() {
+      let prevSeriesName = null
       return mapValues(this.agendaByThreadByTime, threadAgenda => {
         return mapValues(threadAgenda, agendum => {
-          const withRowSpan = this.withRowSpan(agendum)
+          const isFirstWithinTrack =
+            agendum.TRACK && agendum.TRACK !== prevSeriesName
+          const withTrackInfo = assign(agendum, { isFirstWithinTrack })
+          prevSeriesName = agendum.TRACK
+
+          const withRowSpan = this.withRowSpan(withTrackInfo)
+
           return withRowSpan
         })
       })
