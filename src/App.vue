@@ -5,6 +5,11 @@
     </header>
     <main>
       <router-view/>
+      <AgendumDialog
+        :open="!!dialogAgendum"
+        :agendum="dialogAgendum"
+        @close="closeDialog"
+      />
     </main>
     <footer>
       <SponsorSection v-if="showSponsorFooter"/>
@@ -14,20 +19,37 @@
 </template>
 
 <script>
-import throttle from 'lodash/throttle'
 import { mapState, mapMutations } from 'vuex'
+import find from 'lodash/find'
+import throttle from 'lodash/throttle'
+import router from '@/router'
+import { AgendumDialog } from '@/components'
 import { NavBar, TheFooter, SponsorSection } from '@/views'
+import { POPULATED_SCHEDULE } from '@/../static/airtable_data/index'
 
 export default {
   name: 'App',
-  components: { NavBar, TheFooter, SponsorSection },
+  components: { NavBar, TheFooter, SponsorSection, AgendumDialog },
   data() {
-    return {}
+    return {
+      dialogAgendum: find(POPULATED_SCHEDULE, [
+        'id',
+        this.$route.params.agendumId,
+      ]),
+    }
   },
   computed: {
     ...mapState(['lang']),
     showSponsorFooter() {
       return this.$route.path !== '/sponsors'
+    },
+  },
+  watch: {
+    $route(to, from) {
+      const { agendumId } = to.params
+      this.dialogAgendum = agendumId
+        ? find(POPULATED_SCHEDULE, ['id', agendumId])
+        : null
     },
   },
   mounted() {
@@ -46,6 +68,9 @@ export default {
     },
     handleScroll() {
       this.setScrollY({ scrollY: window.scrollY })
+    },
+    closeDialog() {
+      router.push({ name: this.$route.name })
     },
   },
 }

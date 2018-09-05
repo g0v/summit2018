@@ -181,7 +181,7 @@ export default {
       }
     }
     @include breakpoint(medium) {
-      margin: 6rem 0;
+      margin: 6rem auto;
       .details {
         padding: 60px 80px;
       }
