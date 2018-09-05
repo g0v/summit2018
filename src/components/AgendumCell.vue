@@ -159,8 +159,10 @@ export default {
       letter-spacing: 1.5px;
     }
     .series-seperator {
-      width: 90%;
-      height: 1.5px;
+      width: 25%;
+      height: 2px;
+      left: 50%;
+      transform: translateX(-50%);
       background: white;
       margin-right: auto;
       margin-left: auto;
