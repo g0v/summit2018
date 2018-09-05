@@ -13,10 +13,13 @@
       <!-- Series (Visible if first of series) -->
       <div
         v-if="seriesName"
-        :class="['series-name', {'hide': indexInSeries > 0}]"
+        :class="['series-name', {'hide': !isSeriesHeader}]"
       >
         {{ seriesName }}
       </div>
+
+      <!-- Selerator within series (show to replace border-top of <td>, if not first of series) -->
+      <div v-if="seriesName && !isSeriesHeader" class="series-seperator"/>
 
       <!-- Title -->
       <h6 class="title">
@@ -29,9 +32,6 @@
         <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
         <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
       </small>
-
-      <!-- Selerator (show to replace border-bottom of <td>, if not first of series) -->
-      <span v-if="indexInSeries && indexInSeries > 0" class="series-seperator"/>
     </div>
   </a>
 </template>
@@ -48,10 +48,6 @@ export default {
       type: Object,
       required: true,
       validator: info => has(info, 'TITLE'),
-    },
-    indexInSeries: {
-      type: Boolean,
-      default: null,
     },
   },
   computed: {
@@ -76,6 +72,9 @@ export default {
     },
     seriesName() {
       return this.agendum.TRACK
+    },
+    isSeriesHeader() {
+      return this.seriesName && this.agendum.isFirstWithinTrack
     },
     slug() {
       if (this.agendum.TITLE_EN) {
@@ -157,9 +156,13 @@ export default {
       letter-spacing: 1.5px;
     }
     .series-seperator {
-      color: orange;
-      height: 2px;
       width: 90%;
+      height: 1.5px;
+      background: white;
+      margin-right: auto;
+      margin-left: auto;
+      position: absolute;
+      top: 0;
     }
   }
 }

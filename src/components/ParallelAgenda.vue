@@ -49,7 +49,7 @@
                   :rowspan="getRowSpan(time, thread)"
                   :headers="thread"
                   :key="`agendum:${time}:${thread}`"
-                  :style="has(getAgendum(time, thread), 'TRACK') && ({ borderBottom: 'unset', borderTop: 'unset' })"
+                  :style="maybeHideBorder(time, thread)"
                   class="agendum-cell"
                 >
                   <component
@@ -73,7 +73,6 @@
 </template>
 
 <script>
-import has from 'lodash/has'
 import get from 'lodash/get'
 import every from 'lodash/every'
 import keyBy from 'lodash/keyBy'
@@ -195,20 +194,17 @@ export default {
     },
     /** Add `rowspan` to agendum accroding to index offset of start and end time */
     agendaWithRowSpan() {
+      let prevSeriesName = null
       return mapValues(this.agendaByThreadByTime, threadAgenda => {
         return mapValues(threadAgenda, agendum => {
-          const startTimeIndex = findIndex(
-            this.timeLabels,
-            isEqualDateWith(agendum[this.agendaKeyOfStartTime])
-          )
+          const isFirstWithinTrack =
+            agendum.TRACK && agendum.TRACK !== prevSeriesName
+          const withTrackInfo = assign(agendum, { isFirstWithinTrack })
+          prevSeriesName = agendum.TRACK
 
-          const endTimeIndex = findIndex(
-            this.timeLabels,
-            isEqualDateWith(agendum[this.agendaKeyOfEndTime])
-          )
+          const withRowSpan = this.withRowSpan(withTrackInfo)
 
-          const rowspan = endTimeIndex - startTimeIndex
-          return assign(agendum, { rowspan })
+          return withRowSpan
         })
       })
     },
@@ -246,6 +242,21 @@ export default {
 
       return true
     },
+    /** Set `rowspan` of agenda base on the index of its start/end tiem in `timeLabels` */
+    withRowSpan(agendum) {
+      const startTimeIndex = findIndex(
+        this.timeLabels,
+        isEqualDateWith(agendum[this.agendaKeyOfStartTime])
+      )
+
+      const endTimeIndex = findIndex(
+        this.timeLabels,
+        isEqualDateWith(agendum[this.agendaKeyOfEndTime])
+      )
+
+      const rowspan = endTimeIndex - startTimeIndex
+      return assign(agendum, { rowspan })
+    },
     /** Format ISO 8601 Data object to `hh:mm` */
     formatTime(date) {
       return date.toLocaleTimeString('zh-TW', {
@@ -255,8 +266,12 @@ export default {
         minute: '2-digit',
       })
     },
-    has,
-    get,
+    /** Remove border between (vertically) consecutive sessions of same series */
+    maybeHideBorder(time, thread) {
+      const { TRACK } = this.getAgendum(time, thread)
+      // FIX: If two consecutive sessions are of different series, border between them will also be unset
+      return TRACK ? { borderBottom: 'unset', borderTop: 'unset' } : null
+    },
   },
 }
 </script>
