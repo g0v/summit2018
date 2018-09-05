@@ -196,18 +196,8 @@ export default {
     agendaWithRowSpan() {
       return mapValues(this.agendaByThreadByTime, threadAgenda => {
         return mapValues(threadAgenda, agendum => {
-          const startTimeIndex = findIndex(
-            this.timeLabels,
-            isEqualDateWith(agendum[this.agendaKeyOfStartTime])
-          )
-
-          const endTimeIndex = findIndex(
-            this.timeLabels,
-            isEqualDateWith(agendum[this.agendaKeyOfEndTime])
-          )
-
-          const rowspan = endTimeIndex - startTimeIndex
-          return assign(agendum, { rowspan })
+          const withRowSpan = this.withRowSpan(agendum)
+          return withRowSpan
         })
       })
     },
@@ -244,6 +234,21 @@ export default {
       }
 
       return true
+    },
+    /** Set `rowspan` of agenda base on the index of its start/end tiem in `timeLabels` */
+    withRowSpan(agendum) {
+      const startTimeIndex = findIndex(
+        this.timeLabels,
+        isEqualDateWith(agendum[this.agendaKeyOfStartTime])
+      )
+
+      const endTimeIndex = findIndex(
+        this.timeLabels,
+        isEqualDateWith(agendum[this.agendaKeyOfEndTime])
+      )
+
+      const rowspan = endTimeIndex - startTimeIndex
+      return assign(agendum, { rowspan })
     },
     /** Format ISO 8601 Data object to `hh:mm` */
     formatTime(date) {
