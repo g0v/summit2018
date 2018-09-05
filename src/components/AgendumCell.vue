@@ -116,8 +116,8 @@ export default {
 .agendum-cell-link {
   // Hack the table content to vertically fill <td> (https://stackoverflow.com/a/15801081/6739302)
   display: block;
-  margin: -20em;
-  padding: 20em;
+  margin: -30em;
+  padding: 30em;
   background-color: $dark-gray;
 
   .agendum-cell {
@@ -138,6 +138,7 @@ export default {
     }
     .label {
       position: absolute;
+      text-align: center;
       top: 10px;
       left: 0;
       color: white;
@@ -145,6 +146,8 @@ export default {
       width: 72px;
       background-color: $primary-color;
       border-radius: 0 24px 24px 0;
+      padding-left: 0;
+      padding-right: 0;
     }
     .label-spacer {
       height: 30px;
@@ -156,8 +159,10 @@ export default {
       letter-spacing: 1.5px;
     }
     .series-seperator {
-      width: 90%;
-      height: 1.5px;
+      width: 25%;
+      height: 2px;
+      left: 50%;
+      transform: translateX(-50%);
       background: white;
       margin-right: auto;
       margin-left: auto;
