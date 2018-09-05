@@ -116,8 +116,8 @@ export default {
 .agendum-cell-link {
   // Hack the table content to vertically fill <td> (https://stackoverflow.com/a/15801081/6739302)
   display: block;
-  margin: -20em;
-  padding: 20em;
+  margin: -30em;
+  padding: 30em;
   background-color: $dark-gray;
 
   .agendum-cell {
