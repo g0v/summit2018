@@ -36,7 +36,7 @@ const router = new Router({
       component: AgendaPage,
     },
     {
-      path: '/speakers',
+      path: '/speakers/:agendumId?/:slug?',
       name: 'SpeakerPage',
       component: SpeakerPage,
     },
