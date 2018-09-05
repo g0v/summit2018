@@ -1,8 +1,8 @@
 <template>
   <transition name="fade">
     <div v-if="open" class="agendum-dialog">
-      <div class="dialog-wrapper">
-        <section class="dialog">
+      <div class="dialog-wrapper" @click.stop="$emit('close')">
+        <section class="dialog" @click.stop="noop">
           <header class="header">
             <div>
               <h1 @click="copyCurrentURL">
@@ -71,6 +71,7 @@
 </template>
 
 <script>
+import noop from 'lodash/noop'
 import SpeakerAvatar from '@/views/SpeakerAvatar'
 
 export default {
@@ -100,6 +101,7 @@ export default {
         minute: '2-digit',
       }),
     copyCurrentURL() {},
+    noop,
   },
 }
 </script>
@@ -140,6 +142,7 @@ export default {
         cursor: pointer;
       }
       .close-icon {
+        cursor: pointer;
         color: $primary-color;
         font-size: 24px;
       }
