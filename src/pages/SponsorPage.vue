@@ -23,7 +23,7 @@
               span {{ sponsor.URL }}
               FaIcon(name="external-link" v-if="sponsor.URL")
 
-    //- Column view (IN_KIND, MEDIA_PARTNER)
+    //- Column view (SUPPORTER, IN_KIND, MEDIA_PARTNER, PROMOTING_PARTNER)
     template(v-for="classType in columnViewClasses")
       section(v-if="sponsorsByClass[classType._key]").class-b.cell
         h4
@@ -85,6 +85,11 @@ export default {
         { _key: 'SUPPORTER', TW: 'Supporter', EN: 'Supporter' },
         { _key: 'IN_KIND', TW: 'In Kind', EN: 'In Kind' },
         { _key: 'MEDIA_PARTNER', TW: 'Media Partner', EN: 'Media Partner' },
+        {
+          _key: 'PROMOTING_PARTNER',
+          TW: 'Promoting Partner',
+          EN: 'Promoting Partner',
+        },
       ]
     },
     /**
