@@ -21,9 +21,9 @@
         <TW>一般票</TW>
         <EN>Registration</EN>
       </CtaButton>
-      <CtaButton href="https://g0v-summit2018.kktix.cc/events/contributor" block>
-        <TW>貢獻者票</TW>
-        <EN>Contributor Registration</EN>
+      <CtaButton href="https://g0v-summit2018.kktix.cc/events/conf-donate" block>
+        <TW>個人贊助功德票</TW>
+        <EN>Personal Donation</EN>
       </CtaButton>
     </span>
   </div>
