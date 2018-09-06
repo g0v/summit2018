@@ -97,6 +97,7 @@ export default {
         case 'SUPPORTER':
         case 'IN_KIND':
         case 'MEDIA_PARTNER':
+        case 'PROMOTING_PARTNER':
           return 'class-d small-4 medium-3 large-2'
         default:
           // Hide for unknow sponsor class
