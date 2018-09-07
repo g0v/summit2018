@@ -46,7 +46,7 @@
         li
           a(@click="toggleLang")
             b(v-if="lang === 'TW'") English
-            b(v-else) 中文
+            b(v-else) 華語
         //- li
         //-   input(type="search", placeholder="Search")
         //- li
