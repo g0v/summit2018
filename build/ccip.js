@@ -11,7 +11,7 @@ for(i = 0; i < schedule.length; i++) {
   tmp.room = tmp.VENUE
   tmp.start = tmp.START
   tmp.end = tmp.END
-  tmp.type = tmp.TYPE
+  tmp.type = tmp.TYPE != undefined ? tmp.TYPE : ""
 
   tmp.zh = {
     subject: tmp.TITLE != undefined ? tmp.TITLE : tmp.TITLE_EN != undefined ? tmp.TITLE_EN : "",
