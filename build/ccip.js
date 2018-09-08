@@ -14,13 +14,13 @@ for(i = 0; i < schedule.length; i++) {
   tmp.type = tmp.TYPE
 
   tmp.zh = {
-    subject: tmp.TITLE,
-    summary: tmp.ABSTRACT != undefined ? tmp.ABSTRACT : tmp.ABSTRACT_EN
+    subject: tmp.TITLE != undefined ? tmp.TITLE : tmp.TITLE_EN != undefined ? tmp.TITLE_EN : "",
+    summary: tmp.ABSTRACT != undefined ? tmp.ABSTRACT : tmp.ABSTRACT_EN != undefined ? tmp.ABSTRACT_EN : ""
   }
 
   tmp.en = {
-    subject: tmp.TITLE_EN,
-    summary: tmp.ABSTRACT_EN != undefined ? tmp.ABSTRACT_EN : tmp.ABSTRACT
+    subject: tmp.TITLE_EN != undefined ? tmp.TITLE_EN : tmp.TITLE != undefined ? tmp.TITLE : "",
+    summary: tmp.ABSTRACT_EN != undefined ? tmp.ABSTRACT_EN : tmp.ABSTRACT != undefined ? tmp.ABSTRACT : ""
   }
 
   if(tmp.SPEAKER != undefined) {
@@ -40,13 +40,13 @@ for(i = 0; i < schedule.length; i++) {
       }
 
       speaker.zh = {
-        name: speaker.NAME != undefined ? speaker.NAME : speaker.NAME_EN,
-        bio: speaker.BIO != undefined ? speaker.BIO : speaker.BIO_EN
+        name: speaker.NAME != undefined ? speaker.NAME : speaker.NAME_EN != undefined ? speaker.NAME_EN : "",
+        bio: speaker.BIO != undefined ? speaker.BIO : speaker.BIO_EN != undefined ? speaker.BIO_EN : ""
       }
 
       speaker.en = {
-        name: speaker.NAME_EN != undefined ? speaker.NAME_EN : speaker.NAME,
-        bio: speaker.BIO_EN != undefined ? speaker.BIO_EN : speaker.BIO
+        name: speaker.NAME_EN != undefined ? speaker.NAME_EN : speaker.NAME != undefined ? speaker.NAME : "",
+        bio: speaker.BIO_EN != undefined ? speaker.BIO_EN : speaker.BIO != undefined ? speaker.BIO : ""
       }
 
       delete speaker.BIO
