@@ -1,5 +1,6 @@
 # Airtable data (get it via $ yarn run pull_airtable)
 static/airtable_data/*.json
+static/ccip.json
 
 # Build output
 #/docs/
