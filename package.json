@@ -12,7 +12,8 @@
     "pull_airtable": "node ./scripts/pull_airtable.js",
     "build": "yarn pull_airtable && node build/ccip.js && node build/build.js",
     "lint": "eslint --ext .js,.vue src",
-    "lint:fix": "eslint --fix --ext .js,.vue src "
+    "lint:fix": "eslint --fix --ext .js,.vue src ",
+    "apidoc": "apidoc -i static/ -o static/api/"
   },
   "dependencies": {
     "foundation-sites": "^6.4.3",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "airtable": "^0.5.6",
+    "apidoc": "^0.17.6",
     "autoprefixer": "^7.1.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",

@@ -3,13 +3,14 @@ const path = require('path')
 const Airtable = require('airtable')
 
 const TABLE_NAMES = [
-  'NEWS',
+  // 'NEWS',
   'SPONSORS',
   'SCHEDULE',
   'SPEAKERS',
-  'STREAMING',
+  // 'STREAMING',
   'STAFF',
-  'SOUVENIR',
+  // 'SOUVENIR',
+  // NOTE: 不要擔心 commend 掉的 table 裡沒什麼了不起的敏感資料，只是我現在還懶得寫它們的 doc，等用到時再說吧
 ]
 
 const DIR_NAME = '../static/airtable_data'
@@ -57,36 +58,3 @@ TABLE_NAMES.forEach(TABLE_NAME => {
       }
     )
 })
-
-// const TABLE_NAME = 'STREAMING'
-// let records = []
-
-// // called for every page of records
-// const processPage = (partialRecords, fetchNextPage) => {
-//   records = [...records, ...partialRecords]
-//   fetchNextPage()
-// }
-
-// // called when all the records have been retrieved
-// const processRecords = err => {
-//   if (err) {
-//     console.error(err)
-//   }
-
-//   const data = records.map(record => JSON.stringify(record.fields, null, 2))
-
-//   const filePath = path.resolve(__dirname, `${DIR_NAME}/${TABLE_NAME}.json`)
-//   fs.writeFile(filePath, `[${data}]`, err => {
-//     if (err) {
-//       console.error(err)
-//       return
-//     }
-//     console.log(`Saved records to ${DIR_NAME}/${TABLE_NAME}.json`)
-//   })
-// }
-
-// base(TABLE_NAME)
-//   .select({
-//     view: 'Grid view',
-//   })
-//   .eachPage(processPage, processRecords)
