@@ -57,36 +57,3 @@ TABLE_NAMES.forEach(TABLE_NAME => {
       }
     )
 })
-
-// const TABLE_NAME = 'STREAMING'
-// let records = []
-
-// // called for every page of records
-// const processPage = (partialRecords, fetchNextPage) => {
-//   records = [...records, ...partialRecords]
-//   fetchNextPage()
-// }
-
-// // called when all the records have been retrieved
-// const processRecords = err => {
-//   if (err) {
-//     console.error(err)
-//   }
-
-//   const data = records.map(record => JSON.stringify(record.fields, null, 2))
-
-//   const filePath = path.resolve(__dirname, `${DIR_NAME}/${TABLE_NAME}.json`)
-//   fs.writeFile(filePath, `[${data}]`, err => {
-//     if (err) {
-//       console.error(err)
-//       return
-//     }
-//     console.log(`Saved records to ${DIR_NAME}/${TABLE_NAME}.json`)
-//   })
-// }
-
-// base(TABLE_NAME)
-//   .select({
-//     view: 'Grid view',
-//   })
-//   .eachPage(processPage, processRecords)
