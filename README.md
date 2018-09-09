@@ -8,9 +8,9 @@
 
 https://g0v.github.io/summit2018/static/api
 
-提供 2018 summit 官網上就有的各種資料。
+提供 2018 summit 官網上就有的各種資料，如果你覺得官網上有不該出現的資訊，或這裡的資料有不應該出現的欄位，請不吝聯絡 g0v 討論/指教： g0v-summit-committee-2018@googlegroups.com 。
 
-主要是為了避免有人覺得「雖然是網站前端就有的資料，如果可以用 json 的格式拿到叫做安全漏洞」，所以加了這份文件把它變成 feature，不是很有用的一套 API。but still, like open source project always says, 'We are excited about what you will(can) build with it!'
+p.s. 會加這個文件主要是為了避免有人覺得「雖然是網站前端就有的資料，如果可以用 json 的格式拿到叫做安全漏洞」，所以加了這份文件把它變成 feature，不是很有用的一套 API。but still, like open source project always says, 'We are excited about what you will(can) build with it!'
 
 ## 更新網頁內容(免寫code!)
 
