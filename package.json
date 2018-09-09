@@ -10,7 +10,7 @@
     "test": "yarn lint && jest",
     "test:watch": "jest --watch",
     "pull_airtable": "node ./scripts/pull_airtable.js",
-    "build": "yarn pull_airtable && node build/build.js && yarn apidoc:build",
+    "build": "yarn pull_airtable && node build/ccip.js && node build/build.js && yarn apidoc:build",
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix --ext .js,.vue src ",
     "apidoc:build": "apidoc -i static/ -o static/api/"
