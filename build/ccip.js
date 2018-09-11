@@ -1,4 +1,5 @@
 const fs = require('fs')
+const get = require('lodash/get')
 
 let schedule = require('../static/airtable_data/SCHEDULE.json')
 let speakers = require('../static/airtable_data/SPEAKERS.json')
@@ -36,7 +37,7 @@ for(i = 0; i < schedule.length; i++) {
       }
 
       if(speaker.CROPPED_AVATAR != undefined) {
-        speaker.avatar = speaker.CROPPED_AVATAR[0].thumbnails.full.url
+        speaker.avatar = get(speaker.CROPPED_AVATAR, '[0].thumbnails.full.url') ||  get(speaker.CROPPED_AVATAR, '[0].url')
       }
 
       speaker.zh = {
