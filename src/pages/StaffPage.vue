@@ -10,8 +10,12 @@
              :class="{ nolink: staff.LINK === undefined }"
              class="member"
              target="_blank">
-            <img v-if="staff.AVATAR" :src="staff.AVATAR[0].url" :alt="staff.NAME" class="thumbnail avatar">
-            <gravatar-image v-else :email="staff.EMAIL" :alt="staff.NAME" class="thumbnail avatar" />
+            <img
+              :src="staff.AVATAR ? staff.AVATAR[0].url : `https://www.gravatar.com/avatar/${staff.MD5}`"
+              :alt="staff.NAME"
+              class="thumbnail avatar"
+            >
+            <!-- <gravatar-image v-else :md5="staff.MD5" :alt="staff.NAME" class="thumbnail avatar" /> -->
             <div class="name">
               <TW>{{ staff['NAME-CH'] || staff.NAME }}</TW>
               <EN>{{ staff.NAME || staff['NAME-CH'] }}</EN>
@@ -108,7 +112,7 @@ section#staff
           width: 80px
           height: 80px
           border-radius: 50%
-          text-algin: center
+          object-fit: cover
         .thumbnail
           margin-bottom: 0.2rem
         .name
