@@ -5,6 +5,7 @@ import SponsorPage from '@/pages/SponsorPage'
 import CallForPaperPage from '@/pages/CallForPaperPage'
 import AgendaPage from '@/pages/AgendaPage'
 import SpeakerPage from '@/pages/SpeakerPage'
+import TransportPage from '@/pages/TransportPage'
 import StaffPage from '@/pages/StaffPage'
 import NotFound from '@/pages/NotFound'
 
@@ -39,6 +40,11 @@ const router = new Router({
       path: '/speakers/:agendumId?/:slug?',
       name: 'SpeakerPage',
       component: SpeakerPage,
+    },
+    {
+      path: '/transport',
+      name: 'TransportPage',
+      component: TransportPage,
     },
     {
       path: '/staff',

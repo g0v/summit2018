@@ -27,10 +27,10 @@
           UnderlineLink(to="/sponsors")
             TW 贊助夥伴
             EN Sponsors
-        //- li
-        //-   UnderlineLink(to="/transport")
-        //-     TW 交通
-        //-     EN Transport
+        li
+          UnderlineLink(to="/transport")
+            TW 交通
+            EN Transport
         //- li
         //-   UnderlineLink(to="/live")
         //-     TW 直撥
