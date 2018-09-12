@@ -72,7 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 #nav-bar {
-  margin-bottom: 64px;
+  margin-bottom: 98px;
 }
 
 .top-bar {
