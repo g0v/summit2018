@@ -44,6 +44,9 @@
         //-     TW 大會共筆
         //-     EN Wiki
         li
+          a(href="https://g0v-summit2018.kktix.cc/events/conf", target="_blank")
+            FaIcon(name="ticket")
+        li
           a(@click="toggleLang")
             b(v-if="lang === 'TW'") English
             b(v-else) 華語
