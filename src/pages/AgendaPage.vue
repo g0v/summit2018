@@ -8,6 +8,10 @@
         lazy
         debounce="500"
       />
+      <div>
+        <TW> 大會議程皆有華英語雙向即時口譯 </TW>
+        <EN> sessions will have simultaneous interpretion between English and Mandarine</EN>
+      </div>
       <ParallelAgenda
         :agenda="schedule[activeDate]"
         :agendum-props-mapper="agendumPropsMapper"
