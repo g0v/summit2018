@@ -33,8 +33,7 @@ div#the-footer
             a(href="mailto:g0v-summit-committee-2018@googlegroups.com", target="_blank")
               FaIcon(name="envelope-o")
       .cell.medium-shrink.small-expand.border.grid-x.align-middle.align-center
-        small: p#copyright.text-center Copyright © g0v Summit 2018・
-          a(href="https://g0v.hackpad.tw/ep/pad/static/2mprMIpYMz9", target="_blank") CODE OF CONDUCT
+        small: p#copyright.text-center Copyright © g0v Summit 2018
 
 </template>
 

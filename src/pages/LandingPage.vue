@@ -3,7 +3,7 @@
     HeroImage(class="mb-150")
     #event-intro.grid-y.align-middle.mb-50
       //- 社群簡介
-      section
+      section.mb-50
         TW
           h1 社群簡介
           p 自 2012 年以來，公民科技運動風起雲湧，以開放透明、公民參與為號召的 g0v 台灣零時政府社群號召了第一場活動，以「寫程式改造社會」為口號，從此開始公民科技之火開始延燒，至今未歇。
@@ -15,7 +15,7 @@
           p Established in 2012, g0v has since hosted over 50 hackathons and two international summits. Thousands of participants from different backgrounds have contributed to hundreds of projects, making g0v one of the biggest civic tech communities around the world.
 
       //- 雙年會簡介
-      section
+      section.mb-50
         TW
           h1 雙年會簡介
           p g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
@@ -38,6 +38,45 @@
             a(href="https://goo.gl/forms/ND566FsQRP32fHJs2") Media Registration
             span &nbsp;&nbsp;|&nbsp;&nbsp;
             router-link(:to="{ name: 'CallForPaperPage' }") Call For Paper (Closed)
+
+      //- 行為準則
+      section.mb-50
+        TW
+          h1 行為準則
+          p 所有參與本次活動的出席者，講員，贊助人，志工均應同意遵守下列的行為規範。活動總召將在活動過程中執行這些規範。我們期望所有參與者共同合作，提供一個安全的環境給大家。
+          p 簡單說：請尊重所有與會者。
+          h5 簡短版
+          p 本活動致力於提供一個無騷擾的環境給每一位參與者，無論其性別、年紀、性傾向、殘疾、外貌、種族或信仰。我們絕對不能容忍任何人對會議參與者以任何形式的騷擾。在任何的會議場地中使用含有性的言語及意像在本會議中是不恰當的，包括在講座中、工作坊、派對上、Twitter上或任何的線上媒體中。與會者若違反規定，將受到制裁或被驅離開會議並不予退款，處置由活動總召裁定。
+          h5 完整版
+          p 騷擾包含：
+          ul
+            li 關於性別、性傾向、殘疾、生理外觀、身材、種族、宗教、公共場所性形象、職業、政治立場等的口頭冒犯評論；
+            li 於公共場所展示帶有性含意的圖片；
+            li 故意恐嚇、跟蹤、追隨、騷擾攝影與錄影人員；
+            li 持續以言語或其他形式干擾演講或其他形式之活動進行；
+            li 不適當的肢體接觸；
+            li 以及不受歡迎的性關注。
+          p 當與會者要求停止騷擾行為時，請即刻停止相關的騷擾行為。
+          p 反騷擾的政策也適用於會議的贊助者。贊助者不應該使用任何帶有性含意的圖片、行為、或任何形式的內容。工作人員（包括志願者）不應使用任何帶有性含意的衣服、制服、裝扮，或以其他任何方式營造帶有性含意的環境。
+          p 如果參加者（包括講者、贊助者及志工）騷擾或挑釁他人，活動總召可以採取各種他們認為適當的處置，包括警告或驅逐肇事者，並不予退費。
+          p 如果您被騷擾，或者發現有人被騷擾，或有任何其他疑慮，請立刻通知活動工作人員。工作人員會穿著可識別的服飾。
+          p 我們很重視每一位與會者的參與。因此工作人員們都很樂意協助與會者聯絡飯店、會場的保全人員或地方執法單位以提供護送服務或任何能夠讓受到騷擾的與會者在會議期間感到安全的協助。
+          p 我們希望所有的與會者不論在會場、工作坊、及任何與會議相關的社交活動上都能夠遵守上述規則。
+        EN
+          h1 Code of Conduct
+          p All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+          h5 Need Help?
+          p You have our contact details in the emails we've sent.
+          h5 The Quick Version
+          p Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+          h5 The Less Quick Version
+          p Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+          p Participants asked to stop any harassing behavior are expected to comply immediately.
+          p Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+          p If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+          p If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded t-shirts.
+          p Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+          p We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
     #timeline-wrapper.mb-50
       section#timeline
