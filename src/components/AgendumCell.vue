@@ -6,17 +6,24 @@
     @click="goToAgendum"
   >
     <div class="agendum-cell">
-      <!-- Label -->
-      <b v-if="label" class="label">{{ label }}</b>
-      <div v-if="label" class="label-spacer"/>
+      <div class="fixed-cell-top">
+        <!-- Series (Visible if first of series) -->
+        <div
+          v-if="seriesName"
+          :class="['series-name', {'hide': !isSeriesHeader}]"
+        >
+          {{ seriesName }}
+        </div>
 
-      <!-- Series (Visible if first of series) -->
+        <!-- Label -->
+        <b v-if="label" class="label">{{ label }}</b>
+      </div>
+
+      <div v-if="label" class="label-spacer"/>
       <div
         v-if="seriesName"
-        :class="['series-name', {'hide': !isSeriesHeader}]"
-      >
-        {{ seriesName }}
-      </div>
+        :class="['series-name series-name-spacer', {'hide': !isSeriesHeader}]"
+      />
 
       <!-- Selerator within series (show to replace border-top of <td>, if not first of series) -->
       <div v-if="seriesName && !isSeriesHeader" class="series-seperator"/>
@@ -136,27 +143,35 @@ export default {
     .pointer {
       cursor: pointer;
     }
-    .label {
+    .fixed-cell-top {
       position: absolute;
-      text-align: center;
       top: 10px;
       left: 0;
-      color: white;
-      height: 24px;
-      width: 72px;
-      background-color: $primary-color;
-      border-radius: 0 24px 24px 0;
-      padding-left: 0;
-      padding-right: 0;
+      width: 100%;
+      .series-name {
+        text-align: center;
+        color: $primary-color;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 15px;
+      }
+      .label {
+        position: absolute;
+        left: 0;
+        text-align: center;
+        color: white;
+        height: 24px;
+        width: 72px;
+        background-color: $primary-color;
+        border-radius: 0 24px 24px 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
+    .series-name-spacer,
     .label-spacer {
       height: 30px;
-    }
-    .series-name {
-      color: $primary-color;
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: 1.5px;
     }
     .series-seperator {
       width: 25%;
