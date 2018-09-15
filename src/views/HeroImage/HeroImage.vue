@@ -4,6 +4,10 @@
     <HeroImageDesktop v-else/>
 
     <span id="hero-image-text" :class="isSmallScreen && 'small-screen-text-layout'">
+      <div class="slogon">
+        <div id="title">亞洲最大公民科技盛會</div>
+        <div id="subtitle"> The Largest Civic Tech Event in Asia</div>
+      </div>
       <div id="slogan">開源 公民 生態系</div>
       <div id="time">2018.10.5-2018.10.7</div>
       <div id="location">
@@ -12,11 +16,11 @@
         <TW>中央研究院 人文社會科學館</TW>
         <EN>Academia Sinica</EN>
       </div>
-      <CtaButton href="https://g0v-summit2018.kktix.cc/events/conf" block>
+      <CtaButton :block="!isSmallScreen" href="https://g0v-summit2018.kktix.cc/events/conf">
         <TW>一般票</TW>
         <EN>Registration</EN>
       </CtaButton>
-      <CtaButton href="https://g0v-summit2018.kktix.cc/events/conf-donate" block>
+      <CtaButton :block="!isSmallScreen" href="https://g0v-summit2018.kktix.cc/events/conf-donate">
         <TW>個人贊助功德票</TW>
         <EN>Personal Donation</EN>
       </CtaButton>
@@ -56,6 +60,11 @@ export default {
     color: black;
     font-weight: bold;
 
+    #subtitle {
+      font-size: 0.7em;
+      margin-bottom: 1.5vw;
+    }
+
     #slogan {
       font-size: 30px;
       color: $primary-color;
@@ -63,6 +72,8 @@ export default {
       margin-bottom: 1.86vw; // 27px @ 1445
     }
 
+    #title,
+    #subtitle,
     #time,
     #location {
       letter-spacing: 3.47px;
