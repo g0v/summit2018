@@ -131,10 +131,10 @@ export default {
     padding: 20px 10px;
     .title {
       color: black;
-      font-size: 12px;
+      font-size: 16px;
       font-weight: bold;
       letter-spacing: 1px;
-      line-height: 16px;
+      line-height: 18px;
     }
     .subtitle {
       color: black;
