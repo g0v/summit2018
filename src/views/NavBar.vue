@@ -45,7 +45,8 @@
         //-     EN Wiki
         li
           a(href="https://g0v-summit2018.kktix.cc/events/conf", target="_blank")
-            FaIcon(name="ticket")
+            TW 立即購票
+            EN Registration
         li
           a(@click="toggleLang")
             b(v-if="lang === 'TW'") English
