@@ -16,7 +16,7 @@
         :agenda="schedule[activeDate]"
         :agendum-props-mapper="agendumPropsMapper"
         :agendum-component="AgendumCell"
-        :threads="['R0', 'R1', 'R2', 'R3']"
+        :threads="['R2', 'R0', 'R1', 'R3']"
         :common-thread="'ALL'"
         agenda-key-of-thread="VENUE"
         agenda-key-of-start-time="START"
