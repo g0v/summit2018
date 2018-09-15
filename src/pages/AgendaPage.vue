@@ -8,9 +8,9 @@
         lazy
         debounce="500"
       />
-      <div>
+      <div class="text-center h3 padding-bottom-2">
         <TW> 大會議程皆有華英語雙向即時口譯 </TW>
-        <EN> sessions will have simultaneous interpretion between English and Mandarine</EN>
+        <EN> All sessions will have simultaneous interpretion between English and Mandarine</EN>
       </div>
       <ParallelAgenda
         :agenda="schedule[activeDate]"
@@ -93,7 +93,7 @@ export default {
 section#agenda {
   margin: 10px 0 120px;
   #date-picker {
-    margin: 100px 0;
+    margin: 100px 0 20px 0;
   }
 }
 
