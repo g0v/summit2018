@@ -1,7 +1,7 @@
 <template>
   <div class="callout text-center" data-closable>
     <h3>
-      <TW>成為贊助夥伴</TW>
+      <TW>成為合作夥伴</TW>
       <EN>Become a Partner</EN>
     </h3>
     <p>

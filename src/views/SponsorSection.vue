@@ -1,7 +1,7 @@
 <template>
   <div class="sponsor-section">
     <div class="grid-container">
-      <h1><TW>贊助夥伴</TW><EN>Sponsors</EN></h1>
+      <h1><TW>合作夥伴</TW><EN>Partners</EN></h1>
       <section class="grid-x grid-padding-x align-center">
         <div
           v-for="sponsor in sponsors"
@@ -88,6 +88,7 @@ export default {
         return 'selected small-12 medium-9 large-5'
       }
       switch (sponsor.CLASS) {
+        case 'COHOST':
         case 'EVANGELIST':
           return 'class-a small-6 medium-5 large-4'
         case 'ACTIVIST':

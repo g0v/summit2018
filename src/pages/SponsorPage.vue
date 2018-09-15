@@ -72,7 +72,8 @@ export default {
      */
     rowViewClasses() {
       return [
-        { _key: 'COHOST', TW: '協辦單位', EN: 'Co-hosts' },
+        { _key: 'ORGANIZER', TW: '主辦單位', EN: 'Organizer' },
+        { _key: 'COHOST', TW: '合作單位', EN: 'Co-hosts' },
         { _key: 'EVANGELIST', TW: '共力夥伴', EN: 'Evangelist' },
         { _key: 'PROGRAM_PARTNER', TW: '議程協力', EN: 'Program Partners' },
         { _key: 'ACTIVIST', TW: 'Activist', EN: 'Activist' },

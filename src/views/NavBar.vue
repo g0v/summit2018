@@ -25,8 +25,8 @@
         //-     EN Call for Paper
         li
           UnderlineLink(to="/sponsors")
-            TW 贊助夥伴
-            EN Sponsors
+            TW 合作夥伴
+            EN Partners
         li
           UnderlineLink(to="/transport")
             TW 交通
