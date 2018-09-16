@@ -38,6 +38,7 @@
 </template>
 
 <script>
+import router from '@/router'
 import CapsuleRadioButton from '@/components/CapsuleRadioButton'
 import ParallelAgenda from '@/components/ParallelAgenda'
 import AgendumCell from '@/components/AgendumCell'
@@ -45,6 +46,7 @@ import get from 'lodash/get'
 import filter from 'lodash/filter'
 import sortBy from 'lodash/sortBy'
 import groupBy from 'lodash/groupBy'
+import includes from 'lodash/includes'
 import { POPULATED_SCHEDULE } from '@/../static/airtable_data/index'
 
 export default {
@@ -66,12 +68,42 @@ export default {
 
     const dates = Object.keys(schedule)
 
+    // Try to set the activeDate with param, but use dates[0] as default if param not available
+    const { agendumIdOrDay } = this.$route.params
+    const hasDayParam =
+      agendumIdOrDay && includes(dates, agendumIdOrDay.replace('_', ' '))
+    const activeDate = hasDayParam ? agendumIdOrDay.replace('_', ' ') : dates[0]
+
     return {
       schedule,
       dates,
-      activeDate: dates[0],
+      activeDate,
       AgendumCell,
     }
+  },
+  watch: {
+    $route(to, from) {
+      if (!to.params.agendumIdOrDay) {
+        // When an agendum dialog is closed
+        this.syncActiveDateToParam()
+      } else {
+        // Come with link like /agenda/Oct_7
+        const maybeDayParam = to.params.agendumIdOrDay.replace('_', ' ')
+
+        this.dates.forEach(dateString => {
+          if (
+            maybeDayParam === dateString &&
+            this.activeDate !== maybeDayParam
+          ) {
+            this.activeDate = maybeDayParam
+          }
+        })
+      }
+    },
+    // Update the param when another date is selected
+    activeDate(date) {
+      this.syncActiveDateToParam()
+    },
   },
   methods: {
     agendumPropsMapper(agendum) {
@@ -82,6 +114,13 @@ export default {
         timeZone: 'Asia/Taipei',
         month: 'short',
         day: 'numeric',
+      })
+    },
+    syncActiveDateToParam() {
+      const agendumIdOrDay = this.activeDate.replace(' ', '_')
+
+      router.push({
+        params: { agendumIdOrDay },
       })
     },
     get,
