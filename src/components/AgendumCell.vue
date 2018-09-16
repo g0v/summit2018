@@ -35,15 +35,24 @@
       </h6>
 
       <!-- Subtitle -->
-      <small v-if="subtitle !== null" class="subtitle">
-        <TW>{{ subtitle['TW'] || subtitle['EN'] }}</TW>
-        <EN>{{ subtitle['EN'] || subtitle['TW'] }}</EN>
+      <small v-if="agendum.SPEAKER" class="subtitle">
+        <span v-for="(speaker, i) in agendum.SPEAKER" :key="speaker.NAME" class="v-align-child-middle">
+          <template v-if="i !==0"><TW>、</TW><EN>, </EN></template>
+          <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
+          <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+          <span
+            v-for="code in speaker.COUNTRY_CODE"
+            :key="`${speaker.NAME}:${code}`"
+            :class="`flag flag-${code}`"
+          />
+        </span>
       </small>
     </div>
   </a>
 </template>
 
 <script>
+import '@/assets/flag-sprites.com/flags.min.css' // Country flag source: https://www.flag-sprites.com/
 import router from '@/router'
 import has from 'lodash/has'
 import isEmpty from 'lodash/isEmpty'
@@ -64,7 +73,7 @@ export default {
         EN: this.agendum['TITLE_EN'] || this.agendum['TITLE'],
       }
     },
-    subtitle() {
+    speaker() {
       const { SPEAKER } = this.agendum
       if (isEmpty(SPEAKER)) {
         return null
@@ -72,6 +81,7 @@ export default {
       return {
         TW: SPEAKER.map(s => s.NAME || s.NAME_EN).join('、'),
         EN: SPEAKER.map(s => s.NAME_EN || s.NAME).join(', '),
+        ...SPEAKER,
       }
     },
     label() {
@@ -97,12 +107,7 @@ export default {
       return (
         has(this.agendum, 'ABSTRACT') ||
         has(this.agendum, 'ABSTRACT_EN') ||
-        has(this.agendum, 'speaker.NAME') ||
-        has(this.agendum, 'speaker.NAME_EN') ||
-        has(this.agendum, 'speaker.TITLE1') ||
-        has(this.agendum, 'speaker.TITLE1_EN') ||
-        has(this.agendum, 'speaker.BIO') ||
-        has(this.agendum, 'speaker.BIO_EN')
+        !isEmpty(this.agendum.SPEAKER)
       )
     },
   },

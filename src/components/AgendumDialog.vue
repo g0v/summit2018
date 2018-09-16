@@ -36,11 +36,16 @@
               </div>
               <div>
                 <div class="speaker-title">
-                  <div>
+                  <div class="v-align-child-middle">
                     <b>
                       <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
                       <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
                     </b>
+                    <span
+                      v-for="code in speaker.COUNTRY_CODE"
+                      :key="`${speaker.NAME}:${code}`"
+                      :class="`flag flag-${code}`"
+                    />
                   </div>
                   <small>
                     <TW>{{ speaker.TITLE1 || speaker.TITLE1_EN }}</TW>
@@ -71,6 +76,7 @@
 </template>
 
 <script>
+import '@/assets/flag-sprites.com/flags.min.css' // Country flag source: https://www.flag-sprites.com/
 import noop from 'lodash/noop'
 import SpeakerAvatar from '@/views/SpeakerAvatar'
 
