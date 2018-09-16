@@ -50,14 +50,14 @@ export default {
     },
   },
   methods: {
-    // 若該講者有對應的 agenda 資料，則附上 agendumDialog 的超連結
+    // 若該講者有對應的 agenda 資料，則附上 agendumDialog 的連結
     _mapFirstAgendumLink(speaker) {
       return has(speaker, 'SCHEDULE[0]')
         ? {
             ...speaker,
             agendumLink: has(speaker, 'SCHEDULE[0]') && {
               name: 'SpeakerPage',
-              params: { agendumId: get(speaker, 'SCHEDULE[0].id') },
+              params: { agendumIdOrDay: get(speaker, 'SCHEDULE[0].id') },
             },
           }
         : speaker

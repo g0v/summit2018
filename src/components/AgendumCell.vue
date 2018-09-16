@@ -111,7 +111,7 @@ export default {
       if (this.shouldShowDialog) {
         router.push({
           name: 'AgendaPage',
-          params: { agendumId: this.agendum.id, slug: this.slug },
+          params: { agendumIdOrDay: this.agendum.id, slug: this.slug },
         })
       }
     },
