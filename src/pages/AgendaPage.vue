@@ -8,9 +8,9 @@
         lazy
         debounce="500"
       />
-      <div class="text-center h3 padding-bottom-2">
-        <TW> 大會議程皆有華英語雙向即時口譯 </TW>
-        <EN> All sessions will have simultaneous interpretion between English and Mandarine</EN>
+      <div class="text-center h5 padding-bottom-2">
+        <TW>大會議程皆有華英語雙向即時口譯</TW>
+        <EN>All sessions will have simultaneous bidirectional interpretation between English and Mandarin</EN>
       </div>
       <ParallelAgenda
         :agenda="schedule[activeDate]"
