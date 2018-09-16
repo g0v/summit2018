@@ -12,16 +12,19 @@
         <TW>大會議程皆有華英語雙向即時口譯</TW>
         <EN>All sessions will have simultaneous bidirectional interpretation between English and Mandarin</EN>
       </div>
-      <ParallelAgenda
-        :agenda="schedule[activeDate]"
-        :agendum-props-mapper="agendumPropsMapper"
-        :agendum-component="AgendumCell"
-        :threads="['R2', 'R0', 'R1', 'R3']"
-        :common-thread="'ALL'"
-        agenda-key-of-thread="VENUE"
-        agenda-key-of-start-time="START"
-        agenda-key-of-end-time="END"
-      />
+      <div id="parallel-agenda-wrapper">
+        <ParallelAgenda
+          id="parallel-agenda"
+          :agenda="schedule[activeDate]"
+          :agendum-props-mapper="agendumPropsMapper"
+          :agendum-component="AgendumCell"
+          :threads="['R2', 'R0', 'R1', 'R3']"
+          :common-thread="'ALL'"
+          agenda-key-of-thread="VENUE"
+          agenda-key-of-start-time="START"
+          agenda-key-of-end-time="END"
+        />
+      </div>
     </section>
 
     <section id="maps" class="cell large-10">
@@ -133,6 +136,12 @@ section#agenda {
   margin: 10px 0 120px;
   #date-picker {
     margin: 100px 0 20px 0;
+  }
+  #parallel-agenda-wrapper {
+    overflow-x: scroll;
+    #parallel-agenda {
+      min-width: 700px;
+    }
   }
 }
 

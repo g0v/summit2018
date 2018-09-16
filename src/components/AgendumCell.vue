@@ -14,7 +14,6 @@
           :class="['series-name', {'hide': !isSeriesHeader}]"
           :open="showTooltip"
           trigger="manual"
-          offset="16"
         >
           <!-- This will be the popover target (for the events and position) -->
           <div class="tooltip-target" @click.stop="openTooltip">
