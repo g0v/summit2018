@@ -87,7 +87,7 @@ export default {
       if (this.agendum.TITLE_EN) {
         return encodeURIComponent(
           this.agendum.TITLE_EN.toLowerCase()
-            .replace(/[:.,，。\s]/g, '-')
+            .replace(/[:.,，。\s“”'’]/g, '-')
             .replace(/["'#?!]/g, '')
             .slice(0, 80)
         )
@@ -111,7 +111,7 @@ export default {
       if (this.shouldShowDialog) {
         router.push({
           name: 'AgendaPage',
-          params: { agendumId: this.agendum.id, slug: this.slug },
+          params: { agendumIdOrDay: this.agendum.id, slug: this.slug },
         })
       }
     },

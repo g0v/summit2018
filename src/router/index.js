@@ -32,12 +32,12 @@ const router = new Router({
       component: CallForPaperPage,
     },
     {
-      path: '/agenda/:agendumId?/:slug?',
+      path: '/agenda/:agendumIdOrDay?/:slug?',
       name: 'AgendaPage',
       component: AgendaPage,
     },
     {
-      path: '/speakers/:agendumId?/:slug?',
+      path: '/speakers/:agendumIdOrDay?/:slug?',
       name: 'SpeakerPage',
       component: SpeakerPage,
     },

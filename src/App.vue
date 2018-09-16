@@ -34,7 +34,7 @@ export default {
     return {
       dialogAgendum: find(POPULATED_SCHEDULE, [
         'id',
-        this.$route.params.agendumId,
+        this.$route.params.agendumIdOrDay,
       ]),
     }
   },
@@ -46,9 +46,9 @@ export default {
   },
   watch: {
     $route(to, from) {
-      const { agendumId } = to.params
-      this.dialogAgendum = agendumId
-        ? find(POPULATED_SCHEDULE, ['id', agendumId])
+      const { agendumIdOrDay } = to.params
+      this.dialogAgendum = agendumIdOrDay
+        ? find(POPULATED_SCHEDULE, ['id', agendumIdOrDay])
         : null
     },
   },
