@@ -2,16 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const Airtable = require('airtable')
 
-const TABLE_NAMES = [
-  // 'NEWS',
-  'SPONSORS',
-  'SCHEDULE',
-  'SPEAKERS',
-  // 'STREAMING',
-  'STAFF',
-  // 'SOUVENIR',
-  // NOTE: 不要擔心 commend 掉的 table 裡沒什麼了不起的敏感資料，只是我現在還懶得寫它們的 doc，等用到時再說吧
-]
+const TABLE_NAMES = ['SPONSORS', 'SCHEDULE', 'TRACK', 'SPEAKERS', 'STAFF']
 
 const DIR_NAME = '../static/airtable_data'
 
