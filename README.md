@@ -35,7 +35,7 @@ p.s. 會加這個文件主要是為了避免有人覺得「雖然是網站前端
 yarn
 
 # 抓取 Airtable 上的議程、講者等資料
-AIRTABLE_KEY_G0V_SUMMIT_2018=<Your_key_for_Airtable>  yarn pull_airtable
+AIRTABLE_KEY_G0V_SUMMIT_2018=<Your_key_for_Airtable> yarn pull_airtable
 
 # 在 localhost:8080 跑 dev server 開發
 yarn dev
