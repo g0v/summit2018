@@ -3,6 +3,7 @@ import find from 'lodash/find'
 import assign from 'lodash/assign'
 import SPEAKERS from './SPEAKERS.json'
 import SCHEDULE from './SCHEDULE.json'
+import TRACK from './TRACK.json'
 
 /**
  *
@@ -49,6 +50,44 @@ import SCHEDULE from './SCHEDULE.json'
  *
  */
 export { default as SCHEDULE } from './SCHEDULE.json'
+
+/**
+ *
+ * @api {get} /static/airtable_data/TRACK.json  Get the information of track of agenda
+ * @apiName getTrackInfo
+ * @apiGroup agendaPage
+ *
+ * @apiSuccess {[]._id} id airtable ID of the record
+ * @apiSuccess {[].String} ID The official ID of the track in the brochure
+ * @apiSuccess {[].String} NAME Displayed title of the track
+ * @apiSuccess {[].String} NAME_EN Displayed title of the track (english version)
+ * @apiSuccess {[].String} DESCRIPTION The brief description of this track
+ * @apiSuccess {[].String} DESCRIPTION_EN The brief description of this track (english version)
+ * @apiSuccess {[].[String]} MODERATOR The airtable IDs of moderator(s)
+ * @apiSuccess {[].[String]} SCHEDULE The airtable IDs of all included agenda
+ *
+ * @apiSuccessExample {json} Success-Response:
+ *    HTTP/1.1 200 OK
+ *    [
+ *       {
+ *           "id": "rech4bvhyHwtol6T5",
+ *           "NAME": "你的明白不是我的明白",
+ *           "DESCRIPTION": "面對公共議題，有哪些媒體、工具、平台能協助公眾理解、討論，進而參與決策？《你的明白不是我的明白》串連公民媒體沃草、議題釐清工具 sense.tw、數位經濟法規線上諮詢平台 vTaiwan 及公共數位創新空間 PDIS，嘗試將公眾參與政治分出階段，分享各自在「知情」、「討論」、「政策形成」的挫折與學習，產生對話與連結。",
+ *           "NAME_EN": "On informed discussion",
+ *           "SCHEDULE": [
+ *             "recLfBAHIGGQTN3sU"
+ *           ],
+ *           "ID": 200,
+ *           "MODERATOR": [
+ *             "rec7h6j8CnDxKA80l"
+ *           ],
+ *           "SPEAKERS copy": "【主持人】Peace"
+ *       },
+ *       ...
+ *    ]
+ *
+ */
+export { default as TRACK } from './TRACK.json'
 
 /**
  *
@@ -200,6 +239,8 @@ export const POPULATED_SPEAKERS = populateRecords(
 )
 
 export const POPULATED_SCHEDULE = populateRecords(SCHEDULE, 'SPEAKER', SPEAKERS)
+
+export const POPULATED_TRACK = populateRecords(TRACK, 'MODERATOR', SPEAKERS)
 
 /**
  * @apiDefine ImageObject

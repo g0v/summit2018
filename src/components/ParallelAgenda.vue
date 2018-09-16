@@ -197,10 +197,9 @@ export default {
       let prevSeriesName = null
       return mapValues(this.agendaByThreadByTime, threadAgenda => {
         return mapValues(threadAgenda, agendum => {
-          const isFirstWithinTrack =
-            agendum.TRACK && agendum.TRACK !== prevSeriesName
+          const isFirstWithinTrack = get(agendum, 'TRACK[0]') !== prevSeriesName
           const withTrackInfo = assign(agendum, { isFirstWithinTrack })
-          prevSeriesName = agendum.TRACK
+          prevSeriesName = get(agendum, 'TRACK[0]')
 
           const withRowSpan = this.withRowSpan(withTrackInfo)
 
