@@ -49,3 +49,7 @@ $margins: 25, 50, 75, 100, 125, 150;
     margin-bottom:  #{$margin}px;
   }
 }
+
+.v-align-child-middle > * {
+  vertical-align: middle;
+}
