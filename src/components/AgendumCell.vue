@@ -42,6 +42,7 @@
           <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
           <span
             v-for="code in speaker.COUNTRY_CODE"
+            v-if="code !== 'tw'"
             :key="`${speaker.NAME}:${code}`"
             :class="`flag flag-${code}`"
           />

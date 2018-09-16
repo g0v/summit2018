@@ -43,6 +43,7 @@
                     </b>
                     <span
                       v-for="code in speaker.COUNTRY_CODE"
+                      v-if="code !== 'tw'"
                       :key="`${speaker.NAME}:${code}`"
                       :class="`flag flag-${code}`"
                     />
