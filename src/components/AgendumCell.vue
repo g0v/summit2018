@@ -1,19 +1,44 @@
 <template>
   <a
+    v-close-popover
     :class="['agendum-cell-link', { 'pointer': shouldShowDialog }]"
     :role="shouldShowDialog && 'link'"
     tabindex="0"
-    @click="goToAgendum"
+    @click.stop="goToAgendum"
   >
     <div class="agendum-cell">
       <div class="fixed-cell-top">
         <!-- Series (Visible if first of series) -->
-        <div
-          v-if="seriesName"
+        <v-popover
+          v-if="track"
           :class="['series-name', {'hide': !isSeriesHeader}]"
+          :open="showTooltip"
+          trigger="manual"
+          offset="16"
         >
-          {{ seriesName }}
-        </div>
+          <!-- This will be the popover target (for the events and position) -->
+          <div class="tooltip-target" @click.stop="openTooltip">
+            <TW>{{ track.NAME || track.NAME_EN }}</TW>
+            <EN>{{ track.NAME_EN || track.NAME }}</EN>
+          </div>
+
+
+          <!-- This will be the content of the popover -->
+          <template slot="popover">
+            <h6>
+              <TW>{{ track.NAME || track.NAME_EN }}</TW>
+              <EN>{{ track.NAME_EN || track.NAME }}</EN>
+            </h6>
+            <p v-if="trackModeratorNames">
+              <TW>主持人：{{ trackModeratorNames.TW }}</TW>
+              <EN>Moderator: {{ trackModeratorNames.EN }}</EN>
+            </p>
+            <p>
+              <TW>{{ track.DESCRIPTION || track.DESCRIPTION_EN }}</TW>
+              <EN>{{ track.DESCRIPTION_EN || track.DESCRIPTION }}</EN>
+            </p>
+          </template>
+        </v-popover>
 
         <!-- Label -->
         <b v-if="label" class="label">{{ label }}</b>
@@ -21,12 +46,12 @@
 
       <div v-if="label" class="label-spacer"/>
       <div
-        v-if="seriesName"
+        v-if="track"
         :class="['series-name series-name-spacer', {'hide': !isSeriesHeader}]"
       />
 
       <!-- Selerator within series (show to replace border-top of <td>, if not first of series) -->
-      <div v-if="seriesName && !isSeriesHeader" class="series-seperator"/>
+      <div v-if="track && !isSeriesHeader" class="series-seperator"/>
 
       <!-- Title -->
       <h6 class="title">
@@ -56,7 +81,10 @@
 import '@/assets/flag-sprites.com/flags.min.css' // Country flag source: https://www.flag-sprites.com/
 import router from '@/router'
 import has from 'lodash/has'
+import get from 'lodash/get'
+import find from 'lodash/find'
 import isEmpty from 'lodash/isEmpty'
+import { POPULATED_TRACK } from '@/../static/airtable_data/index'
 
 export default {
   name: 'AgendumCell',
@@ -66,6 +94,11 @@ export default {
       required: true,
       validator: info => has(info, 'TITLE'),
     },
+  },
+  data() {
+    return {
+      showTooltip: false,
+    }
   },
   computed: {
     title() {
@@ -88,11 +121,25 @@ export default {
     label() {
       return this.agendum.TYPE
     },
-    seriesName() {
-      return this.agendum.TRACK
+    track() {
+      const trackId = get(this.agendum, 'TRACK[0]')
+      return trackId ? find(POPULATED_TRACK, ['id', trackId]) : null
+    },
+    trackModeratorNames() {
+      const moderators = get(this.track, 'MODERATOR')
+      return moderators
+        ? {
+            TW: moderators
+              .map(speaker => speaker.NAME || speaker.NAME_EN)
+              .join('、'),
+            EN: moderators
+              .map(speaker => speaker.NAME_EN || speaker.NAME)
+              .join(', '),
+          }
+        : null
     },
     isSeriesHeader() {
-      return this.seriesName && this.agendum.isFirstWithinTrack
+      return this.track && this.agendum.isFirstWithinTrack
     },
     slug() {
       if (this.agendum.TITLE_EN) {
@@ -112,6 +159,18 @@ export default {
       )
     },
   },
+  watch: {
+    $route(to, from) {
+      if (this.track && this.agendum.isFirstWithinTrack) {
+        this.showTooltip = this.track.id === to.query.track
+      }
+    },
+  },
+  mounted() {
+    if (this.track && this.track.id === this.$route.query.track) {
+      this.showTooltip = true
+    }
+  },
   methods: {
     goToAgendum() {
       if (this.shouldShowDialog) {
@@ -120,6 +179,9 @@ export default {
           params: { agendumIdOrDay: this.agendum.id, slug: this.slug },
         })
       }
+    },
+    openTooltip() {
+      router.replace({ query: { track: this.track.id } })
     },
   },
 }
@@ -189,6 +251,33 @@ export default {
       margin-left: auto;
       position: absolute;
       top: 0;
+    }
+  }
+}
+</style>
+
+// Styles for tooltip
+<style lang="scss">
+.tooltip {
+  max-width: 370px;
+  background-color: unset;
+
+  .tooltip-inner {
+    background: white;
+    border: 3px solid $primary-color;
+    border-radius: 5px;
+    padding: 5px 10px 4px;
+  }
+
+  &.popover {
+    $color: #f9f9f9;
+
+    .popover-inner {
+      background: $color;
+      color: black;
+      padding: 24px;
+      border-radius: 5px;
+      box-shadow: 0 5px 30px rgba(black, 0.1);
     }
   }
 }
