@@ -87,7 +87,7 @@ export default {
       if (this.agendum.TITLE_EN) {
         return encodeURIComponent(
           this.agendum.TITLE_EN.toLowerCase()
-            .replace(/[:.,，。\s]/g, '-')
+            .replace(/[:.,，。\s“”'’]/g, '-')
             .replace(/["'#?!]/g, '')
             .slice(0, 80)
         )
