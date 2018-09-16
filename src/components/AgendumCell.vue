@@ -97,12 +97,7 @@ export default {
       return (
         has(this.agendum, 'ABSTRACT') ||
         has(this.agendum, 'ABSTRACT_EN') ||
-        has(this.agendum, 'speaker.NAME') ||
-        has(this.agendum, 'speaker.NAME_EN') ||
-        has(this.agendum, 'speaker.TITLE1') ||
-        has(this.agendum, 'speaker.TITLE1_EN') ||
-        has(this.agendum, 'speaker.BIO') ||
-        has(this.agendum, 'speaker.BIO_EN')
+        !isEmpty(this.agendum.SPEAKER)
       )
     },
   },
