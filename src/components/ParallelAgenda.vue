@@ -2,7 +2,7 @@
   <div :style="cssVariables" class="ParallelAgenda">
     <table>
       <colgroup>
-        <col style="width: 2.7rem">
+        <col style="width: 3.2rem">
         <col v-for="(_, index) in threads" :key="index">
       </colgroup>
       <!-- Header -->
@@ -301,11 +301,7 @@ th {
   .time-label {
     position: relative;
     top: -0.75rem;
-    left: -10px;
-    // TODO: Remove after responsive layout is implemented
-    @include breakpoint(small only) {
-      left: 0;
-    }
+    left: 0;
   }
 }
 
