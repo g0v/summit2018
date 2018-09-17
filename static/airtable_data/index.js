@@ -105,6 +105,8 @@ export { default as TRACK } from './TRACK.json'
  * @apiSuccess {[].[String]} TITLE2_EN The 2nd line of displayed title of the speaker (english version)
  * @apiSuccess {[].Object} CROPPED_AVATAR The avatar image of provided by speaker (See below tab 'Example of image object' for an example)
  * @apiSuccess {[].[_id]} SCHEDULE The airtable IDs of his/her agendum(agenda)
+ * @apiSuccess {[].Boolean} IS_MODERATOR Whether he/she is a moderator (of an agendum or a track)
+ * @apiSuccess {[].[_id]} TRACK The airtable IDs of the track in which he/she being the moderator
  * @apiSuccess {[].String} BIO The biography of the speaker
  * @apiSuccess {[].String} TWITTER The twitter account shared by speaker
  * @apiSuccess {[].Boolean} SHOW Whether the sponsor should be displayed

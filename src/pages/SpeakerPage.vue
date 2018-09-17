@@ -17,8 +17,14 @@
         <!-- Name and Title -->
         <h6>
           <b>
-            <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
-            <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+            <TW>
+              {{ speaker.IS_MODERATOR && '【主持人】' }}
+              {{ speaker.NAME || speaker.NAME_EN }}
+            </TW>
+            <EN>
+              {{ speaker.IS_MODERATOR && '[moderator]' }}
+              {{ speaker.NAME_EN || speaker.NAME }}
+            </EN>
           </b>
         </h6>
         <div class="speaker-titles">
