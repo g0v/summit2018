@@ -60,16 +60,22 @@
 
       <!-- Subtitle -->
       <small v-if="agendum.SPEAKER" class="subtitle">
-        <span v-for="(speaker, i) in agendum.SPEAKER" :key="speaker.NAME" class="v-align-child-middle">
-          <template v-if="i !==0"><TW>、</TW><EN>, </EN></template>
+        <span v-for="speaker in agendum.SPEAKER" :key="speaker.NAME" class="v-align-child-middle">
           <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
           <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+          <!-- Easter egg: add ?flag=1 to url to show country flag! -->
           <span
-            v-for="code in speaker.COUNTRY_CODE"
+            v-tooltip="speaker.COUNTRY"
+            v-for="(code, i) in speaker.COUNTRY_CODE"
             v-if="code !== 'tw'"
             :key="`${speaker.NAME}:${code}`"
-            :class="`flag flag-${code}`"
-          />
+            :class="showFlag && `flag flag-${code}`"
+          >
+            <template v-if="i === 0"> - </template>
+            <template v-else>, </template>
+            <span v-if="!showFlag">{{ code.toUpperCase() }}</span>
+          </span>
+          <br>
         </span>
       </small>
     </div>
@@ -157,6 +163,9 @@ export default {
         !isEmpty(this.agendum.SPEAKER)
       )
     },
+    showFlag() {
+      return !!this.$route.query.flag
+    },
   },
   watch: {
     $route(to, from) {
@@ -205,7 +214,7 @@ export default {
     }
     .subtitle {
       color: black;
-      font-size: 12px;
+      font-size: 14px;
     }
     .pointer {
       cursor: pointer;
@@ -262,6 +271,7 @@ export default {
   background-color: unset;
 
   .tooltip-inner {
+    color: black;
     background: white;
     border: 3px solid $primary-color;
     border-radius: 5px;
