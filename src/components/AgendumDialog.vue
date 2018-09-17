@@ -41,12 +41,14 @@
                       <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
                       <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
                     </b>
-                    <span
-                      v-for="code in speaker.COUNTRY_CODE"
-                      v-if="code !== 'tw'"
-                      :key="`${speaker.NAME}:${code}`"
-                      :class="`flag flag-${code}`"
-                    />
+                    <!-- Easter egg: add ?flag=1 to url to show country flag! -->
+                    <template v-for="code in speaker.COUNTRY_CODE">
+                      <span
+                        v-if="showFlag && code !== 'tw'"
+                        :key="`${speaker.NAME}:${code}`"
+                        :class="`flag flag-${code}`"
+                      />
+                    </template>
                   </div>
                   <small>
                     <TW>{{ speaker.TITLE1 || speaker.TITLE1_EN }}</TW>
@@ -97,6 +99,9 @@ export default {
   computed: {
     speakers() {
       return this.agendum.SPEAKER || {}
+    },
+    showFlag() {
+      return !!this.$route.query.flag
     },
   },
   methods: {
