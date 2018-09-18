@@ -41,6 +41,9 @@
                       <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
                       <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
                     </b>
+                    <span v-if="speaker.IS_MODERATOR">
+                      <TW>(主持人)</TW><EN>(Moderator)</EN>
+                    </span>
                     <!-- Easter egg: add ?flag=1 to url to show country flag! -->
                     <template v-for="code in speaker.COUNTRY_CODE">
                       <span

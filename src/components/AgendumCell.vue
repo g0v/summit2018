@@ -66,6 +66,9 @@
       <!-- Subtitle -->
       <small v-if="agendum.SPEAKER" class="subtitle">
         <span v-for="speaker in agendum.SPEAKER" :key="speaker.NAME" class="v-align-child-middle">
+          <span v-if="speaker.IS_MODERATOR">
+            <TW>主持人：</TW><EN>Moderator: </EN>
+          </span>
           <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
           <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
           <!-- Easter egg: add ?flag=1 to url to show country flag! -->
