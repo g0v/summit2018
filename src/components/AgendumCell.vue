@@ -19,6 +19,11 @@
           <div class="tooltip-target" @click.stop="openTooltip">
             <TW>{{ track.NAME || track.NAME_EN }}</TW>
             <EN>{{ track.NAME_EN || track.NAME }}</EN>
+            <span v-if="trackModeratorNames">
+              <br>
+              <TW>主持人：{{ trackModeratorNames.TW }}</TW>
+              <EN>Moderator: {{ trackModeratorNames.EN }}</EN>
+            </span>
           </div>
 
 
@@ -43,11 +48,11 @@
         <b v-if="label" class="label">{{ label }}</b>
       </div>
 
+      <!-- (Invisible) spacers for absolute series name & label -->
       <div v-if="label" class="label-spacer"/>
-      <div
-        v-if="track"
-        :class="['series-name series-name-spacer', {'hide': !isSeriesHeader}]"
-      />
+      <div v-if="track" :class="['series-name series-name-spacer', {'hide': !isSeriesHeader}]">
+        <TW>{{ track.NAME || track.NAME_EN }}</TW><EN>{{ track.NAME_EN || track.NAME }}</EN>
+      </div>
 
       <!-- Selerator within series (show to replace border-top of <td>, if not first of series) -->
       <div v-if="track && !isSeriesHeader" class="series-seperator"/>
@@ -245,9 +250,12 @@ export default {
         padding-right: 0;
       }
     }
-    .series-name-spacer,
+    .series-name-spacer {
+      visibility: hidden;
+      margin-bottom: 1.2em;
+    }
     .label-spacer {
-      height: 30px;
+      height: 2em;
     }
     .series-seperator {
       width: 25%;
