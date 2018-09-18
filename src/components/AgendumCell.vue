@@ -19,6 +19,11 @@
           <div class="tooltip-target" @click.stop="openTooltip">
             <TW>{{ track.NAME || track.NAME_EN }}</TW>
             <EN>{{ track.NAME_EN || track.NAME }}</EN>
+            <span v-if="trackModeratorNames">
+              <br>
+              <TW>主持人：{{ trackModeratorNames.TW }}</TW>
+              <EN>Moderator: {{ trackModeratorNames.EN }}</EN>
+            </span>
           </div>
 
 
@@ -43,11 +48,11 @@
         <b v-if="label" class="label">{{ label }}</b>
       </div>
 
+      <!-- (Invisible) spacers for absolute series name & label -->
       <div v-if="label" class="label-spacer"/>
-      <div
-        v-if="track"
-        :class="['series-name series-name-spacer', {'hide': !isSeriesHeader}]"
-      />
+      <div v-if="track" :class="['series-name series-name-spacer', {'hide': !isSeriesHeader}]">
+        <TW>{{ track.NAME || track.NAME_EN }}</TW><EN>{{ track.NAME_EN || track.NAME }}</EN>
+      </div>
 
       <!-- Selerator within series (show to replace border-top of <td>, if not first of series) -->
       <div v-if="track && !isSeriesHeader" class="series-seperator"/>
@@ -61,6 +66,9 @@
       <!-- Subtitle -->
       <small v-if="agendum.SPEAKER" class="subtitle">
         <span v-for="speaker in agendum.SPEAKER" :key="speaker.NAME" class="v-align-child-middle">
+          <span v-if="speaker.IS_MODERATOR">
+            <TW>主持人：</TW><EN>Moderator: </EN>
+          </span>
           <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
           <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
           <!-- Easter egg: add ?flag=1 to url to show country flag! -->
@@ -245,9 +253,12 @@ export default {
         padding-right: 0;
       }
     }
-    .series-name-spacer,
+    .series-name-spacer {
+      visibility: hidden;
+      margin-bottom: 1.2em;
+    }
     .label-spacer {
-      height: 30px;
+      height: 2em;
     }
     .series-seperator {
       width: 25%;

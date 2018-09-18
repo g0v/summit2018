@@ -9,16 +9,22 @@
       >
         <!-- Speaker avatar and title -->
         <component
-          :is="speaker.agendumLink ? 'router-link' : 'span'"
-          :to="speaker.agendumLink"
+          :is="speaker.avatarLink ? 'router-link' : 'span'"
+          :to="speaker.avatarLink"
         >
           <SpeakerAvatar :speaker="speaker"/>
         </component>
         <!-- Name and Title -->
         <h6>
           <b>
-            <TW>{{ speaker.NAME || speaker.NAME_EN }}</TW>
-            <EN>{{ speaker.NAME_EN || speaker.NAME }}</EN>
+            <TW>
+              {{ speaker.IS_MODERATOR && '【主持人】' }}
+              {{ speaker.NAME || speaker.NAME_EN }}
+            </TW>
+            <EN>
+              {{ speaker.IS_MODERATOR && '[moderator]' }}
+              {{ speaker.NAME_EN || speaker.NAME }}
+            </EN>
           </b>
         </h6>
         <div class="speaker-titles">
@@ -46,21 +52,34 @@ export default {
     speakers() {
       return POPULATED_SPEAKERS.filter(
         speaker => speaker['SHOW'] && speaker['NAME']
-      ).map(this._mapFirstAgendumLink)
+      ).map(this._mapAvatarLink)
     },
   },
   methods: {
-    // 若該講者有對應的 agenda 資料，則附上 agendumDialog 的連結
-    _mapFirstAgendumLink(speaker) {
-      return has(speaker, 'SCHEDULE[0]')
-        ? {
-            ...speaker,
-            agendumLink: has(speaker, 'SCHEDULE[0]') && {
-              name: 'SpeakerPage',
-              params: { agendumIdOrDay: get(speaker, 'SCHEDULE[0].id') },
-            },
-          }
-        : speaker
+    // 若該講者有對應的 agenda 資料則附上 agendum dialog; 若有 track 資料則付上 track popover 的連結
+    _mapAvatarLink(speaker) {
+      let _speaker = speaker
+      if (has(speaker, 'SCHEDULE[0]')) {
+        _speaker = {
+          ...speaker,
+          avatarLink: {
+            name: 'SpeakerPage',
+            params: { agendumIdOrDay: get(speaker, 'SCHEDULE[0].id') },
+          },
+        }
+      }
+
+      if (speaker.IS_MODERATOR && has(speaker, 'TRACK[0]')) {
+        _speaker = {
+          ...speaker,
+          avatarLink: {
+            name: 'AgendaPage',
+            query: { track: get(speaker, 'TRACK[0]') },
+          },
+        }
+      }
+
+      return _speaker
     },
   },
 }

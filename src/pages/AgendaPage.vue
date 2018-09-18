@@ -46,6 +46,7 @@ import CapsuleRadioButton from '@/components/CapsuleRadioButton'
 import ParallelAgenda from '@/components/ParallelAgenda'
 import AgendumCell from '@/components/AgendumCell'
 import get from 'lodash/get'
+import find from 'lodash/find'
 import filter from 'lodash/filter'
 import sortBy from 'lodash/sortBy'
 import groupBy from 'lodash/groupBy'
@@ -108,6 +109,17 @@ export default {
       this.syncActiveDateToParam()
     },
   },
+  created() {
+    // if a 'track' query is found, add the 'agendumIdOrDay' params if needed
+    if (this.$route.query.track && !this.$route.params.agendumIdOrDay) {
+      const day = this.getDayByTrackId(this.$route.query.track)
+      router.push({
+        name: 'AgendaPage',
+        params: { agendumIdOrDay: day },
+        query: { track: this.$route.query.track },
+      })
+    }
+  },
   methods: {
     agendumPropsMapper(agendum) {
       return agendum
@@ -123,10 +135,19 @@ export default {
       const agendumIdOrDay = this.activeDate.replace(' ', '_')
 
       router.push({
+        ...this.$route,
         params: { agendumIdOrDay },
       })
     },
-    get,
+    getDayByTrackId(trackId) {
+      let agendum = find(POPULATED_SCHEDULE, agenda => {
+        return get(agenda, 'TRACK[0]') === trackId
+      })
+      let date = get(agendum, 'START')
+      if (date) {
+        return this.formatDate(new Date(date)).replace(' ', '_')
+      }
+    },
   },
 }
 </script>
