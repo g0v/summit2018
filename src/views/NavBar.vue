@@ -3,7 +3,7 @@
     //- TODO: add for later version
     //- .top-bar-left.show-for-large
     .top-bar-left
-      ul.menu
+      ul.menu.hide-for-small-only
         li: router-link(to="/").brand-logo.menu-text
           span.flex-container.align-middle.shahow
             img.brand-icon(src="@/assets/svg/g0v.svg")
