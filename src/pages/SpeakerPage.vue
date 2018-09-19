@@ -40,8 +40,10 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import has from 'lodash/has'
 import get from 'lodash/get'
+import sortBy from 'lodash/sortBy'
 import SpeakerAvatar from '@/views/SpeakerAvatar'
 import { POPULATED_SPEAKERS } from '@/../static/airtable_data'
 
@@ -49,10 +51,11 @@ export default {
   name: 'SpeakerPage',
   components: { SpeakerAvatar },
   computed: {
+    ...mapState(['lang']),
     speakers() {
-      return POPULATED_SPEAKERS.filter(
-        speaker => speaker['SHOW'] && speaker['NAME']
-      ).map(this._mapAvatarLink)
+      return sortBy(POPULATED_SPEAKERS, this.getComparableBasis).map(
+        this._mapAvatarLink
+      )
     },
   },
   methods: {
@@ -80,6 +83,25 @@ export default {
       }
 
       return _speaker
+    },
+    // 排序規則：講者一律優先於主持人，其餘根據顯示語系的 unicode 順序
+    getComparableBasis(speaker) {
+      const displayName =
+        this.lang === 'EN'
+          ? `${speaker.NAME_EN || speaker.NAME}`.toUpperCase().trim()
+          : `${speaker.NAME || speaker.NAME_EN}`.toUpperCase().trim()
+
+      // 未公布名稱講者
+      if (speaker.NAME_EN === 'TBA' || speaker.NAME === '待公告') {
+        return '🐛🐛ⒷⒾⒼⒼⒺⓇ ⓊⓃⒾⒸOⒹⒺ' + displayName
+      }
+
+      // 主持人
+      if (speaker.IS_MODERATOR) {
+        return '🐛ⒷⒾⒼ ⓊⓃⒾⒸOⒹⒺ' + displayName
+      }
+
+      return displayName
     },
   },
 }
