@@ -90,6 +90,7 @@ export default {
       switch (sponsor.CLASS) {
         case 'COHOST':
         case 'EVANGELIST':
+        case 'PROGRAM_PARTNER':
           return 'class-a small-6 medium-5 large-4'
         case 'ACTIVIST':
           return 'class-b small-5 medium-4 large-3'
