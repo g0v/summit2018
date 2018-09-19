@@ -22,8 +22,8 @@
           </header>
           <div class="details">
             <p>
-              <b class="venue">{{ agendum.VENUE }}</b>
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              <b class="venue">{{ agendum.VENUE }}</b>&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="time">{{ formatDate(new Date(agendum.START)) }}</span>&nbsp;&nbsp;
               <span class="time">{{ formatTime(agendum.START) }} - {{ formatTime(agendum.END) }}</span>
             </p>
             <span
@@ -115,6 +115,13 @@ export default {
         hour: '2-digit',
         minute: '2-digit',
       }),
+    formatDate(date) {
+      return date.toLocaleDateString('en-US', {
+        timeZone: 'Asia/Taipei',
+        month: 'short',
+        day: 'numeric',
+      })
+    },
     copyCurrentURL() {},
     noop,
   },
