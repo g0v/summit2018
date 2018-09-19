@@ -51,6 +51,9 @@ export default {
   height: 100px;
   background-color: $dark-gray;
   border-top: 2px solid $darker-gray;
+  ul > li > a {
+    padding: 0.7rem 0.8rem;
+  }
 }
 #footer-container,
 #footer {
