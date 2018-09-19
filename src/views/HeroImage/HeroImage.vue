@@ -8,7 +8,7 @@
         <div id="title">亞洲最大公民科技盛會</div>
         <div id="subtitle"> The Largest Civic Tech Event in Asia</div>
       </div>
-      <div id="slogan">開源 公民 生態系</div>
+      <div id="slogan">開放了？然後咧！</div>
       <div id="time">2018.10.5-2018.10.7</div>
       <div id="location">
         <TW>台北</TW>
