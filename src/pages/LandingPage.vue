@@ -23,8 +23,6 @@
           p
             a(href="mailto:g0v-summit-partner-2018@googlegroups.com") 贊助大會
             span &nbsp;&nbsp;|&nbsp;&nbsp;
-            a(href="mailto:g0v-summit-2018-pr@googlegroups.com") 媒體聯絡
-            span &nbsp;&nbsp;|&nbsp;&nbsp;
             a(href="https://goo.gl/forms/ND566FsQRP32fHJs2") 媒體註冊
             span &nbsp;&nbsp;|&nbsp;&nbsp;
             router-link(:to="{ name: 'CallForPaperPage' }") 投稿 (已截止)
@@ -34,8 +32,6 @@
           p All sessions will have simultaneous bidirectional interpretation between English and Mandarin
           p
             a(href="mailto:g0v-summit-partner-2018@googlegroups.com") Sponsor the Event
-            span &nbsp;&nbsp;|&nbsp;&nbsp;
-            a(href="mailto:g0v-summit-2018-pr@googlegroups.com") Media Contact
             span &nbsp;&nbsp;|&nbsp;&nbsp;
             a(href="https://goo.gl/forms/ND566FsQRP32fHJs2") Media Registration
             span &nbsp;&nbsp;|&nbsp;&nbsp;
