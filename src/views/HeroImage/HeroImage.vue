@@ -4,17 +4,19 @@
     <HeroImageDesktop v-else/>
 
     <span id="hero-image-text" :class="isSmallScreen && 'small-screen-text-layout'">
-      <div class="slogon">
-        <div id="title">亞洲最大公民科技盛會</div>
-        <div id="subtitle"> The Largest Civic Tech Event in Asia</div>
+      <div>
+        <div id="title"><span>亞洲最大公民科技盛會</span></div>
+        <div id="subtitle"><span>The Largest Civic Tech Event in Asia</span></div>
       </div>
-      <div id="slogan">開放了？然後咧！</div>
-      <div id="time">2018.10.5-2018.10.7</div>
+      <div id="slogan"><span>開放了？然後咧！</span></div>
+      <div id="time"><span>2018.10.5-2018.10.7</span></div>
       <div id="location">
-        <TW>台北</TW>
-        <EN>Taipei</EN>
-        <TW>中央研究院 人文社會科學館</TW>
-        <EN>Academia Sinica</EN>
+        <span>
+          <TW>台北</TW>
+          <EN>Taipei</EN>
+          <TW>中央研究院 人文社會科學館</TW>
+          <EN>Academia Sinica</EN>
+        </span>
       </div>
       <CtaButton :block="!isSmallScreen" href="https://g0v-summit2018.kktix.cc/events/conf">
         <TW>一般票</TW>
@@ -58,11 +60,21 @@ export default {
 
   #hero-image-text {
     position: absolute;
-    top: calc(35% - 118px);
+    top: calc(35% - 160px);
     left: calc(21% - 145px);
     font-size: 26px;
     color: black;
     font-weight: bold;
+
+    #title,
+    #subtitle,
+    #slogan,
+    #time,
+    #location {
+      span {
+        background: rgba(256, 256, 256, 0.8);
+      }
+    }
 
     #subtitle {
       font-size: 0.7em;

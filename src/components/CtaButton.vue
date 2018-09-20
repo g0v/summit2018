@@ -54,7 +54,7 @@ a.cta-button {
   color: $white;
 
   > span {
-    margin: 0 0.5rem;
+    padding: 0 0.5rem;
   }
 
   .show-on-hover {
