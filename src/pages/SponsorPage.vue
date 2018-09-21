@@ -86,12 +86,12 @@ export default {
     columnViewClasses() {
       return [
         { _key: 'SUPPORTER', TW: 'Supporter', EN: 'Supporter' },
-        { _key: 'IN_KIND', TW: 'In Kind', EN: 'In Kind' },
-        { _key: 'MEDIA_PARTNER', TW: 'Media Partner', EN: 'Media Partner' },
+        { _key: 'IN_KIND', TW: '夠力夥伴', EN: 'In-kind Partners' },
+        { _key: 'MEDIA_PARTNER', TW: 'Media Partner', EN: 'Media Partners' },
         {
           _key: 'PROMOTING_PARTNER',
-          TW: 'Promoting Partner',
-          EN: 'Promoting Partner',
+          TW: 'Promoting Partners',
+          EN: 'Promoting Partners',
         },
       ]
     },
