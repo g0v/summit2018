@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <NavBar/>
+      <NavBar v-if="appMode()" />
     </header>
     <main>
       <router-view/>
@@ -71,6 +71,9 @@ export default {
     },
     closeDialog() {
       router.push({ name: this.$route.name })
+    },
+    appMode() {
+      return window.location.search.match('mode=app') === null
     },
   },
 }
