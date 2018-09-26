@@ -60,6 +60,7 @@
 
 <script>
 import groupBy from 'lodash/groupBy'
+import get from 'lodash/get'
 import { SPONSORS } from '@/../static/airtable_data'
 import { CtaButton } from '@/components'
 
@@ -102,7 +103,7 @@ export default {
       const sponsors = SPONSORS.filter(record => record.SHOW === true).map(
         record => ({
           ...record,
-          LOGO: record.CROPPED_LOGO[0].thumbnails.large.url,
+          LOGO: get(record, 'CROPPED_LOGO[0].thumbnails.large.url'),
           id: record.id,
         })
       )

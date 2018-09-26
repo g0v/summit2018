@@ -48,6 +48,7 @@
 <script>
 import { SPONSORS } from '@/../static/airtable_data'
 import shuffle from 'lodash/shuffle'
+import get from 'lodash/get'
 
 /** 設定贊助商大於一定數量，則打亂顯示順序，單純以卡片大小分別 */
 const SHUFFEL_THRESHOLE = null // 5
@@ -68,7 +69,7 @@ export default {
       const sponsors = SPONSORS.filter(record => record.SHOW === true).map(
         record => ({
           ...record,
-          LOGO: record.CROPPED_LOGO[0].thumbnails.large.url,
+          LOGO: get(record, 'CROPPED_LOGO[0].thumbnails.large.url'),
           id: record.id,
         })
       )
