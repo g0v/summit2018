@@ -8,7 +8,7 @@ const BREAKPOINT = 640
 const store = new Vuex.Store({
   strict: process.env.NODE_ENV !== 'production',
   state: {
-    lang: 'EN',
+    lang: 'TW',
     scrollY: 0,
     innerWidth: 0,
   },

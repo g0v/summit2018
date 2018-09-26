@@ -59,6 +59,7 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
+import get from 'lodash/get'
 
 export default {
   name: 'NavBar',
@@ -68,6 +69,11 @@ export default {
     }
   },
   computed: mapState(['lang', 'scrollY']),
+  created() {
+    if (get(this.$route, 'query.lang') === 'EN' && this.lang !== 'EN') {
+      this.toggleLang()
+    }
+  },
   methods: {
     ...mapMutations(['toggleLang']),
   },
