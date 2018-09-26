@@ -48,7 +48,7 @@
             TW 立即購票
             EN Registration
         li
-          a(@click="toggleLang")
+          a(@click="toggleLangUpdateQuery")
             b(v-if="lang === 'TW'") English
             b(v-else) 華語
         //- li
@@ -59,6 +59,8 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
+import get from 'lodash/get'
+import router from '@/router'
 
 export default {
   name: 'NavBar',
@@ -68,8 +70,28 @@ export default {
     }
   },
   computed: mapState(['lang', 'scrollY']),
+  created() {
+    if (get(this.$route, 'query.lang') === 'EN' && this.lang !== 'EN') {
+      this.toggleLang()
+    }
+  },
   methods: {
     ...mapMutations(['toggleLang']),
+    /**
+     * Toggle site language and add ?lang=XX to url
+     */
+    toggleLangUpdateQuery() {
+      this.toggleLang()
+      if (get(this.$route, 'query.lang') !== this.lang) {
+        router.push({
+          ...this.$route,
+          query: {
+            ...this.$route.query,
+            lang: this.lang,
+          },
+        })
+      }
+    },
   },
 }
 </script>
