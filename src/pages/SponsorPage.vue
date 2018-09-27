@@ -45,6 +45,21 @@
                 span {{ sponsor.URL }}
                 FaIcon(name="external-link")
 
+    //- Avatar view (INDIVIDUAL)
+    template(v-for="classType in avatarViewClasses")
+      section(v-if="sponsorsByClass[classType._key]").class-b.cell
+        h4
+          TW {{ classType.TW }}
+          EN {{ classType.EN }}
+        .grid-x.grid-margin-x
+          .cell(v-for="sponsor in sponsorsByClass[classType._key]" :key="sponsor.id").small-6.medium-3.large-2
+            .project-card
+              .logo-container.text-center
+                img.logo(:src="sponsor.LOGO")
+              h6.text-center: b
+                EN {{ sponsor['NAME'] }}
+                TW {{ sponsor['NAME-CH'] }}
+
     //- 贊助按鈕
     .cell.text-center.mb-50
       CtaButton(
@@ -95,6 +110,12 @@ export default {
           EN: 'Promoting Partners',
         },
       ]
+    },
+    /**
+     * 顯示為欄的等級
+     */
+    avatarViewClasses() {
+      return [{ _key: 'INDIVIDUAL', TW: '個人贊助', EN: 'Personal Donation' }]
     },
     /**
      * 來自 Airtable 的贊助商資料

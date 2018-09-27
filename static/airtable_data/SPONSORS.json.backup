@@ -1,484 +1,1128 @@
+[
 {
-  "records": [
+  "id": "recbsQVCqsMHH26AM",
+  "NAME": "g0v Summit 2018",
+  "BIO": "The g0v Summit 2018 was hosted by the g0v Summit 2018 Preparatory Team.",
+  "CROPPED_LOGO": [
     {
-      "id": "recr111114O211111HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "11111 1",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 300,
-                "height": 400
-              },
-              "large": {
-                "url": "http://zh-tw.learnlayout.com/images/logo.png",
-                "width": 300,
-                "height": 400
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "EVANGELIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr222224O222222HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "22222 2",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "data:image/png;base64,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",
-                "width": 500,
-                "height": 500
-              },
-              "large": {
-                "url": "data:image/png;base64,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",
-                "width": 500,
-                "height": 500
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "EVANGELIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr333334O233333HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "33333 3",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "http://zh-tw.learnlayout.com/images/logo.png",
-                "width": 400,
-                "height": 450
-              },
-              "large": {
-                "url": "http://zh-tw.learnlayout.com/images/logo.png",
-                "width": 400,
-                "height": 450
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "ACTIVIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr444444O244444HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "44444 4",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://image.freepik.com/free-icon/xbox-logo_318-9975.jpg",
-                "width": 500,
-                "height": 500
-              },
-              "large": {
-                "url": "https://image.freepik.com/free-icon/xbox-logo_318-9975.jpg",
-                "width": 500,
-                "height": 500
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "ACTIVIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr555554O255555HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "55555 5",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://via.placeholder.com/250x250",
-                "width": 300,
-                "height": 350
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 300,
-                "height": 350
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "IN_KIND"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr666664O266666HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "66666 6",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 100,
-                "height": 500
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 100,
-                "height": 500
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "IN_KIND"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr777774O277777HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "77777 7",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 200,
-                "height": 300
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 200,
-                "height": 300
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "MEDIA_PARTNER"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr888884O288888HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "88888 8",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 300,
-                "height": 350
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 300,
-                "height": 350
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "MEDIA_PARTNER"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr999994O299999HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "99999 9",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 300,
-                "height": 500
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 300,
-                "height": 500
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "EVANGELIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr10101010104O21010101010HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1010101010 10",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 500,
-                "height": 500
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 500,
-                "height": 500
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "EVANGELIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr11111111114O21111111111HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1111111111 11",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 400,
-                "height": 500
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 400,
-                "height": 500
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "ACTIVIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr12121212124O21212121212HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1212121212 12",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 250,
-                "height": 300
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 250,
-                "height": 300
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "ACTIVIST"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr13131313134O21313131313HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1313131313 13",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 120,
-                "height": 100
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 120,
-                "height": 100
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "IN_KIND"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr14141414144O21414141414HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1414141414 14",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 100,
-                "height": 200
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 100,
-                "height": 200
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "IN_KIND"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr15151515154O21515151515HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1515151515 15",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 200,
-                "height": 250
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 200,
-                "height": 250
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "MEDIA_PARTNER"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
-    },
-    {
-      "id": "recr16161616164O21616161616HZWhk9XPP0",
-      "fields": {
-        "SHOW": true,
-        "NAME": "1616161616 16",
-        "NOTE": "這邊可以隨便筆記，不會顯示在網站上",
-        "CROPPED_LOGO": [
-          {
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 100,
-                "height": 100
-              },
-              "large": {
-                "url": "https://dl.airtable.com/66uW7NW0Tm6oAq0yQ6wg_large_eec2e40ca5301ea71e828788bac2b08f.png",
-                "width": 100,
-                "height": 100
-              }
-            }
-          }
-        ],
-        "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
-        "NAME-CH": "祐生研究基金會",
-        "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
-        "URL": "http://www.archilife.org/",
-        "CLASS": "MEDIA_PARTNER"
-      },
-      "createdTime": "2018-01-20T05:19:08.000Z"
+      "id": "att71aFkKjzF8VR5w",
+      "url": "https://dl.airtable.com/rOXW0qxoQZeSkJQikVjr_g0vsummit2018.png",
+      "filename": "g0vsummit2018.png",
+      "size": 6433,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/tmWoFmyTFiJ5kCjOcuTu_small_g0vsummit2018.png",
+          "width": 59,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/jiEwb0zQTUeRq97CENyr_large_g0vsummit2018.png",
+          "width": 240,
+          "height": 146
+        },
+        "full": {
+          "url": "https://dl.airtable.com/kD2LBlARR16O5yp2wC8S_full_g0vsummit2018.png",
+          "width": 240,
+          "height": 146
+        }
+      }
     }
-  ]
-}
+  ],
+  "CLASS": "ORGANIZER",
+  "NAME-CH": "g0v Summit 2018",
+  "BIO-CH": "g0v Summit 2018 是由 g0v Summit 2018 籌備小組主辦。",
+  "URL": "https://summit.g0v.tw/2018/",
+  "SHOW": true
+},
+{
+  "id": "rec26P2u36prFyuYM",
+  "NAME": "Open Culture Foundation",
+  "BIO": "The Open Culture Foundation (OCF), is a nonpartisan, nonprofit organization, founded in 2014 by several members of Taiwan’s open source community. Our main goal is to support local communities advocate the use of open technologies in broader sectors, including open source software, open hardware, and open data.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attyxXWMztI5p074n",
+      "url": "https://dl.airtable.com/HfM6n0FrRjCKmao7V7O7_OCF.png",
+      "filename": "OCF.png",
+      "size": 31697,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/4qHF3NO4TeaAmLUYz6AF_small_OCF.png",
+          "width": 101,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/2uFmT94TeK2lo6FhbwhA_large_OCF.png",
+          "width": 600,
+          "height": 214
+        },
+        "full": {
+          "url": "https://dl.airtable.com/OggCKi5ASLmSplx9fDX3_full_OCF.png",
+          "width": 600,
+          "height": 214
+        }
+      }
+    }
+  ],
+  "CLASS": "COHOST",
+  "NAME-CH": "財團法人開放文化基金會",
+  "BIO-CH": "財團法人開放文化基金會（Open Culture Foundation，簡稱 OCF）成立的主要目的，是希望能夠藉由法人組織的力量，協助台灣資訊軟體界的開放源碼社群，包含開放原始碼軟體、開放資料、開放政府（公民科技）。三個主要領域的發展和應用。",
+  "URL": "https://ocf.tw/",
+  "SHOW": true
+},
+{
+  "id": "recazVkB0fAh5ECsC",
+  "NAME": "g0v jothon group",
+  "BIO": "g0v hackathon organizers “jothon” is the executive team of g0v.tw bi-monthly hackathons. There are 7 persons in the team with different types of profession, like elite hackers, lawyer, NGO/NPO activist, writers, filmmakers and arts administrator. The team also work on g0v community infrastructure and launched g0v Civic Tech Prototype Grant.",
+  "CROPPED_LOGO": [
+    {
+      "id": "att66mdq473w8C5tq",
+      "url": "https://dl.airtable.com/FP283QJiQ1SZZ57DggeZ_jothon.jpg",
+      "filename": "jothon.jpg",
+      "size": 28274,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/XmK3kWa0Q0yYuhotUPGM_small_jothon.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/6m2kXJJfRAC7Mv3wmkB5_large_jothon.jpg",
+          "width": 500,
+          "height": 500
+        },
+        "full": {
+          "url": "https://dl.airtable.com/izThKhXsS0O9Zubo0A2M_full_jothon.jpg",
+          "width": 500,
+          "height": 500
+        }
+      }
+    }
+  ],
+  "CLASS": "COHOST",
+  "NAME-CH": "g0v 零時政府揪松團",
+  "BIO-CH": "「 揪松團」是 g0v 社群籌辦雙月黑客松的工作小組，除了籌畫每雙月的百人黑客松 ( 大松 ) 外，2016 年起亦積極推動社群基礎建設，並於 2016 年底推出公民科技創新獎助金計畫。",
+  "URL": "https://hack.g0v.tw/",
+  "SHOW": true
+},
+{
+  "id": "recTPEUBn0NeGUYKn",
+  "NAME": "Institute of Information Science, Academia Sinica",
+  "BIO": " The Institute of Information Science (IIS) was formally established in September 1982 after a five-year preparation period, and is one of the eleven institutes and research centers within the Division of Mathematical and Physical Sciences. IIS presently has 39 full-time research fellows, 29 postdoctoral research fellows and over 300 full-time information technology specialists and part-time research assistants supporting research and development of information science and engineering. All members of IIS prescribe to the motto, \"Every job is a self-portrait of those who did it; autograph your work with quality,\" emphasizing excellence and synergistic teamwork effort.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attOh75rVVndqWbPI",
+      "url": "https://dl.airtable.com/4XecB8VwSRm0NWBw4dQS_e839d8b572240d0361a3c853e6e72ea9.png",
+      "filename": "e839d8b572240d0361a3c853e6e72ea9.png",
+      "size": 16250,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/EfpJuykaQq64wjEi8Tz7_small_e839d8b572240d0361a3c853e6e72ea9.png",
+          "width": 72,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/WO3RsdHGTaKXQf6JG72p_large_e839d8b572240d0361a3c853e6e72ea9.png",
+          "width": 480,
+          "height": 240
+        },
+        "full": {
+          "url": "https://dl.airtable.com/p2GbNHf1TqWINppCRvdi_full_e839d8b572240d0361a3c853e6e72ea9.png",
+          "width": 480,
+          "height": 240
+        }
+      }
+    }
+  ],
+  "CLASS": "COHOST",
+  "NAME-CH": "中央研究院資訊科學研究所",
+  "BIO-CH": "中央研究院資訊科學研究所於 1977 年開始設立籌備處，歷經五年籌備， 於 1982 年 9 月正式成立研究所，是中央研究院數理組十一個單位之一。目前編制內有 39 位研究人員，另外有 29 位博士後研究學者，將近 300 位專任之資訊技術人員與非全時之研究助理，支援資訊領域之研究與系統之開發。「件件工作，反映自我，凡經我手，必為佳作」是全體同仁一致秉持的工作信念，重視工作之卓越品質，發揮最佳綜效之團隊精神。",
+  "URL": "http://www.iis.sinica.edu.tw/",
+  "SHOW": true
+},
+{
+  "id": "recZYSpM3N5ijS7ET",
+  "NAME": "Digital Taiwan Roundtable",
+  "BIO": "To enhance the competitiveness of Taiwan, we gathered people from the industry, government, universities, and research institutes to established the national “Digital Taiwan Roundtable” to bring together all the professionals and intelligence. We advocate the required adjustments of regulations and policies for digital transformation in industries and the society.  \nDigital Taiwan Roundtable is a non-profit organization. Its mission is to promote the development of digital technology in various industries and to advice the government in formulating proactive policies, in order to enhance the international competitiveness advantages in digital technology related industries. ",
+  "CROPPED_LOGO": [
+    {
+      "id": "attgkp5Ay0Y9vn5S3",
+      "url": "https://dl.airtable.com/YReBtbvKTomXClPuVyn4_TDR.png",
+      "filename": "TDR.png",
+      "size": 13468,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/urqTHApBRhajDS14xPWl_small_TDR.png",
+          "width": 68,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/HRZneuQj2EQ01CPdZD1w_large_TDR.png",
+          "width": 263,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/G4BW3NfqR2a5QxpuqiEu_full_TDR.png",
+          "width": 263,
+          "height": 140
+        }
+      }
+    }
+  ],
+  "CLASS": "EVANGELIST",
+  "NAME-CH": "台灣數位科技與政策協進會",
+  "BIO-CH": "基於數位科技對於台灣競爭力之重要性，我們結合具共同理念與理想的產、官、學、研人士，成立全國性的「台灣數位科技與政策協進會」，期望藉此匯集專業與智慧，整合數位科技對各行各業發展所需的法規與政策，對政府建言並提供各界參考，以產生對數位科技產業進行結構性翻轉的效益。\n本會為依法設立，非以營利為目的之社會團體，以促進各行各業結合數位科技發展，及建議政府制定前瞻性相關政策，促使數位科技相關產業具國際競爭優勢為宗旨。",
+  "URL": "https://digitaltaiwan.org/",
+  "SHOW": true
+},
+{
+  "id": "recaH4GRzVMtY8oi1",
+  "NAME": "Board of Science and Technology",
+  "CROPPED_LOGO": [
+    {
+      "id": "attvw9NXxTtRBrVe4",
+      "url": "https://dl.airtable.com/PcnPZulmQWqRDCPkg3z1_BOST.jpg",
+      "filename": "BOST.jpg",
+      "size": 54224,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/J4giFSTRecMbP912TJtA_small_BOST.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/eAFNbvJ6TiG7PfpT9tFn_large_BOST.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/YxsEPOpKQFu6X51V9f3u_full_BOST.jpg",
+          "width": 900,
+          "height": 900
+        }
+      }
+    }
+  ],
+  "CLASS": "EVANGELIST",
+  "NAME-CH": "行政院科技會報辦公室",
+  "URL": "https://www.bost.ey.gov.tw/",
+  "SHOW": true
+},
+{
+  "id": "recExBuYjl3n7oY4C",
+  "NAME": "Institute for Information Industry",
+  "CROPPED_LOGO": [
+    {
+      "id": "attGkJzU1mynN1C6c",
+      "url": "https://dl.airtable.com/TP06CpylSiGiBFu8YBK4_%E8%B3%87%E7%AD%96%E6%9C%83.png",
+      "filename": "資策會.png",
+      "size": 1949287,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/2t0xwhQdSCZ7nemR002A_small_%E8%B3%87%E7%AD%96%E6%9C%83.png",
+          "width": 290,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/rVn5C3BwTyODAHrMcQIi_large_%E8%B3%87%E7%AD%96%E6%9C%83.png",
+          "width": 3000,
+          "height": 372
+        },
+        "full": {
+          "url": "https://dl.airtable.com/sqpogHemRLqztVS8Gqym_full_%E8%B3%87%E7%AD%96%E6%9C%83.png",
+          "width": 3000,
+          "height": 372
+        }
+      }
+    }
+  ],
+  "CLASS": "EVANGELIST",
+  "NAME-CH": "財團法人資訊工業策進會",
+  "URL": "https://www.iii.org.tw/",
+  "SHOW": true
+},
+{
+  "id": "recmpeKVQdfXB296a",
+  "NAME": "Industrial Development Bureau, Ministry of Economic Affairs",
+  "BIO": "The mission of the IDB is to promote industrial development in Taiwan, providing professional, innovative and comprehensive services efficiently and proactively that meet the needs of the industry, and facilitating industry upgrade and transformation. It works tirelessly to help Taiwanese companies enhance their productivity and competitive edge on the global stage, thereby better adapt to a rapidly changing world.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attbRlGqsgkY4YLLp",
+      "url": "https://dl.airtable.com/jpOgHeLKR16Um23IaflH_IDB%20logo.png",
+      "filename": "IDB logo.png",
+      "size": 117294,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/qYtcfiDQRFyHVXGYxVaW_small_IDB%20logo.png",
+          "width": 50,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/nEZiA3XRB3eVSLX4dcgw_large_IDB%20logo.png",
+          "width": 713,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/5MRhqvEQqEget01Mc7yw_full_IDB%20logo.png",
+          "width": 1364,
+          "height": 979
+        }
+      }
+    }
+  ],
+  "CLASS": "PROGRAM_PARTNER",
+  "NAME-CH": "經濟部工業局",
+  "BIO-CH": "本局掌管全國工業發展任務，秉持專業、效率、主動、創新的服務精神（核心價值），以產業界需求為導向，提供產業全方位服務，致力於帶領台灣工業創新升級、轉型，積極輔導廠商強化經營體質，提高生產力及國際競爭力，並協助企業因應環境之變化。",
+  "URL": "https://www.moeaidb.gov.tw/",
+  "SHOW": true
+},
+{
+  "id": "recg4seLabjQtxCA7",
+  "NAME": "Taiwan Network Information Center",
+  "BIO": "The TWNIC operates ccTLD, IP allocation, DNS Security, and International Affairs under the supervision of the NCC and the organizational structure of TWNIC’s Board of Directors holds the decision-making power over the Center’s core policies. Also, there are four Committees responsible for drafting policy and providing information and recommendations; and five departments implement and carry out the Center’s missions.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attzbSU2RcLiyT1sA",
+      "url": "https://dl.airtable.com/kyfATzfShK93vSjtO9am_twnic-logo__edited.jpg",
+      "filename": "twnic-logo__edited.jpg",
+      "size": 57028,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/fRJ5Q3SnQ2ajicvgczHy_small_twnic-logo__edited.jpg",
+          "width": 87,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/lgkBdjmSSN6SbWYlxWNK_large_twnic-logo__edited.jpg",
+          "width": 759,
+          "height": 314
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Tul2AqeSmCbL5iEuSqeW_full_twnic-logo__edited.jpg",
+          "width": 759,
+          "height": 314
+        }
+      }
+    }
+  ],
+  "CLASS": "ACTIVIST",
+  "NAME-CH": "財團法人台灣網路資訊中心",
+  "BIO-CH": "財團法人台灣網路資訊中心(Taiwan Network Information Center, TWNIC)是一家中立與非營利性的財團法人機構，負責頂級國碼網域名稱(country code top level domain name).tw及.台灣註冊管理、IP位址發放之維運。TWNIC除了提供全面的網路服務之外，也參加各種不同的相關國際會議，使台灣的網際網路社群與全球網際網路社群接軌，並與各種不同的社群合作，俾能藉由公開的參與以及持續的改進而促進網際網路的使用與應用。",
+  "URL": "https://www.twnic.net.tw/",
+  "SHOW": true
+},
+{
+  "id": "recvBfPPHbPvrAlm4",
+  "NAME": "Muyueh Inc.",
+  "BIO": "We are Muyueh Lee and Ronny Wang. Together, we founded a company that provides award-winning data visualization services. Our clients include companies in the telecom and banking industries, and the WHO.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attpbtIszBpMOztmL",
+      "url": "https://dl.airtable.com/RfTH4aNWRbqpzN5H2AFS_2.jpg",
+      "filename": "2.jpg",
+      "size": 30792,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/GedGTPWjRSOwBwss4Ts6_small_2.jpg",
+          "width": 37,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/B01TQExTQJuNNUZNekuO_large_2.jpg",
+          "width": 225,
+          "height": 221
+        },
+        "full": {
+          "url": "https://dl.airtable.com/juqcw1nJTte6ZXymKa0O_full_2.jpg",
+          "width": 225,
+          "height": 221
+        }
+      }
+    }
+  ],
+  "CLASS": "ACTIVIST",
+  "NAME-CH": "資料視覺化李慕約公司",
+  "BIO-CH": "資料視覺化幫助使用者看到資料。簡單的部份，是讓介面看起來漂亮。困難的部份，是讓介面有用。\n企業組織內的決策者日理萬機。我們的服務幫助客戶找出問題，發展一個框架可以分析這一個問題，並用一個畫面的時間，把這問題解釋清楚，讓組織內的人可以一同採取行動。\n\n李慕約與王向榮 (Ronny Wang) 是資料視覺化李慕約公司的創辦人。我們的服務獲得國際獎項肯定，客戶包含電信業、金融業、世界衛生組織。",
+  "URL": "https://blog.muyueh.com/",
+  "SHOW": true
+},
+{
+  "id": "recr4O2HZWhk9XPP0",
+  "NAME": "Archilife Research Foundation",
+  "BIO": "Since 1987, the Archilife Research Foundation started long-term researches in architecture, sustainability, and go on to other areas of knowledge integration. Efforts including previously giving scholarships in aforementioned areas, and currently holding reading group meetings and communion events for knowledge keepers to better our understandings of the world. Starting from 2011, we also have been sponsoring various open source related events, holding meetups and game jams for local game developers' community, and giving out scholarships to support indie game teams and encourage them to go to international game festivals.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attQ9sjUKt6pb4gFw",
+      "url": "https://dl.airtable.com/rTsYR7QyGbA4LDXqo3Ag_%E7%A5%90%E7%94%9Flogo.png",
+      "filename": "祐生logo.png",
+      "size": 11065,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ci3dXT21SWOegOpj1kl3_small_%E7%A5%90%E7%94%9Flogo.png",
+          "width": 72,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/g5VXDruNSSmCbmBtjyg9_large_%E7%A5%90%E7%94%9Flogo.png",
+          "width": 480,
+          "height": 240
+        },
+        "full": {
+          "url": "https://dl.airtable.com/quvAJKrKQCq5aJ2NNIYF_full_%E7%A5%90%E7%94%9Flogo.png",
+          "width": 480,
+          "height": 240
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "祐生研究基金會",
+  "BIO-CH": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。 其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。\n",
+  "URL": "http://www.archilife.org/",
+  "SHOW": true
+},
+{
+  "id": "recky75F2ieDMnhoO",
+  "NAME": "Awoo",
+  "BIO": "With over 12 years of experiences in search marketing, awoo has been the leading SEO brand in Taiwan. To support our clients with rising customer acquisition cost, awoo started building its Marketing SaaS by leveraging artificial intelligence and our years of consulting experiences.\nToday, awoo has provided consultation to over 600 corporate clients and accumulated more than 12,000 corporate users on our “awoo SEO Growth Hacking Tool” ",
+  "CROPPED_LOGO": [
+    {
+      "id": "atthvwzMjOdmssERi",
+      "url": "https://dl.airtable.com/9cL3KZg8RneC4tKvOlkw_Artboard%202.png",
+      "filename": "Artboard 2.png",
+      "size": 3481,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/Oxf2TVMTPms3JDp4xwxW_small_Artboard%202.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/usCSbB92Qx6iPdbjJnyn_large_Artboard%202.png",
+          "width": 201,
+          "height": 201
+        },
+        "full": {
+          "url": "https://dl.airtable.com/jJzlwoWuT2qa70vCGuRc_full_Artboard%202.png",
+          "width": 201,
+          "height": 201
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "阿物國際",
+  "BIO-CH": "awoo，台灣SEO領導品牌。深耕搜尋引擎行銷逾12年，近兩年以AI人工智慧，結合多年顧問經驗，打造行銷軟體(Marketing SaaS），協助企業解決新客戶取得成本高漲的問題。至今，awoo已累積600多間顧問客戶以及一萬二千間企業註冊「awoo SEO 成長駭客工具」\n身為Google與HubSpot的台灣合作夥伴，awoo將以AI結合搜尋與社群行銷專家經驗，打造一個世界級的AI產品。",
+  "URL": "https://www.awoo.com.tw/",
+  "SHOW": true
+},
+{
+  "id": "reczmBjaz0HEycO19",
+  "NAME": "Netivism",
+  "BIO": "NETivism (Internet for Activism) is a social enterprise focus on solving digital divide for Non-Profit Organization, via Open Source solution(Drupal & CiviCRM) and Love.\n\n",
+  "CROPPED_LOGO": [
+    {
+      "id": "attjLPPivy2HwgeYC",
+      "url": "https://dl.airtable.com/YuKIe32WSnWVX2HrC5yz_logo-color.png",
+      "filename": "logo-color.png",
+      "size": 11315,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/uMY6b4QCTBS86F18TRRE_small_logo-color.png",
+          "width": 96,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/rpaT6EbxSqiZpkqnp0QP_large_logo-color.png",
+          "width": 281,
+          "height": 105
+        },
+        "full": {
+          "url": "https://dl.airtable.com/XfVczDSAa2JyXdQ1hzQv_full_logo-color.png",
+          "width": 281,
+          "height": 105
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "網絡行動科技",
+  "BIO-CH": "網絡行動科技（NETivism）自許為從數位公益出發的社會企業，八年來專注為非營利組織提供以自由軟體為基礎的資訊科技應用解決方案。 我們認為網路資訊科技能夠促成社會變革，影響文化、政治、環境等公共議題，帶來娛樂與商業行為之外的改變。目前提供 netiCRM.tw 支持者關係管理服務，協助 NPO 組織定期定額線上捐款、電子報行銷、活動報名等組織基礎需求的雲端系統，此系統原始碼亦為開放原始碼授權。\n",
+  "URL": "https://netivism.com.tw/",
+  "SHOW": true
+},
+{
+  "id": "recRWxgFvLLfZA7T6",
+  "NAME": "Civil IoT Taiwan",
+  "BIO": "By the construction of “Air, Earthquake, Disaster, Water“ sensor networks and the use of open data through APIs, we hope to enhance civil service and disaster prevention ability in corporation with the industry. By building a data service platform which integrates data from the constructed “Air, Earthquake, Disaster, Water”sensor networks and provides functions of data aggregation, data visualization, and API connection, we are able to generate high-quality versatile streaming time series environmental data to be exploited by the industry and  accessed by the OGC’s SensorThings API standards. Our Goal is to bring the prosperity of big-data economy, and export the total solution of innovative data service and application overseas. Achievement of citizen happiness benefit from our program is our top priority.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attq0YeQ9iNiLRS3t",
+      "url": "https://dl.airtable.com/0VGN0jbpR02xaRRQQ6ri_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%208.png",
+      "filename": "工作區域 8.png",
+      "size": 14406,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/Qn6t9TysTICjpJ4ZtyYA_small_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%208.png",
+          "width": 93,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/jn78zvvsT1So461nrvrI_large_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%208.png",
+          "width": 624,
+          "height": 242
+        },
+        "full": {
+          "url": "https://dl.airtable.com/SeO7x9CTtGtdafO83soz_full_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%208.png",
+          "width": 624,
+          "height": 242
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "民生公共物聯網",
+  "BIO-CH": "為提供我國民生公共物聯網相關服務，前瞻基礎建設 –「建構民生公共物聯網計畫」致力於整合我國空氣品質、地震、防救災、水資源等民生四大領域環境監測資料，以期能強化政府智慧城鄉服務，提升全民生活幸福感。同時，將透過民生公共物聯網資料服務平台一站式入口，提供穩定、高品質的感測資料與運算資源，並開放給業界運用，促進國內資料產業經濟發展，並以國際輸出為目標，提供資料創新服務的整合方案。",
+  "URL": "https://ci.taiwan.gov.tw/",
+  "SHOW": true
+},
+{
+  "id": "rec0IAx1q8QqLJCJL",
+  "NAME": "Telecom Technology Center",
+  "BIO": "Telecom Technology Center (TTC) is a non-profit organization authorized by National Communications Commission and has four main missions. First, TTC is a think tank of ICT policies for communications regulations and spectrum management, to develop a healthy communications industry environment. Second, TTC works as a think tank of ICT technologies to build a reliable environment for using digital convergent broadband internet. Third, TTC provides security evaluation, network performance, testing and certification services for ICT products and devices. Forth, as third party, TTC hosts Number Portability Administration Center and other related application platforms for telecom operators in order to promote tremendous growth of telecom market.",
+  "CROPPED_LOGO": [
+    {
+      "id": "att4kzPPlh7o2qPvP",
+      "url": "https://dl.airtable.com/w8GkiyTSP2FitIrBgx2d_%E9%99%84%E4%BB%B6%E4%BA%8C%20TTC-1.jpg",
+      "filename": "附件二 TTC-1.jpg",
+      "size": 156534,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/5Sxl7ufOQkqhog5WfXX4_small_%E9%99%84%E4%BB%B6%E4%BA%8C%20TTC-1.jpg",
+          "width": 134,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/9ijrySOZTBGMQkkUr8cP_large_%E9%99%84%E4%BB%B6%E4%BA%8C%20TTC-1.jpg",
+          "width": 1547,
+          "height": 417
+        },
+        "full": {
+          "url": "https://dl.airtable.com/CTxhHgyTLeVvOGNED3jA_full_%E9%99%84%E4%BB%B6%E4%BA%8C%20TTC-1.jpg",
+          "width": 1547,
+          "height": 417
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "財團法人電信技術中心",
+  "BIO-CH": "財團法人電信技術中心(Telecom Technology Center, TTC)為國家通訊傳播委員會轄下非營利機構，主要任務為：擔任政策智庫，規劃通訊傳播政策及頻譜資源整備，以健全通訊傳播產業發展環境；擔任技術智庫，建構可靠的數位匯流寬頻網路使用環境；提供產業資通安全、網路效能及資通訊產品檢測驗證等技術服務；以公正第三者角色，提供電信業者號碼可攜資料庫管理及相關應用平臺服務，以促進產業蓬勃發展。",
+  "URL": "https://www.ttc.org.tw/",
+  "SHOW": true
+},
+{
+  "id": "recXPx7oGfnIknszi",
+  "NAME": "MediaTek Foundation",
+  "BIO": "Recognizing that technological talents are the cornerstone on which Taiwan’s competitiveness is built, the “MediaTek Foundation” was founded in December 2001. Through the Foundation, MediaTek is able to turn the Company’s innovative R&D strength into momentum for technology education and industry development within Taiwan.",
+  "CROPPED_LOGO": [
+    {
+      "id": "att6ItLPHf3KSFOrI",
+      "url": "https://dl.airtable.com/GqCVQCS6So6dCc9z7Nhb_MTK%E6%95%99%E8%82%B2%E5%9F%BA%E9%87%91%E6%9C%83logo.pdf",
+      "filename": "MTK教育基金會logo.pdf",
+      "size": 311762,
+      "type": "application/pdf",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/att6ItLPHf3KSFOrI-3b90945f6d7d6167-32x32.jpg",
+          "width": 32,
+          "height": 32
+        },
+        "large": {
+          "url": "https://dl.airtable.com/att6ItLPHf3KSFOrI-2ed995f7998b1e39-320x171.jpg",
+          "width": 320,
+          "height": 171
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "聯發科技教育基金會",
+  "BIO-CH": "有感於人才是台灣競爭力的基礎，「聯發科技教育基金會」於 2001 年12 月成立。透過基金會，聯發科技將企業的創新研發能量，轉化為與台灣科技教育以及產業發展共同前進的力量。基金會的價值主張是「以知識驅動更好的未來」，透過四個行動主軸「科技扎根」、「人才培育」、「公益及社會參與」「社會創新」不斷深耕台灣 ，並且積極尋求政府、學界與民間的合作，以達到價值共創。十餘年來投入總額近新台幣 15 億元 ，在教育推廣、產業發展、社會人文等領域，與台灣共生共榮。",
+  "URL": "https://www.facebook.com/mediatekfoundation/",
+  "SHOW": true
+},
+{
+  "id": "rec9IDEZHD34ARz5H",
+  "NAME": "Accton Technology ",
+  "BIO": "Accton Technology is a global premier provider of networking and communications solutions. After 30 years of network product design and development experience, Accton has built a highly-qualified global workforce that produces leading-edge products that are affordable and reliable. As a leader in the integration of open hardware and software for data center, carrier access, and campus networks, Accton works closely with its long-term global partners to deliver the next-generation designs that customers demand. \n\nAs Accton has expanded into a group of companies, it remains an active participant in local society with a strong sense of social responsibility, supporting environmental awareness in all its designs and manufacturing processes. Looking to the future, Accton’s vision and mission can be summarized by the following:\n\n        To passionately deliver the best quality IP-centric network solutions.\n        To maintain a global leadership in open IT infrastructure.\n        To contribute and care for the community by leveraging our technology.\n\nThe company slogan, “Making Partnership Work,” demonstrates Accton’s total commitment to its partners and how it places the highest value on forming long-term partnerships that create maximum benefit for all.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attwc5GpfvO9iYKrM",
+      "url": "https://dl.airtable.com/57W4NEBhQl2dEOvTqisH_accton_LOGO_Components_A_ai_cs5.pdf",
+      "filename": "accton_LOGO_Components_A_ai_cs5.pdf",
+      "size": 246497,
+      "type": "application/pdf",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/attwc5GpfvO9iYKrM-a25149fc89eca4a9-32x32.jpg",
+          "width": 32,
+          "height": 32
+        },
+        "large": {
+          "url": "https://dl.airtable.com/attwc5GpfvO9iYKrM-ccb74de8ca44d5e0-320x320.jpg",
+          "width": 320,
+          "height": 320
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "智邦科技",
+  "BIO-CH": "隨著智邦科技拓展成擁有數個關係企業的智邦集團，強烈的使命感與社會責任感使智邦集團積極投入回饋社區的活動，並將環保意識帶入從設計到製造的全部流程。展望未來，智邦的願景和使命概括如下：\n・持續用我們的熱誠提供IP-centric的優質解決方案\n・保持全球開放資訊科技基礎架構(Open IT Infrastructure)的領航者地位\n・致力於運用我們的科技回饋社區\n一路走來，智邦堅持正直與誠信經營的企業理念。「Making Partnership Work」展現智邦對合作夥伴的承諾，也是我們為建立長久的夥伴關係秉持的最高信念，帶給所有人最大的利益。",
+  "URL": "http://www.accton.com.tw/",
+  "SHOW": true
+},
+{
+  "id": "recamcYwRHDrOU5uf",
+  "NAME": "Microsoft",
+  "BIO": "Microsoft (Nasdaq “MSFT” @microsoft) enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more.",
+  "CROPPED_LOGO": [
+    {
+      "id": "attnVpRj45kSujSbR",
+      "url": "https://dl.airtable.com/5XqqYGpERpG2v0XaWM2h_Microsoft-logo_rgb_c-gray.png",
+      "filename": "Microsoft-logo_rgb_c-gray.png",
+      "size": 21641,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/hxsN98E7T3e3qpGpIKo3_small_Microsoft-logo_rgb_c-gray.png",
+          "width": 80,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/sm6dnGgTrOmYzBYNilWx_large_Microsoft-logo_rgb_c-gray.png",
+          "width": 1142,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/DXeVU7odTmLKdG5XmgnU_full_Microsoft-logo_rgb_c-gray.png",
+          "width": 2008,
+          "height": 900
+        }
+      }
+    }
+  ],
+  "CLASS": "CIVICIST",
+  "NAME-CH": "微軟",
+  "BIO-CH": "微軟（納斯達克上市代碼︰MSFT）致力於發展intelligent cloud與intelligent edge時代的數位轉型，其使命是幫助全球的每一個人和每一個組織，都能實現更多、成就更大。",
+  "URL": "https://www.microsoft.com/zh-tw",
+  "SHOW": true
+},
+{
+  "id": "recNWKWCh0MAaQMHk",
+  "NAME": "Security, Convenience, and Open Data.",
+  "BIO": "Skymizer is proficient in compiling and virtual machine technology, which helps customers building efficient virtual machine for blockchain and compilers for hardware accelerators of deep learning. Our product “Skymizer C/C++ Intelligent Compiler” is powered by artificial intelligence and compiler techniques which improves both the efficiency and the quality of software automatically. It makes software engineers work smarter and easier. ",
+  "CROPPED_LOGO": [
+    {
+      "id": "attNHk6cqnizolJ0B",
+      "url": "https://dl.airtable.com/2mZHS05QsKXGcLa0siUV_Artboard%204.png",
+      "filename": "Artboard 4.png",
+      "size": 11438,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/LrQ87h5gT0CyG6YZfdei_small_Artboard%204.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/PxqZ73D3SbGfFOZHSilo_large_Artboard%204.png",
+          "width": 201,
+          "height": 201
+        },
+        "full": {
+          "url": "https://dl.airtable.com/3FM0ZZhSny0ODR55c4VQ_full_Artboard%204.png",
+          "width": 201,
+          "height": 201
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "Skymizer",
+  "BIO-CH": "Skymizer 是頂尖的編譯與虛擬化技術團隊，幫助深度學習與數位貨幣應用的客戶建立各式的虛擬機器與編譯器，縮短 time-to-market 時間；產品為 C/C++ Intelligent Compiler，藉由獨到的編譯器與機器學習技術，幫助軟體團隊自動化的強化軟體品質、增加軟體效能。",
+  "URL": "https://skymizer.com/",
+  "SHOW": true
+},
+{
+  "id": "recUxtEnmn6Sjt69L",
+  "NAME": "CNEX",
+  "BIO": "CNEX = Chinese Next= See Next\nWe are a non-profit foundation devoted to the production and promotion of  documentaries of the Chinese people. CNEX strives to facilitate cultural exchange  between Chinese and the rest of the world through supporting documentaries  depicting contemporary Chinese – people of Chinese ethnicity, their living and their society.",
+  "CROPPED_LOGO": [
+    {
+      "id": "att9x6nHkBXENd63x",
+      "url": "https://dl.airtable.com/wzRhNti6RViokN1Tvvbx_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.23.png",
+      "filename": "螢幕快照 2018-04-28 下午2.37.23.png",
+      "size": 152453,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/JkhAZZPdT12BEaxiKKgG_small_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.23.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/jt7V5fnwRqaVkFiH8dd7_large_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.23.png",
+          "width": 512,
+          "height": 513
+        },
+        "full": {
+          "url": "https://dl.airtable.com/qGCiZqZvQJqqFEEJg61B_full_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.23.png",
+          "width": 1052,
+          "height": 1054
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "CNEX",
+  "BIO-CH": "CNEX 為一非營利性質的民間文創組織， 由兩岸三地熱愛紀錄片的人士組成\n以開展文化資源、培育文化創意人才、促進華人社會和諧進步與華人文化的可持續性發展為願景，期望透過紀實文藝，促進國際社會與華人的文化交流。",
+  "URL": "http://www.cnex.org.tw/",
+  "SHOW": true
+},
+{
+  "id": "recS9kX4iunktlOIa",
+  "NAME": "Giloo",
+  "BIO": "Giloo believes in the power of documentary and non-fiction storytelling. At the core of everything we do at Giloo, our goal is to drive the production, audience, circulation and promotion of great stories and experiments from partners and filmmakers around the world. We envision a platform where the curious will be able to connect with realities, one story at a time. Giloo is the international community where we reflect and contemplate on issues and affairs, provoke our own thinking, and learn from each other. Visit us at http://giloo.ist",
+  "CROPPED_LOGO": [
+    {
+      "id": "attVgD6YVaO5PePhw",
+      "url": "https://dl.airtable.com/cj5gzsWHRPSEcTBpAj8U_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.38.png",
+      "filename": "螢幕快照 2018-04-28 下午2.37.38.png",
+      "size": 107848,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/NbGHYszDTcCf0BeDUpCF_small_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.38.png",
+          "width": 58,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/OzrLY2voRKqB9lG0gDY1_large_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.38.png",
+          "width": 828,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Qdq7NdgZRs52qPCjBrRY_full_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-04-28%20%E4%B8%8B%E5%8D%882.37.38.png",
+          "width": 1294,
+          "height": 800
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "Giloo",
+  "BIO-CH": "Giloo的命名，來自於閩南語「紀錄」的發音。 Giloo相信紀實影像與說故事的力量，如何從生產、觀看、流通與傳播等各個面向加大力道，是Giloo所有企劃與產品的核心提問。世界各地的導演們與製作團隊前進到遙遠的地方，挖掘了深刻的心靈，這些片子是他們努力的結果。Giloo相信紀實影像會影響各位，而正因為這些故事來自於世界，有了各位的觀看，世界也必將因此改變。",
+  "URL": "https://giloo.ist/",
+  "SHOW": true
+},
+{
+  "id": "recbfmThQ24S7Det4",
+  "NAME": "Homemakers Union Consumers Co-op",
+  "BIO": "Homemakers Union Consumers Co-op\nTo practice green consumption in daily life to maintain the sustainability of the earth.\n\nA Group of Mothers Launched the Co-op for SAFE Food In 1993, more than one hundred families joined in buying rice and grapes directly from farmers, thus marked the beginning of our collective buying movement for safe and sustainable food. This initiative of green consumption was a project under the Homemakers United Foundation (HUF) as a way of inviting ordinary people to participate in the environmental movement through consolidating buying power.\n\nWe believe that making change starts with a bag of rice or a basket of vegetables. Besides shopping our daily needs in the Co-op, we are committed to build a better place for the future generations. ",
+  "CROPPED_LOGO": [
+    {
+      "id": "attZZgkDkQ0y0foOu",
+      "url": "https://dl.airtable.com/x3iF6h9CRpusjOhfTO0o_%E5%90%88%E4%BD%9C%E7%A4%BELOGO-%E9%9B%99%E8%A1%8C%E6%A9%AB.png",
+      "filename": "合作社LOGO-雙行橫.png",
+      "size": 38154,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/buNlH5JlT6iADhXN3I34_small_%E5%90%88%E4%BD%9C%E7%A4%BELOGO-%E9%9B%99%E8%A1%8C%E6%A9%AB.png",
+          "width": 146,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/gQBiJ3cMQ0u6mOwUDcHD_large_%E5%90%88%E4%BD%9C%E7%A4%BELOGO-%E9%9B%99%E8%A1%8C%E6%A9%AB.png",
+          "width": 1593,
+          "height": 393
+        },
+        "full": {
+          "url": "https://dl.airtable.com/cn4N1PyRRkGwBKxU3Mvz_full_%E5%90%88%E4%BD%9C%E7%A4%BELOGO-%E9%9B%99%E8%A1%8C%E6%A9%AB.png",
+          "width": 1593,
+          "height": 393
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "台灣主婦聯盟生活消費合作社",
+  "BIO-CH": "台灣主婦聯盟生活消費合作社\n一包米、一籃菜，我們相信消費可以改變世界。從環境守護到共同購買，從消費力的集結到社會力的展現，我們透過「環保、健康、安全」的生活必需品，實踐綠色生活，支持地球永續！\n願景──創造公義、健康、幸福、永續的社會。\n宣言──我願意本著愛與合作的精神，主張綠色生活從安全的食物開始。透過共同購買的消費力量，保護台灣農業、捍衛糧食主權、支持友善環境的生產者及維繫地球資源的可持續性。\n我們需要你／妳的加入！",
+  "URL": "https://www.hucc-coop.tw/",
+  "SHOW": true
+},
+{
+  "id": "recwDIxUExfPt38Sl",
+  "NAME": "KlickKlack ",
+  "CROPPED_LOGO": [
+    {
+      "id": "attBLh0o3xkicoTTu",
+      "url": "https://dl.airtable.com/nQ7sxcyMSPKziRN7QeaD_DtxQ3e8A.png",
+      "filename": "DtxQ3e8A.png",
+      "size": 24960,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ysogQ495RTKlty9gwCAM_small_DtxQ3e8A.png",
+          "width": 149,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/I8GNpsyYRYe3TFa2OV4w_large_DtxQ3e8A.png",
+          "width": 1280,
+          "height": 310
+        },
+        "full": {
+          "url": "https://dl.airtable.com/FWCCrL2bR9ihEPIerN03_full_DtxQ3e8A.png",
+          "width": 1280,
+          "height": 310
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "可立可",
+  "BIO-CH": "KlickKlack Communications 提供專業的有線與無線網路服務，使人與人間的通訊落差降到最低。團隊已服務上百場活動，包含台灣地區最大的線上遊戲、網路直播、資訊社群、產品發表會、演唱會、會場展覽與電音派對等。整合網路監控、系統交叉備援、即時廣告互動，量身為客戶打造優質的網路服務體驗。",
+  "URL": "https://www.kkco.com.tw/",
+  "SHOW": true
+},
+{
+  "id": "recLuuQfnHMNX7jBR",
+  "NAME": "Watchout",
+  "BIO": "We at Watchout believes that we can make Taiwan better. The power of making Taiwan better comes from active citizens who care and participate. This is why we are devoted to lower thresholds of political participation. We provide information and perspectives. We build platforms for speeches and dialogues. We make the People of Taiwan more powerful. We have named our company “Watchout” as a reminder that if we keep our eyes open, politicians will remember who they serve, and the civil society of our nation can grow deeper and stronger",
+  "CROPPED_LOGO": [
+    {
+      "id": "att9IslMyobr6OMUV",
+      "url": "https://dl.airtable.com/3NGFNI7TZSuJW7Yqaeeg_watchout-logo-black.png",
+      "filename": "watchout-logo-black.png",
+      "size": 7806,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/xVXW4zfHTSSj1Wo1Owbn_small_watchout-logo-black.png",
+          "width": 252,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/GgCKK34qTKeV7QrcwQE7_large_watchout-logo-black.png",
+          "width": 1680,
+          "height": 240
+        },
+        "full": {
+          "url": "https://dl.airtable.com/J8JNh8OcTIyyjDj3spdc_full_watchout-logo-black.png",
+          "width": 1680,
+          "height": 240
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "沃草",
+  "BIO-CH": "我們相信台灣可以更好，而讓台灣更好的力量，來自於更多主動參與、向外關注的公民，所以，我們致力於降低公民參與政治的門檻，提供資訊、觀點，建造各式發聲、對話的平台，讓台灣人更有力量。沃草的英文名字 Watchout，原意是提防和警戒。只要我們每個小小公民都能時時張大眼睛、提高警覺，政客就不容易為所欲為，台灣的公民社會才能茁壯。",
+  "URL": "https://watchout.tw/",
+  "SHOW": true
+},
+{
+  "id": "rec5yNiWwfVLpL42Q",
+  "NAME": " La France à Taiwan",
+  "CROPPED_LOGO": [
+    {
+      "id": "atts4K5OZiaxo9dWL",
+      "url": "https://dl.airtable.com/I4IH6MrfS3mFdlrjUltL_BFT%20Logo%20grand%20format.jpg",
+      "filename": "BFT Logo grand format.jpg",
+      "size": 484154,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ihQ2mxaQOq7JBYwQpMOG_small_BFT%20Logo%20grand%20format.jpg",
+          "width": 104,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/5X5Ba5qRP2JobwhiAjfw_large_BFT%20Logo%20grand%20format.jpg",
+          "width": 1474,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Vlp3GJS4QR6ArK8FyzyG_full_BFT%20Logo%20grand%20format.jpg",
+          "width": 2459,
+          "height": 854
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "法國在台協會",
+  "BIO-CH": "法國在台協會的任務在於促進並推廣法﹑台之間的交流，尤其是在經濟﹑文化﹑教育以及科技等方面。協會組織包括新聞與公關處﹑學術合作暨文化處﹑行政處﹑經濟處與商貿處。\n\n在 « 公民科技 » 與  « 政府資訊透明化 »方面，法國在台協會支持公民社會團體的活動，同時也鼓勵社會學與政治科學方面的學術研究。",
+  "URL": "https://france-taipei.org/-%E4%B8%AD%E6%96%87-",
+  "SHOW": true
+},
+{
+  "id": "reco4Yy0MSN4vskn2",
+  "NAME": "TMS Technologies CO",
+  "CROPPED_LOGO": [
+    {
+      "id": "attd76KZ0j3aoRRQW",
+      "url": "https://dl.airtable.com/6AuFiqwDRYmIE0R10W5x_%E6%99%AF%E7%BF%8ALOGO_%E5%A6%82%E6%9E%9C%E8%83%8C%E6%99%AF%E6%98%AF%E7%99%BD%E8%89%B2%E8%AB%8B%E7%94%A8%E7%AC%AC%E4%B8%80%E5%80%8Blogo.jpg",
+      "filename": "景翊LOGO_如果背景是白色請用第一個logo.jpg",
+      "size": 29123,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/aWVtvQz2QfiSu0ZH4jg3_small_%E6%99%AF%E7%BF%8ALOGO_%E5%A6%82%E6%9E%9C%E8%83%8C%E6%99%AF%E6%98%AF%E7%99%BD%E8%89%B2%E8%AB%8B%E7%94%A8%E7%AC%AC%E4%B8%80%E5%80%8Blogo.jpg",
+          "width": 178,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/0Ii4qdGITcWHHHH5s1Hk_large_%E6%99%AF%E7%BF%8ALOGO_%E5%A6%82%E6%9E%9C%E8%83%8C%E6%99%AF%E6%98%AF%E7%99%BD%E8%89%B2%E8%AB%8B%E7%94%A8%E7%AC%AC%E4%B8%80%E5%80%8Blogo.jpg",
+          "width": 781,
+          "height": 158
+        },
+        "full": {
+          "url": "https://dl.airtable.com/gk5L4lSHTHqpkLnAxhTo_full_%E6%99%AF%E7%BF%8ALOGO_%E5%A6%82%E6%9E%9C%E8%83%8C%E6%99%AF%E6%98%AF%E7%99%BD%E8%89%B2%E8%AB%8B%E7%94%A8%E7%AC%AC%E4%B8%80%E5%80%8Blogo.jpg",
+          "width": 781,
+          "height": 158
+        }
+      }
+    }
+  ],
+  "CLASS": "SUPPORTER",
+  "NAME-CH": "景翊科技",
+  "URL": "http://www.tms.com.tw",
+  "SHOW": true
+},
+{
+  "id": "reca53O7arvopD262",
+  "NAME": "Olive Leaf Cooperative Farm",
+  "CROPPED_LOGO": [
+    {
+      "id": "attHxjJDXXiGpRHWu",
+      "url": "https://dl.airtable.com/1R4YBaMkQSGoMiYtP6Kw_%E5%B0%9A%E5%BE%B7%E6%9D%91.png",
+      "filename": "尚德村.png",
+      "size": 37073,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/7mkU56sPQtml2N5QG48Q_small_%E5%B0%9A%E5%BE%B7%E6%9D%91.png",
+          "width": 38,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/K8sa3hnAT3CMSgnQumg1_large_%E5%B0%9A%E5%BE%B7%E6%9D%91.png",
+          "width": 323,
+          "height": 310
+        },
+        "full": {
+          "url": "https://dl.airtable.com/JrnnT3qSn6pAEPDecfll_full_%E5%B0%9A%E5%BE%B7%E6%9D%91.png",
+          "width": 323,
+          "height": 310
+        }
+      }
+    }
+  ],
+  "CLASS": "IN_KIND",
+  "NAME-CH": "橄欖葉合作農場",
+  "BIO-CH": "台東海岸山脈的泰源幽谷中，有一群散居於此的阿美族、因八七水災、或隨退輔會來此墾殖的居民。經村民大會決議，取「軍人崇尚武德之精神」，將村子命名為「尚德村」。早期居住在這裡約有二千人，現今僅約100多人留在村中。\n\n合作農場取名「橄欖葉」係取自聖經典故，鴿子帶來橄欖枝，代表著希望。以尚德村為品牌，採友善農法、友善土地方式種植香草，開發香草茶、精油、精露、防蚊液等產品，推動環境教育體驗旅遊。亦投入關懷社區長者、照顧社區等社會服務。",
+  "URL": "https://www.facebook.com/SanteXTaitung/?ref=br_tf",
+  "SHOW": true
+},
+{
+  "id": "recYZKA2QOt23uV17",
+  "NAME": "HackMD",
+  "CROPPED_LOGO": [
+    {
+      "id": "att7q485rNEoS8Ka1",
+      "url": "https://dl.airtable.com/KTPnTqC1TsmzP1b0YIww_Hackmd.png",
+      "filename": "Hackmd.png",
+      "size": 14798,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/szCDCKS2T3ydl0XAnLgr_small_Hackmd.png",
+          "width": 72,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/pig0smekRl2b7eDCWYWj_large_Hackmd.png",
+          "width": 660,
+          "height": 330
+        },
+        "full": {
+          "url": "https://dl.airtable.com/jLwbakGcQ1O98AhT5IWZ_full_Hackmd.png",
+          "width": 660,
+          "height": 330
+        }
+      }
+    }
+  ],
+  "CLASS": "IN_KIND",
+  "NAME-CH": "HacdMD",
+  "BIO-CH": "HackMD 提供您建立即時的跨平台 Markdown 筆記。能用於組織您的想法、與夥伴討論並即時預覽結果，不但如此，同時也能支援簡報、圖表、數學表達式。從上線以來，共超過 46 萬份筆記被寫在 HackMD 上，現在就加入吧！您也能用聰明的方式寫作！",
+  "URL": "https://hackmd.io/",
+  "SHOW": true
+},
+{
+  "id": "reciBv9SMRed8XJCo",
+  "NAME": "Ghost",
+  "CROPPED_LOGO": [
+    {
+      "id": "att2EuGWpghloAc5z",
+      "url": "https://dl.airtable.com/eb5Xyf1ETnOKuGjRYqK4_c8f176b79aa08810588a44a4a23d7ec8.png",
+      "filename": "c8f176b79aa08810588a44a4a23d7ec8.png",
+      "size": 158870,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/OSxrcfzGR0uVNkF6Mw6l_small_c8f176b79aa08810588a44a4a23d7ec8.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/tIQaN0bIRhKssp3Ya6Sa_large_c8f176b79aa08810588a44a4a23d7ec8.png",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/VIKmPPLoTWGGnaKIXY9s_full_c8f176b79aa08810588a44a4a23d7ec8.png",
+          "width": 800,
+          "height": 800
+        }
+      }
+    }
+  ],
+  "CLASS": "INDIVIDUAL",
+  "NAME-CH": "Ghost",
+  "SHOW": true
+},
+{
+  "id": "recwqL4vR8YMqZaP0",
+  "NAME": "Triton Ho",
+  "CLASS": "INDIVIDUAL",
+  "NAME-CH": "Triton Ho",
+  "SHOW": true
+},
+{
+  "id": "recIGEjUl71lrOgTz",
+  "NAME": "邱永明",
+  "CROPPED_LOGO": [
+    {
+      "id": "attHrLjw2tjhZDdi2",
+      "url": "https://dl.airtable.com/Jc9pwNRTwS3g2st689Bk_1.jpg",
+      "filename": "1.jpg",
+      "size": 93599,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/wXb6RH2SQW6cLVGQoXeA_small_1.jpg",
+          "width": 35,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/VfVAOUyCQNmyd3tZ3vRP_large_1.jpg",
+          "width": 512,
+          "height": 524
+        },
+        "full": {
+          "url": "https://dl.airtable.com/HQ7qBYBbTSjSu2YoQYJm_full_1.jpg",
+          "width": 703,
+          "height": 720
+        }
+      }
+    }
+  ],
+  "CLASS": "INDIVIDUAL",
+  "NAME-CH": "邱永明",
+  "SHOW": true
+},
+{
+  "id": "recKQGTKBLnzfoCWN",
+  "NAME": "禾東創意有限公司",
+  "CROPPED_LOGO": [
+    {
+      "id": "attKxADm2TLND4K5i",
+      "url": "https://dl.airtable.com/rRcI2sM2QKRLXb7uYh4Z______2018-09-18___8.57.39.png",
+      "filename": "_____2018-09-18___8.57.39.png",
+      "size": 249462,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/krkkMWQUQpWGR8rIOsqm_small______2018-09-18___8.57.39.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/DXHNpSagRu2w6lpI5RSn_large______2018-09-18___8.57.39.png",
+          "width": 480,
+          "height": 480
+        },
+        "full": {
+          "url": "https://dl.airtable.com/MexgjJqITQSeRhC3IYfQ_full______2018-09-18___8.57.39.png",
+          "width": 480,
+          "height": 480
+        }
+      }
+    }
+  ],
+  "CLASS": "INDIVIDUAL",
+  "NAME-CH": "禾東創意有限公司",
+  "SHOW": true
+},
+{
+  "id": "recs4MPql2U8nVswF",
+  "NAME": "yagamy",
+  "CROPPED_LOGO": [
+    {
+      "id": "attUhxp6cPrgMIfiB",
+      "url": "https://dl.airtable.com/4fMv4DIXTYWcIXpwLEJb_3515cf005c928bb18f7883b1890e70d0.jpeg",
+      "filename": "3515cf005c928bb18f7883b1890e70d0.jpeg",
+      "size": 79624,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ZYUw3iqPQdC0u9RizqMU_small_3515cf005c928bb18f7883b1890e70d0.jpeg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Nqggk60FSSyPRGYxTOEx_large_3515cf005c928bb18f7883b1890e70d0.jpeg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/VKfuZ0Z2TB6CkWUzrsUv_full_3515cf005c928bb18f7883b1890e70d0.jpeg",
+          "width": 800,
+          "height": 800
+        }
+      }
+    }
+  ],
+  "CLASS": "INDIVIDUAL",
+  "NAME-CH": "yagamy",
+  "SHOW": true
+}]
