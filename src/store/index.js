@@ -5,10 +5,15 @@ Vue.use(Vuex)
 
 const BREAKPOINT = 640
 
+const USE_CHINESE =
+  `${navigator.languages[0] || navigator.language || navigator.browserLanguage}`
+    .toLowerCase()
+    .split('-')[0] === 'zh'
+
 const store = new Vuex.Store({
   strict: process.env.NODE_ENV !== 'production',
   state: {
-    lang: 'TW',
+    lang: USE_CHINESE ? 'TW' : 'EN',
     scrollY: 0,
     innerWidth: 0,
   },
