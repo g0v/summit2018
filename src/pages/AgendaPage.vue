@@ -33,8 +33,8 @@
         <EN>Venue</EN>
       </h1>
       <div class="text-center">
-        <img class="map" src="@/assets/AgendaPage/3F.svg" alt="3F 場地圖" >
-        <img class="map" src="@/assets/AgendaPage/4F.svg" alt="4F 場地圖" >
+        <img class="map" src="@/assets/AgendaPage/3F.png" alt="3F 場地圖" >
+        <img class="map" src="@/assets/AgendaPage/4F.png" alt="4F 場地圖" >
       </div>
     </section>
   </div>
