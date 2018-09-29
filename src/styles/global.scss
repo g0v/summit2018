@@ -43,14 +43,6 @@ section {
   outline: 1px dashed green;
 }
 
-// .mb-25, .mb-50, .mb-75, .mb-100, .mb-125, .mb-150
-$margins: 25, 50, 75, 100, 125, 150;
-@each $margin in $margins {
-  .mb-#{$margin} {
-    margin-bottom:  #{$margin}px;
-  }
-}
-
 .v-align-child-middle > * {
   vertical-align: middle;
 }

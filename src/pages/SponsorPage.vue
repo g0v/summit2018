@@ -61,7 +61,7 @@
                 TW {{ sponsor['NAME-CH'] }}
 
     //- 贊助按鈕
-    .cell.text-center.mb-50
+    .cell.text-center.margin-bottom-3
       CtaButton(
           href=`mailto:g0v-summit-partner-2018@googlegroups.com?subject=${encodeURIComponent('成為 g0v summit 2018 贊助夥伴')}`
           hoverText="g0v-summit-partner-2018@googlegroups.com"
