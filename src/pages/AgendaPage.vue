@@ -1,17 +1,30 @@
 <template>
   <div id="AgendaPage" class="grid-x align-center">
-    <section v-close-popover id="agenda" class="cell large-10">
+    <section v-close-popover id="agenda" class="cell large-10 margin-bottom-3">
+      <div class="text-center h5 margin-top-2 margin-bottom-3">
+        <a href="https://g0v.hackmd.io/c/summit18" target="_blank">
+          <TW>大會共筆</TW>
+          <EN>Collaboration Notes</EN>
+        </a>
+        &nbsp;|&nbsp;
+        <a href="https://beta.hackfoldr.org/g0v-Summit-2018-unconf" target="_blank">
+          <TW>開放參與</TW>
+          <EN>Open Participation</EN>
+        </a>
+        &nbsp;|&nbsp;
+        <a href="https://g0v.auxala.com" target="_blank">
+          <TW>即時口譯</TW>
+          <EN>Realtime Interpretation</EN>
+        </a>
+      </div>
       <CapsuleRadioButton
         id="date-picker"
         :options="dates"
         v-model="activeDate"
+        class="margin-bottom-2"
         lazy
         debounce="500"
       />
-      <div class="text-center h5 padding-bottom-2">
-        <TW>大會議程皆有華英語雙向即時口譯</TW>
-        <EN>All sessions will have simultaneous bidirectional interpretation between English and Mandarin</EN>
-      </div>
       <div id="parallel-agenda-wrapper">
         <ParallelAgenda
           id="parallel-agenda"
@@ -162,10 +175,6 @@ export default {
 
 <style lang="scss" scoped>
 section#agenda {
-  margin: 10px 0 120px;
-  #date-picker {
-    margin: 100px 0 20px 0;
-  }
   #parallel-agenda-wrapper {
     overflow-x: scroll;
     #parallel-agenda {
