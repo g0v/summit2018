@@ -51,7 +51,7 @@
         //-     TW 大會共筆
         //-     EN Wiki
         li
-          a(href="https://g0v-summit2018.kktix.cc/events/conf", target="_blank")
+          UnderlineLink(href="https://g0v-summit2018.kktix.cc/events/conf")
             TW 立即購票
             EN Registration
         li
