@@ -26,7 +26,7 @@
         <TW>個人贊助功德票</TW>
         <EN>Personal Donation</EN>
       </CtaButton>
-      <CtaButton :block="!isSmallScreen" href="mailto:g0v-summit-2018-pr@googlegroups.com">
+      <CtaButton :block="!isSmallScreen" href="https://goo.gl/forms/GVruRC4YK1FySIqv2">
         <TW>媒體聯絡</TW>
         <EN>Media Contact</EN>
       </CtaButton>
