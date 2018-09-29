@@ -1,5 +1,5 @@
 <template lang="pug">
-  #call-for-paper-page.mb-50
+  #call-for-paper-page.margin-bottom-3
     .grid-y
       .cell
         .grid-x.grid-padding-x.grid-margin-x

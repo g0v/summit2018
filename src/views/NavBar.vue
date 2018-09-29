@@ -31,10 +31,17 @@
           UnderlineLink(to="/transport")
             TW 交通
             EN Transport
-        //- li
-        //-   UnderlineLink(to="/live")
-        //-     TW 直撥
-        //-     EN Live
+        li
+          //- TODO: Embed streamming in page /live
+          //- UnderlineLink(to="/live")
+          UnderlineLink(href="https://www.youtube.com/user/g0vTW")
+            TW 直撥
+            EN Live
+        li
+          //- TODO: Embed content in site
+          UnderlineLink(href="https://www.juicer.io/g0vsummit")
+            TW 社群動態
+            EN Feed
         li
           UnderlineLink(to="/staff")
             TW 工作人員

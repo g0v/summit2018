@@ -1,9 +1,17 @@
 <template>
-  <router-link :to="to">
+  <router-link v-if="!!to" :to="to">
     <span id="wrapper">
       <slot/>
     </span>
   </router-link>
+  <a v-else-if="!!href" :href="href" target="_blank">
+    <span id="wrapper">
+      <slot/>
+    </span>
+  </a>
+  <span v-else id="wrapper">
+    <slot/>
+  </span>
 </template>
 
 <script>
@@ -12,7 +20,11 @@ export default {
   props: {
     to: {
       type: String,
-      required: true,
+      default: null,
+    },
+    href: {
+      type: String,
+      default: null,
     },
   },
 }

@@ -4,7 +4,7 @@
     :class="['agendum-cell-link', { 'pointer': shouldShowDialog }]"
     :role="shouldShowDialog && 'link'"
     tabindex="0"
-    @click.stop="goToAgendum"
+    @click.stop="onAgendumCellClick"
   >
     <div class="agendum-cell">
       <div class="fixed-cell-top">
@@ -188,12 +188,14 @@ export default {
     }
   },
   methods: {
-    goToAgendum() {
+    onAgendumCellClick() {
       if (this.shouldShowDialog) {
         router.push({
           name: 'AgendaPage',
           params: { agendumIdOrDay: this.agendum.id, slug: this.slug },
         })
+      } else if (has(this.agendum, 'DESCRIPTION_LINK')) {
+        window.open(this.agendum.DESCRIPTION_LINK, '_blank')
       }
     },
     openTooltip() {

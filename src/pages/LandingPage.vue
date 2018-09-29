@@ -1,9 +1,9 @@
 <template lang="pug">
   #LandingPage
-    HeroImage(class="mb-150")
-    #event-intro.grid-y.align-middle.mb-50
+    HeroImage.hero-image
+    #event-intro.grid-y.align-middle.margin-bottom-3
       //- 社群簡介
-      section.mb-50
+      section.margin-bottom-3
         TW
           h1 社群簡介
           p 自 2012 年以來，公民科技運動風起雲湧，以開放透明、公民參與為號召的 g0v 台灣零時政府社群號召了第一場活動，以「寫程式改造社會」為口號，從此開始公民科技之火開始延燒，至今未歇。
@@ -15,7 +15,7 @@
           p Established in 2012, g0v has since hosted over 50 hackathons and two international summits. Thousands of participants from different backgrounds have contributed to hundreds of projects, making g0v one of the biggest civic tech communities around the world.
 
       //- 雙年會簡介
-      section.mb-50
+      section.margin-bottom-3
         TW
           h1 雙年會簡介
           p g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
@@ -38,7 +38,7 @@
             router-link(:to="{ name: 'CallForPaperPage' }") Call For Paper (Closed)
 
       //- 行為準則
-      section.mb-50
+      section.margin-bottom-3
         TW
           h1 行為準則
           p 所有參與本次活動的出席者，講員，贊助人，志工均應同意遵守下列的行為規範。活動總召將在活動過程中執行這些規範。我們期望所有參與者共同合作，提供一個安全的環境給大家。
@@ -76,17 +76,17 @@
           p Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
           p We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
-    #timeline-wrapper.mb-50
+    #timeline-wrapper.margin-bottom-3
       section#timeline
         VueResponsiveTimeline(:items="timelineItems" :breakpoint="1024")
 
-    #summit-highlight.grid-y.align-middle.mb-50
+    #summit-highlight.grid-y.align-middle.margin-bottom-3
 
       section#keynotes
         h1
           TW 2018 Keynote
           EN 2018 Keynote
-        .grid-x.align-justify.grid-margin-x.mb-50
+        .grid-x.align-justify.grid-margin-x.margin-bottom-3
           template(v-for="keynote in keynotes")
             KeynoteBrief(:keynote="keynote").cell.large-6.medium-6.flex-child-shrink
 
@@ -94,7 +94,7 @@
         h1
           TW 歷年講者
           EN Past Speakers
-        .grid-x.align-justify.grid-margin-x.mb-50
+        .grid-x.align-justify.grid-margin-x.margin-bottom-3
           template(v-for="speaker in speakers")
             SpeakerBrief(:speaker="speaker").cell.large-4.medium-6.flex-child-shrink
 
@@ -102,7 +102,7 @@
         h1
           TW 媒體報導
           EN Media Coverage
-        .grid-x.align-justify.grid-margin-x.mb-50
+        .grid-x.align-justify.grid-margin-x.margin-bottom-3
           .media-object(v-for="report in reports").large-4.stack-for-small
             .media-object-section
               MediaQuote(:report="report")
@@ -229,6 +229,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.hero-image {
+  margin-bottom: 5rem;
+}
+
 #timeline-wrapper {
   background-color: #e7e7e7;
   padding: 100px 1rem;
