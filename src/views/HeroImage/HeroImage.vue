@@ -8,7 +8,10 @@
         <div id="title"><span>亞洲最大公民科技盛會</span></div>
         <div id="subtitle"><span>The Largest Civic Tech Event in Asia</span></div>
       </div>
-      <div id="slogan"><span>開放了？然後咧！</span></div>
+      <div id="slogan">
+        <TW>開放了？然後咧！</TW>
+        <EN>what’s next after openness</EN>
+      </div>
       <div id="time"><span>2018.10.5-2018.10.7</span></div>
       <div id="location">
         <span>
