@@ -13,7 +13,7 @@
     >
       <template v-for="(item, index) in sortedItems">
         <li
-          :key="item.title"
+          :key="`${item.title} ${item.subtitle}`"
           :style="{
             gridArea: `evt${index}`,
             position: 'relative',
