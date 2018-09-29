@@ -41,7 +41,7 @@ export default {
   computed: {
     ...mapState(['lang']),
     showSponsorFooter() {
-      return this.$route.path !== '/sponsors'
+      return this.$route.name !== 'SponsorPage'
     },
   },
   watch: {
