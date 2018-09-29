@@ -35,7 +35,7 @@
           //- TODO: Embed streamming in page /live
           //- UnderlineLink(to="/live")
           UnderlineLink(href="https://www.youtube.com/user/g0vTW")
-            TW 直撥
+            TW 直播
             EN Live
         li
           //- TODO: Embed content in site
