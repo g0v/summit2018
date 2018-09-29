@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/g0v/summit2018.svg?branch=master)](https://travis-ci.org/g0v/summit2018)
 
-[網站開發進度 Trello](https://trello.com/c/PUH4VaGS/19-%E4%B8%80%E9%A0%81%E5%BC%8F%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC)
-
 ## API
 
 https://g0v.github.io/summit2018/static/api
@@ -12,11 +10,11 @@ https://g0v.github.io/summit2018/static/api
 
 p.s. 會加這個文件主要是為了避免有人覺得「雖然是網站前端就有的資料，如果可以用 json 的格式拿到叫做安全漏洞」，所以加了這份文件把它變成 feature，不是很有用的一套 API。but still, like open source project always says, 'We are excited about what you will(can) build with it!'
 
-## 更新網頁內容(免寫code!)
+## 更新網頁內容
 
 ### 1. 大部分的文字、翻譯
 
-超簡單圖文步驟： https://hackmd.io/s/HJA8pHAoG
+https://hackmd.io/s/HJA8pHAoG
 
 ### 2. 贊助商、議程、講者相關內容
 1. 到 [Airtable 資料庫](https://airtable.com/invite/l?inviteId=invgmSI7Kq7mpXF1B&inviteToken=e0e3636599e4e385248fc8b714a89c7ec662a4d8cdb73b0143a311cd37f74b93) 更新相關資料、圖片。**編輯權限請到 slack 工作群組裡找邀請連結或私訊 @choznerol**
@@ -48,10 +46,8 @@ static
 src
  |-assets
  |-components            可重複使用的 Component
- `-views
-   |-LandingPage.vue     網站首頁
-   |-SchedulePage.vue    議程分頁(todo)
-   ˋ- ...
+ |-pages
+ |-views                 無法重複使用的 Component
  |-router
  |-App.vue
  `-main.js
@@ -63,10 +59,3 @@ vue webpack 模板文檔：[vuejs-templates/webpack](https://vuejs-templates.git
 
 ### Contribution
 本專案 follow [Vue.js 官方風格指南](https://cn.vuejs.org/v2/style-guide/) ，commit message 格式可以參考[這裏](https://gitmoji.carloscuesta.me/)，master 盡量以 merge 自己的 branch 代替直接 commit
-
-### Thank you, kind contributors!
-@yoyodiy
-
-@ooookai
-
-@ymhuang0808
