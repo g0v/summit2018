@@ -2,7 +2,6 @@
   <div id="hero-image-container">
     <HeroImageMobile v-if="isSmallScreen"/>
     <HeroImageDesktop v-else/>
-
     <span id="hero-image-text" :class="isSmallScreen && 'small-screen-text-layout'">
       <div>
         <div id="title"><span>亞洲最大公民科技盛會</span></div>
@@ -34,18 +33,36 @@
         <EN>Media Contact</EN>
       </CtaButton>
     </span>
+    <div id="hero-main-button" :class="isSmallScreen && 'small-screen-text-layout'">
+      <MainButton href="https://g0v.hackmd.io/c/summit18">
+        <TW>大會共筆</TW>
+        <EN>Collaboration Notes</EN>
+      </MainButton>
+      <MainButton href="https://beta.hackfoldr.org/g0v-Summit-2018-unconf">
+        <TW>開放工作坊</TW>
+        <EN>Unconf</EN>
+      </MainButton>
+      <MainButton href="https://g0v.auxala.com">
+        <TW>即時口譯</TW>
+        <EN>Simultaneous Interpretation</EN>
+      </MainButton>
+      <MainButton href="#">
+        <TW>即時字幕</TW>
+        <EN>Simultaneous Multi-Subtitle</EN>
+      </MainButton>
+    </div>
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-import { CtaButton } from '@/components'
+import { CtaButton, MainButton } from '@/components'
 import HeroImageMobile from '@/views/HeroImage/HeroImageMobile'
 import HeroImageDesktop from '@/views/HeroImage/HeroImageDesktop'
 
 export default {
   name: 'HeroImage',
-  components: { HeroImageMobile, HeroImageDesktop, CtaButton },
+  components: { HeroImageMobile, HeroImageDesktop, CtaButton, MainButton },
   data() {
     return {
       vw: window.innerWidth,
@@ -117,6 +134,19 @@ export default {
       #location {
         letter-spacing: 1.5px;
       }
+    }
+  }
+
+  #hero-main-button {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    width: 200px;
+
+    &.small-screen-text-layout {
+      right: unset;
+      left: calc(50% - 100px);
+      font-size: 15px;
     }
   }
 }

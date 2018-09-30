@@ -14,7 +14,7 @@
         &nbsp;|&nbsp;
         <a href="https://g0v.auxala.com" target="_blank">
           <TW>即時口譯</TW>
-          <EN>Realtime Interpretation</EN>
+          <EN>Simultaneous Interpretation</EN>
         </a>
       </div>
       <CapsuleRadioButton
