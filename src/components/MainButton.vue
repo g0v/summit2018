@@ -48,12 +48,12 @@ export default {
 <style lang="scss" scoped>
 a.main-button {
   border-radius: 100px;
-  border: 2px solid #D56064;
+  border: 2px solid #d56064;
   margin-right: 0.5em;
   margin-left: 0.5em;
-  color: #D56064;
+  color: #d56064;
   width: 200px;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, 0.8);
   font-weight: bold;
   box-sizing: border-box;
 
@@ -65,10 +65,10 @@ a.main-button {
     display: none;
   }
   &:focus {
-    color: #FFF;
+    color: #fff;
   }
   &:hover {
-    color: #FFF;
+    color: #fff;
 
     .hide-on-hover {
       display: none;
