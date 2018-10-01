@@ -183,7 +183,7 @@ export default {
     },
   },
   mounted() {
-    if (this.track && this.track.id === this.$route.query.track) {
+    if (this.isSeriesHeader && this.track.id === this.$route.query.track) {
       this.showTooltip = true
     }
   },
