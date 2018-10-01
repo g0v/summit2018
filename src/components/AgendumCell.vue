@@ -1,7 +1,7 @@
 <template>
   <a
     v-close-popover
-    :class="['agendum-cell-link', { 'pointer': shouldShowDialog }]"
+    :class="['agendum-cell-link', { 'pointer': shouldShowDialog, 'highlight': isActiveTrack }]"
     :role="shouldShowDialog && 'link'"
     tabindex="0"
     @click.stop="onAgendumCellClick"
@@ -16,7 +16,11 @@
           trigger="manual"
         >
           <!-- This will be the popover target (for the events and position) -->
-          <div class="tooltip-target" @click.stop="openTooltip">
+          <div
+            ref="tooltip-target"
+            class="tooltip-target"
+            @click.stop="openTooltip"
+          >
             <TW>{{ track.NAME || track.NAME_EN }}</TW>
             <EN>{{ track.NAME_EN || track.NAME }}</EN>
             <span v-if="trackModeratorNames">
@@ -111,6 +115,7 @@ export default {
   data() {
     return {
       showTooltip: false,
+      isActiveTrack: false,
     }
   },
   computed: {
@@ -180,11 +185,20 @@ export default {
       if (this.track && this.agendum.isFirstWithinTrack) {
         this.showTooltip = this.track.id === to.query.track
       }
+      this.isActiveTrack = this.track.id === this.$route.query.track
     },
   },
   mounted() {
-    if (this.track && this.track.id === this.$route.query.track) {
-      this.showTooltip = true
+    if (this.track.id === this.$route.query.track) {
+      this.isActiveTrack = true
+
+      if (this.isSeriesHeader) {
+        this.showTooltip = true
+        this.$nextTick(() => {
+          window.target = this.$refs['tooltip-target'] // TODO: remove
+          this.$refs['tooltip-target'].scrollIntoView()
+        })
+      }
     }
   },
   methods: {
@@ -212,7 +226,9 @@ export default {
   margin: -30em;
   padding: 30em;
   background-color: $dark-gray;
-
+  &.highlight {
+    background: #e3e1e1;
+  }
   .agendum-cell {
     padding: 20px 10px;
     .title {
