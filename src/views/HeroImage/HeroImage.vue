@@ -46,7 +46,7 @@
         <TW>即時口譯</TW>
         <EN>Simultaneous Interpretation</EN>
       </MainButton>
-      <MainButton href="#">
+      <MainButton href="https://raw.githubusercontent.com/g0v/summit2018/master/static/UDTalk-EN.pdf">
         <TW>即時字幕</TW>
         <EN>Simultaneous Multi-Subtitle</EN>
       </MainButton>
