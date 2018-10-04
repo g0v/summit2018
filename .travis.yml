@@ -20,8 +20,6 @@ deploy:
   keep-history: false
   on:
     branch: master
-  edge:
-    branch: pages-ivar-set
 after_deploy:
   - chmod +x ./after_deploy.sh
   - "./after_deploy.sh"
