@@ -2,7 +2,12 @@
   <div id="StaffPage" class="grid-x align-center">
     <section id="staff" class="cell large-10">
       <div v-for="group in staffs" :key="group.name" class="line">
-        <div class="title"><h4 class="title">{{ group.name }}</h4></div>
+        <div class="title">
+          <h4 class="title">
+            <TW>{{ group.name }}</TW>
+            <EN>{{ GROUPS[group.name] }}</EN>
+          </h4>
+        </div>
         <div class="members">
           <a v-for="staff in group.data"
              :key="staff.name"
@@ -38,29 +43,29 @@ import groupBy from 'lodash/groupBy'
 
 import { STAFF } from '@/../static/airtable_data'
 
+const GROUPS = {
+  總籌組: 'General Preparatory',
+  議程委員: 'Programming Committee',
+  議程組: 'Programming',
+  合作夥伴組: 'Partnership',
+  行政組: 'Administration',
+  票務組: 'Ticketing',
+  會計組: 'Accounting',
+  宣傳組: 'Advertising',
+  文創組: 'Product Development',
+  公關媒體組: 'Media Relation',
+  '網站 APP 組': 'Information Architecture',
+  場務組: 'General Services',
+  設備組: 'Infrastructure',
+  口譯組: 'Translation',
+  直播組: 'Broadcasting',
+  記錄組: 'Photography',
+}
+
 export default {
   name: 'StaffPage',
   components: { GravatarImage },
   data() {
-    let groups = [
-      '總籌組',
-      '議程委員',
-      '議程組',
-      '合作夥伴組',
-      '行政組',
-      '票務組',
-      '會計組',
-      '宣傳組',
-      '文創組',
-      '公關媒體組',
-      '網站 APP 組',
-      '場務組',
-      '設備組',
-      '口譯組',
-      '直播組',
-      '記錄組',
-    ]
-
     let tempStaffs = STAFF
     tempStaffs = groupBy(tempStaffs, record => record.GROUP)
     let staffs = Object.keys(tempStaffs).map(element => {
@@ -69,7 +74,7 @@ export default {
         data: tempStaffs[element],
       }
     })
-    staffs = groups.map(element => {
+    staffs = Object.keys(GROUPS).map(element => {
       return {
         name: element,
         data: tempStaffs[element],
@@ -78,7 +83,7 @@ export default {
 
     return {
       staffs,
-      groups,
+      GROUPS,
     }
   },
   computed: {
@@ -98,13 +103,13 @@ section#staff
       vertical-align: top
     .title
       writing-mode: vertical-lr
-      width: 30px
+      width: 3.3rem
       padding-top: 3px
       h4
         font-size: 1.3rem
         text-align: center
     .members
-      width: calc(100% - 30px)
+      width: calc(100% - 3.3rem)
       .member
         text-align: center
         width: 100px
