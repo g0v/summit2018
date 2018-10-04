@@ -185,17 +185,17 @@ export default {
       if (this.track && this.agendum.isFirstWithinTrack) {
         this.showTooltip = this.track.id === to.query.track
       }
-      this.isActiveTrack = this.track.id === this.$route.query.track
+      this.isActiveTrack =
+        this.track && this.track.id === this.$route.query.track
     },
   },
   mounted() {
-    if (this.track.id === this.$route.query.track) {
+    if (this.track && this.track.id === this.$route.query.track) {
       this.isActiveTrack = true
 
       if (this.isSeriesHeader) {
         this.showTooltip = true
         this.$nextTick(() => {
-          window.target = this.$refs['tooltip-target'] // TODO: remove
           this.$refs['tooltip-target'].scrollIntoView()
         })
       }
