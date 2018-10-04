@@ -50,6 +50,18 @@
         <TW>即時字幕</TW>
         <EN>Simultaneous Multi-Subtitle</EN>
       </MainButton>
+      <MainButton href="http://join.g0v.tw">
+        <TW>g0v slack</TW>
+        <EN>g0v slack</EN>
+      </MainButton>
+      <MainButton href="http://bit.ly/g0v_fightclub">
+        <TW>自介區</TW>
+        <EN>Fight Club</EN>
+      </MainButton>
+      <MainButton href="http://bit.ly/g0v_sideevent">
+        <TW>Side Events</TW>
+        <EN>Side Events</EN>
+      </MainButton>
     </div>
   </div>
 </template>
