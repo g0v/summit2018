@@ -1,0 +1,1456 @@
+[
+{
+  "id": "recxtJDoUJnod0s9Y",
+  "TITLE": "開放工作坊",
+  "VENUE": "R0",
+  "START": "2018-10-07T03:00:00.000Z",
+  "END": "2018-10-07T04:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Unconf",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "rec3mUDONxMNRCOPg",
+  "TITLE": "開放工作坊",
+  "VENUE": "R1",
+  "START": "2018-10-07T03:00:00.000Z",
+  "END": "2018-10-07T04:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Unconf",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "recwaJCTu6xIrS4wO",
+  "TITLE": "開放工作坊",
+  "VENUE": "R2",
+  "START": "2018-10-07T03:00:00.000Z",
+  "END": "2018-10-07T04:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Unconf",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "reczp3mRTqhmww0gS",
+  "TITLE": "開放工作坊",
+  "VENUE": "ALL",
+  "START": "2018-10-07T02:00:00.000Z",
+  "END": "2018-10-07T03:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Unconf",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "rec4WbkdPiCjfkWId",
+  "TITLE": "下午茶",
+  "VENUE": "ALL",
+  "START": "2018-10-05T07:00:00.000Z",
+  "END": "2018-10-05T07:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Tea break + snack"
+},
+{
+  "id": "rectsbjeya1Ct7aoT",
+  "TITLE": "下午茶",
+  "VENUE": "ALL",
+  "START": "2018-10-06T07:00:00.000Z",
+  "END": "2018-10-06T07:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Tea break + snack"
+},
+{
+  "id": "reci8qFQiiLl5cFaU",
+  "TITLE": "下午茶",
+  "VENUE": "ALL",
+  "START": "2018-10-07T07:00:00.000Z",
+  "END": "2018-10-07T07:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Tea break + snack"
+},
+{
+  "id": "recilBAuCz4EAR7O7",
+  "TITLE": "提問與對話",
+  "VENUE": "R0",
+  "START": "2018-10-07T06:30:00.000Z",
+  "END": "2018-10-07T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recP4F88nWEBncZ0y",
+  "TITLE": "提問與對話",
+  "VENUE": "R1",
+  "START": "2018-10-06T04:00:00.000Z",
+  "END": "2018-10-06T04:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recv685r14VxLVItz",
+  "TITLE": "提問與對話",
+  "VENUE": "R1",
+  "START": "2018-10-06T06:30:00.000Z",
+  "END": "2018-10-06T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recA2KpTO1vy0X05i",
+  "TITLE": "提問與對話",
+  "VENUE": "R1",
+  "START": "2018-10-07T06:30:00.000Z",
+  "END": "2018-10-07T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recAIDtklNDevBkDG",
+  "TITLE": "提問與對話",
+  "VENUE": "R2",
+  "START": "2018-10-06T04:00:00.000Z",
+  "END": "2018-10-06T04:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recA8S95v8Uo52JJu",
+  "TITLE": "提問與對話",
+  "VENUE": "R2",
+  "START": "2018-10-06T06:30:00.000Z",
+  "END": "2018-10-06T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recQuXZfZjzeCBDoh",
+  "TITLE": "提問與對話",
+  "VENUE": "R2",
+  "START": "2018-10-06T08:30:00.000Z",
+  "END": "2018-10-06T09:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recSWKeJcQ8PHt0Uz",
+  "TITLE": "提問與對話",
+  "VENUE": "R2",
+  "START": "2018-10-07T06:30:00.000Z",
+  "END": "2018-10-07T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "rec3DjldV9S4xwCky",
+  "TITLE": "提問與對話",
+  "VENUE": "R3",
+  "START": "2018-10-06T04:00:00.000Z",
+  "END": "2018-10-06T04:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recHR4N8zPbp0qS9Y",
+  "TITLE": "提問與對話",
+  "VENUE": "R3",
+  "START": "2018-10-06T06:30:00.000Z",
+  "END": "2018-10-06T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "rech44MJzbbGuG5qD",
+  "TITLE": "提問與對話",
+  "VENUE": "R3",
+  "START": "2018-10-06T08:30:00.000Z",
+  "END": "2018-10-06T09:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recX9LcxFtiKfhxH0",
+  "TITLE": "提問與對話",
+  "VENUE": "R3",
+  "START": "2018-10-07T06:30:00.000Z",
+  "END": "2018-10-07T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Questions & dialogues"
+},
+{
+  "id": "recJ4lOwUIpQ6WNPV",
+  "TITLE": "開幕",
+  "VENUE": "ALL",
+  "START": "2018-10-07T01:20:00.000Z",
+  "END": "2018-10-07T01:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Opening of day 3"
+},
+{
+  "id": "recWx8xryI3hr4qqE",
+  "TITLE": "大開幕",
+  "VENUE": "ALL",
+  "START": "2018-10-06T01:20:00.000Z",
+  "END": "2018-10-06T01:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Opening of day 2"
+},
+{
+  "id": "recN947YUAe4edDh7",
+  "TITLE": "工作坊日開幕",
+  "VENUE": "ALL",
+  "START": "2018-10-05T01:20:00.000Z",
+  "END": "2018-10-05T01:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Opening of day 1"
+},
+{
+  "id": "recfeBU53YLuorclP",
+  "TITLE": "午餐",
+  "VENUE": "ALL",
+  "START": "2018-10-05T04:30:00.000Z",
+  "END": "2018-10-05T05:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Lunch"
+},
+{
+  "id": "rec8qMmbNRZYUyS8O",
+  "TITLE": "午餐",
+  "VENUE": "ALL",
+  "START": "2018-10-06T04:30:00.000Z",
+  "END": "2018-10-06T05:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Lunch"
+},
+{
+  "id": "rec6E66VRwbDGzqE0",
+  "TITLE": "午餐",
+  "VENUE": "ALL",
+  "START": "2018-10-07T04:30:00.000Z",
+  "END": "2018-10-07T05:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Lunch"
+},
+{
+  "id": "rec330Er9PZWnAYuT",
+  "TITLE": "閃電講",
+  "VENUE": "ALL",
+  "START": "2018-10-07T08:15:00.000Z",
+  "END": "2018-10-07T09:15:00.000Z",
+  "SPEAKER": [
+    "recKeVEFMUeBJmOOM"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Lightning talks",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "rec24YyAWu7QSx5fw",
+  "TITLE": "休息",
+  "VENUE": "ALL",
+  "START": "2018-10-05T03:00:00.000Z",
+  "END": "2018-10-05T03:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Coffee break"
+},
+{
+  "id": "recAcsdkH2zrH7lgE",
+  "TITLE": "休息",
+  "VENUE": "ALL",
+  "START": "2018-10-06T02:30:00.000Z",
+  "END": "2018-10-06T03:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Coffee break"
+},
+{
+  "id": "recjGzGZdLSlG7qiG",
+  "TITLE": "閉幕",
+  "VENUE": "ALL",
+  "START": "2018-10-07T09:15:00.000Z",
+  "END": "2018-10-07T09:30:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "Closing"
+},
+{
+  "id": "rec0xtkeKfqj3ULa4",
+  "TITLE": "即興同好會",
+  "VENUE": "R3",
+  "START": "2018-10-05T05:30:00.000Z",
+  "END": "2018-10-05T07:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "BoF",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "recj2kmSJ3oXxa4jg",
+  "TITLE": "即興同好會",
+  "VENUE": "R3",
+  "START": "2018-10-05T07:30:00.000Z",
+  "END": "2018-10-05T09:00:00.000Z",
+  "SHOW": true,
+  "TITLE_EN": "BoF",
+  "DESCRIPTION_LINK": "https://beta.hackfoldr.org/g0v-Summit-2018-unconf"
+},
+{
+  "id": "recmuAnkOFghSmOju",
+  "TITLE": "為甚麼我會延畢？從 g0v 檢視黑客社群開源協作式的公民參與",
+  "VENUE": "R1",
+  "START": "2018-10-06T05:50:00.000Z",
+  "END": "2018-10-06T06:10:00.000Z",
+  "ABSTRACT": "一個政治所研究生選錯題目差點畢不了業，只為了鑽研以下三個問題的故事：\n\n\n（1）g0v 的人都無償貢獻做功德，到底大家參與的動機是甚麼？\n\n\n（2）g0v 開放協作的機制如何讓公民更方便參與公共事務？\n\n\n（3）開源協作真的有改造到社會嗎？如果有，是改造了社會的哪個部分？又有哪些部分是無法透過開源協作改造的？",
+  "SPEAKER": [
+    "recYuVD3lte0aA6fG",
+    "recinknkjcyIhY78w"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1IrutKbjFUJ0Iwg2a0jAGr6_H1pgBAiGEt9qy7sowNXI/edit#slide=id.p",
+  "SHOW": true,
+  "TITLE_EN": "Why Did I Delay Graduation? A Case Study of “g0v.tw” on Open-source Collaborative Citizen Engagement in Hacking Community (translated)",
+  "ABSTRACT_EN": "A story about how a political science graduate delayed her graduation by choosing a too difficult topic for finding the answers of these three questions: (1) What are the motivations of g0vers to do unpaid job (aka making merit)? (2) How the open collaborative g0v way improves the convenience for civic participation? (3) Does open collaboration really reform the society? If so, what did it change? Are there things that open collaboration cannot involve?",
+  "TYPE": "talk",
+  "ID": "141",
+  "TRACK": [
+    "recLU0Bc3DZvNsJQr"
+  ]
+},
+{
+  "id": "recoJUijVzZVQ43OP",
+  "TITLE": "收斂與開放的雙股螺旋：從薪資居住品質調查 × 開放租屋資料，談另一種跨界合作的可能",
+  "VENUE": "R3",
+  "START": "2018-10-06T07:30:00.000Z",
+  "END": "2018-10-06T07:50:00.000Z",
+  "ABSTRACT": "因為「薪資與租屋居住品質關聯調查」，找資料而到 g0v 挖坑的敬舒，以及跳坑卻又開新案「開放台灣民間租屋資料」的 ddio ，一坑兩案，一邊是有時間限制，過程難以開源的研究計畫，一邊是糾結於技術與法律的開放資料專案，看似簡單的資料供需關係，因為測試需要以及資料分析的需求，讓兩邊不只是單方向的協助，而是雙向的理解與協作，也因為彼此想像的差異，開啟了更多合作的可能。\n\n除了用「發包接案」與「挖坑跳坑」來理解開源跨界專案外，這種一坑兩案，獨立卻又共同協作的模式，有沒有可能是另一種跨界合作的方法？它需要哪些條件才能成型，各自又能經驗什麼？讓我們繼續看下去⋯",
+  "SPEAKER": [
+    "recKdOszZh2WYVYsl",
+    "recmGNT7Vlty0B4vI"
+  ],
+  "SLIDE": "https://bit.ly/g0vsummit2018xds",
+  "SHOW": true,
+  "TITLE_EN": "The double helix of open and convergence: possibilities of cross-domain cooperation learning from living standard and income survey and open rental data (translated)",
+  "ABSTRACT_EN": "How can open source methodology encourage collaboration in a cross-disciplinary project? In this talk, we will demonstrate how we achieved this in Taiwanese rental and salary research and how this project triggered more opportunities because of its open source nature.",
+  "TYPE": "talk",
+  "ID": "29",
+  "TRACK": [
+    "recrYIbDBYQxNdnaQ"
+  ]
+},
+{
+  "id": "recv3dOGqAlgfbf5J",
+  "TITLE": "以開放街圖資料與開源技術降低山難迷途事件的經驗分享",
+  "VENUE": "R3",
+  "START": "2018-10-06T07:50:00.000Z",
+  "END": "2018-10-06T08:10:00.000Z",
+  "ABSTRACT": "這個演講將分享過去一兩年的社群培力經驗與進行中的挑戰，議題包含：台灣登山社群開放圖資現況、透過整合政府開放資料的展望、地方消防局的山域管制政策與登山客竟成國安犯、修國家安全法解除山地管制區的契機、開源技術推動登山計畫登錄機制、政策遊說的願景與挑戰。",
+  "SPEAKER": [
+    "recFAUd5qZmYe4XyF"
+  ],
+  "SLIDE": "http://bit.ly/2pxUUOJ",
+  "SHOW": true,
+  "TITLE_EN": "Reducing mountain incidents with OpenStreetMap and open-source tech (translated)",
+  "TYPE": "talk",
+  "ID": "132",
+  "TRACK": [
+    "recrYIbDBYQxNdnaQ"
+  ]
+},
+{
+  "id": "recq6TJXbDusCett9",
+  "TITLE": "開放新聞製作的實驗：READr",
+  "VENUE": "R2",
+  "START": "2018-10-06T07:30:00.000Z",
+  "END": "2018-10-06T07:50:00.000Z",
+  "ABSTRACT": "一反過往的新聞製作流程，READr 是一個全新的媒體實驗。我們嘗試從新聞的產製流程中進行改變，讓新聞編輯室變得更開放，我們嘗試在新聞產製的過程中，將可供檢視的資料與素材盡可能公開。在新聞製作的流程中，盡可能遵循 open source projects 的原則：「Release early, release often」。",
+  "SPEAKER": [
+    "recR3u8mf860neBej"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1QfjWachkAOdqOqE9eerdA0XxwdvQDHqr/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "READr: experiments on open journalism production (translated)",
+  "TYPE": "talk",
+  "ID": "37",
+  "TRACK": [
+    "recVdWKiWksC39L7X"
+  ]
+},
+{
+  "id": "recv3gMm5JKro8D9t",
+  "TITLE": "技術的政治與去政治：來自司改國是會議的省思",
+  "VENUE": "R3",
+  "START": "2018-10-07T05:30:00.000Z",
+  "END": "2018-10-07T05:50:00.000Z",
+  "ABSTRACT": "近年來，政府治理遇到了雙重的挑戰：來自公民社會的倡議與抗爭，屢屢挑戰決策的程序與內容，要求更高的民主正當性與政策妥適性；另一方面，日漸複雜化的治理議題，也對治理能力提出了更高的需求。在此雙重脈絡下，「外部參與」成為政府治理的關鍵詞。本次短講以2016至18年的「司法改革國是會議與其後的改革落實」為案例，從兩年多來的內部經驗與外部的視角，討論以下幾個議題：（1）公民科技／技術的政治；（2）政治如何使用科技／技術；（3）對策：從公民科技／技術的去政治化到再政治化。",
+  "SPEAKER": [
+    "recj60tXpMRloe4of"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1qBwpYokQRaEHrmfMT28MfE6M31JxnF2s26RGANDQmnQ/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Politics of technology: reflections from National Conference on Judicial Reform (translated)",
+  "TYPE": "talk",
+  "ID": "32",
+  "TRACK": [
+    "recLuniMMZLShPSI9"
+  ]
+},
+{
+  "id": "rec92ZDxADbUW2hpU",
+  "TITLE": "政治獻金開放資料從社群、媒體到政府的實作旅程",
+  "VENUE": "R2",
+  "START": "2018-10-06T03:00:00.000Z",
+  "END": "2018-10-06T03:20:00.000Z",
+  "ABSTRACT": "開放資料跟獨家新聞是互斥的嗎？以政治獻金報導為例，分享一個四年前的專案如何復甦，到實際促成政府政策的改變。以及從新聞媒體的角度怎麼與社群合作，政府的資料又有什麼陷阱，談一份不開放的資料如何成為開放資料新聞報導。",
+  "SPEAKER": [
+    "recR3u8mf860neBej"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1jL4tJ5TyReyggoctjnT2bV61PCI40XOy/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Political contribution open data: a journey from community, media to government (translated)",
+  "TYPE": "talk",
+  "ID": "42",
+  "TRACK": [
+    "recCINykYUqyCQoZd"
+  ]
+},
+{
+  "id": "reckLdJH22J4X3ek6",
+  "TITLE": "從台灣到世界，再從世界走回來：比較公民科技的眾聲喧嘩",
+  "VENUE": "R3",
+  "START": "2018-10-06T05:30:00.000Z",
+  "END": "2018-10-06T05:50:00.000Z",
+  "ABSTRACT": "開放政府、公民科技在近十年內襲捲全球，成了新形態的公民運動。從台灣生根發起的零時政府，不論在社群規模、治理模式與政治影響力上，都成為全球公民科技所矚目的對象。在過去兩年，我隨著開放文化基金會和社群伙伴，走訪了世界著名的公民科技相關會議（Code for America、OGP、TICTeC、Datensummit、PDF），也在台灣舉辦了 Civic Tech Fest 。這場短講，將分析各個會議對於公民科技的不同想像，並比較台灣經驗在全球公民科技浪潮中的特殊地位，最後，以世界為鏡，提出一些反思。",
+  "SPEAKER": [
+    "recrU2XQBoXoMYgmO"
+  ],
+  "SLIDE": " https://drive.google.com/file/d/1ws-FqnzjPXM16Xh2xJzflQb7YZfsv1Cq/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Plurality of civic tech: from Taiwan to the world and back (translated)",
+  "ABSTRACT_EN": "What's Civic Tech? How's it different from Civic Hacking or Gov Tech? As an emerging field, local and international meetups/confs are organized, definitions are proposed, actions and ideas spread. This talk focuses on a few civic tech-related conferences: CfA summit, OGP summit, TICTeC, PDF. I will analyze their \"civic tech personalities\" to show different approaches in this field . Standing from Taiwan's viewpoint with experiences of travelling around global civic tech conferences, I want to ask what others can learn from Taiwan and whatTaiwan can learn from others.",
+  "TYPE": "talk",
+  "ID": "41",
+  "TRACK": [
+    "recLDDKkbDGVaGu7C"
+  ]
+},
+{
+  "id": "recYoVaD0ZlGF12rH",
+  "TITLE": "Pegabot：媒體識讀及機器人辨識工具【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-06T05:30:00.000Z",
+  "END": "2018-10-06T05:50:00.000Z",
+  "ABSTRACT": "PegaBot 專案由兩個部分組成：一個線上工具與一段網路識讀的教育，用來讓人們更瞭解線上機器人和社群媒體如何操縱資訊。透過線上工具，我們提供使用者相關媒體識讀材料，包括法律案件中法官們如何處理線上機器人。這場短講將分享 PegaBot 專案至今的經驗，也希望從類似的專案中學習未來可以延伸發展的方向。【譯】",
+  "SPEAKER": [
+    "rec9J2RP03C6nppOd"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Pegabot (Bot Buster): an online tool for media literacy and bot monitoring",
+  "ABSTRACT_EN": "PegaBot (Portuguese for Bot Buster) is an online platform (www.pegabot.com.br) in which users can analyze the probability of whether a social profile is a bot or not. We created a service which uses the API developed by Indiana University called Botometer. In two days, the project has gone viral in Brazil and it has been accessed by more than 200 thousand people, demonstrating there is a large demand for awareness regarding how manipulation in social media occurs.\n\nThe project has currently two parts: the online tool and the creation of comprehensive education and awareness raising materials on how bots and social media manipulation are related. We are providing media literacy materials to inform every user of our project, including in terms of legal issues and how the Judiciary is dealing with bots. We intend to share what we have learned with the use of this online tool so far and also raise further applications for it by exchanging with colleagues that might have developed other successful instruments in this sense.",
+  "TYPE": "talk",
+  "ID": "26",
+  "TRACK": [
+    "recdJzJ5CGC07dW7C"
+  ]
+},
+{
+  "id": "recND8Ex4wsXqlCiO",
+  "TITLE": "社群與企業之開源專案合作經驗分享：以阿龜微氣候天眼通為例",
+  "VENUE": "R1",
+  "START": "2018-10-06T05:30:00.000Z",
+  "END": "2018-10-06T05:50:00.000Z",
+  "ABSTRACT": "開源專案有企業參與是一件蠻好的事情，但如何在社群與企業之間保持適當的合作關係是一件值得思考的問題，經過一年多的參與想跟大家分享失敗與成功的部分，希望在不久的將來能有個值得大家參考的在地典範，就像 Red Hat 之於 Linux。",
+  "SPEAKER": [
+    "recUnfNnkgvrAyXJf"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Open-source cooperation between corporation and community: Agri Weather as an example (translated)",
+  "TYPE": "talk",
+  "ID": "140",
+  "TRACK": [
+    "recLU0Bc3DZvNsJQr"
+  ]
+},
+{
+  "id": "recTbtoJkXazxFySn",
+  "TITLE": "調查報導、開放資料與開放政府【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-06T07:50:00.000Z",
+  "END": "2018-10-06T08:10:00.000Z",
+  "ABSTRACT": "貪污發生在缺乏透明時。掌權的人，因為可以從貪污中獲利，所以沒有動機來讓資料與訊息開放透明。這個短講將介紹一些調查報導可以採用的開放資料與公民科技方法，用有限的資料來揭開政府貪污的狀況。【譯】",
+  "SPEAKER": [
+    "recwvllr6PPtSaFbv"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Open data and open gov for investigative journalism",
+  "ABSTRACT_EN": "Corruption happens when there is a lack of transparency. Those in power that benefit from a corrupt system do not have incentive to make data and information open and easily accessible. This talk will introduce open data and civic tech methods and resources for investigative journalists on where to look and how to make use of limited data and information to unmask government corruption at local and international level.",
+  "TYPE": "talk",
+  "ID": "109",
+  "TRACK": [
+    "recVdWKiWksC39L7X"
+  ]
+},
+{
+  "id": "recqfasll9wmLIaY7",
+  "TITLE": "OK NTU，我們來投票吧！",
+  "VENUE": "R3",
+  "START": "2018-10-06T03:40:00.000Z",
+  "END": "2018-10-06T04:00:00.000Z",
+  "ABSTRACT": "作為一所有三萬多名師生、學生會長比總統還早直選的學校，台大每年的學生會選舉不只全校關注、也讓承辦的選委會備感壓力。從 2014 年接手學校電子投票營運以來，為了平衡架構設計上的秘密性與可檢驗性、降低人為因素造成的影響，歷年來的選委、選監、資訊社群夥伴都花了不少心力在討論上。這次的 talk 將會聚焦在電子投票系統的架構設計、四年來遇到的技術與人為障礙，對應的因應方式，以及可能改善的方向，供未來架構電子投票的團體或自治組織、以及現場與會的聽眾討論與思考。",
+  "SPEAKER": [
+    "recPIVzZ2EoJi1FvT"
+  ],
+  "SLIDE": "https://speakerdeck.com/rschiang/",
+  "SHOW": true,
+  "TITLE_EN": "OK NTU, let's cast e-vote!",
+  "ABSTRACT_EN": "Dated earlier than the country’s own presidential election, general election of National Taiwan University Student Association has always been an highly-examined, yet strongly-influencing force to the islands’ democracy. Poren (a.k.a. RS) and his friends in NTUOSC helped implementing and operated a trustable electronic vote system on a campus of 30,000 students; he’ll be summarizing technical decisions and court battles throughout 6 years of adaptation, and point out potential caveats when introducing such system on a larger scale.",
+  "TYPE": "talk",
+  "ID": "92",
+  "TRACK": [
+    "recYqTiyvQnIIoMIV"
+  ]
+},
+{
+  "id": "reciuaVuxPxMO2VyM",
+  "TITLE": "Mudamos：民主參與工具包【譯】",
+  "VENUE": "R3",
+  "START": "2018-10-06T03:00:00.000Z",
+  "END": "2018-10-06T03:20:00.000Z",
+  "ABSTRACT": "這個短講將介紹 Mudamos 這個公民參與的工具，它如何串連線上數位簽章，與線下的社會創新方法。我們將分享這個工具的影響力，以及所面臨的挑戰，與學習到經驗。【譯】",
+  "SPEAKER": [
+    "recSgkWvLzTTGeezr"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1BKJUcmapfvmcooKS72nH1Q37hqRWFD9-/view",
+  "SHOW": true,
+  "TITLE_EN": "Mudamos: a toolkit for democratic participation",
+  "ABSTRACT_EN": "Mudamos (we change in Portuguese) is a mobile application that allow to sign electronically citizens’ initiative draft bills in the Brazilian context. Since the launch of the app Mudamos in March 2017, we have observed that the population has a lot of will to participate and good ideas to propose. However, despite this potential for engagement, citizens experience difficulty when transforming those ideas into draft bills to be presented to legislative houses.\n\nIn this presentation, we aim to showcase this toolbox for democratic participation, connecting cutting-edge digital innovations on electronic signatures (online) with social innovative methodologies (offline), highlighting the impact we have had throughout this period as well as the challenges faced and lessons learned.",
+  "TYPE": "talk",
+  "ID": "25\n",
+  "TRACK": [
+    "recYqTiyvQnIIoMIV"
+  ]
+},
+{
+  "id": "rec7keaaMeHUc9scM",
+  "TITLE": "改進紐約市參與式預算：馬德里和台灣的工具混搭【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-06T03:40:00.000Z",
+  "END": "2018-10-06T04:00:00.000Z",
+  "ABSTRACT": "在美國，參與式民主的運動雖然並沒有像馬德里一樣，在市的層級取得一定程度的權力，也沒有像台灣一樣，在國家層級上得以發揮。但美國的許多城市正在推行參與式預算。\n\n參與式預算讓市民有權力直接決定如何花費公共預算。紐約市的參與式預算是全美國規模最大的，可規畫超過四千萬美金，佔了市府預算的 0.05%。這個數字比例雖然不大，卻是一筆不小的金額。\n\n我們向 vTaiwan 學習了公共審議的過程、參考馬德里公民參與的應用程式、並開發自己的透明軟體，為紐約市打造出一個開源的工具箱。我們希望這個工具箱可以拉近亞洲、歐洲與美洲裡推動參與式民主的社群，一同協作以促進更透明、更著重公民參與的政府。【譯】",
+  "SPEAKER": [
+    "rec5dZVDMDYnf6UBe"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1uELY1H00xPuWjpctdhDtxwTmrRyxJehqsmNnZakPGT4/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Mixing together Madrid’s and Taiwan’s toolsets to improve participatory budgeting in New York City",
+  "ABSTRACT_EN": "The participatory democracy movement in the United States hasn’t swept into power via municipal elections like it did in Madrid, nor did it secure a foothold at the national level like it did in Taiwan. But what we do have is participatory budgeting programs in over a dozen US cities. \n\nParticipatory Budgeting (PB) enables residents of cities to directly decide how to spend part of a public budget. New York City’s PB program is the largest in the country, allocated over $40 million, which is about .05% of the city’s budget. It’s small but it’s something. \n\nBy mixing together elements of vTaiwan’s public consultation process, Madrid’s Consul citizen-participation app, our own transparency software, our team is building an more integrated open source toolset for New York City that we hope will bring Asia, Europe and America's participatory democracy communities into closer collaboration around our shared goal of developing more transparent and participatory governments.",
+  "TYPE": "talk",
+  "ID": "85",
+  "TRACK": [
+    "recCINykYUqyCQoZd"
+  ]
+},
+{
+  "id": "rec0ztQhg9drkVcry",
+  "TITLE": "公民科技發展中的法律環節：也說說 g0v 專案的法律故事",
+  "VENUE": "R1",
+  "START": "2018-10-06T03:40:00.000Z",
+  "END": "2018-10-06T04:00:00.000Z",
+  "ABSTRACT": "公民科技的發展中，法律規範的設計扮演了重要的地位，自由軟體運動、 CC 授權、政府資料開放授權、新的法規制定程序等，促成了公民科技的發展。而公民科技的發展又將反饋影響法律規範演變的方向。 g0v 數年來的專案中，遇到了許多從法律面必須思考與解決的問題，藉由歸納、整理、反思這些案例，我們可以更清楚地聚焦在公民科技中所需要關照的法律環節，並思考如何將公民科技的開放與社會參與的精神，實踐於這些法律環節中，促成法律規範朝向更友善公民科技的方向。",
+  "SPEAKER": [
+    "recaEPlfSKCXGhARi"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Legal issues amongst civic tech: legal stories of g0v projects (translated)",
+  "TYPE": "talk",
+  "ID": "127",
+  "TRACK": [
+    "recEbhwt9btwCiox0"
+  ]
+},
+{
+  "id": "rec9jdNPjk3C6BGs9",
+  "TITLE": "家己的辭典家己編：iTaigi 愛台語",
+  "VENUE": "R2",
+  "START": "2018-10-07T05:30:00.000Z",
+  "END": "2018-10-07T05:50:00.000Z",
+  "ABSTRACT": "在語言復振過程中，如果缺少一部大型的台語線上辭典，我們能不能自己編？「iTaigi愛台語」實踐全民參與、協作、開源、先承認你就是沒有人的精神，經過1年開發、2年營運，使用人次已超越87萬還會再更高！且來聽聽工程師、創意者與台語人，如何攜手合作、貢獻各自的專長，開發一個有趣又好用的查詢工具，搭配社群網站的教學與推廣，讓過去曾被汙名化的本土台語，重新走到時代尖端。",
+  "SPEAKER": [
+    "recRKavcd0VT0nLrW"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1GsaQjJy20-W9Mgc7ScQU6W11rWd4JwFZwH9ZBXJWmYQ/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "iTaigi: build our own dictionary (translated)",
+  "TYPE": "talk",
+  "ID": "38",
+  "TRACK": [
+    "recZbEtSarYiw38cz"
+  ]
+},
+{
+  "id": "recdCluNYYKimQiLS",
+  "TITLE": "違章工廠黑資料",
+  "VENUE": "R2",
+  "START": "2018-10-06T08:10:00.000Z",
+  "END": "2018-10-06T08:30:00.000Z",
+  "ABSTRACT": "資訊公開可以保護環境嗎？本次分享台灣環境資訊協會為維護農地健康，在推動相關污染及破壞資訊公開和應用的一些嘗試，從沒有任何公開資料，到最後中央及各縣市開會達成「不拒絕提供」的共識，從分析農地違章工廠的產業及汙染，進一步利用不同資料集推估違章工廠總量及成長趨勢，到行政院承諾做全面清查 ，種種以資訊作為倡議動能的過程進行回顧及反思。",
+  "SPEAKER": [
+    "reczAud3wnEkcUluT"
+  ],
+  "SLIDE": "http://bit.ly/2D3Jc85",
+  "SHOW": true,
+  "TITLE_EN": "Illegal factory and dark data (translated)",
+  "TYPE": "talk",
+  "ID": "114",
+  "TRACK": [
+    "recVdWKiWksC39L7X"
+  ]
+},
+{
+  "id": "reca3OervPkPDp4W8",
+  "TITLE": "社群長出展覽的可能性：以 g0v 在林茲電子藝術節的展覽為例",
+  "VENUE": "R3",
+  "START": "2018-10-06T05:50:00.000Z",
+  "END": "2018-10-06T06:10:00.000Z",
+  "ABSTRACT": "g0v 獲頒 2018 年「林茲電子藝術大獎」電子社群優異獎後，受邀前往林茲電子藝術節（Ars Electronica Festival）展覽，一個「沒有人」社群，要怎麼長出一個足以代表一個社群的作品？本次將分享從發起討論直到作品完成的過程，並將在 Summit 會場展示作品。",
+  "SPEAKER": [
+    "rec0QMNdkmTLx33se",
+    "recxtPmVAMyW2KKUK"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1L8sJ26DiInLLNnVSOgRfGlQCPr5YWbkihFl8PntqUZ0/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Grow an exhibition from the community: g0v at Ars Electronica Festival 2018 (translated)",
+  "ABSTRACT_EN": "g0v is awarded the “Prix Ars Electronica 2018 Digital Communities Award of Distinction” and invited to Ars Electronica Festival and the CyberArts Exhibition. How could a nobody’s community grow an exhibition that is capable of representing itself? This session will share the process from the initiation of the discussion through the completion of the exhibition. Work will be shown at the Summit.",
+  "TYPE": "talk",
+  "ID": "113",
+  "TRACK": [
+    "recLDDKkbDGVaGu7C"
+  ]
+},
+{
+  "id": "rec9GyqUkNeaN0n21",
+  "TITLE": "g0vhk.io 與香港的公民黑客【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-06T03:00:00.000Z",
+  "END": "2018-10-06T03:20:00.000Z",
+  "ABSTRACT": "本短講將介紹香港現有的公民科技社群及專案，包括 PopVote, Civic Data HK, g0vhk.io, collaction.hk and Open Culture Station。【譯】",
+  "SPEAKER": [
+    "rechVSn8f4piEwap2"
+  ],
+  "SLIDE": "http://slides.com/howawong/g0vhk_hongkong_civic_tech/",
+  "SHOW": true,
+  "TITLE_EN": "g0vhk.io and civic hacking in Hong Kong",
+  "ABSTRACT_EN": "A brief summary to existing civic tech community and project including PopVote, Civic Data HK, g0vhk.io, collaction.hk and Open Culture Station.",
+  "TYPE": "talk",
+  "ID": "136",
+  "TRACK": [
+    "recEbhwt9btwCiox0"
+  ]
+},
+{
+  "id": "recL6A9ldkzf03s84",
+  "TITLE": "g0v 公民科技創新獎助金 2018 成果發表會",
+  "VENUE": "ALL",
+  "START": "2018-10-06T09:00:00.000Z",
+  "END": "2018-10-06T09:30:00.000Z",
+  "ABSTRACT": "為鼓勵更多優秀人才投入公民科技領域、加速孵化更多成果，g0v 向國內外各大具社會影響力之媒體、科技產業、非政府組織募集「公民科技創新獎助金」，並從 g0v 零時政府揪松團設計一套參與、評選機制，來獎助具潛力且有助公共利益的專案，投入原型開發或維護營運。希望在黑客松的形式之外，促使更多公民科技專案成果能真正產生影響力，創造蝴蝶效應，並延伸出更多可能。2018 獲獎專案：班表小幫手、台灣路更平、無家者小幫手、智慧辨識花卉圖鑑、ChhoeTaigi 找台語、台電睦鄰金流大解析。",
+  "SPEAKER": [
+    "rechEurBlI2ln8cvs",
+    "recLcBKTDWdZ5n4xp"
+  ],
+  "SLIDE": "https://drive.google.com/drive/folders/12VIB9P08whWbb_ZcJl64Ckexs99OQemo?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "g0v Civic Tech Prototype Grant 2018 final presentation",
+  "ABSTRACT_EN": "In order to encourage more talented individuals and teams to join the civic tech community and to accelerate the incubation phase of projects, g0v has raised funds from influential media groups, IT firms, and NGOs to create the \"g0v Civic Tech Prototype Grant.\" Based on a participation and public appraisal system, g0v's Jothon Project Team awards the grant to projects that have great potential and communal benefit. We hope that through civic tech hackathons, we can compel more projects to produce influence, create a butterfly effect, and extend out more possibilities. The winning projects of 2018: Labor Helper, flataiwan, Homeless Helper, AiR, ChhoeTaigi, Opentaipower.",
+  "TYPE": "talk"
+},
+{
+  "id": "recovSgrDUaLle3CD",
+  "TITLE": "從資料到行政：台北市公有資產資料活用接力",
+  "VENUE": "R0",
+  "START": "2018-10-07T05:30:00.000Z",
+  "END": "2018-10-07T05:50:00.000Z",
+  "ABSTRACT": "本次短講圍繞在臺北市公有資產資料與各方衍生行動，將依序說明民間社群建構資料揭漏與視覺化的公有空地地圖，接著將介紹臺北市政府與社群合作建置公有低度利用資產平臺的歷程，最後，將並陳公部門、民間社群、議題觀察者等關係人的看法，嘗試提出再進一步的議題協力機制。",
+  "SPEAKER": [
+    "rec0yvNWwvUecnquS",
+    "rec16ERguhm7yTTHr"
+  ],
+  "SLIDE": "https://drive.google.com/open?id=1E1tTa03SCo9H1xNleB84NvqBQEQd-7ib, https://drive.google.com/open?id=1E1tTa03SCo9H1xNleB84NvqBQEQd-7ib",
+  "SHOW": true,
+  "TITLE_EN": "From data to decision: making good use of public assets in Taipei City",
+  "TYPE": "talk",
+  "ID": "43",
+  "TRACK": [
+    "recD8vMkVUYOiutPp"
+  ]
+},
+{
+  "id": "recy9mlCDrx2rE63H",
+  "TITLE": "審視奈及利亞「追金流」中科技的角色【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-06T03:20:00.000Z",
+  "END": "2018-10-06T03:40:00.000Z",
+  "ABSTRACT": "這個短講分享我對「追金流」（Follow The Money）專案的研究，特別是科技在它的運作中扮演的角色與發揮的影響力。我將探討科技如何促進公民在線上即時地監督政府，並進一步使得政府開放支出資料。我試圖回答以下問題：(1)「追金流」的發展過程為何？它使用什麼方法來促進公民社群監督政府？(2) 科技工具在「追金流」扮演的角色為何？科技工具帶來的影響力與限制又是什麼？(3) 「追金流」面臨的挑戰是什麼？在它的發展中，又學習到什麼經驗？【譯】",
+  "SPEAKER": [
+    "rec0TKRSNGB54Un4A"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1vQ4zi33U70j9slS_quQ1JkY2KM-9tyjnfERWFTCgK9U/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Examining the role of technology in the operations of Follow The Money Nigeria",
+  "ABSTRACT_EN": "Corruption, contracted transparency and poor social accountability are likely governance challenges one might find in every developing country. These phenomena are more preponderate in Sub-Saharan Africa where weak institutions cannot implement the required checks and balances necessary for effective democratic and accountable governance. As such, Connected Development through its initiative, Follow The Money (FTM), since 2012, has been at the frontline of technology driven initiatives that seek to address these aforementioned governance challenges in Nigeria (and now in other African countries). The initiative tracks government spending in rural communities for open government, service delivery and poverty reduction. More interesting is the use of technology in the operations of FTM. The initiative launched ifollowthemoney.org platform to broaden impact, decentralize its operations, mobilize citizens to follow the money themselves and exchange knowledge on FTM activities. This open source platform has recorded mass followership in just a year, with an estimate of 1400 journalists, community champions, activists, and data enthusiasts etc. In addition, the initiative has used other technology tools such as radio through FTM radio series, social media, mobile phones etc. in the course of its work. \n\nThis research is a critical examination of the operations and methodologies of Follow The Money, outstandingly the role and impact of technology in its strategy. It investigates how these technologies have inspired citizens to perform virtual and real time public oversight and have facilitated public spending data access/exchange. As such, the research tries to answer the following questions: 1). How has Follow The Money evolved and what specific methodologies and approaches does it use in mobilizing communities to hold their governments to account?, 2). In what ways has Follow The Money used technology in the course of its work, what are the outcomes of such and what limitations have such tools encountered?, 3). What are the challenges being faced by the initiative and what lessons has it learnt?",
+  "TYPE": "talk",
+  "ID": "77",
+  "TRACK": [
+    "recCINykYUqyCQoZd"
+  ]
+},
+{
+  "id": "recV5q7m9Z6FsRaOJ",
+  "TITLE": "藉由區塊鏈降低環境感測器維護成本並創造經濟誘因",
+  "VENUE": "R2",
+  "START": "2018-10-07T06:10:00.000Z",
+  "END": "2018-10-07T06:30:00.000Z",
+  "ABSTRACT": "LASS（環境感測器網路系統）在台灣部署超過三千台感測器，並提供可觀的數據量作多種分析，但資料處理本質上採中心化架構，勢必承受日漸增長的管理成本，更嚴苛的是信任基礎，一旦規模持續攀升，該如何確保資料不受竄改呢？於是成功大學的團隊著手和 LASS 專案合作，提出透過區塊鏈分攤資料處理的成本，同時引入數據市集和對應加密貨幣導向的買賣通訊協定，嘗試建立經濟誘因，讓感測器資料貢獻者不再僅是無償參與，未來或許得以永續經營。",
+  "SPEAKER": [
+    "recDt3F3yIReLZiFC"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Environmental sensors and blockchain for reducing cost and creating incentives (translated)",
+  "TYPE": "talk",
+  "ID": "137",
+  "TRACK": [
+    "recZbEtSarYiw38cz"
+  ]
+},
+{
+  "id": "recgECkOc9M8DWlkx",
+  "TITLE": "全國文化會議的數位參與",
+  "VENUE": "R3",
+  "START": "2018-10-07T06:10:00.000Z",
+  "END": "2018-10-07T06:30:00.000Z",
+  "ABSTRACT": "文化部睽違十五年舉辦全國文化會議，全國文化會議是一串由十二場的分區論壇、一場充滿便條紙的青年文化論壇、三場官方主導的離島論壇與三場主題論壇（文化資產、文化科技、新住民文化），長達一年的政策參與活動。數位參與能否有效「提高參與」，包括：深化議題理解、廣化參與階層。科技是否能協助形成「由下而上」的文化政策？科技能針對參與者提供什麼實質影響？又或者無法改變什麼？由執行團隊執行長古淑薰、專案經理柯惠晴與數位總監蔡淳任三人的展示說明，分享與文化部溝通規劃與執行的經驗，思考公民參與政策機制的問題。",
+  "SPEAKER": [
+    "recuZeZzSMseFu8qc",
+    "reciJNxqBVuM3rizq",
+    "recw0dp1q0utTdExr"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1cNrDJ8NJtDXfJlwLkGIaCzS3SNC2-gVq/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Digital participation at National Cultural Congress (translated)",
+  "ABSTRACT_EN": "In 2017, Ministry of Culture held National Cultural Congress. It hopes to re-examine and enrich the government's cultural policy white paper through the conference. During the one-year conference, the executive team hopes to increase public participation through digital technology and tools. But what was the result of the participation? Was it effective? Was everyone participated? What was the role of digital technology?",
+  "TYPE": "talk",
+  "ID": "118",
+  "TRACK": [
+    "recLuniMMZLShPSI9"
+  ]
+},
+{
+  "id": "recx9m7zD5cizD0f0",
+  "TITLE": "生活中的民主：Parti 在南韓的民主生活與文化實驗【譯】",
+  "VENUE": "R3",
+  "START": "2018-10-06T03:20:00.000Z",
+  "END": "2018-10-06T03:40:00.000Z",
+  "ABSTRACT": "我的講題將關注行動主義與動員，如何擴大線上/線下的公民空間，並且促進政府與公民社會的協作。【譯】",
+  "SPEAKER": [
+    "recIbn1v0V4skUfiR"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Democracy in our lives: Parti’s experiments for democratic life and culture in South Korea",
+  "ABSTRACT_EN": "I’d like to talk about ‘Activism and mobilization: enlarging on/offline civic spaces (public sphere) and collaboration between government and civil society’.",
+  "TYPE": "talk",
+  "ID": "30",
+  "TRACK": [
+    "recYqTiyvQnIIoMIV"
+  ]
+},
+{
+  "id": "recPnw0axDD0UJFyd",
+  "TITLE": "為更好的公共服務及創新一起來協作資料【譯】",
+  "VENUE": "R0",
+  "START": "2018-10-07T06:10:00.000Z",
+  "END": "2018-10-07T06:30:00.000Z",
+  "ABSTRACT": "延續開放資料研究院（ODI）第一年的創新計畫，這場短講將檢視這個計畫以及開放科技的歷史，探尋開放資料的未來。我們的觀點是：相較於區塊鏈的零和模型，git 和開源社群的協作開發、維護模型才是資料治理的未來。【譯】",
+  "SPEAKER": [
+    "rec3AtjRbmRKWMt59"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1IrP8SWdvUEPRxb8aePTPsY71xcEwPxREWJl2tTP2Cag/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Data collaboration for better public services and innovation",
+  "ABSTRACT_EN": "Building on the first year of the Open Data Institute’s data innovation programme, this talk will explore and challenge this model to look at the history of open technology for clues to where the future of open data lies. We will make the case for why git and the open source community - with its collaborative models for development and maintenance - rather than the zero-sum vision of blockchains, is the blueprint for data governance we ought to strive for.",
+  "TYPE": "talk",
+  "ID": "67",
+  "TRACK": [
+    "recD8vMkVUYOiutPp"
+  ]
+},
+{
+  "id": "rechthnWM1ve77Qlv",
+  "TITLE": "文化衝撞？公民科技與政府補助【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-06T03:20:00.000Z",
+  "END": "2018-10-06T03:40:00.000Z",
+  "ABSTRACT": "本短講內容來自 Prototype Fund 第一期獎助的成果報告。我們將評估 Prototype Fund 的成效，並且呈現受補助專案產出的成果。我們希望探討：公民科技獎助金如何影響專案？除了獎金，我們還可以做什麼來讓公民科技專案有更長遠的發展？【譯】",
+  "SPEAKER": [
+    "rec6EFRadMtTt5igT"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Culture clash? Civic tech and public funding",
+  "ABSTRACT_EN": "Our talk will be based on the freshly-baked report about our first funding round which comprises not only an evaluation of the Prototype Fund and its impact, but also an outcome harvesting of the funded projects: How does funding impact their work, and what else needs to be done to support civic tech projects in the long term?",
+  "TYPE": "talk",
+  "ID": "71",
+  "TRACK": [
+    "recEbhwt9btwCiox0"
+  ]
+},
+{
+  "id": "recuWfRYVLT01dE1I",
+  "TITLE": "社群支持型友善糧食生產系統",
+  "VENUE": "R2",
+  "START": "2018-10-07T05:50:00.000Z",
+  "END": "2018-10-07T06:10:00.000Z",
+  "ABSTRACT": "環境保護需要全民共識，友善糧食生產來自公平貿易之支持。如何運用公民科學及公民科技導入，提供友善糧食生產輔助，並建構更透明之產銷連結。",
+  "SPEAKER": [
+    "recK0cFa3s8GoKxIu"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1_TQOpIiagvkNemYvvwakzbXdAQGs5IGFzVg2Q4EwrEs/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Community-supported food production system (translated)",
+  "TYPE": "talk",
+  "ID": "110",
+  "TRACK": [
+    "recZbEtSarYiw38cz"
+  ]
+},
+{
+  "id": "recE0Pho2zeWzRKUY",
+  "TITLE": "公民科技不可妥協的核心價值【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-06T06:10:00.000Z",
+  "END": "2018-10-06T06:30:00.000Z",
+  "ABSTRACT": "近幾年，公民科技社群裡爭論不斷。究竟公民科技是一個成長中的運動，或僅僅是一個轉瞬即逝的潮流？我們的目標是挑動權力階級，反轉與政府的關係？或是當政府採用了開源工具、做出更有效率政府網頁，就感到心滿意足？當下，這個問題邁入了新的階段，在公民科技社群漸漸擴大我們的影響力的同時，政府的領導人同時劇烈轉變，我們已在價值抉擇的十字路口，究竟我們要為什麼而戰，又要抗爭什麼？【譯】",
+  "SPEAKER": [
+    "recn99WRNQrcv5xL8"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Civic tech takes a stand",
+  "ABSTRACT_EN": "For years, a debate has simmered in civic tech. Are we a small but growing movement, or a trend? Are we here to shift real power and re-define our relationship with government? Or do we accept undeniable but inherently limited victories like open source adoption and fast, responsive government websites? This question is being forced anew, as the civic tech community's success gaining influence within the governments we seek to improve has coincided with abrupt shifts in leadership at the top of the very same governments. We may find that we do have to choose which values we stand for, and that we don't all agree.",
+  "TYPE": "talk",
+  "ID": "147",
+  "TRACK": [
+    "recLU0Bc3DZvNsJQr"
+  ]
+},
+{
+  "id": "recSeGAjpaZm9OSmg",
+  "TITLE": "民主實驗：「死刑替代方案公民審議」",
+  "VENUE": "R3",
+  "START": "2018-10-07T05:50:00.000Z",
+  "END": "2018-10-07T06:10:00.000Z",
+  "ABSTRACT": "在臺灣，死刑是一個非常難被討論的議題。首先，民調指出約有八成左右的民眾支持死刑，民意相當的懸殊；其次，死刑也是討論時會變得非常「極化」的議題，無論支持者或反對者都顯現出強烈的意見認同。每當重大刑案發生，死刑議題就變得更加難被冷靜的看待。然而，民間團體「廢除死刑推動聯盟」還是決定跨出一步，不再辯論「廢死與否」，而是設定「死刑替代方案」作為審議的主題，走遍全台灣各縣市，也舉辦了特殊關係人的場次。",
+  "SPEAKER": [
+    "recuiPDrKMeiAhWpt"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/17mpcyfqQGV4G2OE4olaTCqXkcH8FMPgt/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Civic deliberation on alternatives to death panelty: an experiment on democracy (translated)",
+  "TYPE": "talk",
+  "ID": "62",
+  "TRACK": [
+    "recLuniMMZLShPSI9"
+  ]
+},
+{
+  "id": "recIxC0oyWvqiDfwF",
+  "TITLE": "個案觀察：把政府官員和企業拉進公民科技運動【譯】",
+  "VENUE": "R0",
+  "START": "2018-10-07T05:50:00.000Z",
+  "END": "2018-10-07T06:10:00.000Z",
+  "ABSTRACT": "從日本 Code for Japan 來的 Hal 將與聽眾分享兩個獨特的專案。（一）去年，我們讓十八位私人企業員工，從各自的辦公室到十二個地方政府當兼職公務員。公民社群缺乏資源？讓企業支持。（二）資料學院：一系列為公務員設計的工作坊，提高地方政府的資料利用程度。【譯】",
+  "SPEAKER": [
+    "rec0n0z8TeiOz7gGE"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Case studies: involving government officials and companies to civic tech movement",
+  "ABSTRACT_EN": "In this session, Hal from Code for Japan will explain details of two unique projects for corporations and governments. One is a kind of fellowship program but we asks companies to send their employees for serving local governments as a part-time government officials. We sent 18 fellows to 12 local governments last year. Involving companies is good way to support a lack of resources of citizen communities. Second is Data Academy, a series of workshop for improving data utilization of the local government officials. We have been running the workshops for the government officials.",
+  "TYPE": "talk",
+  "ID": "111",
+  "TRACK": [
+    "recD8vMkVUYOiutPp"
+  ]
+},
+{
+  "id": "recahxnefdMG7walN",
+  "TITLE": "開發中的東南亞：把開放資料帶進社區【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-07T05:30:00.000Z",
+  "END": "2018-10-07T05:50:00.000Z",
+  "ABSTRACT": "開放發展柬埔寨（ODC）自各方匯集難以取得的資料，整理後釋出。任何人都能安全地存取這些客觀、政治中立的資料，讓公民能做出知情的選擇。資料的範疇涵蓋社會、環境、公共服務以及經濟，使用者可以與網站上的數位地圖互動，過濾資料圖層，得到他們需要的資料。ODC 已經成為柬埔寨公民科技生態系中的重要資源，同時也是其他開發中國家與公民共享知識的參考模型。【譯】",
+  "SPEAKER": [
+    "recHdyept2G9q1eNx"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Bringing open data to the community in developing Southeast Asia",
+  "ABSTRACT_EN": "Open Development Cambodia (ODC) collates and publishes data from a wide range of sources that was previously difficult to find. It makes objective, politically-neutral information accessible to everyone on a secure online platform to help citizens make informed decisions. The information on the ODC site covers a wide area, from social and environmental issues to public services and economic matters. A lot of the data is interactive - with ODC’s digital maps users can switch different layers on and off to get exactly the data they want. ODC has grown to become an important resource in Cambodia’s civic tech ecosystem. It is a great model for other developing countries to consider as a way of sharing knowledge to all citizens.",
+  "TYPE": "talk",
+  "ID": "46",
+  "TRACK": [
+    "recTasyLGUwI4hwXh"
+  ]
+},
+{
+  "id": "recNcKUguXjz2XMrh",
+  "TITLE": "不只是程式：黑客行動主義對當代新聞的影響【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-06T06:10:00.000Z",
+  "END": "2018-10-06T06:30:00.000Z",
+  "ABSTRACT": "在新聞製作的領域中，我們已經談了很久記者與工程師如何串連：記者作為收集真相者 （hacks）、程式設計師作為工具創造者（the hackers），以及各種在這兩者間的混合體。在這場短講中，我們將進一步問，新聞與公民科技的交集是什麼？長久以來，這兩個領域並沒有交集，但我們相信「解困新聞學」（Solutions Journalism）是一個連結這兩個領域的關鍵。【譯】",
+  "SPEAKER": [
+    "recpV3eneiwuftznn"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Beyond the code: how hacktivism affects modern journalism?",
+  "ABSTRACT_EN": "On the production side we have been talking about the emergence of journo-coders: journalists (the hacks), developers (the hackers), and all sorts of geeky permutations in between. During the talk we want to investigate the intersection of journalism and civic tech. Two fields which for a long time didn’t go together, but we believe that solutions journalism is a key approach of connecting those two.",
+  "TYPE": "talk",
+  "ID": "65",
+  "TRACK": [
+    "recdJzJ5CGC07dW7C"
+  ]
+},
+{
+  "id": "recmaOTZSPJqDZRBr",
+  "TITLE": "「印尼解密」幕後觀點【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-06T05:50:00.000Z",
+  "END": "2018-10-06T06:10:00.000Z",
+  "ABSTRACT": "在全世界，揭密者支援組織有很多型態。有的提供揭密者中立的資訊與協助，例如英國的 Public Concern at Work 和荷蘭的 House for Whistleblowers；有的提供安全的通訊方式讓揭祕者可以與調查記者聯絡，例如荷蘭的 Publeaks、奈及利亞的 Leaks.ng、印尼的 Indonesialeaks。這場短講將討論這些平台為什麼會成功，並且思考安全的揭密者平台需要考慮到哪些細節。【譯】",
+  "SPEAKER": [
+    "recelnCDwt3n7oglC"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/10KK39aq--O2PrQSgVTy22NWGrULAXofa/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Behind-the-scenes at Indonesialeaks",
+  "ABSTRACT_EN": "In December 2017, ten media and five civil society organisations in Indonesia joint forces with PPMN (ppmn.or.id), AJI (aji.or.id), Jaring (jaring.id) and Free Press Unlimited (www.freepressunlimited.org) to launch IndonesiaLeaks. This platform safely connects journalistic sources with the most renowned investigative beats in Indonesia. The aim is to bring sensitive information that it in the public interest - about graft, corruption and misappropriation of funds in government and industry - to the attention of audiences, all while ensuring the safety of whistleblowers.\n\nWhistleblower initiatives come in many shapes and sizes. Some - such as Public Concern at Work in the United Kingdom and House for Whistleblowers in the Netherlands - aim to provide independent information and support for (prospective) whistleblowers, while others - Publeaks in the Netherlands, Leaks.ng in Nigeria and Indonesialeaks in Indonesia - provide secure communication channels to connect prospective sources to investigative journalists. Join us for a discussion on what makes these platforms successful and which consideration go into developing a secure whistleblower platform.",
+  "TYPE": "talk",
+  "ID": "68",
+  "TRACK": [
+    "recdJzJ5CGC07dW7C"
+  ]
+},
+{
+  "id": "reczl2K3xKx5g3OJ8",
+  "TITLE": "AsiaMRL：控制蔬菜水果中的化學殘留【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-07T05:50:00.000Z",
+  "END": "2018-10-07T06:10:00.000Z",
+  "ABSTRACT": "Asia MRL 讓亞洲國家（例如台灣、泰國、韓國、日本）的人們可以查詢該國所允許食物中「化學殘留容許值」（Maximum Chemical Residues, MRL）。由於各國設定的「化學殘留容許值」不同，常常造成蔬果的進出口的問題。舉例來說，在 2017 年 7 月，一批從台灣運往韓國的芒果，因為兩項化學殘留值高於韓國最新制定的容許值，使得該批芒果被退回。\n\nAsia MRL 利用臉書機器人來運作。在登入臉書後，使用者可以將想查詢的蔬果的英文名稱私訊給 Asia MRL 的臉書，Asia MRL 將會回覆四個國家的容許值（以 ppm 為單位），不能有任何殘留值驗出的化學成份，會以「-1」的數值呈現。如果使用者傳某個化學物質的英文名稱給 Asia MRL，它會列出台灣哪些農藥或殺蟲劑含有該化學物質。如果使用者傳蔬果的中文名稱給 Asia MRL，它會回覆這個蔬果常見的疾病，以及這項蔬果在過去進出口時，曾有過化學殘留超標的紀錄（來自台灣政府的資料）。【譯】",
+  "SPEAKER": [
+    "recg1WmKjklSE4dgw",
+    "recUlWXN9PmKgu34h"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "AsiaMRL: Controlling the chemical residues in fruits and vegetables",
+  "ABSTRACT_EN": "“Asia MRL” is a platform which allows users to search the amounts of Maximum Chemical Residues (MRL) allowed for Asian countries (e.g. Taiwan, Thailand, Korea, and Japan). The different MRL standards of different countries have caused a lot of issues for exporters and importers of fruits and vegetables. For examples, during July 2017, a batch of Mango exported from Taiwan to Korea was rejected at Korea because two chemicals have exceeded the most recent Korean MRL standards.\n\nBy login into Facebook, and give the fruit/vegetable name (English) to the FB messenger, the platform will provide the users a short or a complete list of all the MRL of chemicals for the fruit/vegetable in the four countries. The unit is ppm. Chemicals which are not allowed will be indicated as \"-1\". If the user give the FB messenger a chemical name (English), the FB messenger will respond with a list of all the herbicides or pesticides sold in Taiwan which contain the chemical. If the user give the FB messenger a fruit/vegetable name in Chinese, the FB messenger will respond with common diseases associated with the plant, and a record (from Taiwanese government) of previous events when excess chemical residues were found during importing or exporting of the fruit/vegetable.",
+  "TYPE": "talk",
+  "ID": "50",
+  "TRACK": [
+    "recTasyLGUwI4hwXh"
+  ]
+},
+{
+  "id": "recaZvROyDGb0EiWg",
+  "TITLE": "從田間到食譜的鏈結農產品產銷履歷資料",
+  "VENUE": "R3",
+  "START": "2018-10-06T08:10:00.000Z",
+  "END": "2018-10-06T08:30:00.000Z",
+  "ABSTRACT": "建立鏈結資料的目的在於提供一個更完善的資料基礎設施，以便讓資料在不同知識領域的服務系統或資料庫中的流動，減少人為處理，增加跨部門的協同合作機會，進一步地，一個語意化的資料基礎設施可以疏理出更多知識脈絡，進而找出資料趨動的治理策略。本短講將分享處理農委會產銷履歷開放資料的經驗，介紹這個專案工作如何清理資料，結構化產銷履歷資料中的產地、商店、餐廳、價格，從資料中推導出知識本體，以將產銷履歷資料轉換為 RDF，並鏈結衛福部食品業者登錄、經濟部工商登記資料、以及日本作物產地。我們以食譜網站做為鏈結產銷履歷資料的示範案例，展示出如何從食譜中的食材自動地顯示該食材的價格，推薦該食材的產銷履歷農產品要去那裡買? 那家餐廳吃到使用該食材的產銷履歷農產品的料理。",
+  "SPEAKER": [
+    "recWpEskTXG8rJPzd"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/16sihuUivrqKwPUdLee-zqrWoeQuUxy4j/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Agriculture product tracibility data: farm to recipes (translated)",
+  "ABSTRACT_EN": "The development of linked data aims to build a well-structured data infrastructure for making data across different information systems and reducing humans work. With having a well-structured data infrastructure, linked data provides machine-readable knowledge of domain discourses. Such knowledge facilitates collaborations among government agencies, and helps them to figure out data-driven governances. This talk is going to share an experience dealing with Traceable Agriculture Product (TAP) data. To interlink entities in TAP data, our data processing extracts crop names, store names, restaurant names. To clarify the semantics of the entities, an TAP ontology is developed. Also, the crop names and agriculture activities of TAP are mapped to the Japanese common vocabularies of crop and agriculture activity. To demonstrate the reuse of the linked TAP, we develop a Chrome extension, LinkedFood, for a recipe website. A user can easily browse the information of store, restaurants, location of agriculture products via the ingredients of the recipes.   ",
+  "TYPE": "talk",
+  "ID": "104",
+  "TRACK": [
+    "recrYIbDBYQxNdnaQ"
+  ]
+},
+{
+  "id": "recpf4XicDjNb83Yj",
+  "TITLE": "以開源與 Fedora 達成社群目標【譯】",
+  "VENUE": "R3",
+  "START": "2018-10-06T06:10:00.000Z",
+  "END": "2018-10-06T06:30:00.000Z",
+  "ABSTRACT": "在過去幾年，海外藏人已被惡名昭彰的間諜網絡 GhostNet 設為主要攻擊目標。面對惡意攻擊，藏人們利用開源工具與 Fedora 線上社群來進行自我保護。\n\nGhostNet 是目前已知規模最大的電子間諜網絡，這場短講將以 GhostNet 的攻擊此為例，說明人們可以怎麼運用開源工具來保障數位安全、降低攻擊、並凝聚社群力量。這個短講邀請大家來更加認識藏人社群，並且瞭解他們如何在日常生活中運用開源軟體來自我保護。不同於商業軟體，開源的數位安全工具提供了海外藏人零歧視的協助。【譯】",
+  "SPEAKER": [
+    "recllab2Ompnjts23"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Achieving community goals with open-source and Fedora",
+  "ABSTRACT_EN": "The Tibetan community is one of the most targeted areas and has been the focal point of brazen computer spying network called GhostNet in the past years. It has safeguarded itself with help of open source tools and the fedora community.\n\nWith examples from GhostNet, one of the biggest cyber spying network discovered yet in the world, this session gives an introductions to people how they can use Open Source to improve their security-controls, mitigate attacks and build a community to use the power of open source communities. This sessions is an invitation to all who want to learn about the tibetan community and how they can use and integrate open source into their daily life and organizations to meet their needs.\n\nOpen Source Security Test Tools and Methods are essential to provide protection and resilience unbiased from the commercial agenda’s of the security solution industry.",
+  "TYPE": "talk",
+  "ID": "58",
+  "TRACK": [
+    "recLDDKkbDGVaGu7C"
+  ]
+},
+{
+  "id": "recaLqkd543k9UGBH",
+  "TITLE": "一個國家與她失落的寶藏【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-07T06:10:00.000Z",
+  "END": "2018-10-07T06:30:00.000Z",
+  "ABSTRACT": "《國家寶藏》這個公民科技專案已經在台灣的歷史研究社群中引起廣泛討論。在一個以歷史檔案、官方文件為主的研究領域，《國家寶藏》帶入了開放資料的概念。這個專案做了什麼？未來又將如何發展？【譯】",
+  "SPEAKER": [
+    "recLFCTqZQIEPiyAw"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "A nation and her lost treasures",
+  "ABSTRACT_EN": "A civic tech project - National Treasure - is creating ripples through the history research community in Taiwan. They bring the concept of open data to the world of historical archives of governmental documents. In this talk, we will explore the effects of this project in the year since its launch and discuss what lies ahead.",
+  "TYPE": "talk",
+  "ID": "1",
+  "TRACK": [
+    "recTasyLGUwI4hwXh"
+  ]
+},
+{
+  "id": "recOgBGMx8wUyB0km",
+  "TITLE": "社群參政",
+  "VENUE": "R0",
+  "START": "2018-10-06T07:30:00.000Z",
+  "END": "2018-10-06T09:00:00.000Z",
+  "SPEAKER": [
+    "recsWDW4lWTWo0rGU",
+    "recbBOxy3jaIK3cyb",
+    "reczHxpFAHf1zQBNE",
+    "rec2oDPPgckNj6lZ5",
+    "recHf9MwpRt1PnPrS"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1FrDc6ibCmOt5pR-MphNLCDvS4rLlyjG0WQbd4fxIqHM/edit#slide=id.g42d8b1a668_0_0",
+  "SHOW": true,
+  "TITLE_EN": "When nobody becomes somebody",
+  "TYPE": "panel",
+  "ID": "rt3",
+  "TRACK": [
+    "recjd9vncGMrDPuhR"
+  ]
+},
+{
+  "id": "recLLsXbJtwdxLeTc",
+  "TITLE": "科技業工人組織起來【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-05T05:30:00.000Z",
+  "END": "2018-10-05T07:00:00.000Z",
+  "ABSTRACT": "這個討論會希望能聽見在科技業內組織的勞工聲音，檢視在在地、由下而上的組織力量如何能集體面對無法監管的矽谷科技公司。更有力量的科技業工人能達成什麼？除了目前的生產方式，有沒有另類的組織，能在支持科技發展的同時，讓勞工更有力量？【譯】",
+  "SPEAKER": [
+    "recKdOszZh2WYVYsl",
+    "recAYj0HnT0aCJtT3",
+    "rec8iFD4IwvAYxqgg",
+    "reckEJPg5qSc5a1ks"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/163E8W_67LDFK-ggm5pso1OG-B2Uq9mgi/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Towards an organized tech sector",
+  "ABSTRACT_EN": "On this panel we will hear from tech workers who have been involved in recent organizing efforts in the tech industry. We will also reflect on the importance of organizing in Silicon Valley—specifically, how power from below could address concerns associated with unaccountable technology companies. We will also focus on the vision of what could be accomplished with more worker power in the industry, in terms of alternatives to how technological development is currently funded and organized, and how current struggles come together.",
+  "TYPE": "panel",
+  "ID": "148"
+},
+{
+  "id": "recUMBNd795av7xms",
+  "TITLE": "公私協力：資料驅動與新世代農業管理 / 智慧城市跨界資料協作-計程車營運資料為例",
+  "VENUE": "R1",
+  "START": "2018-10-05T01:30:00.000Z",
+  "END": "2018-10-05T03:00:00.000Z",
+  "ABSTRACT": "【公私協力：資料驅動與新世代農業管理】台灣地狹人稠、小農眾多，農民卻在資訊流通整合方面有很大限制，造成資訊與知識不易積累．同樣問題也反映在政府管理與政策推動上，近年來熱門議題如產銷、食安問題，乃至於禽流感防治等．該如何借助台灣軟硬體的成熟技術，讓政府與私人企業之間能互相截長補短，合作創造新世代科技農業，提升產業競爭力．\n\n\n\n【智慧城市跨界資料協作-計程車營運資料為例】這個案例最與眾不同的地方是，資料不再只是來自於政府單位，我們是透過三方合作（包含了：高雄市政府、數據分析公司、多家計程車車隊），在不侵犯個資的前提下，採集了高雄市計程車營業行為，進而分析出最賺錢的司機們是如何進行他們每天的營運活動與策略，從中我們也歸納出高雄計程車的藍海網路，提升每位司機在不同時間空間的跑車習慣下，應該怎麼做才能賺到更多的錢。",
+  "SPEAKER": [
+    "recL6pbOVT1iZDzFz",
+    "recAKH0iqDXkkSGYO"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Smart and data-driven agriculture / Data collaboration in smart city in the case of taxi service (translated)",
+  "ABSTRACT_EN": "(Smart and data-driven agriculture)\n\n(Data collaboration in smart city in the case of taxi service) The most unique point about this case is that the data source is not just limited to the government, but from the tripartite partnership among Kaohsiung City Government, a data science company and taxi fleet companies. Without violating the personal privacy, we collected the data of taxi service in Kaohsiung City, and then analyzed how the most profitable drivers carried out their daily activities in operation and strategies.\n\nBased on this, we summed up the Blue Ocean Network for Kaohsiung taxi service which guides how to enhance each taxi driver’s profitability under various routing behavior in time and space.",
+  "TYPE": "panel"
+},
+{
+  "id": "recEQLdDq2Sg9uRLa",
+  "TITLE": "開放政府聯絡人制度的挑戰與展望",
+  "VENUE": "R0",
+  "START": "2018-10-05T01:30:00.000Z",
+  "END": "2018-10-05T03:00:00.000Z",
+  "SPEAKER": [
+    "rec6sMP9TwkIQYfEk",
+    "recZuck1FGh5wUtli",
+    "recc0wWf8wLD5q6r5"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/10u0WwADkXcGLImzh0RTvFfmq8yj4RKfEGsWKrJvRQAY/edit#slide=id.p",
+  "SHOW": true,
+  "TITLE_EN": "Participation Officers Network: challenges and visions (translated)",
+  "ABSTRACT_EN": "We would like to share our practice in relating to the ‘Participation Officers Network’ (開放政府聯絡人) and a few case studies from multi-stakeholder collaborative meetings (協作會議). This will be followed by a panel discussion featuring Billy, Fang-Jui, and Mark. People at PDIS usually debate with each other on different values, mindset, and issues. We consider it deeply important to share our group dynamic and ways of working with more people in a panel discussion set-up. We also would like to invite participants to join our debate.\n\nParticipation officers network in Taiwanese government conduct collaborative meetings that engage diverse stakeholders to identify and define core problems, generate meaningful challenge statements, and co-create possible solutions to real issues and public projects. This process helps strengthen the quality of stakeholder collaborations and better inform our public policies. We believe that multi-stakeholder governance processes can reinforce the trust between citizens and the government.\n\nThe PO Network serves to drive cultural change; it plays a key role in Taiwan’s Open Government scene. POs are deeply involved in the conversation with civil society and governmental divisions, by tackling cross-ministerial issues with wider stakeholders openly and creatively. PO Network is a network of around 70 civil servants in the central government.",
+  "TYPE": "panel",
+  "ID": "125"
+},
+{
+  "id": "recLfBAHIGGQTN3sU",
+  "TITLE": "你的明白不是我的明白",
+  "VENUE": "R0",
+  "START": "2018-10-06T03:00:00.000Z",
+  "END": "2018-10-06T04:30:00.000Z",
+  "ABSTRACT": "面對公共議題，有哪些媒體、工具、平台能協助公眾理解、討論，進而參與決策？《你的明白不是我的明白》串連公民媒體沃草、議題釐清工具 sense.tw、數位經濟法規線上諮詢平台 vTaiwan 及公共數位創新空間 PDIS，嘗試將公眾參與政治分出階段，分享各自在「知情」、「討論」、「政策形成」的挫折與學習，產生對話與連結。",
+  "SPEAKER": [
+    "recmpDfMgvlwTRAJ3",
+    "recZuck1FGh5wUtli",
+    "rec1SFvUpwBhHKA1O",
+    "recUiBQpIFUZZGKtt",
+    "rec0QMNdkmTLx33se"
+  ],
+  "SLIDE": "https://docs.google.com/document/d/1XbEvUSpPYke3nTqK52ETvcxdjfm5nn07a-8v56JRtVM/edit",
+  "SHOW": true,
+  "TITLE_EN": "On informed discussion",
+  "ABSTRACT_EN": "What are the media, tools, and platform that facilitate understanding, discussion, and participation of public decision-making? “On informed discussion” connects Watchout, sense.tw, vTaiwan, and PDIS, and proposes a staged model of public participation from inform, discuss, to policy-making while sharing their frustrations and learning. (translated)",
+  "TYPE": "panel",
+  "ID": "rt1",
+  "TRACK": [
+    "rech4bvhyHwtol6T5"
+  ]
+},
+{
+  "id": "recUUA6c9d2ZXVoPX",
+  "TITLE": "不信任與科技：科技能否重啟對話？",
+  "VENUE": "R3",
+  "START": "2018-10-07T03:00:00.000Z",
+  "END": "2018-10-07T04:30:00.000Z",
+  "SPEAKER": [
+    "recxnfOAiqjIeUZbO",
+    "recOKYQeJPJAEByzp",
+    "recZ6s3SN0vHU2oEa",
+    "recyqKKn7MvOB4Yd0"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Mistrust & tech: can tech re-open dialogues?",
+  "TYPE": "panel"
+},
+{
+  "id": "recst4GJ61s2kNAVL",
+  "TITLE": "推動國家數位轉型的想像",
+  "VENUE": "R1",
+  "START": "2018-10-06T07:30:00.000Z",
+  "END": "2018-10-06T09:00:00.000Z",
+  "SPEAKER": [
+    "rec4KeoVkqfW6S5pa",
+    "rec3HX7cWnuv9PakX",
+    "recoOnkLZXpl72MZC",
+    "recL7cGJkx31QnYcR",
+    "recqUykxTYaomkYrO"
+  ],
+  "SLIDE": "https://drive.google.com/drive/folders/1u1skuSWPGre_0CrshngAOqMHRFXgMaqE?usp=sharing, https://audreyt.org/g0vSummit.pdf",
+  "SHOW": true,
+  "TITLE_EN": "Imagining a digital nation (translated)",
+  "TYPE": "panel",
+  "ID": "sp1",
+  "TRACK": [
+    "recc1pd1UjwpJo3S9"
+  ]
+},
+{
+  "id": "recOSeRYcF26b6Y8K",
+  "TITLE": "對社會好的資料：什麼才是對的配方？【譯】",
+  "VENUE": "R0",
+  "START": "2018-10-05T03:30:00.000Z",
+  "END": "2018-10-05T04:30:00.000Z",
+  "ABSTRACT": "益於社會的資料 (Data for Social Good)，是將資料科學運用在解決社會問題以促進社會公益。在國際上，聯合國已將資料科學運用在追求「永續發展目標」；在國家的層級上，各國政府同樣使用資料來提出更好的政策並改善公共服務。但我們要如何從理念走向成果？一個基於資料的專案需要費時多長？成功的祕訣又是什麼？由資料來制定政策是否有共通的問題？如何搭起公私協力與信任？在專案結束後，資料還有生命嗎？這場議程將探討以上這些問題。【譯】",
+  "SPEAKER": [
+    "recgrnNDKtY5YD6GS",
+    "recFPteifYyLTINxk",
+    "recBWdORvLNwvcPoS",
+    "recBJ58Rs0ozb1Xla"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Data for social good: what’s the right formula?",
+  "ABSTRACT_EN": "Data for Social Good refers to the applications of data science to address problems related to the social good. On the global scale, the United Nations applies data science to reach its Sustainable Development Goals (SDGs), while on the national level, governments take the same approach to make better policies and improve public services. How do you go from ideas to outcomes? How long does a project take? What are the secret ingredients for success? Are there any common pitfall? How to build public-private partnership and trust? Is there life after project completion? This panel will explore these practical topics.",
+  "TYPE": "panel",
+  "ID": "31"
+},
+{
+  "id": "rec8swyLkJ1OJpOOx",
+  "TITLE": "科技能否來自聾性？",
+  "VENUE": "R1",
+  "START": "2018-10-05T05:30:00.000Z",
+  "END": "2018-10-05T07:00:00.000Z",
+  "ABSTRACT": "聾人作為語言文化的少數群體，總是被放在受助者的位置，然而「獲得聾（Deaf Gain）」的公民已然增加了世界的人類多樣性，在亞洲卻仍難以進入公眾的視野。大部分的新科技總是讓聾人無所適從，加拿大有位華裔聾人甚至寫了一篇「聋人不需要新的沟通工具，其他人需要」（Deaf People Don’t Need New Communication Tools: Everyone Else Does）。總在做聾人權利倡導的守語者（ProSigner）成立四年以來也無數次被問「難道科技不能解決聾人面對的問題嗎？」。網際網路問世以來，全球聾人之間的距離被縮短，科技在這個層面解決了地理隔絕的問題。但是其他的面向，例如聾人教育、手語流失、聾人社會參與困難等議題仍待解決。90 分鐘的開放式討論，守語者首先將對聾人的現況進行簡介，刷新大家對聾人的認知，然後拋出一些常見的議題以及已有哪些科技的涉入欲解決但未能戳中穴道。邀請現場的與會者一起集思可能的解決辦法。本提案將由守語者團隊以中國手語（或台灣手語）主持，並搭配中文口譯進行。",
+  "SPEAKER": [
+    "recydfxQaZ6fCeZfJ",
+    "rec1AWg17nLsPJ04t"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1-TjHDOEJM0RXOb7miL417N_IKiTPsFDm/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Can technology come from deafness? (translated)",
+  "TYPE": "panel",
+  "ID": "94"
+},
+{
+  "id": "recSwpk4wL79O6Lmz",
+  "TITLE": "科技與選舉",
+  "VENUE": "R0",
+  "START": "2018-10-06T05:30:00.000Z",
+  "END": "2018-10-06T07:00:00.000Z",
+  "SPEAKER": [
+    "recVtmGfYPNOiWd7B",
+    "rec6EFRadMtTt5igT",
+    "recEBOK82hFbV8e2O",
+    "recmC0XfZEZiMl3bb"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1bJrhHf_rHAP9m3zc6qqdwoA-jG0wrYRA/view, https://jasontc.net/shared/2018/October/06_October_2018-g0v-ElectionTech-Votes_under_Oppression.pptx",
+  "SHOW": true,
+  "TITLE_EN": "“ElectionTech”",
+  "TYPE": "panel",
+  "ID": "rt2",
+  "TRACK": [
+    "recbgZN2pt9CjUi3w"
+  ]
+},
+{
+  "id": "rec4dfybn7e0WkQpc",
+  "TITLE": "好市長，不問嗎？",
+  "VENUE": "R0",
+  "START": "2018-10-05T07:30:00.000Z",
+  "END": "2018-10-05T09:00:00.000Z",
+  "ABSTRACT": "因應今年底的地方選舉，沃草推出《2018 六都市長給問嗎》網站，公民將可直接在網站上「提問」及「連署」，我們也陸續邀請市長候選人加入網站「回答」公民的問題，讓選民直接了解市長候選人的政策，從而在年底大選做出投票的選擇。我們相信「知情投票」是改變台灣選舉文化的關鍵，而《2018 六都市長給問嗎》網站正是實現這個理想的計畫。然而，問出好問題並不是一件容易的事，如何讓公民討論公共政策並進一步凝聚共識？沃草過去進行了一系列的實體活動，實驗出相關的討論方法，模擬代議政治的同時，也讓參與者學習問出好問題。我們希望能有機會，將這樣的實驗成果，帶到 g0v 年會，與開放社群的朋友交流。",
+  "SPEAKER": [
+    "recXZa69GkDCDqMJ1",
+    "recNapxxGYhwY2GCa"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/16m1tUIAManQW8k0hlvhvloANxdpTlueT/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Why don’t you ask your mayor? (translated)",
+  "ABSTRACT_EN": "As local elections draw near, Watchout has introduce the “Ask Your Mayor 2018” website where citizens can ask and “push” for questions directly on the site. We have also invited all mayoral candidates to answer this questions in the same site. We believe that this can allow citizens to have better understanding of the proposed policies and be better informed when they vote, in turn changing our election culture for the better. However, it is not that simple to ask a “good question” that leads to discussion and even consensus. Watchout has been experimenting with different types of event that simulate representative democracy and facilitate forming of questions. We hope to share our methods and findings with g0v. (translated)",
+  "TYPE": "workshop",
+  "ID": "126"
+},
+{
+  "id": "rectXu4WB7wsFPCmV",
+  "TITLE": "資料視覺化的快速上手：以環保署水污染資料為例",
+  "VENUE": "R3",
+  "START": "2018-10-05T01:30:00.000Z",
+  "END": "2018-10-05T03:00:00.000Z",
+  "ABSTRACT": "不太會程式語言的倡議者跟創作者，可以透過ㄧ些免費的工具來做視覺化，比如說，免費的 PowerBI 可以傻瓜的做出視覺化以及發佈到網路上做互動式圖表。透過D4SG做過的專案來做一個手把手教學 https://github.com/ningchencontact/D4SG_Environmental-Protection",
+  "SPEAKER": [
+    "recNpZhWqBQjpfbVc"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Tutorial on data visualization: government water pollution data as an example (translated)",
+  "TYPE": "workshop",
+  "ID": "64"
+},
+{
+  "id": "recChJ7rfdqB0oDjm",
+  "TITLE": "透明度報告補完計畫：關於政府監控【譯】",
+  "VENUE": "R3",
+  "START": "2018-10-05T03:30:00.000Z",
+  "END": "2018-10-05T04:30:00.000Z",
+  "ABSTRACT": "這個工作坊將探討數位監控以及它的資訊揭露。人們有權知道哪些基本資訊，又該如何理解、分析這些資訊。【譯】",
+  "SPEAKER": [
+    "rec57RLl4fgkRPGhU"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Making the transparency report complete: detailing the surveillance part",
+  "ABSTRACT_EN": "This workshop would like to discuss what kind of other surveillance information should be disclosed, what are the basic information people should know, and how to investigate it.",
+  "TYPE": "workshop",
+  "ID": "142"
+},
+{
+  "id": "rect32pmDNWejnaxr",
+  "TITLE": "參與式公民科技的運算特徵【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-05T03:30:00.000Z",
+  "END": "2018-10-05T04:30:00.000Z",
+  "ABSTRACT": "這個短講將討論介面設計、技術方法與演算法如何影響公民科技的表現。我們將分析這四個平台的資料：Decide Madrid (https://decide.madrid.es/)、Decidim Barcelona (https://www.decidim.barcelona)、Avaaz.org (https://avaaz.org/)、 Menéame (https://www.meneame.net)，來討論對話串的設計如何影響線上審議的架構，以及演算法如何影響連署的排序。最後，我們將討論幾種改善公民科技的方案：是否有可能將參與式設計導入公民科技的開發中？什麼方法可以降低資料視覺化造成的偏見？【譯】",
+  "SPEAKER": [
+    "recrrdft3AxoRQxMn"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1fHpUkaGRxEn-J2g7YQQyeY4hL7JlMJhXL1GaLSLxlDM",
+  "SHOW": true,
+  "TITLE_EN": "Computational characterization of participation in civic technologies",
+  "ABSTRACT_EN": "In this talk, we will focus on practical examples of how interfaces, technical features and algorithms might have influenced behaviour in civic technologies. In particular, using data from platforms like Decide Madrid (https://decide.madrid.es/), Decidim Barcelona (https://www.decidim.barcelona), Avaaz.org (https://avaaz.org/) and Menéame (https://www.meneame.net), we will examine how conversation threading affects the deliberative structures of online discussion and how sorting algorithms explain the dynamics of petition signing. Finally, we will discuss different proposals to improve the performance of civic technologies through various techniques like applying participatory design or mitigating ranking biases through data visualization.",
+  "TYPE": "workshop",
+  "ID": "27"
+},
+{
+  "id": "recGNY6XL6xYkr3aA",
+  "TITLE": "有社區參與的電腦科學：追求社會正義學到的教訓【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-05T01:30:00.000Z",
+  "END": "2018-10-05T03:00:00.000Z",
+  "ABSTRACT": "這個工作坊將介紹 CEL，一個「資訊科學的社區參與」的課程。我們將討論參與者的不同角色，介紹課程如何安排時程、規劃任務、設定與管理預期、並且分享從學生與社區兩個角度所看見的成果\n\n我們將討論幾個案例，探討資訊科學學生如何在社區伙伴的引導下，處理不同的社會議題（例如食安），並分享成果、最好的實踐、以及學習到的經驗。我們會運用課程中發展出來的小活動，來帶領分組對話與討論。【譯】",
+  "SPEAKER": [
+    "reccWqim81Bs8oWNN",
+    "recYtkmjDq8Doi8ON"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1plNeNVf1ULa0TlecBnR4zKQwQM5pTNVe5iue2osp3AU/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Community-engaged computer science: lessons learned in the pursuit of social justice",
+  "ABSTRACT_EN": "The goal of this workshop is to describe the challenges and opportunities that CEL provides, including a discussion of the various players involved, a description of the timeline and tasks associated with the development of a CEL classroom, the necessity of managing expectations, and the outcomes to date (both from the student and community points of view).\n\nThis will be accomplished through discussion of a series of case studies where computer science students were challenged to address broad social challenges (e.g. food insecurity) under the guidance and training of not-for-profit community partners. Outcomes, best practices, and lessons learned will be discussed. The workshop will also include discussion of several outstanding questions associated with a CEL computer science classroom. Discussion will be facilitated through a series of activities used in the classroom to foster communication and teamwork. ",
+  "TYPE": "workshop",
+  "ID": "79"
+},
+{
+  "id": "recVjYuDM4U3JT6FB",
+  "TITLE": "沒有人來做 Cofacts 編輯啦！",
+  "VENUE": "R1",
+  "START": "2018-10-05T07:30:00.000Z",
+  "END": "2018-10-05T09:00:00.000Z",
+  "ABSTRACT": "Cofacts 是能自動回覆查證結果的 LINE chatbot，轉傳 LINE 訊息給他（LINE ID: @cofacts），就能得到 Cofacts 編輯之前為此訊息所撰寫的查證回應。\n\nCofacts 的運作，仰賴編輯志工們在 Cofacts 官網（ cofacts.g0v.tw ）針對 LINE 轉傳訊息進行查證、並且撰寫 LINE chatbot 的自動回應。至今編輯們已回覆 20,000 則轉傳訊息、每日平均也有 160 人向 LINE chatbot 尋求回應。\n\n此 workshop 會與大家介紹 Cofacts 專案，並且帶大家體驗一日 Cofacts 編輯 —— 面對一則 LINE 上面瘋傳的訊息，怎麼拆解訊息、又要怎麼撰寫回應，才能幫到使用者？\n\n沒有人來做 Cofacts 編輯，而你就是沒有人！\n\n＊參與者請先註冊 Hypothes.is：http://hypothes.is/signup\n",
+  "SPEAKER": [
+    "recZHMe8yDYZnkztc",
+    "recoPjDqLYy2tRPmT",
+    "recVGZtysFMFUOc7z"
+  ],
+  "SLIDE": "https://bit.ly/cofacts-summit, https://drive.google.com/open?id=1_HnjSssdLACRQqC4Zy7FrpMzHJ3xlBrqAvC5bMat4aw",
+  "SHOW": true,
+  "TITLE_EN": "Cofacts: hands-on workshop",
+  "ABSTRACT_EN": "Cofacts is a chatbot that automatically sends Cofacts editors' fact-checking result to the user when receiving an instant message circulating in LINE messaging app.\n\nThe Cofacts project heavily relies on voluntary editors’ work. They would verify user-reported instant messages published on our website ( https://cofacts.g0v.tw ), and write replies for the chatbot. So far we have collected over 20,000 instant messages circulated in LINE network, and there are 160 LINE users in average uses the chatbot every day.\n\nIn this workshop, we will briefly introduce the inner workings of Cofacts project. An interactive discussion follows, asking the participants to work as a Cofacts editor. Participants will work together to break down the message to a series of “questions”, then draft “replies” in a question-answering vibe so that it helps the most LINE users.\n\nIt’s often the case that nobody is doing Cofacts editor’s work. In this workshop, you are the “nobody”!\n\n＊ The discussion after introduction talk will be in Mandarin. We will hold an English Q&A session outside the room as the discussion activity take place.\n＊ For (Mandarin speaking) participants to join the discussion activity, please sign up at hypothes.is (hypothes.is/signup) first.\n\n",
+  "TYPE": "workshop",
+  "ID": "48"
+},
+{
+  "id": "recsBLW3IRjH2UYAI",
+  "TITLE": "安全的公民科技：讓公民社會更強壯【譯】",
+  "VENUE": "R1",
+  "START": "2018-10-05T03:30:00.000Z",
+  "END": "2018-10-05T04:30:00.000Z",
+  "ABSTRACT": "在這個工作坊中，兩位講者將分享他們在「公民社會裡的數位安全」相關的經驗與看法，並介紹適合公民團體、政府單位與媒體從業人員使用的安全性工具。這個工作坊將包括動手操作這些電腦工具，請參與者攜帶個人慣用的手機或筆電。【譯】",
+  "SPEAKER": [
+    "rec0D27XWg69ZmSKU",
+    "reczQF85qNDNCKzZx"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Civic “security” tech: digital security applications powering the civil society",
+  "ABSTRACT_EN": "In this workshop, two speakers will first share their views/experiences on “digital security in the civil society”, then each introduce one security tool that can be of great use by Civil Society Organizations, governments, and reporters. Note that the latter part of this workshop involves hands-on of the tools, so please bring your smartphone and laptops.",
+  "TYPE": "workshop",
+  "ID": "60"
+},
+{
+  "id": "recYbDKaOlabk8tIo",
+  "TITLE": "建構社交媒體觀察網絡：亞洲選舉的工具及技術【譯】",
+  "VENUE": "R0",
+  "START": "2018-10-05T05:30:00.000Z",
+  "END": "2018-10-05T07:00:00.000Z",
+  "ABSTRACT": "這個工作坊希望共同產出一張地圖，綜觀亞洲各地在選舉期間透過社交媒體散播負面內容的組織及活動，特別關注印度、印尼、菲律賓、泰國，並且找出我們能夠應用的觀察工具、技巧及協作方法。【譯】",
+  "SPEAKER": [
+    "recHAGMACWJTlrvFT"
+  ],
+  "SLIDE": "https://drive.google.com/open?id=1Nt2k88hrs0x3RqGWnEnWmJAbRCWTavdi",
+  "SHOW": true,
+  "TITLE_EN": "Building social media monitoring networks, tools and techniques for Asian elections",
+  "ABSTRACT_EN": "This workshop would be to present, discuss and develop a map of initiatives, groups and events in the region for negative content in social media during elections throughout Asia, including India, Indonesia, Philippines, potentially Thailand and others where these tools, techniques and collaboration could be applied.",
+  "TYPE": "workshop",
+  "ID": "145"
+},
+{
+  "id": "recc415V4ubnKQuWS",
+  "TITLE": "#CodeforGender 性別議題設計思考工作坊【譯】",
+  "VENUE": "R2",
+  "START": "2018-10-05T07:30:00.000Z",
+  "END": "2018-10-05T09:00:00.000Z",
+  "ABSTRACT": "#codeforgender 工作坊邀請想要對「性別與科技」這個主題有興趣的你參與，一起打破性別刻板印象，並採取行動。工作坊將引導參與者發展創新的點子，轉換成具體實踐方案。參與者可以學到如何創造靈感、如何化為行動應用到實際生活中。流程分成兩部分：設計思考與創造行動方案。參與者會先從生活中挖掘情境，找出想要解決的性別問題。再根據問題，轉換成具體行動方法，最終分享成果給其他參與者。",
+  "SPEAKER": [
+    "recnQtXAKHhIkSvG0"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1HOKkYpcGFgOmi2XM_ANS1GfdgabGnozu3Z3snkjRJXU/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "#CodeforGender design thinking workshop for gender issue",
+  "ABSTRACT_EN": "#CodeforGender workshop is meant for everyone who feels there is a lack of productive discourse around gender equality and the role of technology in our society. It invites you to consciously break down gender norms and reject gender ideology.",
+  "TYPE": "workshop",
+  "ID": "66"
+},
+{
+  "id": "rechGMtlktvdQO9DD",
+  "TITLE": "當我們說「開放」⋯【譯】",
+  "VENUE": "ALL",
+  "START": "2018-10-07T01:30:00.000Z",
+  "END": "2018-10-07T02:00:00.000Z",
+  "SPEAKER": [
+    "recnhc4F92g5WVIeO"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1KOw7iyw9WJRsLynZo23QNE2TDIrDC44SsnGItcIOdew/edit#slide=id.p1",
+  "SHOW": true,
+  "TITLE_EN": "When we say “open”...",
+  "ABSTRACT_EN": "When we say open, what do we really mean? How are open communities and organizations performing. What are some of the observations and lessons from two viewpoints – an organization (humanitarian) – International Federation of Red Cross Red Crescent Societies and global community - OpenStreetMap. How are some of the topics/challenges and issues similar and different? What can we do as open advocates to inspire and build change in organizations of all types?",
+  "TYPE": "keynote",
+  "ID": "k5"
+},
+{
+  "id": "recFo4iOQfEkmX2LG",
+  "TITLE": "懷疑者的告白",
+  "VENUE": "ALL",
+  "START": "2018-10-07T08:00:00.000Z",
+  "END": "2018-10-07T08:15:00.000Z",
+  "ABSTRACT": "g0v 社群從台灣草根長出，從最開始就有著開源基因，與開放政府、協作參與、公民科技等概念相乘，似乎有了相當可觀的規模與影響力。在這場以開放精神為核心的公民運動中，如何推動整體社群動能又保有多中心的初衷，是一場長達五六年的思辨與行動。\n\n到底公民黑客行動開啟了什麼？這場短講，將分享一個開放主義的懷疑者如何在行動中，繼續保持質疑，在非科技人和 g0v 思考的雙重奏中，思考公民行動的可能。",
+  "SPEAKER": [
+    "recyPdFle9IWTRsWL"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "Open collective minds: what have we hacked?",
+  "ABSTRACT_EN": "g0v (pronouced “gov zero”) community was born from open source culture, grow along with idea of open data, open government. It seems we have\n\ng0v is a grassrooted community in Taiwan, born with the gene of open source. Co-evolving with the movements of open government, collaborative participation and civic technology, g0v has grown into a huge and influential civic community. In this movement of openness, we have been practicing and reflecting on the ways to promote the community energy while maintaining a multi-centered model at the same time.\n\nWhat new possibilities has civic hacking opened up? As both a skeptic and advocate of openness, a tech-muggle and the cofounder of g0v, I am going to share how I keep on acting while questioning. I’d like to invite everyone to think together the future of civic movement.\n\n",
+  "TYPE": "keynote",
+  "ID": "k1"
+},
+{
+  "id": "rec9XLgFb49A9uG9f",
+  "TITLE": "酸民起義【譯】",
+  "VENUE": "ALL",
+  "START": "2018-10-06T01:30:00.000Z",
+  "END": "2018-10-06T02:00:00.000Z",
+  "ABSTRACT": "這是一個缺乏信任的時代。政府、企業、學校、宗教，我們不信任它們。儘管理由充足，但這樣的不信任仍然危險，也正侵蝕人們與公民社會的連結。這場演講將檢視這些不信任的來源，以及世界各地的運動者如何將不信任轉化為改變社會的力量。【譯】",
+  "SPEAKER": [
+    "recZ6s3SN0vHU2oEa"
+  ],
+  "SLIDE": "https://drive.google.com/file/d/1uF8kMN5WavDJ7O3GYUbkBxscOlLPHSvY/view?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Mobilizing mistrust",
+  "ABSTRACT_EN": "One of the dominant emotions of our time is mistrust: a lack of confidence in institutions of all sorts, from government through commercial, academic or religious. While much of this mistrust is deserved, mistrust can be a dangerous and corrosive force, leading people to disengage from civic life. This talk examines where mistrust comes from, and how activists around the world are harnessing mistrust to make social change.",
+  "TYPE": "keynote",
+  "ID": "k4"
+},
+{
+  "id": "rec8uJ6AKr2McxbGb",
+  "TITLE": "開放資料踩雷歷程：五年經驗甘苦談【譯】",
+  "VENUE": "ALL",
+  "START": "2018-10-05T09:00:00.000Z",
+  "END": "2018-10-05T09:30:00.000Z",
+  "ABSTRACT": "這場演講將分享全球資訊網基金會的「開放雅加達實驗室」（Open Data Lab Jakarta）在東南亞各國推動開放資料過程中所習得的經驗。我將強調過程中，如何運用公民參與、人本設計、系統建模（system mapping）與民族誌方法來更深入了解各地脈絡，並分析地方所面臨的不同挑戰，從而判斷計畫推行的優先順序，以確保推動開放資料是與人們的需求息息相關，進而增加成功的機率與永續發展。\n\n我將分享過程中的成功與失敗，甜美的成果與苦痛的覺悟。透過這場演講，我想引導參與者思考自己的專案：你們從中學到什麼關於設計與執行的經驗？在結論中，我將分享幾個設計與執行的祕訣，來確保公民科技與開放資料的專案能順利推行，且有利於參與者和所有利益相關人。【譯】",
+  "SPEAKER": [
+    "rec0Bkn0y6gAe3FIx"
+  ],
+  "SHOW": true,
+  "TITLE_EN": "How not to design open data programs: lessons from the last 5 years",
+  "ABSTRACT_EN": "The session will focus on lessons learned in designing and implementing open data programs across Southeast Asia drawing extensively from the work of Open Data Lab Jakarta of the World Wide Web Foundation.  The session will argue on the importance of participatory processes, human-centered design, systems mapping, and ethnographic approaches in understanding context, dissecting the challenges that needs to be solved, and prioritizing key design variables that are important to be considered to ensure that open data programs are relevant to the needs of people and their communities, and with strong likelihood of success and sustainability.\n\nThe session will talk about both success and failures and also both the sweet and bitter realizations that came out of the experience.  The session will challenge participants to think about their own practice and reflect on the key lessons that they have also learned in the design and implementation of their programs. The session will conclude with a few rules of thumb in designing and implementing civic technologies, including open data, to ensure that outcomes desired from these interventions will be realized and will benefit participants and stakeholders.",
+  "TYPE": "keynote",
+  "ID": "k2"
+},
+{
+  "id": "recyZuvg1M6k2lvlf",
+  "TITLE": "網際網路解殖：從亞洲的可能性出發【譯】",
+  "VENUE": "ALL",
+  "START": "2018-10-06T02:00:00.000Z",
+  "END": "2018-10-06T02:30:00.000Z",
+  "ABSTRACT": "75% 的網路使用者來自亞洲、非洲、拉丁美洲以及中東，網路上的人口有一半在亞洲。然而我們使用網際網路時常感覺它不是為我們所設計也不是由我們自己設計 ，而網路上的開放知識（例如維基百科）並不包含我們的歷史與知識的廣度與深度，我們可以如何改變這個現狀？",
+  "SPEAKER": [
+    "rec9MnXZI2K8KQUI8"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/10pdlAK1xKZ6S1qENrWBjFkXS0tbNnfryRoWEE0WDmIM/edit?usp=sharing",
+  "SHOW": true,
+  "TITLE_EN": "Decolonising the Internet: possibilities for Asia and beyond",
+  "ABSTRACT_EN": "75% of internet users today are from the global South - Asia, Africa, Latin America and the Middle East. Half of those online are from Asia. Yet much of the internet doesn’t feel designed for us and by us, and most online public knowledge - like on Wikipedia - doesn’t include the range and depth of our histories and knowledges. How can we change this?",
+  "TYPE": "keynote",
+  "ID": "k3"
+},
+{
+  "id": "rec9UEqXeHmsI6xtE",
+  "TITLE": "緬甸的公民科技現狀【譯】",
+  "VENUE": "ALL",
+  "START": "2018-10-07T07:30:00.000Z",
+  "END": "2018-10-07T08:00:00.000Z",
+  "ABSTRACT": "在緬甸，一個小小的公民科技社群，要如何讓打開政府及國會，讓它們釋出資料？",
+  "SPEAKER": [
+    "recZZVe7ohA019Wem"
+  ],
+  "SLIDE": "https://docs.google.com/presentation/d/1j6KBFHBeuJEDmya5aSc7eFUabAUwiWRjXu4kI40lKCI/edit#slide=id.p",
+  "SHOW": true,
+  "TITLE_EN": "Civic tech scenario in Myanmar",
+  "ABSTRACT_EN": "How a small community of civic tech in Myanmar tackles challenges of data availability and promote accessibility of government (and parliamentary) data to citizens?",
+  "TYPE": "keynote",
+  "ID": "k6"
+}]

@@ -1,0 +1,4740 @@
+[
+{
+  "id": "rec6EFRadMtTt5igT",
+  "NAME": "Adriana Groh",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att2cPn4C939CQhnm",
+      "url": "https://dl.airtable.com/0nIz243ShmANuCv7zfwY_unnamed-2.jpg",
+      "filename": "unnamed-2.jpg",
+      "size": 165032,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/JubWEeqxQMikzBllzjnF_small_unnamed-2.jpg",
+          "width": 48,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/6AApVxPTIOKkrEORutgL_large_unnamed-2.jpg",
+          "width": 683,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/sgXscTH7SLuKhVjz1EYD_full_unnamed-2.jpg",
+          "width": 1280,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rechthnWM1ve77Qlv",
+    "recSwpk4wL79O6Lmz"
+  ],
+  "TWITTER": "@avwgo",
+  "TITLE1_EN": "Open Knowledge Foundation Germany",
+  "BIO_EN": "Adriana Groh is Program Manager at the Open Knowledge Foundation for the Prototype Fund, a funding program for software development in the field of civic tech, and Co-Founder of Wepublic, a messenger for communication between citizens and politicians.",
+  "SHOW": true,
+  "ID": 1,
+  "COUNTRY": "Germany",
+  "COUNTRY_CODE": [
+    "de"
+  ]
+},
+{
+  "id": "rec9MnXZI2K8KQUI8",
+  "NAME": "Anasuya Sengupta",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attkGipoRrhTqORCd",
+      "url": "https://dl.airtable.com/o6JLKsNkQRCGt1oJDI3K_2.jpg",
+      "filename": "2.jpg",
+      "size": 152484,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/YZiB6VidQfCsMCbTbmWy_small_2.jpg",
+          "width": 37,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/wJ26qftVQb6XBYnTbjNs_large_2.jpg",
+          "width": 525,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/IDhh8aASBaG5ABXPyv3B_full_2.jpg",
+          "width": 800,
+          "height": 780
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recyZuvg1M6k2lvlf"
+  ],
+  "TWITTER": "@Anasuyashh",
+  "TITLE1_EN": "Whose Knowledge?",
+  "BIO_EN": "Anasuya Sengupta is co-founder and co-director of Whose Knowledge?, a global multilingual campaign to re-imagine and redesign the internet to be for and from us all. She has led initiatives in India and the USA, across the global South, and internationally for over 20 years, to amplify marginalised voices in virtual and physical worlds. She is the former Chief Grantmaking Officer at the Wikimedia Foundation and a Shuttleworth Fellow. Anasuya holds an MPhil in Development Studies from the University of Oxford, where she studied as a Rhodes Scholar. When not rabble-rousing online, Anasuya builds and breaks pots, takes long walks by the ocean and in the redwoods, and contorts herself into yoga poses.",
+  "SHOW": true,
+  "ID": 2,
+  "COUNTRY": "India",
+  "COUNTRY_CODE": [
+    "in"
+  ]
+},
+{
+  "id": "recqUykxTYaomkYrO",
+  "NAME": "Audrey Tang",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attRpucDSl9ERJ8UP",
+      "url": "https://dl.airtable.com/3WNPU7AfQb2tfkxC79C2_3.jpg",
+      "filename": "3.jpg",
+      "size": 13266137,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/xj8Kc0mvRwEgxWcNenZc_small_3.jpg",
+          "width": 24,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/3KzwgCizRQeQCSycYIm9_large_3.jpg",
+          "width": 512,
+          "height": 768
+        },
+        "full": {
+          "url": "https://dl.airtable.com/QKPlZOiITbCsV5NZV2qA_full_3.jpg",
+          "width": 2000,
+          "height": 3000
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recst4GJ61s2kNAVL"
+  ],
+  "BIO_EN": "A civic hacker, g0v community contributor, and Taiwan’s Digital Minister in charge of Social Innovation, Audrey is known for revitalizing the computer languages Perl and Haskell, as well as building the online spreadsheet system EtherCalc in collaboration with Dan Bricklin.\n\nIn the public sector, Audrey served on Taiwan national development council’s open data committee and K-12 curriculum committee; and led the country’s first e-Rulemaking project.\n\nIn the private sector, Audrey worked as a consultant with Apple on computational linguistics, with Oxford University Press on crowd lexicography, and with Socialtext on social interaction design.",
+  "SHOW": true,
+  "ID": 3,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "reccWqim81Bs8oWNN",
+  "NAME": "Daniel Gillis",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attKVUj19hHlC4WRb",
+      "url": "https://dl.airtable.com/RlFYJgUPSp6cBUpHn0cj_4.jpg",
+      "filename": "4.jpg",
+      "size": 10607,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/MO6eA6uwRjaeEliFEH8A_small_4.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/7O8rIk8FS2GPRynM2erz_large_4.jpg",
+          "width": 200,
+          "height": 265
+        },
+        "full": {
+          "url": "https://dl.airtable.com/tQt6TaOHQzqXssLLePPb_full_4.jpg",
+          "width": 200,
+          "height": 265
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recGNY6XL6xYkr3aA"
+  ],
+  "TWITTER": "@DrDanielGillis",
+  "TITLE1_EN": "School of Computer Science, University of Guelph",
+  "BIO_EN": "Dr. Daniel Gillis is an Associate Professor in the School of Computer Science, and Director of the Physical Science and Engineering Education Research Centre at the University of Guelph. He has spent the bulk of his career working on interdisciplinary teams which have focused on public health assessment, and natural resource management. Most recently he has been working with the remote Inuit community of Rigolet, Nunatsiavut, Labrador to develop a community-led health and environment monitoring tool. His research interests span statistics, computer science, biology, pedagogy, and community-engaged scholarship.\n\nDr. Gillis is co-founder of Farm To Fork, co-creator the ICON Transdisciplinary Classroom, co-founder of the multidisciplinary GuelphHacks/CBaSE Improve Life Challenge, and co-creator of the Gryphons Care Initiative. He is also a member of the Centre for Public Health and Zoonoses, the eNuk Scientific Advisory Panel, and the Right Mesh Scientific Advisory Committee.",
+  "SHOW": true,
+  "ID": 4,
+  "COUNTRY": "Canada",
+  "COUNTRY_CODE": [
+    "ca"
+  ]
+},
+{
+  "id": "reckEJPg5qSc5a1ks",
+  "NAME": "Danny Spitzberg",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attg61uekHnzQlZAy",
+      "url": "https://dl.airtable.com/yr60BBESq6K9HYJ7naEm_5.jpg",
+      "filename": "5.jpg",
+      "size": 27053,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/6AByuNJRkOJuOr8xD3vj_small_5.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/fzD2tQ3OThqP5hT7efK6_large_5.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/2lIdlMNnRxitZBQcrcnQ_full_5.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLLsXbJtwdxLeTc"
+  ],
+  "TWITTER": "@daspitzberg",
+  "TITLE1_EN": "CoLab.coop",
+  "BIO_EN": "Danny is a sociologist with ethics, comma, for hire. Based in Oakland, California, Danny prototypes apps and websites with CoLab.coop, a global, worker-owned digital agency. He believes in worker-led organizing and returning all wealth to the commons.",
+  "SHOW": true,
+  "ID": 5,
+  "COUNTRY": "USA",
+  "COUNTRY_CODE": [
+    "us"
+  ]
+},
+{
+  "id": "recmGNT7Vlty0B4vI",
+  "NAME": "ddio",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attlXT7vFRQvJlw8Y",
+      "url": "https://dl.airtable.com/V1Q6O7M0QXKeOiPrUbrz_ddio.jpg",
+      "filename": "ddio.jpg",
+      "size": 7957,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/qn6x5tAcQxSWpPpjCm4A_small_ddio.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/MRZ2YNgfQsuKvCgVSI3B_large_ddio.jpg",
+          "width": 200,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/3eohNQdGhoHrJcsBMJQC_full_ddio.jpg",
+          "width": 200,
+          "height": 200
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recoJUijVzZVQ43OP"
+  ],
+  "BIO": "斜槓主婦，正在嘗試打掃做飯、寫程式還有作功德之間的平衡，今年在努力積居住議題的功德。",
+  "SHOW": true,
+  "ID": 6,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec9J2RP03C6nppOd",
+  "NAME": "Debora Albu",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attkG0HOAWBOKlYNh",
+      "url": "https://dl.airtable.com/ryNfp0h0SnyOBoZHc1cl_7.jpg",
+      "filename": "7.jpg",
+      "size": 35009,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/9meYgBIUQcKVlshBXr0p_small_7.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/HKVtTVGRiCuEfgt5kROA_large_7.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/M8U9VTNtQ3Sl1LfESUgj_full_7.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recYoVaD0ZlGF12rH"
+  ],
+  "TWITTER": "@AlbuDebora",
+  "TITLE1_EN": "Institute for Technology and Society of Rio de Janeiro (ITS Rio)",
+  "BIO_EN": "Debora Albu holds an MSc in Gender, Development and Globalization from the London School of Economics and Political Science, in the UK, being awarded with a Chevening scholarship. She holds a B.A. in International Relations from the Pontifical Catholic University Rio de Janeiro (PUC-Rio). She has worked in the areas of activism, youth and public policy at Amnesty International and at University of Youth. Debora was project and communications manager at the Center for International Relations at Getulio Vargas Foundation (FGV). She writes for independent online channels and develops research in democracy and technology, digital activism and gender studies. She is a researcher at the Democracy and Technology area at the Institute for Technology and Society.",
+  "SHOW": true,
+  "ID": 7,
+  "COUNTRY": "Brazil",
+  "COUNTRY_CODE": [
+    "br"
+  ]
+},
+{
+  "id": "rec5dZVDMDYnf6UBe",
+  "NAME": "Devin Balkind",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att71781mb4cZbt4U",
+      "url": "https://dl.airtable.com/BurKjRPcT4O1UKNgcTJf_8.jpg",
+      "filename": "8.jpg",
+      "size": 23459,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/34D5iUaXThylXXEcJWjv_small_8.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/JBuxhd85TMmsi2kD0fq6_large_8.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Q78V80X2RVCE2hjuGocE_full_8.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec7keaaMeHUc9scM"
+  ],
+  "TWITTER": "@devinbalkind",
+  "TITLE1_EN": "Sarapis, g0v.network",
+  "BIO_EN": "Devin works at the intersection of the nonprofit sector, the open-source movement, and grassroots community organizing initiatives to help each benefit from the best practices of the others.\n\nHe is president of the Sahana Software Foundation, a nonprofit that delivers open source software for disaster relief and humanitarian aid organizations. He is also the executive director of Sarapis, a nonprofit that builds open source civic technology solutions.\n\nHe began his career as an entrepreneur building software for nonprofits. During this experience, he realized that nonprofits could benefit by adopting the “open source way”. SInce then he has delivered open source software and information management solutions to a wide variety of nice people: from think tanks to farming networks, social movements to government agencies. \n\nHe lives in New York City where he writes for a local news website and ran for local political office in 2017.",
+  "SHOW": true,
+  "ID": 8,
+  "COUNTRY": "USA",
+  "COUNTRY_CODE": [
+    "us"
+  ]
+},
+{
+  "id": "recYuVD3lte0aA6fG",
+  "NAME": "ETBlue",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attZSjIiF2GBPRObo",
+      "url": "https://dl.airtable.com/mJ5tuCCdRwmI1Fw4qRCY_10.jpg",
+      "filename": "10.jpg",
+      "size": 26413,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/fAK9XJjXShyyVGMbqYPm_small_10.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Fo4rmWLXS96MraTnC63U_large_10.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/B0Zr5C27SuOwXNR4DKxV_full_10.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recmuAnkOFghSmOju"
+  ],
+  "BIO": "因為開源社群專案、非營利組織專案、政府專案的參與經驗，淪為政治學碩士論文作者的白老鼠兼召喚獸，在此議程中負責回答聽眾的問題以及讓聽眾忘記要問什麼問題。",
+  "TWITTER": "@ETBlue",
+  "SHOW": true,
+  "ID": 10,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recZ6s3SN0vHU2oEa",
+  "NAME": "Ethan Zuckerman",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attn0AsHSIFWRqjmm",
+      "url": "https://dl.airtable.com/ATVIw7mxSCOWHqIgi1lR_11.jpg",
+      "filename": "11.jpg",
+      "size": 3085777,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/oTV87J4STY60SlHnfKLI_small_11.jpg",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/EH40TOAVReWJcqPEgBFO_large_11.jpg",
+          "width": 770,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/DzdcTl37TeWhqe4Znj3T_full_11.jpg",
+          "width": 3000,
+          "height": 1995
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec9XLgFb49A9uG9f",
+    "recUUA6c9d2ZXVoPX"
+  ],
+  "TWITTER": "@ethanz",
+  "TITLE1_EN": "MIT Media Lab",
+  "BIO_EN": "Director of the Center for Civic Media at MIT, professor at MIT Media Lab. Blogger, activist, co-founder of globalvoices.org, author, father, heavy metal fan, dog owner.",
+  "SHOW": true,
+  "ID": 11,
+  "COUNTRY": "USA",
+  "COUNTRY_CODE": [
+    "us"
+  ]
+},
+{
+  "id": "recEBOK82hFbV8e2O",
+  "NAME": "Federico Anghelé",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attqcZd7D4Bf2XVkE",
+      "url": "https://dl.airtable.com/hgaTYW0GTPCPERGNG7Eb_12.jpg",
+      "filename": "12.jpg",
+      "size": 173487,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/eI7FqnKmT12d5YPpqbUP_small_12.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/SN98dyY8RGu5Cwh5KzNa_large_12.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/kgJ5Hm1iS1iub6j4nE6p_full_12.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recSwpk4wL79O6Lmz"
+  ],
+  "TITLE1_EN": "Riparte il futuro",
+  "BIO_EN": "Half analyst, half activist. A PhD in Political History at Bologna University, a former post-doc researcher, he co-founded in 2012 Riparte il futuro, a civil society organisation aimed at fighting corruption and promoting transparency, where he’s in charge of policy and advocacy. He actively took part to the Italian OGP Third Action Plan. ",
+  "SHOW": true,
+  "ID": 12,
+  "COUNTRY": "Italy",
+  "COUNTRY_CODE": [
+    "it"
+  ]
+},
+{
+  "id": "recnhc4F92g5WVIeO",
+  "NAME": "Heather Leson",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attZYe1oGuLRpbps6",
+      "url": "https://dl.airtable.com/vgWyL079T2SIROAG29sx_13.jpg",
+      "filename": "13.jpg",
+      "size": 32775,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/FCvOeBWwRcugY4sEBpdX_small_13.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/czO1xrk6QRaehOOXFVdQ_large_13.jpg",
+          "width": 368,
+          "height": 368
+        },
+        "full": {
+          "url": "https://dl.airtable.com/unRswTWSRumut9wtnbqO_full_13.jpg",
+          "width": 368,
+          "height": 368
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rechGMtlktvdQO9DD"
+  ],
+  "TWITTER": "@heatherleson",
+  "TITLE1_EN": "OSMF／IFRC",
+  "BIO_EN": "Heather is a technologist focused on humanitarian technologies and social entrepreneurship. She builds partnerships, curates digital spaces, fosters volunteer engagement, and delivers training with maps, code, and data. As Data Literacy Lead at the International Federation of Red Cross Red Crescent, her mandate includes data skills global advocacy and training in partnership with the 191 national societies and the 11.6 million volunteers. Previously, she lead community, social innovation, and technology programs at Qatar Computing Research Institute (Qatar Foundation), Ushahidi, and Open Knowledge (School of Data). She is a current Board Member at OpenStreetMap Foundation and a past Board Member at the Humanitarian OpenStreetMap Team (4 years). Some of her writings include articles on open communities, power of data, and digital literacy for the Open Organization, World Economic Forum and Civicus Datashift. Heather holds a Bachelor of Arts degree in Combined Political Science and History from Carleton University, as well as a Library and Information Technician diploma from Seneca College of Applied Arts and Technology.",
+  "SHOW": true,
+  "ID": 13,
+  "COUNTRY": "Canada",
+  "COUNTRY_CODE": [
+    "ca"
+  ]
+},
+{
+  "id": "recZZVe7ohA019Wem",
+  "NAME": "Htin Kyaw Aye",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att3GO9WuhxTDrDam",
+      "url": "https://dl.airtable.com/ZXgDPVH0TzwgdTgEuYYw_14.jpg",
+      "filename": "14.jpg",
+      "size": 15585,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/XOnGGT5Q06MlKPtyrVXF_small_14.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/xoiiibfRW8nZnzcLWB8w_large_14.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Bd7xjKhQHeaWQ2zqKlMH_full_14.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec9UEqXeHmsI6xtE"
+  ],
+  "TWITTER": "@htinkyawaye",
+  "TITLE1_EN": "Ānanda Data",
+  "BIO_EN": "Htin Kyaw Aye is founder of Ānanda Data, a civic tech and open data collective which promotes civic engagement in politics through explanations of government institutions and the Budget. He is former research director of local think-tank Open Myanmar Initiative and involved in a number of civil tech initiatives.",
+  "SHOW": true,
+  "ID": 14,
+  "COUNTRY": "Myanmar",
+  "COUNTRY_CODE": [
+    "mm"
+  ]
+},
+{
+  "id": "recpV3eneiwuftznn",
+  "NAME": "Jakub Górnicki",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attlmssIsjdqxYaEv",
+      "url": "https://dl.airtable.com/izX2kpURdeXdIDXsqlUA_15.jpg",
+      "filename": "15.jpg",
+      "size": 75760,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/GpiA4rLZTouI325EB0cI_small_15.jpg",
+          "width": 24,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/CM5puR6SciQG8FL1wfOJ_large_15.jpg",
+          "width": 512,
+          "height": 760
+        },
+        "full": {
+          "url": "https://dl.airtable.com/b4IKrgZSmmbiuxRsx53z_full_15.jpg",
+          "width": 690,
+          "height": 1024
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recNcKUguXjz2XMrh"
+  ],
+  "TWITTER": "@jakubgornicki",
+  "TITLE1_EN": "Outriders",
+  "BIO_EN": "Blogger and reporter passionated about new media, interactive storytelling and reporting projects. Graduated faculty of journalism at Warsaw University, specialized in Reportage Laboratory. He established Outriders to bridge cultures and societies by original reporting and providing global perspective through innovative storytelling. As a COO and board member of ePaństwo Foundation, he developed it into leading open data/transparency NGO globally. During six years he established Code for Poland and took it into Code for All together with Code for America. Open Cities – a program helping European cities adopt open data policies as well as Personal Democracy Forum in CEE and TransparenCEE. He remains a strong ambassador of Central Eastern Europe. Jakub is a 2014 New Europe Challenger (first round) for “for being model e-citizen” and “poster boy for civic engagement and transparent governance”. Later on named one of the 28 most innovative Poles by Puls Biznesu.",
+  "SHOW": true,
+  "ID": 15,
+  "COUNTRY": "Poland",
+  "COUNTRY_CODE": [
+    "pl"
+  ]
+},
+{
+  "id": "recUnfNnkgvrAyXJf",
+  "NAME": "Kobe Yu",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attID1mHACBFenUgk",
+      "url": "https://dl.airtable.com/pWtcJshVRJ7Nfmv4RKC4_18.jpg",
+      "filename": "18.jpg",
+      "size": 144923,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/vPdgEFScTVOjoXcqUR6r_small_18.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/TOKtAGswSCyeqcMK0buv_large_18.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/cPWfdSqFRRWWgaF07D82_full_18.jpg",
+          "width": 720,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recND8Ex4wsXqlCiO"
+  ],
+  "BIO": "8y+軟硬體開發經驗的工程師，因為對小時候農村生活的懷念，所以結合過去工作經驗，將科技應用在農業領域，目標是讓生活與環境變得更好。",
+  "TITLE1_EN": "Open Hack Farm",
+  "SHOW": true,
+  "ID": 18,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recZHMe8yDYZnkztc",
+  "NAME": "Lucien Lee",
+  "CROPPED_AVATAR": [
+    {
+      "id": "atttJtAwH0eMn3rSu",
+      "url": "https://dl.airtable.com/5NlABeEkRTKD3aqg31OH_19.jpg",
+      "filename": "19.jpg",
+      "size": 57262,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/uVUVyrfeSjGZKtSxtiCv_small_19.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/0BIuxTNiT52bGJom22cy_large_19.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/1GKb48kcQgmYnC90BFUX_full_19.jpg",
+          "width": 1024,
+          "height": 1024
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recVjYuDM4U3JT6FB"
+  ],
+  "BIO": "Cofacts 共同發起人與設計師。",
+  "SHOW": true,
+  "ID": 19,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec0TKRSNGB54Un4A",
+  "NAME": "Chambers Umezulike",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attC0naWchpYUp5h5",
+      "url": "https://dl.airtable.com/gm99jEB2TieVmZ1cxIYw_20.jpg",
+      "filename": "20.jpg",
+      "size": 27720,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/2JwaYED2TqWctYRhPQSJ_small_20.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/6wgoplELSjGguEVtY3yH_large_20.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/aikSK9ImRIsgoREL3AzQ_full_20.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recy9mlCDrx2rE63H"
+  ],
+  "TWITTER": "@prof_umezulike",
+  "TITLE1_EN": "Connected Development (Follow The Money)",
+  "BIO_EN": "I am a Development Expert, Civil Society Practitioner and Academic Researcher. I am currently the senior programme manager at Connected Development, a Nigeria based NGO, where under my programmatic leadership, the organization through its Follow The Money Initiative has tracked government/international aid spending in rural communities to promote and ensure open government and service delivery. As at March 2018, the initiative has impacted an estimate of 600,000 rural lives, across 50 communities in over 20 Nigerian states through making sure that primary healthcare, education and clean water interventions meant for communities are implemented through effective public oversight. The organization won the ONE Africa 2016 Award which recognizes, rewards, and advances the exceptional work of African-based organizations; dedicated to helping the continent achieve the Sustainable Development Goals. I have a Masters in International Studies, Economic Governance, and Development from the University of Nairobi, Kenya.",
+  "SHOW": true,
+  "ID": 20,
+  "COUNTRY": "Nigeria",
+  "COUNTRY_CODE": [
+    "ng"
+  ]
+},
+{
+  "id": "recelnCDwt3n7oglC",
+  "NAME": "Marcel Oomens",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attiwIvaMKYpeOJ1V",
+      "url": "https://dl.airtable.com/aIeNkxXcSGutBcSO3jBb_21.jpg",
+      "filename": "21.jpg",
+      "size": 35723,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/6rO6LjCGTxGCUSKnGFds_small_21.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/XTs76GjbTHuMsB08w0ni_large_21.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/rqjsMZSPGGDgfCJnfkBA_full_21.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recmaOTZSPJqDZRBr"
+  ],
+  "TWITTER": "@marceloomens",
+  "TITLE1_EN": "Free Press Unlimited, Indonesialeaks",
+  "BIO_EN": "Marcel Oomens is an experienced programme manager with a background in digital security training and technology innovation. Marcel read degrees in artificial intelligence, science communication and journalism, and contemporary Asian studies. He obtained digital security skills and familiarity of circumvention technology in relation to life and work in China and Iran. In recent years, Marcel has managed a number of project related to digital whistleblowing and online source protection for investigative journalists.",
+  "SHOW": true,
+  "ID": 21,
+  "COUNTRY": "The Netherlands",
+  "COUNTRY_CODE": [
+    "nl"
+  ]
+},
+{
+  "id": "recSgkWvLzTTGeezr",
+  "NAME": "Marco Konopacki",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attjUKcWvnscsdiiU",
+      "url": "https://dl.airtable.com/la51XWwOSGakW2Q4W7bh_22.jpg",
+      "filename": "22.jpg",
+      "size": 474898,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/q7pNRq9kRFCEGzPBe0gP_small_22.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/qqBllHHSBaNPuj7ve5C3_large_22.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/fVQRS0TQ4mJW7jU8I8YB_full_22.jpg",
+          "width": 796,
+          "height": 796
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "reciuaVuxPxMO2VyM"
+  ],
+  "TWITTER": "@marcoamarelo",
+  "TITLE1_EN": "Institute for Technology and Society of Rio de Janeiro (ITS Rio)",
+  "BIO_EN": "Marco is currently pursuing a Doctorate Degree in Political Science at the Federal University of Minas Gerais (UFMG) and he holds a Master’s Degree from the Federal University of Paraná (UFPR) in Political Science. Marco worked as a visiting professor at the Technological Institute of Aeronautics (ITA) in the areas of software development management, telemetry, and georeferencing. He is a researcher on themes such as Governance of Information Technology, Software Development, and Social and Political Participation. Marco has had many experiences in both the public and private sectors. He was advisor in the Secretary of Legislative Affairs of the Ministry of Justice, where he coordinated the public debate on the regulation of Brazil’s Internet Bill of Rights. He is currently Project Coordinator in the area of Democracy and Technology at the Institute for Technology & Society of Rio (ITS Rio). ",
+  "SHOW": true,
+  "ID": 22,
+  "COUNTRY": "Brazil",
+  "COUNTRY_CODE": [
+    "br"
+  ]
+},
+{
+  "id": "recn99WRNQrcv5xL8",
+  "NAME": "Matt Stempeck",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attHQZdBih7GVl1RO",
+      "url": "https://dl.airtable.com/8vOc03EZSM64FBFqrY1F_23.jpg",
+      "filename": "23.jpg",
+      "size": 47542,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/01Ae0LQ0QBepCqTAH69V_small_23.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/u2Ab082QpCuqCIR0gaXT_large_23.jpg",
+          "width": 399,
+          "height": 399
+        },
+        "full": {
+          "url": "https://dl.airtable.com/LqSd6Ma3RhqtLxqivfBi_full_23.jpg",
+          "width": 399,
+          "height": 399
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recE0Pho2zeWzRKUY"
+  ],
+  "TWITTER": "@mstem",
+  "TITLE1_EN": "Civic Hall",
+  "BIO_EN": "Matt Stempeck has been researching and building civic technology since 2005. He has creatively contributed to electoral and social campaigns, national and city governments, and academia and journalism.\n\nIn 2016, Matt led the Digital Mobilization team at Hillary for America, which included the campaign’s voter registration, peer organizing, and SMS technologies and programs. Matt most recently served as Director of Civic Technology at Microsoft, and is now traveling the world working on projects with a creative collective appropriately known as the Bad Idea Factory.\n\nMatt became / earned a Master of Science at MIT Media Lab’s Center for Civic Media. While at the Media Lab, Matt quantified global media attention to stories like Trayvon Martin’s, designed a peer-to-peer humanitarian aid marketplace, and built an award-winning email product to fight misinformation online. He also holds a BA with high honors from the University of Maryland College Park, where he wrote a thesis on the disruption participatory media brought to political journalism.",
+  "SHOW": true,
+  "ID": 23,
+  "COUNTRY": "USA",
+  "COUNTRY_CODE": [
+    "us"
+  ]
+},
+{
+  "id": "rec0Bkn0y6gAe3FIx",
+  "NAME": "Michael Canares",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attzwvqcAiYkMvUZe",
+      "url": "https://dl.airtable.com/BKB37ZySPOVDzLeQZUiq_24.jpg",
+      "filename": "24.jpg",
+      "size": 18516,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/CbzA9yNgTNmAUZYb5Bnr_small_24.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/2FTfbCsNSs26B5dsAZqT_large_24.jpg",
+          "width": 320,
+          "height": 320
+        },
+        "full": {
+          "url": "https://dl.airtable.com/yUnx67wRuypfK6E8xlAI_full_24.jpg",
+          "width": 320,
+          "height": 320
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec8uJ6AKr2McxbGb"
+  ],
+  "TWITTER": "@mikorulez",
+  "TITLE1_EN": "World Wide Web Foundation, Open Data Lab Jakarta",
+  "BIO_EN": "Michael (Miko) is the Senior Research Manager for Digital Citizenship at the Web Foundation. He has more than ten years of research and development work experience at a progressive pace: from community-based project management to regional development, with most of his work rooted mainly in Southeast Asia. He delves in different programmatic themes, such as health, natural resource management, financial management, forestry, and economic development.\n\nMiko is a graduate of law and accountancy and also completed a masters degree in business education. He also has an M.Sc. in Development Studies from the London School of Economics and Political Science.\n\nMiko previously led research at the Web Foundation’s Open Data Lab in Jakarta, and prior to that, taught for over ten years, served as a monitoring and evaluation specialist for infrastructure governance and local economic development, and managed various open data research projects in the Philippines.",
+  "SHOW": true,
+  "ID": 24,
+  "COUNTRY": "Philippines",
+  "COUNTRY_CODE": [
+    "ph"
+  ]
+},
+{
+  "id": "recwvllr6PPtSaFbv",
+  "NAME": "sweemeng",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attvGv5g5fmA2tmxB",
+      "url": "https://dl.airtable.com/JhDabbAsRqaErmWan10C_26.jpg",
+      "filename": "26.jpg",
+      "size": 22107,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/UlnKlnPT8SKN4w88VJfa_small_26.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/NETg4WZqS6646xmdWv7w_large_26.jpg",
+          "width": 239,
+          "height": 240
+        },
+        "full": {
+          "url": "https://dl.airtable.com/iqRQ1SPSKOlAOyNSuuLx_full_26.jpg",
+          "width": 239,
+          "height": 240
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recTbtoJkXazxFySn"
+  ],
+  "TWITTER": "@sweemeng",
+  "TITLE1_EN": "Sinar Project",
+  "BIO_EN": "I am the software developer/sysadmin for Sinar Project. ",
+  "SHOW": true,
+  "ID": 26,
+  "COUNTRY": "Malaysia",
+  "COUNTRY_CODE": [
+    "my"
+  ]
+},
+{
+  "id": "recYtkmjDq8Doi8ON",
+  "NAME": "Nicolas Durish",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attE0C4pxgVZkH7aU",
+      "url": "https://dl.airtable.com/NaknGYJRMK8p9jfChK4w_27.jpg",
+      "filename": "27.jpg",
+      "size": 32125,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/CIqWj5TESIiBVZQ4yhuh_small_27.jpg",
+          "width": 40,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/8PUcgNujRvu448Hfg7Ln_large_27.jpg",
+          "width": 480,
+          "height": 431
+        },
+        "full": {
+          "url": "https://dl.airtable.com/SKgWxBETT2NDr9Tzmzje_full_27.jpg",
+          "width": 480,
+          "height": 431
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recGNY6XL6xYkr3aA"
+  ],
+  "TWITTER": "@durishn",
+  "TITLE1_EN": "University of Guelph",
+  "BIO_EN": "University of Guelph alumnus and current Masters of Science student in Computer Science, Nicolas Durish continually strives to be a rolemodel, leader and innovator in his field. Approaching his field of study with creativity and vision, Nicolas pushes the limits of computation to imagine new ways computer science can positively impact community, social justice and sustainability. Nicolas has participated in numerous projects that bridge the power of computation with various social challenges including energy conservation, waste reduction, health and environmental monitoring and truth and reconciliation to create solutions.",
+  "SHOW": true,
+  "ID": 27,
+  "COUNTRY": "Canada",
+  "COUNTRY_CODE": [
+    "ca"
+  ]
+},
+{
+  "id": "recNpZhWqBQjpfbVc",
+  "NAME": "Ning Chen",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att5y4mjDoDWFiWYS",
+      "url": "https://dl.airtable.com/O0dzEZO4T06I4uA0w2kO_28.jpg",
+      "filename": "28.jpg",
+      "size": 31803,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/t2NDifAPSGyEUw9kuu5j_small_28.jpg",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/X3c5yC9QOWZLSklogVos_large_28.jpg",
+          "width": 720,
+          "height": 477
+        },
+        "full": {
+          "url": "https://dl.airtable.com/gwmmQkuMSwmNaxgLOeTf_full_28.jpg",
+          "width": 720,
+          "height": 477
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rectXu4WB7wsFPCmV"
+  ],
+  "BIO": "熱愛作資料解讀及分析，共同創立 TW R Ladies，D4SG（Data For Social Good）的顧問．希望能認識更多同好，一起做好玩且不一樣的事情。",
+  "TITLE1_EN": "D4SG",
+  "SHOW": true,
+  "ID": 28,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec3AtjRbmRKWMt59",
+  "NAME": "Olivier Thereaux",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attYUklAXEILfxxNd",
+      "url": "https://dl.airtable.com/YtiwvZvcS2GoAgrT68Rr_29.jpg",
+      "filename": "29.jpg",
+      "size": 47237,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/HpsK10CASm6gSQzssJXd_small_29.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/sP5YF8KSb2zwTdrKcWrt_large_29.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/jlPWqiySHi1GKnFGggZ5_full_29.jpg",
+          "width": 640,
+          "height": 640
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recPnw0axDD0UJFyd"
+  ],
+  "TWITTER": "@olivierthereaux",
+  "TITLE1_EN": "Open Data Institute",
+  "BIO_EN": "Olivier Thereaux is the Head of Technology at the Open Data Institute (ODI), a global, independent, non-profit organisation based in London that aims to create a more open and trustworthy data ecosystem by connecting, equipping and inspiring people around the world to innovate with data.\n\nA graduate of École Centrale Paris, Olivier has worked as a technologist in France, Japan, Canada and the UK for nearly 20 years, focusing on the various facets of open technology: open standards, open source, open data and open innovation. \n\nIn the 2000s he was part of Tim Berners-Lee’s W3C team which stewarded the creation of the standards that enabled the explosion of the internet. He later headed the BBC’s innovation efforts on content discovery, and led the adoption of machine learning for content analysis and recommendations. He is now in charge of the ODI’s research on open data and emerging technology.",
+  "SHOW": true,
+  "ID": 29,
+  "COUNTRY": "France",
+  "COUNTRY_CODE": [
+    "fr"
+  ]
+},
+{
+  "id": "recrrdft3AxoRQxMn",
+  "NAME": "Pablo Aragón",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attCdxHNilTemtpB0",
+      "url": "https://dl.airtable.com/5jgH2BvhSo6U2NI0hfsz_30.jpg",
+      "filename": "30.jpg",
+      "size": 56060,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/KIphaGvWQSWZ8Ou5Iyit_small_30.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/ot8sFa0rSvuSshVKPCCl_large_30.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/xIXOurEOSDeGE0DLKEbD_full_30.jpg",
+          "width": 512,
+          "height": 512
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rect32pmDNWejnaxr"
+  ],
+  "TWITTER": "@elaragon",
+  "TITLE1_EN": "Universitat Pompeu Fabra／Eurecat, Centre Tecnològic de Catalunya",
+  "BIO_EN": "Researcher focused on characterizing online participation in civic technologies. Collaborator of Decidim, the Free Open-Source participatory democracy platform for cities and organizations.",
+  "SHOW": true,
+  "ID": 30,
+  "COUNTRY": "Spain",
+  "COUNTRY_CODE": [
+    "es"
+  ]
+},
+{
+  "id": "recllab2Ompnjts23",
+  "NAME": "Tenzin Chokden",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attUcDWa5smUn7EeZ",
+      "url": "https://dl.airtable.com/Bzjksa8XTMq8BvsTZ4v9_31.jpg",
+      "filename": "31.jpg",
+      "size": 377729,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/AREedSeaRUaR19dAIKBT_small_31.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/3KUJ6OAQPSC2RVUwC0OQ_large_31.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/yu1AjOefRYGTKnId4mLg_full_31.jpg",
+          "width": 800,
+          "height": 800
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recpf4XicDjNb83Yj"
+  ],
+  "TWITTER": "@tnzchok",
+  "TITLE1_EN": "Central Tibetan Administration (Exile Tibetan Government)",
+  "BIO_EN": "Tenzin Chokden is a Malware Analyst who works for Central Tibetan Administration (CTA), exiled Tibetan Government in India. He has been in security for 5 years, an open source enthusiast, a contributor to the Fedora Security Lab. He uses open source tools in his personal and professional life. He is the co-chapter lead of Null Dharamsala (India’s largest open security community) and has been contributing as a Fedora Ambassador since 2016. He believes Open Source Security Test Tools and methods are essential to provide protection and resilience unbiased from the commercial agendas of the security solution industry. ",
+  "SHOW": true,
+  "ID": 31,
+  "COUNTRY": "Tibet (Stateless) ",
+  "COUNTRY_CODE": [
+    "tibet"
+  ]
+},
+{
+  "id": "recHdyept2G9q1eNx",
+  "NAME": "Thy Try",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attdxd437surRZTFo",
+      "url": "https://dl.airtable.com/1fybMK5RRSs1nQjicuxZ_unnamed-1.jpg",
+      "filename": "unnamed-1.jpg",
+      "size": 22053,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/pWlF2OgtT2m4lJUpmwqt_small_unnamed-1.jpg",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/wYmTXHeJRUG3vP6GBppr_large_unnamed-1.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "full": {
+          "url": "https://dl.airtable.com/518UuIvtSSedbGjupsak_full_unnamed-1.jpg",
+          "width": 640,
+          "height": 427
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recahxnefdMG7walN"
+  ],
+  "TWITTER": "@try_thy",
+  "TITLE1_EN": "Open Development Cambodia (ODC)",
+  "BIO_EN": "THY Try is an Executive Director of Open Development Cambodia (ODC). In 2011, he joined ODC as an advisory board member, and later on he became a chairman of the board. As an Executive Director. Try plays an important role in increasing public access to current and historical data and information about Cambodia’s development trends in an online ‘open data’ platform, compiling freely-available data from a wide range of public sources. Prior to joining ODC, Try worked for the National Network on Extractive Industry Social and Environmental Impact (EISEI) as a coordinator of Development and Partnership in Action (DPA) for four years. He also spent two years with the Cambodian Human Rights and Development Association (ADHOC) as a human rights investigator and another two years with Indochina Research Limited (IRL) in social and commercial research. He is a member of the advisory committee of the Global Center for Mekong Studies (GCMS) Cambodia. He also holds multiple degrees and training-related certificates. ",
+  "SHOW": true,
+  "ID": 32,
+  "COUNTRY": "Cambodia",
+  "COUNTRY_CODE": [
+    "kh"
+  ]
+},
+{
+  "id": "recIbn1v0V4skUfiR",
+  "NAME": "金錦珍",
+  "CROPPED_AVATAR": [
+    {
+      "id": "atttO7aRcL6gzQAya",
+      "url": "https://dl.airtable.com/Ju0uD5QWQUiVGA9D79oo_33.jpg",
+      "filename": "33.jpg",
+      "size": 159636,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/gvZzbX5RMCZyCXu2YYBG_small_33.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Xtj4OC9TNx6UMM03lGNg_large_33.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/ca4N70LVRxCJ5AvmMYuT_full_33.jpg",
+          "width": 1204,
+          "height": 1606
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recx9m7zD5cizD0f0"
+  ],
+  "BIO": "大家好！很高興認識您。我叫金錦珍，我有一隻狗，我愛他。我喜歡吃鳳梨酥，哈哈。",
+  "TWITTER": "@partiunion",
+  "NAME_EN": "GJ",
+  "TITLE1_EN": "Parti (partiunion.org)",
+  "BIO_EN": "A democracy activist at Parti. GJ delivers Parti's value, thoughts and action with stories. (partiunion.org)  She likes to know and experience things she matters: dogs and people, feminism, organizing, a technology which can change society, and blockchain. She's been working in a social sector since 2014. ",
+  "SHOW": true,
+  "ID": 33,
+  "COUNTRY": "Korea",
+  "COUNTRY_CODE": [
+    "kr"
+  ]
+},
+{
+  "id": "rec1SFvUpwBhHKA1O",
+  "NAME": "子魚",
+  "TITLE1": "vTaiwan／g0v 參與者",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attOaBYrwGL7D8CRQ",
+      "url": "https://dl.airtable.com/Kugbj9XJTgCf5NJAmo06_34.jpg",
+      "filename": "34.jpg",
+      "size": 133407,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/RkaRp0pTQNya4gNYKYZE_small_34.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/uCo0V3oRzhPvOSZ63ECg_large_34.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/sTsJDwJzSXa6AHLvrSMk_full_34.jpg",
+          "width": 1358,
+          "height": 1358
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLfBAHIGGQTN3sU"
+  ],
+  "BIO": "毫無反應就只是個自我滿足的宅宅，在 vTaiwan 的坑中無法自拔的 g0ver。",
+  "TWITTER": "@2kanyo",
+  "NAME_EN": "ky（Lisa）",
+  "TITLE1_EN": "vTaiwan, g0ver",
+  "SHOW": true,
+  "ID": 34,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec57RLl4fgkRPGhU",
+  "NAME": "何明諠",
+  "TITLE1": "台灣人權促進會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attZhLFxcp3ljxYIs",
+      "url": "https://dl.airtable.com/DY0nAID5RK6Kngd1kjTy_35.jpg",
+      "filename": "35.jpg",
+      "size": 13673,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/joX2RHLCSvChAyMaBArI_small_35.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/M6zKwGQTHuhdlailsl8j_large_35.jpg",
+          "width": 253,
+          "height": 253
+        },
+        "full": {
+          "url": "https://dl.airtable.com/4dAQwruZRsqh57PdFPhb_full_35.jpg",
+          "width": 253,
+          "height": 253
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recChJ7rfdqB0oDjm"
+  ],
+  "BIO": "清華大學電機系、哲學所畢業。儘管人生看似嚴重錯頻，但台權會的工作似乎又巧妙地結合兩者。從事台權會工作至今，被迫不停質疑網際網路表面上的生態運作（特別是使用者隱私與言論背後的運作機制），可能已無法再回到過往的使用者狀態，但又隱隱覺得或許這才是一個健康的狀態也說不定。",
+  "TITLE1_EN": "Taiwan Association for Human Rights",
+  "SHOW": true,
+  "ID": 35,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recaEPlfSKCXGhARi",
+  "NAME": "Isabel Hou",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attIrJyLaTydMa54D",
+      "url": "https://dl.airtable.com/TsoNpcQTZWbESvZdBBlx_36.jpg",
+      "filename": "36.jpg",
+      "size": 216678,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/SiMPtFPYTcayzTN68sgA_small_36.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/kvqnTBzgTjCOQM62yylg_large_36.jpg",
+          "width": 512,
+          "height": 681
+        },
+        "full": {
+          "url": "https://dl.airtable.com/KuoM59HRfSOceo34zEns_full_36.jpg",
+          "width": 1539,
+          "height": 2048
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec0ztQhg9drkVcry"
+  ],
+  "TITLE1_EN": "g0v",
+  "BIO_EN": "Isabel Hou is the legal counsel of “g0v jothon” and also a seasoned attorney focusing on technological innovation and intellectual property law since 1997. Isabel has served as a legal counsel for various government programs, NGOs, and open source/culture communities.",
+  "SHOW": true,
+  "ID": 36,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec16ERguhm7yTTHr",
+  "NAME": "劉哲瑋",
+  "TITLE1": "g0v 公有地大行動社群",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attBgP7KY5xiUh56u",
+      "url": "https://dl.airtable.com/s95Lu3PgQFmeAWpXaoUg_37.jpg",
+      "filename": "37.jpg",
+      "size": 90802,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/wJxPZ5OLTAyLdjMan6HD_small_37.jpg",
+          "width": 39,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/wZBuc2bRzSJAMGzcOtID_large_37.jpg",
+          "width": 554,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/aTBdBIesSmO7Cqlo6xHr_full_37.jpg",
+          "width": 882,
+          "height": 815
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recovSgrDUaLle3CD"
+  ],
+  "BIO": "任職於空間規劃公司，關注於陪伴社區組織設想地區發展的願景與社區課題的解決，以及各類空間規劃作為一種公共政策所應致力的品質。除了規劃工作之外，持續以社群志願者的身份，參與各類開放知識公民社群的行動。",
+  "TWITTER": "@cheweiii",
+  "NAME_EN": " Che Wei Liu",
+  "TITLE1_EN": "g0v",
+  "SHOW": true,
+  "ID": 37,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recBWdORvLNwvcPoS",
+  "NAME": "劉嘉凱",
+  "TITLE1": "智庫驅動",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attUqo5aXjb9iaKTm",
+      "url": "https://dl.airtable.com/OjBXq6exQ66j8MBsNcUZ_38.jpg",
+      "filename": "38.jpg",
+      "size": 179812,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/S7A9nedSTSCuCvGlddVr_small_38.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/cKveQ0dPQhHtFObXlDMu_large_38.jpg",
+          "width": 300,
+          "height": 300
+        },
+        "full": {
+          "url": "https://dl.airtable.com/NixAikgqT0q2ONMqwJnX_full_38.jpg",
+          "width": 300,
+          "height": 300
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOSeRYcF26b6Y8K"
+  ],
+  "BIO": "劉嘉凱是「DSP 智庫驅動」執行長，提供資料分析與策略諮詢服務，協助客戶改變日常工作的決策流程，以成為商業領域更棒的創新者；工作之餘，經常應邀為各級政府機關提供資料治理與開放資料之諮詢；他還與世界各地的國際組織合作推動開放資料之應用。下班之後，則積極參與《D4SG 資料英雄計畫》，運用資料力量改造社會。",
+  "TWITTER": "@agentCKL",
+  "NAME_EN": "Chia-Kai Liu",
+  "TITLE1_EN": "DSP, Inc.",
+  "SHOW": true,
+  "ID": 38,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "reczQF85qNDNCKzZx",
+  "NAME": "宇庭",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att78dlZ2MXp7TsrX",
+      "url": "https://dl.airtable.com/FFxYGeIQUK8itDeGxOOQ_39.jpg",
+      "filename": "39.jpg",
+      "size": 25268,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/0p0qh4hDSpC4NBDzXl81_small_39.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/C0GIJStZQ66faPVMeTEA_large_39.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/fozz91L5TYG8s2RdFhYb_full_39.jpg",
+          "width": 1024,
+          "height": 1024
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recsBLW3IRjH2UYAI"
+  ],
+  "TWITTER": "@yutin1987",
+  "NAME_EN": "YuTin",
+  "TITLE1_EN": "g0v.tw",
+  "BIO_EN": "YuTin, g0v contributor start from the 2012 year, also an internet programmer, and cloud architect. For now a chief officer in a company, focus #OpenGov #OpenSource #news.",
+  "SHOW": true,
+  "ID": 39,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recw0dp1q0utTdExr",
+  "NAME": "古淑薰 ",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attocDaHhtGDYssO1",
+      "url": "https://dl.airtable.com/9miBzPPGTiKwD53eRSTE_40.jpg",
+      "filename": "40.jpg",
+      "size": 235587,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/eCyYPcJSQqbhUix7Yv9M_small_40.jpg",
+          "width": 25,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Ab2qt8zZRnqpBXEC69au_large_40.jpg",
+          "width": 512,
+          "height": 725
+        },
+        "full": {
+          "url": "https://dl.airtable.com/4FidirYRTGeNZm2LjWpg_full_40.jpg",
+          "width": 2120,
+          "height": 3000
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recgECkOc9M8DWlkx"
+  ],
+  "BIO": "屏東大學文化創意產業學系助理教授、台灣文化政策研究學會理事。「2017年全國文化會議暨文化政策白皮書」專案執行長，2018年「屏新而論」公民文化論壇計畫共同主持人。",
+  "NAME_EN": "Shu-Shiun Ku",
+  "SHOW": true,
+  "ID": 40,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recmC0XfZEZiMl3bb",
+  "NAME": "周庭希",
+  "TITLE1": "澳門良心",
+  "CROPPED_AVATAR": [
+    {
+      "id": "atttHiCm0kDe47ZNs",
+      "url": "https://dl.airtable.com/u7w0LgVDSO2nS9w38q3H_41.jpg",
+      "filename": "41.jpg",
+      "size": 47301,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/xhynrhKgQcS95L4CJkF0_small_41.jpg",
+          "width": 48,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/gZcSdvSSpWe55vIXxnU9_large_41.jpg",
+          "width": 682,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/gYhwDZL4RaenA4ALjDc0_full_41.jpg",
+          "width": 800,
+          "height": 601
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recSwpk4wL79O6Lmz"
+  ],
+  "TWITTER": "@jasontchao",
+  "NAME_EN": "Jason CHAO",
+  "TITLE1_EN": "Macau Conscience",
+  "BIO_EN": "A software developer and social/political/human rights activist originally from Macau. Now a postgraduate student in Europe researching mobile apps, machine learning, data sovereignty and civic tech.",
+  "SHOW": true,
+  "ID": 41,
+  "COUNTRY": "Macau & Portugal",
+  "COUNTRY_CODE": [
+    "mo",
+    "pt"
+  ]
+},
+{
+  "id": "recPIVzZ2EoJi1FvT",
+  "NAME": "姜柏任",
+  "TITLE1": "國立臺灣大學開源社\n",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attLAwOmPDCrF9kDh",
+      "url": "https://dl.airtable.com/w4DUC7V0Tl6TbY5p7SlO_42.jpg",
+      "filename": "42.jpg",
+      "size": 112314,
+      "type": "image/jpeg"
+    }
+  ],
+  "SCHEDULE": [
+    "recqfasll9wmLIaY7"
+  ],
+  "BIO": "姜柏任（@RSChiang），國立臺灣大學法律系，臺大開源社發起人暨首屆社長。平常喜歡在公館巷弄的咖啡館裏寫程式，偶爾也兼寫狀。#qml #csharp #pythonista https://poren.tw",
+  "TWITTER": "@RSChiang",
+  "NAME_EN": "RSChiang",
+  "TITLE1_EN": "NTUOSC",
+  "SHOW": true,
+  "ID": 42,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec1AWg17nLsPJ04t",
+  "NAME": "崔竟",
+  "TITLE1": "守語者聾人事務所",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attFLD5D90bp8l6td",
+      "url": "https://dl.airtable.com/UheWf3GuRymglalQDumA_43.jpg",
+      "filename": "43.jpg",
+      "size": 334557,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/QRqsEvOqSNKVq0A7CHcE_small_43.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/3lTu5eepTliDRp3C78by_large_43.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/AxFfyYmbS5mCJONQKoka_full_43.jpg",
+          "width": 1448,
+          "height": 1448
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec8swyLkJ1OJpOOx"
+  ],
+  "BIO": "守语者（ProSigner）成立于中国武汉市，未来希望向整个亚洲拓展。创办人之一崔竟，来自聋人家庭的聋人，经历“聋人文化”的冲击而扭转人生，当过教师、咖啡馆老板，现为法律研究机构的助理研究员。",
+  "TITLE1_EN": "ProSigner",
+  "SHOW": true,
+  "ID": 43,
+  "COUNTRY": "China",
+  "COUNTRY_CODE": [
+    "cn"
+  ]
+},
+{
+  "id": "rec3HX7cWnuv9PakX",
+  "NAME": "張培鏞 ",
+  "TITLE1": "社團法人台灣數位科技與政策協進會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attVLzQ0XNK1bEywY",
+      "url": "https://dl.airtable.com/xAZDM8UQjqnyijutvDrw_44.jpg",
+      "filename": "44.jpg",
+      "size": 15562,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/hSFfX8slSFm2dsWBF9fw_small_44.jpg",
+          "width": 41,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/CRnvrfCYT3i9DgXzx5qb_large_44.jpg",
+          "width": 220,
+          "height": 195
+        },
+        "full": {
+          "url": "https://dl.airtable.com/AcRwe2CfR6qqv0sMCYOw_full_44.jpg",
+          "width": 220,
+          "height": 195
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recst4GJ61s2kNAVL"
+  ],
+  "BIO": "社團法人台灣數位科技與政策協進會理事，叡揚資訊股份有限公司董事長。創立國內第一家 100% 營收以軟體及服務為業務之叡揚資訊公司，帶領團隊建立軟體工程機制及專案管理方法論，努力建立軟體、服務、知識有價之觀念，建構開拓國際市場的機制與組織，成功進入大陸及日本市場。",
+  "NAME_EN": "Perry Chang",
+  "TITLE1_EN": "Digital Taiwan Roundtable",
+  "SHOW": true,
+  "ID": 44,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "reczAud3wnEkcUluT",
+  "NAME": "張淑貞",
+  "TITLE1": "台灣環境資訊協會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attCy0DJYXuZFWFr4",
+      "url": "https://dl.airtable.com/zKQmuYk1T0WfOv1yudFu_45.jpg",
+      "filename": "45.jpg",
+      "size": 25512,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/rD9wRCYrSuaqgKXlV9Gk_small_45.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/8whexIqCSTmXzC3cUcaS_large_45.jpg",
+          "width": 320,
+          "height": 320
+        },
+        "full": {
+          "url": "https://dl.airtable.com/bPtDEeSQFCxNrUw81agi_full_45.jpg",
+          "width": 320,
+          "height": 320
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recdCluNYYKimQiLS"
+  ],
+  "BIO": "在環保團體窩了三年半，從分析語料變成分析環境資料，漸漸看到資訊公開及應用保護環境的可能，參與專題有：重金屬的小旅行、餐桌上的違章工廠。",
+  "TITLE1_EN": "Taiwan Environmental Information Association",
+  "SHOW": true,
+  "ID": 45,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recZuck1FGh5wUtli",
+  "NAME": "張芳睿",
+  "TITLE1": "公共數位創新空間",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attqhy8ELq5fDzpF4",
+      "url": "https://dl.airtable.com/y6AVKE5hTaeM9wFk38Ms_46.jpg",
+      "filename": "46.jpg",
+      "size": 620299,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/myKa6Fy9QlmDsrvyQGae_small_46.jpg",
+          "width": 34,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/kpbJRzQcixerJCS5TlzA_large_46.jpg",
+          "width": 512,
+          "height": 535
+        },
+        "full": {
+          "url": "https://dl.airtable.com/t4W0GZrYTpGcc0TPUDq5_full_46.jpg",
+          "width": 830,
+          "height": 868
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recEQLdDq2Sg9uRLa",
+    "recLfBAHIGGQTN3sU"
+  ],
+  "TWITTER": "@FangJuiChang",
+  "NAME_EN": "Fang-Jui Chang",
+  "TITLE1_EN": "PDIS",
+  "BIO_EN": "Fang is currently working as a Service Designer/Consultant at PDIS. She leads workshops and meetings to tackle diverse social issues across departments as well as organisations and private sectors. The aim of this is to deal with cross-ministerial issues and enhance a better organisational culture from inside to outside of the government. She is a hybrid designer who graduated from the Royal College of Art with an MA in Service Design. Over the past 5 years of work experience, she has worked as a multi-dimensional designer covering a wide range of disciplines across diverse industries. Her main body of work has focused on projects in healthcare, education, urban planning, finance, and transport. She strongly believes that a designer has an obligation to work for the benefit of society and the environment as well as the commercial industry.",
+  "SHOW": true,
+  "ID": 46,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec6sMP9TwkIQYfEk",
+  "NAME": "戴君翰",
+  "TITLE1": "公共數位創新空間",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attiUUPxAFCtbKLeB",
+      "url": "https://dl.airtable.com/brtowWeFRl2vkaJpfjLD_47.jpg",
+      "filename": "47.jpg",
+      "size": 10930,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/B7B0lQrRQFeQWpxl0i8D_small_47.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/ahUiz5SeTVegy6RgRtNR_large_47.jpg",
+          "width": 80,
+          "height": 80
+        },
+        "full": {
+          "url": "https://dl.airtable.com/b72YZhRxRK2jaIjZXR4g_full_47.jpg",
+          "width": 80,
+          "height": 80
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recEQLdDq2Sg9uRLa"
+  ],
+  "BIO": "工程師，大部分時間在寫網站。想看看政府的資訊系統有沒有什麼能幫上忙的地方，不小心掉到開放政府協作會議的坑，平常在協作會議擔任助理主持。",
+  "NAME_EN": "Mark Dai",
+  "TITLE1_EN": "PDIS",
+  "SHOW": true,
+  "ID": 47
+},
+{
+  "id": "reczHxpFAHf1zQBNE",
+  "NAME": "曾柏瑜",
+  "TITLE1": "曾柏瑜競選團隊",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attsVUdkfQrZC9X1a",
+      "url": "https://dl.airtable.com/tpTgtdTTm0GMzL04V2UQ_48.jpg",
+      "filename": "48.jpg",
+      "size": 89179,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/Jc4567uSvSj9DTFnOKGv_small_48.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/5FuCewK3QFSEoGQYevsL_large_48.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/vzR3ncBfS3KxB6KUSK4g_full_48.jpg",
+          "width": 1365,
+          "height": 1365
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOgBGMx8wUyB0km"
+  ],
+  "BIO": "2018新北市議員時代力量參選人，曾任開放文化基金會研究員，出版「2014 - 2016 開放政府觀察報告」。曾任台北市政府媒體事務組專員、亞洲青年民主連線秘書、2016年立委參選人、318佔領立法院運動媒體部。",
+  "NAME_EN": "Poyu Tseng",
+  "SHOW": true,
+  "ID": 48,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recxtPmVAMyW2KKUK",
+  "NAME": "李佳珊",
+  "TITLE1": "g0v 揪松團",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attV0qu15gFitM2jG",
+      "url": "https://dl.airtable.com/fj5qzqMgQGyCvF3WiraZ_49.jpg",
+      "filename": "49.jpg",
+      "size": 55329,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/U6gIpkHLRVCzdFZ7MMmO_small_49.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/7M5mmpNQGKAxsNzcq8MA_large_49.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/3K5PoGYZTbq4CWdz5yw3_full_49.jpg",
+          "width": 640,
+          "height": 640
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "reca3OervPkPDp4W8"
+  ],
+  "BIO": "目前在 g0v 揪松團，專職辦松與獎助金專案。",
+  "TWITTER": "@besscslee19",
+  "NAME_EN": "Bess Lee",
+  "TITLE1_EN": "g0v jothon",
+  "SHOW": true,
+  "ID": 49,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recrU2XQBoXoMYgmO",
+  "NAME": "李梅君",
+  "TITLE1": "g0v／美國加州大學戴維斯分校",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attaeNl7JdhSB4eci",
+      "url": "https://dl.airtable.com/D6LpRWzVTNvik77UNA5B_50.jpg",
+      "filename": "50.jpg",
+      "size": 85808,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/4VVBby6Q5KMe4ZGXdRKw_small_50.jpg",
+          "width": 42,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/u1XfmxfZSKOOk4LINgJI_large_50.jpg",
+          "width": 597,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/0sKMDQfTDmqpoU2mUj8A_full_50.jpg",
+          "width": 737,
+          "height": 632
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "reckLdJH22J4X3ek6"
+  ],
+  "BIO": "潛伏在台灣零時政府裡，挖掘故事與八卦，思考公民怎麼與科技連結的人類學家。研究關懷黑客行動主義、開放運動、數位民主等議題。2016-2017 間，曾在開放文化基金會打雜，協助舉辦 Civic Tech Fest，並與曾柏瑜共同撰寫《開放政府觀察報告 2014-2016》。現旅居美國加州不靠海的沙漠裡，搔頭苦惱博士論文怎麼下筆。",
+  "TWITTER": "@leemeichun",
+  "NAME_EN": "Mg Lee",
+  "TITLE1_EN": "g0v／University of California-Davis",
+  "BIO_EN": "MG is a participant observer of g0v. As an anthropologist, her research interests include hackitivism, open movements, and digital democracy. She worked in the Open Culture Foundation during 2016-2017 and helped hold Civic Tech Fest in Taipei. She is also the coauthor of “Taiwan Open Government Report 2014-2016”. Now, she is based in California, writing her dissertation on how openness is transcoded from technologies to governance.",
+  "SHOW": true,
+  "ID": 50,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recVGZtysFMFUOc7z",
+  "NAME": "Billion",
+  "TITLE1": "真的假的",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attWK50sVPH2HAdyZ",
+      "url": "https://dl.airtable.com/p2KSgSnDTy2sS62DyJJI_51.jpg",
+      "filename": "51.jpg",
+      "size": 885148,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/s3VRLviLTAG31ZkxbZ6P_small_51.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/D9SlqHk6RiWiUoFEhnLc_large_51.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/168ZdRieS5W6CUTGXUit_full_51.jpg",
+          "width": 2250,
+          "height": 3000
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recVjYuDM4U3JT6FB"
+  ],
+  "BIO": "我是一隻鶴。在 Cofacts 真的假的裡當 17+N 歲的少女，負責每日庶務。我們做了一個 LINE 上的聊天機器人，讓 chatbot 天天幫你查證文章突破同溫層。",
+  "TITLE1_EN": "Cofacts",
+  "BIO_EN": "Contributed to Cofacts, we do fact-checking and meet-up every 2 month. Cofacts is a collaborative system connecting instant messages and fact-check reports together. ",
+  "SHOW": true,
+  "ID": 51,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recRKavcd0VT0nLrW",
+  "NAME": "Liz",
+  "TITLE1": "iTaigi",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attb4XKYAXWovUaeo",
+      "url": "https://dl.airtable.com/Tzl4Wu9MRz5PsrDN0SDb_52.jpg",
+      "filename": "52.jpg",
+      "size": 7468,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/RxcSIPQXOY8H1stNW1Lg_small_52.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/ZJyUJjDjQ8aZdiLO4hm8_large_52.jpg",
+          "width": 140,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/WnYszqbkTfWgKzd5ELkb_full_52.jpg",
+          "width": 140,
+          "height": 140
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec9jdNPjk3C6BGs9"
+  ],
+  "BIO": "iTaigi 愛台語坑主，台語工作者，民視台灣學堂「講台語當著時」主講，過去是教育部台語辭典 ê 編輯。一逝 code 都袂曉寫，煞愛做佮 data 有關係 ê 工課，會做甲家己袂收山。",
+  "TITLE1_EN": "iTaigi",
+  "SHOW": true,
+  "ID": 52,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec0D27XWg69ZmSKU",
+  "NAME": "Pellaeon",
+  "TITLE1": "開放文化基金會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attsCSVOD7XgLN8Me",
+      "url": "https://dl.airtable.com/UNiogSh0S4eQLN7sUs75_53.jpg",
+      "filename": "53.jpg",
+      "size": 22633,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/swLXhF0vQXSF0znuY0Yh_small_53.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/noLEVyBoQYa4BHUy33Lp_large_53.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/9NSqTFlFSIuLDfVU8Lzq_full_53.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recsBLW3IRjH2UYAI"
+  ],
+  "BIO": "在開放文化基金會推廣資安與隱私。參與台灣自由開源軟體社群 COSCUP、SITCON 和資安社群 HITCON。嗜好是修自己平常踩到的軟體 bug 和研究各種技術，曾經貢獻過的大型專案有 ownCloud 和 bsd-cloudinit 。",
+  "TITLE1_EN": "Open Culture Foundation (OCF)",
+  "BIO_EN": "Pellaeon works to promote information security and privacy at Open Culture Foundation, Taiwan. He also participates in local FOSS and infosec communities and have contributed to many FOSS projects.",
+  "SHOW": true,
+  "ID": 53,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recj60tXpMRloe4of",
+  "NAME": "林邑軒",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attKeaKdXU22EKDNj",
+      "url": "https://dl.airtable.com/Pgp8ozXSQL2fYYUgXLOe_54.jpg",
+      "filename": "54.jpg",
+      "size": 78482,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/89EjzaiT4ekMp23NSpu2_small_54.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/evjkMVC3Qf28Ku8hIWQv_large_54.jpg",
+          "width": 512,
+          "height": 513
+        },
+        "full": {
+          "url": "https://dl.airtable.com/XaPUnbSrSMOmoMVIPCZx_full_54.jpg",
+          "width": 932,
+          "height": 933
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recv3gMm5JKro8D9t"
+  ],
+  "BIO": "台灣大學電機系、社會學研究所畢業。曾投入一九五〇年白色恐怖、二二八事件的調查研究，其後參與數年的政治實務工作，現任職於企業界，致力於創新與研發。閒暇之餘仍是個雞婆嘮叨的獨立研究者，相關著作請見 goo.gl/BtyfdU。",
+  "SHOW": true,
+  "ID": 54,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recc0wWf8wLD5q6r5",
+  "NAME": "雨蒼",
+  "TITLE1": "公共數位創新空間",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attWGnTBJ3MYIeGjt",
+      "url": "https://dl.airtable.com/U1PYN20hQ5OGYsxTTNjx_55.jpg",
+      "filename": "55.jpg",
+      "size": 52731,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/gbDTbw3DScWrvLQo52gQ_small_55.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/dUOjbArVQ4iegyAj8dfC_large_55.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/rk6C2XvSY2Cn3veP7ijw_full_55.jpg",
+          "width": 682,
+          "height": 682
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recEQLdDq2Sg9uRLa"
+  ],
+  "BIO": "自由軟體工作者、公民記者，目前於 PDIS 擔任研究員。",
+  "TWITTER": "@billy3321",
+  "NAME_EN": "Billy Zhe-Wei Lin",
+  "TITLE1_EN": "PDIS",
+  "SHOW": true,
+  "ID": 55,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "reciJNxqBVuM3rizq",
+  "NAME": "柯惠晴",
+  "TITLE1": "台灣古厝再生協會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attokPSgkeSJ9IDFo",
+      "url": "https://dl.airtable.com/gA6INgK4RV2xyQYjgUB9_56.jpg",
+      "filename": "56.jpg",
+      "size": 41069,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/fzEV4IGBR8iX1ah40dsO_small_56.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/LpevkkVtRMqF3JBADuKu_large_56.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/idRZyNRdQGSK6HK0kNjz_full_56.jpg",
+          "width": 960,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recgECkOc9M8DWlkx"
+  ],
+  "BIO": "古厝再生協會幹事、藝術大學藝術管理與文化政策研究所碩士、曾任 NCCWP 專案經理，關注都市中的文化空間與永續發展議題。",
+  "SHOW": true,
+  "ID": 56,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recoPjDqLYy2tRPmT",
+  "NAME": "Johnson Liang",
+  "TITLE1": "真的假的",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att71NXDmyxcq3If0",
+      "url": "https://dl.airtable.com/93IOcw0tROWZboj4a3p1_57.jpg",
+      "filename": "57.jpg",
+      "size": 98281,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/mQCxHznPQT6ftiZTK07S_small_57.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/jyi7OqaORDGvnt2zDgFj_large_57.jpg",
+          "width": 320,
+          "height": 320
+        },
+        "full": {
+          "url": "https://dl.airtable.com/SgxI5kOScKaaxyGyAvyA_full_57.jpg",
+          "width": 320,
+          "height": 320
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recVjYuDM4U3JT6FB"
+  ],
+  "TITLE1_EN": "Cofacts",
+  "BIO_EN": "I am...\n\n- A web developer that works at an Internet company as a day job.\n\n- An open-sourced civic tech supporter, participated & founded several projects that facilitates civic participation of democracy.\n\n- Going to present Cofacts, the voluntary project I have founded in mid 2016. Cofacts is a fact-checking system leveraging chatbots and crowd-sourced reports to help connecting different perspectives. For more information, please visit: http://bit.ly/cofacts-quickstart",
+  "SHOW": true,
+  "ID": 57,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recNapxxGYhwY2GCa",
+  "NAME": "洪國鈞",
+  "TITLE1": "沃草",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attzwNCeO0uooMuCA",
+      "url": "https://dl.airtable.com/cntkstjISLaYyUTwurQs_58.jpg",
+      "filename": "58.jpg",
+      "size": 118611,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/BEUHH3SkRvK3yKBbHoc1_small_58.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/heRuJwSeRliuBcmlbYSK_large_58.jpg",
+          "width": 512,
+          "height": 518
+        },
+        "full": {
+          "url": "https://dl.airtable.com/phmO6xcESM2zEzgf4HX6_full_58.jpg",
+          "width": 799,
+          "height": 809
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec4dfybn7e0WkQpc"
+  ],
+  "BIO": "沃草《國會無雙》專案經理。",
+  "NAME_EN": "Kuochun Hung",
+  "TITLE1_EN": "Watchout",
+  "SHOW": true,
+  "ID": 58,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recKdOszZh2WYVYsl",
+  "NAME": "洪敬舒",
+  "TITLE1": "台灣勞工陣線",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att62SqxTtp9JGRAn",
+      "url": "https://dl.airtable.com/howtKSRDQZ6KK8P4AMk9_hjs.jpg",
+      "filename": "hjs.jpg",
+      "size": 390657,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/MDA76iSrGu05XECrE31g_small_hjs.jpg",
+          "width": 24,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/2lbgYdiBQUuBEOGSREL1_large_hjs.jpg",
+          "width": 512,
+          "height": 762
+        },
+        "full": {
+          "url": "https://dl.airtable.com/aBA6g2VTVOm5b34QTg6y_full_hjs.jpg",
+          "width": 993,
+          "height": 1477
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recoJUijVzZVQ43OP",
+    "recLLsXbJtwdxLeTc"
+  ],
+  "BIO": "曾任媒體記者、國會助理、NPO政策研究與倡議專員、公平稅改聯盟發言人。現任台灣勞工陣線研究部主任、貧窮經濟研究室研究員。研究議題包含勞動貧窮、社會經濟、勞動合作社、社會企業、稅制政策。",
+  "NAME_EN": "Ching-Shu Hung",
+  "TITLE1_EN": "Taiwan Labour Front",
+  "SHOW": true,
+  "ID": 59,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec0QMNdkmTLx33se",
+  "NAME": "游知澔",
+  "TITLE1": "沃草",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attf03M8mnwVAr1gT",
+      "url": "https://dl.airtable.com/XilGyQa2QDa4F15ozoiy_60.jpg",
+      "filename": "60.jpg",
+      "size": 327258,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ib27b5mNTdWn0bf2gNiH_small_60.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Y7E2s0E5QdmBZKyQWGa4_large_60.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Zmd6vGqlQ6SZEN8NlNX3_full_60.jpg",
+          "width": 2230,
+          "height": 2230
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLfBAHIGGQTN3sU",
+    "reca3OervPkPDp4W8"
+  ],
+  "TWITTER": "@chihaoyo",
+  "NAME_EN": "chihao",
+  "TITLE1_EN": "Watchout",
+  "BIO_EN": "chihao builds communities and advocates for collaboration. He is an active contributor to g0v.tw, archipielago.tw, and a founding member of biomearts.net. He is also the Design and Technology Lead at Watchout, a congressional news media and democracy tech launcher in Taiwan. He works to critique and renew journalistic organization and processes, and to build a network of tools and systems that informs and empowers Taiwanese political deliberation and participation.",
+  "SHOW": true,
+  "ID": 60,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recHf9MwpRt1PnPrS",
+  "NAME": "王向榮 ",
+  "TITLE1": "g0v 參與者",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att7t2rcxOOeXXdgk",
+      "url": "https://dl.airtable.com/wi1CHxERMu5jgDmLN1bW_61.jpg",
+      "filename": "61.jpg",
+      "size": 131204,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/BslW0NJvQUC8HBbVBPRU_small_61.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/5zbC4mOFSGGPJJFqYLyg_large_61.jpg",
+          "width": 514,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/2pl3lt1jTFyibgCmGqc7_full_61.jpg",
+          "width": 960,
+          "height": 957
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOgBGMx8wUyB0km"
+  ],
+  "BIO": "李慕約公司共同創辦人，g0v 社群長期參與者，發起與參與過新聞小幫手、求職小幫手、台灣公司資料、開放政治獻金等專案，希望更透明的政府可以讓大家有更自由幸福的生活。從一個喜歡爬政府資料做應用的人，開始變成部會的開放資料諮詢委員再變成開放資料平台的技術顧問，並至台灣各地幫機關和地方政府做資料品質教育訓練，我想分享這幾年從各種不同的身份不同角度看到的資料發展的情況以及問題。",
+  "TWITTER": "@ronnywang",
+  "NAME_EN": "Ronny Wang",
+  "TITLE1_EN": "g0ver",
+  "SHOW": true,
+  "ID": 61,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recXZa69GkDCDqMJ1",
+  "NAME": "王希",
+  "TITLE1": "沃草",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attDHyBKF1cgXjLDJ",
+      "url": "https://dl.airtable.com/2XIzWxkERmqx8ajl6Ox2_josh.jpg",
+      "filename": "josh.jpg",
+      "size": 8840376,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/xQcDlefTTNaEJsDLUtpM_small_josh.jpg",
+          "width": 35,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Ds3bSmeTlOmjkBgUJAIf_large_josh.jpg",
+          "width": 512,
+          "height": 531
+        },
+        "full": {
+          "url": "https://dl.airtable.com/MoXrtqUSX6vmnJq8aplB_full_josh.jpg",
+          "width": 2890,
+          "height": 3000
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec4dfybn7e0WkQpc"
+  ],
+  "BIO": "沃草專案經理，負責「2016 立委出任務」、「2016 開放國會松」、「2017 給問擂台」、「2018 六都市長給問嗎」等專案。參與過許多公民運動，包含公民 1985 行動聯盟、反黑箱課綱微調、反黑箱服貿佔領立法院行動等。認為台灣過去許多問題來自於民眾對明君聖主的迷信，相信集合群眾智慧才是改變台灣現況的關鍵。",
+  "NAME_EN": "Josh Wang",
+  "TITLE1_EN": "Watchout",
+  "SHOW": true,
+  "ID": 62,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recyPdFle9IWTRsWL",
+  "NAME": "瞿筱葳",
+  "TITLE1": "g0v 共同發起人\n",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attpA8Ifk0Ss5EymR",
+      "url": "https://dl.airtable.com/c7Uf01fLTazl9u9S5ou5_63.jpg",
+      "filename": "63.jpg",
+      "size": 51141,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/8XkjZwshSAyOY5BJT02d_small_63.jpg",
+          "width": 31,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/AnwYDHWpQNWRew3YEv7k_large_63.jpg",
+          "width": 512,
+          "height": 601
+        },
+        "full": {
+          "url": "https://dl.airtable.com/MEuKjq2TcubLLV5NNu7s_full_63.jpg",
+          "width": 547,
+          "height": 642
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recFo4iOQfEkmX2LG"
+  ],
+  "BIO": "g0v 零時政府共同發起人，作家/紀錄片工作者，兩個孩子的媽。近年關注開源文化與數位公民參與，2012 年開始共同主辦 g0v 黑客松，2015 年起推動 g0v 揪松團運作，2016 發起 g0v 公民科技獎助金計畫，深耕開放社群基礎建設。",
+  "TWITTER": "@ipa",
+  "NAME_EN": "Ipa Chiu",
+  "TITLE1_EN": "g0v co-founder",
+  "BIO_EN": "Ipa is co-funder of g0v.tw, civic tech community in Taiwan starting from 2012. She is a writer and documentary director. She focus on citizen engagement and public participate recently, with the g0v community, they promote  the online collaboration from open source culture to civil society and public sectors. She's also one of the g0v hackathon organizers and Dirtor for the g0v Civic Tech Prototype Grant. ",
+  "SHOW": true,
+  "ID": 63,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recR3u8mf860neBej",
+  "NAME": "簡信昌",
+  "TITLE1": "g0v 參與者",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attVurdLxmJE1Gy6E",
+      "url": "https://dl.airtable.com/KxJr52TH6DSoWqA77ZVA_64.jpg",
+      "filename": "64.jpg",
+      "size": 583205,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/Vaxg83WReun1g2LTYYsB_small_64.jpg",
+          "width": 24,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/et2vsCszQXaIM9J5feos_large_64.jpg",
+          "width": 512,
+          "height": 769
+        },
+        "full": {
+          "url": "https://dl.airtable.com/vCY4dejLRUKKY2fcbQ3y_full_64.jpg",
+          "width": 1065,
+          "height": 1600
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recq6TJXbDusCett9",
+    "rec92ZDxADbUW2hpU"
+  ],
+  "BIO": "H.C.，曾經協助舉辦 2003 P3P、2004-2005 YAPC::Taipei、2006-2014 OSDC.tw 及 2014 g0v summit。2015 年進入新聞媒體，歷經報導者與鏡傳媒，目前正在進行一個新的媒體實驗：READr。",
+  "NAME_EN": "H.C.",
+  "TITLE1_EN": "g0ver",
+  "SHOW": true,
+  "ID": 64,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recUiBQpIFUZZGKtt",
+  "NAME": "簡韻真（小班）",
+  "CROPPED_AVATAR": [
+    {
+      "id": "atthr57I9Ld61nh8z",
+      "url": "https://dl.airtable.com/nVrGMEg9TAKeVru5Rost_65.jpg",
+      "filename": "65.jpg",
+      "size": 80953,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/PmQMEwVQQo28DKfPVaMQ_small_65.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/8LOvUKxxTjGV8DxjpN4V_large_65.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Pt15cgJWQmWX1uVpbVsR_full_65.jpg",
+          "width": 960,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLfBAHIGGQTN3sU"
+  ],
+  "BIO": "簡韻真（小班），g0v 參與者，以文字工參與 g0v 協作聚焦科技如何促進民主，支持資訊透明和更開放的公民參與，未來想要成立一家公民科技公司。曾於 g0v 揪松團擔任 g0v 公民科技獎助金專案經理，目前於開放文化基金會 sense.tw 專案擔任產品經理，開發議題政策討論工具。",
+  "TWITTER": "@aelcenganda",
+  "NAME_EN": "Yun-Chen Chien",
+  "TITLE1_EN": "sense.tw",
+  "SHOW": true,
+  "ID": 65,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recFAUd5qZmYe4XyF",
+  "NAME": "蔡志展",
+  "TITLE1": "山岳政策監督聯盟／福爾摩沙山難預防協會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attsV5YmHMNmfkDcf",
+      "url": "https://dl.airtable.com/yrZJiZhQTPeDt3LBZdYn_66.jpg",
+      "filename": "66.jpg",
+      "size": 94767,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/SwJbAuUQcQTsdjPvmHog_small_66.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/23BODOoPTny67bFS1l3L_large_66.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/5zZBgwy0RJiAmQVQGxsj_full_66.jpg",
+          "width": 600,
+          "height": 800
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recv3dOGqAlgfbf5J"
+  ],
+  "BIO": "蔡志展 (Rex Tsai) 長期關注與推廣於台灣開放原始碼與開放街圖社群，2013 年起推動 OpenStreetMap 圖資用於登山運動，並參與政府開放資料等討論會議。近年透過山岳政策監督聯盟與福爾摩沙山難預防協會進一步倡議解除山岳活動管制政策。",
+  "TWITTER": "@chihchun",
+  "NAME_EN": "Rex Tsai",
+  "TITLE1_EN": "OpenStreetMap Taiwan",
+  "SHOW": true,
+  "ID": 66,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recbBOxy3jaIK3cyb",
+  "NAME": "MH",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attOyQ3Khn8FdrvnD",
+      "url": "https://dl.airtable.com/zO15fUc5RRiKXKeRgfs8_67.jpg",
+      "filename": "67.jpg",
+      "size": 45532,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/FMcCKRYqR4C5aPpL3ga6_small_67.jpg",
+          "width": 55,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/sAo859xRKurPeUfvyamY_large_67.jpg",
+          "width": 782,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/WgQe3BtCT4uCd2IXghHo_full_67.jpg",
+          "width": 1314,
+          "height": 860
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOgBGMx8wUyB0km"
+  ],
+  "BIO": "台灣公務革新力量聯盟理事長",
+  "TITLE1_EN": "Taiwan Civil Service Innovation Coalition",
+  "BIO_EN": "President of “Taiwan Civil Service Innovation Coalition”, an NGO in Taiwan. ",
+  "SHOW": true,
+  "ID": 67,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recuZeZzSMseFu8qc",
+  "NAME": "蔡淳任",
+  "TITLE1": "台灣文化政策研究學會",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att5oNeQaDnZkqw9h",
+      "url": "https://dl.airtable.com/ulRmrqsTDa400SJp3kIs_68.jpg",
+      "filename": "68.jpg",
+      "size": 296128,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/J9KfKtxZTYqEwgiL2EqI_small_68.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Rbbrusd1Qzi7LZIlgOB6_large_68.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Dn1dOFMlRNyGROxdCpY8_full_68.jpg",
+          "width": 1363,
+          "height": 1364
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recgECkOc9M8DWlkx"
+  ],
+  "BIO": "表演藝術聯盟專案研究員、台灣文化政策研究學會副秘書長、台灣藝術大學藝術管理與文化政策研究所碩士、曾任NCCWP專案網路總監。",
+  "NAME_EN": " Tsai Chun Jen",
+  "TITLE1_EN": "TACPS",
+  "SHOW": true,
+  "ID": 68,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recLFCTqZQIEPiyAw",
+  "NAME": "蕭新晟",
+  "TITLE1": "遺落在世界的國家寶藏",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attONH4aJimrcqkZ4",
+      "url": "https://dl.airtable.com/DDdenYkMQVist6dOG2Bq_69.jpg",
+      "filename": "69.jpg",
+      "size": 215039,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/hP3D7ll8TY20KlnvKRYo_small_69.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/gUKptUpT4Wn4CyWOPcVW_large_69.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/NqPOKasWRnsT4tPLbrVc_full_69.jpg",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recaLqkd543k9UGBH"
+  ],
+  "TWITTER": "@hsiaoataipei",
+  "NAME_EN": "Hsin-Cheng Hsiao",
+  "TITLE1_EN": "Taiwan National Treasure",
+  "BIO_EN": "I am the cofounder of Taiwan National Treasure. I am a former physicist and software engineer. When I am not writing code, I am either building my next big ideas or running my political campaign. ",
+  "SHOW": true,
+  "ID": 69,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recuiPDrKMeiAhWpt",
+  "NAME": "許恩恩",
+  "TITLE1": "台灣廢除死刑推動聯盟\n",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attsv4UB9UzUmy0CY",
+      "url": "https://dl.airtable.com/VsHatKoqSxm7nB75G1mD_70.jpg",
+      "filename": "70.jpg",
+      "size": 87840,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/zTEg58wISteQU7U5DboH_small_70.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/gfTTeS21RfmGk1jNmQ5d_large_70.jpg",
+          "width": 512,
+          "height": 513
+        },
+        "full": {
+          "url": "https://dl.airtable.com/T7SZO4xpRVqTp9FmffDF_full_70.jpg",
+          "width": 958,
+          "height": 959
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recSeGAjpaZm9OSmg"
+  ],
+  "BIO": "曾任北大翻牆社社長、公民憲政推動聯盟執行秘書。現為台灣廢除死刑推動聯盟「死刑替代方案公民審議」專案志工。",
+  "TITLE1_EN": "Taiwan Alliance to End the Death Penalty",
+  "SHOW": true,
+  "ID": 70,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recnQtXAKHhIkSvG0",
+  "NAME": "Merci Kuo",
+  "TITLE1": "女人迷／#CodeforGender",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att8ImdwZ8AjSW6ze",
+      "url": "https://dl.airtable.com/iUtxDKQhT22oTr2O2sid_71.jpg",
+      "filename": "71.jpg",
+      "size": 367865,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/Pe1ogdAlRpllpjG1flVS_small_71.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Kn0KpH2VSleXVCPJGNfV_large_71.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/F2tSDOhZS1GXWinsEB8i_full_71.jpg",
+          "width": 1200,
+          "height": 1200
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recc415V4ubnKQuWS"
+  ],
+  "BIO": "女人迷服務設計師，#codeforgender 負責人。實踐性別友善至日常生活，從引領女人迷網頁改版，到領導舉辦 2016 年首屆性別暴力防治駭客松，身為「女人迷日報」app 設計師，期待自己能創造啟發他人的美好時刻。",
+  "TITLE1_EN": "Womany／#CodeforGender",
+  "BIO_EN": "Merci is the service designer at Womany, and the initiator of #CodeforGender where she leads meetups, workshops, hackathons, seeking the combination of technology with gender issue.",
+  "SHOW": true,
+  "ID": 71,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recWpEskTXG8rJPzd",
+  "NAME": "鄧東波",
+  "TITLE1": "開放街圖台灣",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attG4piFgasFd2WzE",
+      "url": "https://dl.airtable.com/1rUu62AMRS2GmKPR3WFR_72.jpg",
+      "filename": "72.jpg",
+      "size": 134199,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/v1pP6xdYRn6mxp5mwfaJ_small_72.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/hdjs6zI6TRSVNCOw2P9u_large_72.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/HWQlARa4Tce3RYQrnlsm_full_72.jpg",
+          "width": 800,
+          "height": 800
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recaZvROyDGb0EiWg"
+  ],
+  "BIO": "一個雜食系的研究者，本業是地理資訊科學，熟稔各式地理資料和系統，超過十五年以上的研究工作經驗，也熱衷於語意網和知識工程的研究與技術發展。活躍於開放街圖（OpenStreetMap）社群，關注公民科技的發展，倡議政府開放資料。",
+  "TWITTER": "@dongpo",
+  "NAME_EN": "Dongpo Deng",
+  "TITLE1_EN": "OpenStreetMap Taiwan",
+  "SHOW": true,
+  "ID": 72,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recinknkjcyIhY78w",
+  "NAME": "鄭婷宇",
+  "TITLE1": "g0v 參與者",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attu722eUjceaumaq",
+      "url": "https://dl.airtable.com/QZr7QaYpRTGSvBDiufb0_73.jpg",
+      "filename": "73.jpg",
+      "size": 73955,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/L72KRMkSSQKxf9nOUgrw_small_73.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/tGk3rfq0TESQ08IbVE6w_large_73.jpg",
+          "width": 513,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/cbAtOXTKT5yvMIQKeqoC_full_73.jpg",
+          "width": 751,
+          "height": 750
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recmuAnkOFghSmOju"
+  ],
+  "BIO": "混入公民科技社群的小白兔，是個技術盲，但喜歡聽技術與人群交織出的故事。現在從事使用者經驗研究，希望能結合公共議題的興趣，持續探索科技能為社會帶來甚麼改變。",
+  "NAME_EN": "Claire Cheng",
+  "TITLE1_EN": "g0v",
+  "SHOW": true,
+  "ID": 73,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec0n0z8TeiOz7gGE",
+  "NAME": "関治之",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attxW7EirvibNWisR",
+      "url": "https://dl.airtable.com/Rbq5wJwiTyO5fzDw1nPS_74.jpg",
+      "filename": "74.jpg",
+      "size": 1097342,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/W1D8r2DATcWM1NQEYeMp_small_74.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/SPa6ayhQCarzJVWsWcqj_large_74.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/QP65ksDKSLCrZkO8dBVd_full_74.jpg",
+          "width": 1185,
+          "height": 1185
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recIxC0oyWvqiDfwF"
+  ],
+  "TWITTER": "@hal_sk",
+  "NAME_EN": "Hal Seki",
+  "TITLE1_EN": "Code for Japan",
+  "BIO_EN": "Representative of Code for Japan. ",
+  "SHOW": true,
+  "ID": 74,
+  "COUNTRY": "Japan",
+  "COUNTRY_CODE": [
+    "jp"
+  ]
+},
+{
+  "id": "recK0cFa3s8GoKxIu",
+  "NAME": "陳幸延",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attupDvJ1IhdMDHZr",
+      "url": "https://dl.airtable.com/NzMvyuGBRF6TUKiUtgXc_75.jpg",
+      "filename": "75.jpg",
+      "size": 507944,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/KCWKLlfaRfmREbsIMaY9_small_75.jpg",
+          "width": 57,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/2JXOTYvORwGxEAj8lTQH_large_75.jpg",
+          "width": 600,
+          "height": 382
+        },
+        "full": {
+          "url": "https://dl.airtable.com/KsdTgydfQcuZDCOc1s0T_full_75.jpg",
+          "width": 600,
+          "height": 382
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recuWfRYVLT01dE1I"
+  ],
+  "BIO": "半碼半農的生活，希望科學與資訊能夠落實到生活中，為生活帶來實用的改善；並希望發揮自由軟體的精神，可以使社會合作關係更進步。",
+  "TITLE1_EN": "Open Hack Farm",
+  "SHOW": true,
+  "ID": 76,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recydfxQaZ6fCeZfJ",
+  "NAME": "陳玩臻",
+  "TITLE1": "守語者聾人事務所",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att15Z4nu7TPVyfOo",
+      "url": "https://dl.airtable.com/OM7tbA0oS7myIm4k5hR2_76.jpg",
+      "filename": "76.jpg",
+      "size": 263979,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/XLDBYXBqQGyul7uGdvxZ_small_76.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/qhRQr7mTSEWqeCYcBFHM_large_76.jpg",
+          "width": 513,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/ha6zrJk5TPiNkP5eFC2J_full_76.jpg",
+          "width": 960,
+          "height": 959
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec8swyLkJ1OJpOOx"
+  ],
+  "BIO": "守語者聯合創辦人陳玩臻，因為人類學而跨入聾人世界，自此沉淪其中。當過記者、咖啡館員工、包裝工人、漫畫校對工、人權研究者，現為自由職業者。",
+  "TITLE1_EN": "ProSigner",
+  "SHOW": true,
+  "ID": 78,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec2oDPPgckNj6lZ5",
+  "NAME": "駱勁成",
+  "TITLE1": "g0v 參與者",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att9n0rwLSixSraSr",
+      "url": "https://dl.airtable.com/bhBeWsbQTQLtciAoJWgE_77.jpg",
+      "filename": "77.jpg",
+      "size": 31645,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/sFLFFT4hREmNwmibvDJR_small_77.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/8miyQCMbQ3WcA7TrC7Om_large_77.jpg",
+          "width": 460,
+          "height": 460
+        },
+        "full": {
+          "url": "https://dl.airtable.com/bSHhJ0FT1WYhB7uYANgr_full_77.jpg",
+          "width": 460,
+          "height": 460
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOgBGMx8wUyB0km"
+  ],
+  "BIO": "議員／立委投票指南發起人。",
+  "TITLE1_EN": "g0ver",
+  "SHOW": true,
+  "ID": 79,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recDt3F3yIReLZiFC",
+  "NAME": "黃敬群",
+  "TITLE1": "台灣國立成功大學",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attoV7T9bQUmR8Pyw",
+      "url": "https://dl.airtable.com/4Mw99QyARYyBuuxfRApY_78.jpg",
+      "filename": "78.jpg",
+      "size": 43217,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/HI83ysHxTlGJctA23yw1_small_78.jpg",
+          "width": 20,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/vn8vDDG4SFu1Og2Ti9d6_large_78.jpg",
+          "width": 512,
+          "height": 910
+        },
+        "full": {
+          "url": "https://dl.airtable.com/xGg4DZpQRCjiHWk8V6sa_full_78.jpg",
+          "width": 540,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recV5q7m9Z6FsRaOJ"
+  ],
+  "BIO": "成功大學資訊工程系助理教授，網上慣稱是「jserv」，專注於系統軟體開發。歷任聯發科技、台達電子、鴻海科技集團，和工研院的技術顧問，並長期貢獻於開放原始碼。",
+  "TWITTER": "@jserv",
+  "NAME_EN": "jserv",
+  "TITLE1_EN": "National Cheng Kung University, Taiwan",
+  "SHOW": true,
+  "ID": 80,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rechVSn8f4piEwap2",
+  "NAME": "Wong Ho Wa",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attManfYNGqCmSW9p",
+      "url": "https://dl.airtable.com/hXkm7a3gQ6iHuVdOY1B8_79.jpg",
+      "filename": "79.jpg",
+      "size": 104979,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/S0WCMqPDTNKf1Iugo9CA_small_79.jpg",
+          "width": 20,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/wnB5A2zqTv2LjmV9si92_large_79.jpg",
+          "width": 512,
+          "height": 910
+        },
+        "full": {
+          "url": "https://dl.airtable.com/9ksmQ0VJRUWogeJ4GqTQ_full_79.jpg",
+          "width": 900,
+          "height": 1600
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec9GyqUkNeaN0n21"
+  ],
+  "BIO": "軟件工程師，Python 開發者，g0vhk.io 發起人，倡議開放數據",
+  "TITLE1_EN": "g0vhk.io",
+  "BIO_EN": "A brief summary to existing civic tech  community and project including PopVote, Civic Data HK, g0vhk.io, collaction.hk and Open Culture Station",
+  "SHOW": true,
+  "ID": 81,
+  "COUNTRY": "Hong Kong",
+  "COUNTRY_CODE": [
+    "hk"
+  ]
+},
+{
+  "id": "recLcBKTDWdZ5n4xp",
+  "NAME": "g0v 公民科技創新獎助金 2018 獲獎團隊",
+  "TITLE1": "g0v 揪松團",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att3I2KaCzi15CE5N",
+      "url": "https://dl.airtable.com/49HwdJ0DTxSCkBIxy1td_power.png",
+      "filename": "power.png",
+      "size": 13493,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/YjJsOTlQDOvHxE6DTeeO_small_power.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/oOqbrDakRiWnSKsrJ1ct_large_power.png",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/GcraAW8ESk2z9ZEbScTM_full_power.png",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recL6A9ldkzf03s84"
+  ],
+  "BIO": "揪松團是主辦大黑客松與基礎松的工作小組（task force），2012 年底開始舉辦雙月大松，由 clkao、ipa 處理大松行政事務。2014 年後取名為「揪松團」（jothon group），並於 2016 年增加人手，重啟社群基礎建設計畫，希望在大黑客松之餘，線上線下跨界協作更為順暢。2017 年起籌辦 g0v 公民科技創新獎助金（Civic Tech Prototype Grant）。目前揪松團成員有 clkao、ipa、kirby、ttcat、isabel、ronnywang、bess。",
+  "NAME_EN": "g0v Civic Tech Prototype Grant 2018 Grantees",
+  "TITLE1_EN": "g0v jothon",
+  "SHOW": true,
+  "ID": 82,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recAYj0HnT0aCJtT3",
+  "NAME": "李仲庭",
+  "TITLE1": "地下勞動合作社",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att0hlwRiympB6Vrp",
+      "url": "https://dl.airtable.com/cXWqNzdmQ022NRIpqfjk_81.jpg",
+      "filename": "81.jpg",
+      "size": 48331,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/kuwdfbS3RzyKlfUZhuYO_small_81.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/B011LedcRoaoI6DYxOs0_large_81.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/DbW9TeJpQtuIgByB4ORj_full_81.jpg",
+          "width": 984,
+          "height": 984
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLLsXbJtwdxLeTc"
+  ],
+  "BIO": "臺北都會裡安貧樂道的自由工作者；目前是地下勞動合作社負責人，也曾在社運團體、社福機構、資訊公司負責營運管理、研究發展、系統導入等工作。學思背景是社會學與公共行政，實踐領域是社會經濟（Social Economy）與合作社運動、社區營造等，喜歡思考經濟事業如何以人為本、創造社群共好。",
+  "NAME_EN": "Lee, Zhong-ting",
+  "TITLE1_EN": "Underground Worker Co-op.",
+  "SHOW": true,
+  "ID": 83,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec0yvNWwvUecnquS",
+  "NAME": "陳志銘",
+  "TITLE1": "台北市政府",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attF7cXLj0siotBwa",
+      "url": "https://dl.airtable.com/sbjmDEUIROwxZVkQC9im_82.jpg",
+      "filename": "82.jpg",
+      "size": 99263,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/jawj0XRoRhiS5LO41dQw_small_82.jpg",
+          "width": 48,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/xbc41F9WR8yKxfHN8lpE_large_82.jpg",
+          "width": 679,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/IO87L7PQZuFAy6EIyjQQ_full_82.jpg",
+          "width": 1011,
+          "height": 762
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recovSgrDUaLle3CD"
+  ],
+  "BIO": "一個求學時期從未想過會去當公務人員，只因一次高考及格的意外插曲，就讓自己走上這條難以回頭之路，也成為許多人眼中的「非典型」公務員。因為敢於夢想、勇於挑戰，堅持相信人不該被傳統框架所束縛，而是要有能力去突破既定思維，打造可以因應時代變遷的新作法。",
+  "NAME_EN": "Chih-Ming Chen",
+  "TITLE1_EN": "Taipei City Government",
+  "SHOW": true,
+  "ID": 84,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recoOnkLZXpl72MZC",
+  "NAME": "Derek Alton",
+  "TITLE1": "加拿大政府",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attATADl9KkHUR5Pc",
+      "url": "https://dl.airtable.com/eCszyzA4QZujvchQJI17_83.jpg",
+      "filename": "83.jpg",
+      "size": 26560,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/JBEr5QMzSfm5aguv19bB_small_83.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/k5vYaqeDSCiffG2uyPQO_large_83.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/6ZP8NSzTy24HzWlMzPDZ_full_83.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recst4GJ61s2kNAVL"
+  ],
+  "TWITTER": "@DerekAlton",
+  "TITLE1_EN": "Government of Canada",
+  "BIO_EN": "As a community organizer and democratic activist for the past 10 years, Derek Alton is a passionate change maker. He is currently a Strategic Partnerships Specialist for the Digital Collaboration team with the Government of Canada. Derek and the team along with partners across the globe are creating a digital public space constructed on the foundations of open source platforms. It currently operates at the intersection of open international government (policy) and digital government movements (technology) where organizations are working together to build the space - together.\n\nThe digital public space is a major step toward a more innovative and open way of identifying and co-creating programs, engagements, and research across the globe. It is designed for co-creation in all forms, but more importantly, it demonstrates the beginning of a cultural shift of horizontal governance and decision-making.",
+  "SHOW": true,
+  "ID": 85,
+  "COUNTRY": "Canada",
+  "COUNTRY_CODE": [
+    "ca"
+  ]
+},
+{
+  "id": "rec8iFD4IwvAYxqgg",
+  "NAME": "Felipe Ventura",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attLN4p7WrPJBZ0mG",
+      "url": "https://dl.airtable.com/uCuMcwHqT2uqwrxtmTYJ_1316570.png",
+      "filename": "1316570.png",
+      "size": 239428,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/58nEhxB7QEesMfTKPL2u_small_1316570.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/t8yg7IFKTcSwu7sLFPkq_large_1316570.png",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/wQ7FS69ATcKOwbetEW0P_full_1316570.png",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLLsXbJtwdxLeTc"
+  ],
+  "TWITTER": "@fvntr",
+  "BIO_EN": "Felipe Ventura is a software engineer currently based in the Bay Area.  He has fought with service workers unions like IWW 660 and SEIU for better working conditions and is currently organizing with Techqueria, a decentralized community of Latinx professionals in the tech industry with chapters across the US. ",
+  "SHOW": true,
+  "ID": 87,
+  "COUNTRY": "USA",
+  "COUNTRY_CODE": [
+    "us"
+  ]
+},
+{
+  "id": "recOKYQeJPJAEByzp",
+  "NAME": "林祖儀",
+  "TITLE1": "沃草",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attGeNGUlKZ3hsbu4",
+      "url": "https://dl.airtable.com/baVXUIICQWS7xx0fjrfV_10858540_924346884251022_8919304033097588466_n.jpg",
+      "filename": "10858540_924346884251022_8919304033097588466_n.jpg",
+      "size": 95157,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/W9neQ98AQBqJQ1kWDYUO_small_10858540_924346884251022_8919304033097588466_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/zZYGDOJjS72lwLLkRqWP_large_10858540_924346884251022_8919304033097588466_n.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Urc0F6LNQDqyyl9LF8lY_full_10858540_924346884251022_8919304033097588466_n.jpg",
+          "width": 822,
+          "height": 822
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recUUA6c9d2ZXVoPX"
+  ],
+  "BIO": "沃草共同創辦人、財金作家、批踢踢粉絲團主編、割闌尾計畫發言人、臺灣罷免法規修法推動者。 現為沃草執行長，與沃草夥伴投入〈國會無雙〉〈公民學院〉〈給問擂台〉〈議題實驗室〉〈中正紀念堂轉型給問嗎〉等專案。沃草為亞洲第一個以社會企業形式營運之公民參政平台，致力「降低公民參與政治的門檻」為願景。",
+  "NAME_EN": "Zuyi Lin",
+  "TITLE1_EN": "Watchout",
+  "SHOW": true,
+  "ID": 88,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recFPteifYyLTINxk",
+  "NAME": "蕭舒云",
+  "TITLE1": "臺北市政府社會局科長",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att09riV7OkwWPsTA",
+      "url": "https://dl.airtable.com/PPzrXTkWRVemJhOHuKWq_41197449_2038360399516466_1944708827387527168_o.jpg",
+      "filename": "41197449_2038360399516466_1944708827387527168_o.jpg",
+      "size": 215212,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/pgIGnBwBSGGLM7fLAusj_small_41197449_2038360399516466_1944708827387527168_o.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/NPifPqmYTqecUOuuOaqH_large_41197449_2038360399516466_1944708827387527168_o.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/CJzkcktSGCwPKNLpKtf7_full_41197449_2038360399516466_1944708827387527168_o.jpg",
+          "width": 1108,
+          "height": 1478
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOSeRYcF26b6Y8K"
+  ],
+  "BIO": "中年公務員，目前任職於臺北市政府社會局，因為充滿好奇心，近幾年與不同的資訊社群有很密切的合作，近兩年更將內部資料釋出參與D4SG的計畫，收獲非常多，很想和大家分享這美妙的過程。",
+  "TITLE1_EN": "Division Chief, Department of Social Welfare, Taipei City Government",
+  "SHOW": true,
+  "ID": 89,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recgrnNDKtY5YD6GS",
+  "NAME": "林聰賢",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attNGhVVBc2FJ2mEJ",
+      "url": "https://dl.airtable.com/zM6hQWNeRciLFxr6weh8_IMG_5351.jpg",
+      "filename": "IMG_5351.jpg",
+      "size": 209733,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/vjY2Dje0RZCl3wtdvoJ7_small_IMG_5351.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/sB0ITaF3QAuQSelrrgsZ_large_IMG_5351.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/wPWOwtMZT0e5E0GOoN8n_full_IMG_5351.jpg",
+          "width": 1138,
+          "height": 1518
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOSeRYcF26b6Y8K"
+  ],
+  "BIO": "法律扶助基金會副執行長",
+  "SHOW": true,
+  "ID": 90,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recxnfOAiqjIeUZbO",
+  "NAME": "洪申翰",
+  "TITLE1": "綠色公民行動聯盟",
+  "SCHEDULE": [
+    "recUUA6c9d2ZXVoPX"
+  ],
+  "TITLE1_EN": "Green Citizens' Action Alliance",
+  "SHOW": true,
+  "ID": 91,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recBJ58Rs0ozb1Xla",
+  "NAME": "蔡志宏",
+  "TITLE1": "行政院科技會報辦公室",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attnbs5vV1OcHLTmH",
+      "url": "https://dl.airtable.com/KhcMH8VFQIakvuTpfPhz_tch.png",
+      "filename": "tch.png",
+      "size": 56459,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/4i4pAQaR72SorWxUDJAd_small_tch.png",
+          "width": 28,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/zRLGCBdHRcmXge4RATKg_large_tch.png",
+          "width": 169,
+          "height": 214
+        },
+        "full": {
+          "url": "https://dl.airtable.com/hOJfFgQvSeIDcRRhanMA_full_tch.png",
+          "width": 169,
+          "height": 214
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOSeRYcF26b6Y8K"
+  ],
+  "BIO": "行政院科技會報辦公室執行秘書，國立台灣大學電機工程學系教授，加州大學洛杉磯分校（UCLA）電機工程博士。曾任行政院科技顧問組副執行秘書、亞洲矽谷計畫執行中心人資長、中華電信獨立董事、台灣通訊學會理事長、AT&T Bell實驗室研究員。研究領域為寬頻政策、頻譜規劃、計畫管理、網路規劃。",
+  "TITLE1_EN": "Board of Science and Technology, Executive Yuan",
+  "SHOW": true,
+  "ID": 92,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "rec7h6j8CnDxKA80l",
+  "NAME": "Peace",
+  "TITLE1": "vTaiwan",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attJmSxcFnA4me51e",
+      "url": "https://dl.airtable.com/Mdy4LUaQ5OomaVR3J07K_29511267_206373486784290_4091628475278931769_n.jpg",
+      "filename": "29511267_206373486784290_4091628475278931769_n.jpg",
+      "size": 103264,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/hk7O3nb9RMya6AEW9ryu_small_29511267_206373486784290_4091628475278931769_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/EQlQes8FT92521aAXew9_large_29511267_206373486784290_4091628475278931769_n.jpg",
+          "width": 513,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/XUcJUOqQ8yXOBAi6QmU2_full_29511267_206373486784290_4091628475278931769_n.jpg",
+          "width": 960,
+          "height": 958
+        }
+      }
+    }
+  ],
+  "BIO": "參與vTaiwan社群。曾在非營利組織、出版社與媒體，任職募款、行銷、業務。",
+  "NAME_EN": "Peace",
+  "SHOW": true,
+  "ID": 401,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "rech4bvhyHwtol6T5"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "reczA8pqP7ebmYR5D",
+  "NAME": "陳舜伶",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attFldebFyO9ZJvzh",
+      "url": "https://dl.airtable.com/6wvy1sGBRaXjTajnwzDg_Shun-LinChen.jpg",
+      "filename": "Shun-LinChen.jpg",
+      "size": 7636,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/qXfgJTVJTqSE97h5DbNP_small_Shun-LinChen.jpg",
+          "width": 26,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/NjEgbMxNT9K2iEMKMsUl_large_Shun-LinChen.jpg",
+          "width": 133,
+          "height": 186
+        },
+        "full": {
+          "url": "https://dl.airtable.com/nch7tqltSuCyCazKWnQ3_full_Shun-LinChen.jpg",
+          "width": 133,
+          "height": 186
+        }
+      }
+    }
+  ],
+  "BIO": "中研院法律所助研究員，研究領域包括網路社群治理、著作權、隱私權等網路相關法律。",
+  "NAME_EN": "Shun-Ling Chen",
+  "SHOW": true,
+  "ID": 402,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recEbhwt9btwCiox0"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recgwG26ggtzvLfc1",
+  "NAME": "Wu Min Hsuan (Ttcat)",
+  "TITLE1": "Open Culture Foundation",
+  "CROPPED_AVATAR": [
+    {
+      "id": "atttC8pOXIsHoDu31",
+      "url": "https://dl.airtable.com/3anRJIIUTUK7QC5GuxnO_21616176_1840980862582739_7489112382779854257_n.jpg",
+      "filename": "21616176_1840980862582739_7489112382779854257_n.jpg",
+      "size": 55888,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/mu6nyTcQ3uIieAxGT5Gy_small_21616176_1840980862582739_7489112382779854257_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/6cGfQdbDTDugjt2rV1pe_large_21616176_1840980862582739_7489112382779854257_n.jpg",
+          "width": 512,
+          "height": 513
+        },
+        "full": {
+          "url": "https://dl.airtable.com/cBRVEjlTSVOhLThKd50p_full_21616176_1840980862582739_7489112382779854257_n.jpg",
+          "width": 888,
+          "height": 890
+        }
+      }
+    }
+  ],
+  "TWITTER": "@ttcatz",
+  "NAME_EN": "Wu Min Hsuan (Ttcat)",
+  "BIO_EN": "Min-hsuan (ttcat) is an activist and campaigner of a number of social movements in Taiwan, including the anti-nuclear movement, environmental, LGBT and Human Rights movement. He has expertise in creative planning, as well as communication and design programming. He has provided the g0v community with perspectives on social networking, and horizontal links. Min-hsuan is responsible for the Open Culture Foundation’s International Network Program with g0v, Taiwan civic tech community.",
+  "SHOW": true,
+  "ID": 403,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recCINykYUqyCQoZd"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recjwpM63sQanM07I",
+  "NAME": "劉致昕",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attX2fqMaUkpNhQu0",
+      "url": "https://dl.airtable.com/Tekz2GmVR3G9jGUTb2jE_2018-09-24%2000.08.48.jpg",
+      "filename": "2018-09-24 00.08.48.jpg",
+      "size": 75099,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ACZWLOazR4CUHL60smJU_small_2018-09-24%2000.08.48.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/IjogsPjwTEuhKdQQOMDZ_large_2018-09-24%2000.08.48.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/5aNQ6uQgSNybzY24PRNb_full_2018-09-24%2000.08.48.jpg",
+          "width": 1149,
+          "height": 1149
+        }
+      }
+    }
+  ],
+  "BIO": "寫字的麻瓜。With 7 years of experience in journalism and Internet industry, Jason Liu is now an independent journalist focusing on human rights, digital politics and digital economics. His works have won major journalism awards for several times, and have been published in international media, including Business Weekly Taiwan, Financial Times, Initium Media and The Reporters. He recently investigates the digital surveillance and disinformation warfare in the Greater China region.",
+  "NAME_EN": "Jason Liu",
+  "SHOW": true,
+  "ID": 404,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recYqTiyvQnIIoMIV"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recXSV3GRKOpQgfmt",
+  "NAME": "clkao",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attV26JsevFyG3XNG",
+      "url": "https://dl.airtable.com/YHKVeoRoVo2in93DgwPO_11796293_10153255844110668_2797238177900281661_n.jpg",
+      "filename": "11796293_10153255844110668_2797238177900281661_n.jpg",
+      "size": 5522,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/5azrO3fdRJueNJ6vCcvY_small_11796293_10153255844110668_2797238177900281661_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/tEirOmHKSkeGObwIo64y_large_11796293_10153255844110668_2797238177900281661_n.jpg",
+          "width": 160,
+          "height": 160
+        },
+        "full": {
+          "url": "https://dl.airtable.com/klM4UA0cSWWP1pHkF4xB_full_11796293_10153255844110668_2797238177900281661_n.jpg",
+          "width": 160,
+          "height": 160
+        }
+      }
+    }
+  ],
+  "TWITTER": "@clkao",
+  "NAME_EN": "clkao",
+  "BIO_EN": "clkao (Chia-liang Kao) has been an active open source software developer since 2000. He is best known for creating SVK, a distributed version control system based on Subversion. In 2012, He co-founded the g0v.tw initiative, an online community that advocates information transparency, focusing on developing tools for improving citizen participation. http://g0v.asia/tw/",
+  "SHOW": true,
+  "ID": 405,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recbgZN2pt9CjUi3w"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "rec0zOYuVCcMur0uL",
+  "NAME": "呂家華",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attVsiFJi3zV77ePN",
+      "url": "https://dl.airtable.com/ZmeULEyuTkqJ8vxlNzFE_21685927_10155198990846026_5246620039512099466_n.jpg",
+      "filename": "21685927_10155198990846026_5246620039512099466_n.jpg",
+      "size": 21063,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/kmu0wti8TaaJiQiKvXcw_small_21685927_10155198990846026_5246620039512099466_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/Go7zhs4VSmacZxd1PKKo_large_21685927_10155198990846026_5246620039512099466_n.jpg",
+          "width": 491,
+          "height": 491
+        },
+        "full": {
+          "url": "https://dl.airtable.com/RJAbyGl0RLWP8wELShe2_full_21685927_10155198990846026_5246620039512099466_n.jpg",
+          "width": 491,
+          "height": 491
+        }
+      }
+    }
+  ],
+  "NAME_EN": "Lu, Chia-Hua",
+  "BIO_EN": "Civic technologists not only, and shouldn’t only, own the technology. They also have values they pursue and hold on to. Chia-hua is a member of the Taipei City government’s “Civic Participation Committee”, and currently serves as convener of the “civic participation in government group”. She is a long-term advocate of policies that promote deliberative democracy, and has assisted academic research teams to implement deliberative democracy at various levels of government. She has also assisted civil society groups conduct internal workshops, and other related procedural discussions. More information ➡︎ https://chiahua0515.github.io/",
+  "SHOW": true,
+  "ID": 406,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recLU0Bc3DZvNsJQr"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recUTUf7vEGBFzjRW",
+  "NAME": "林翠絹",
+  "TITLE1": "國立政治大學",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attgycN1VpZeXAPJQ",
+      "url": "https://dl.airtable.com/sVIu0fPdTmCyLU07AEHA_37618156_10103011996990876_325068284879699968_n.jpg",
+      "filename": "37618156_10103011996990876_325068284879699968_n.jpg",
+      "size": 96731,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/h9BhpT6TjixyX8x1Zvte_small_37618156_10103011996990876_325068284879699968_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/0Cvqkq55QNuWNC2DWy0k_large_37618156_10103011996990876_325068284879699968_n.jpg",
+          "width": 512,
+          "height": 513
+        },
+        "full": {
+          "url": "https://dl.airtable.com/psEi1NhsTheqRq1JjOzV_full_37618156_10103011996990876_325068284879699968_n.jpg",
+          "width": 958,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "NAME_EN": "Trisha T. C. Lin",
+  "TITLE1_EN": "National Chengchi University",
+  "BIO_EN": "Trisha T.C. Lin (Ph.D., University of Hawaii, Manoa) is the associate professor at College of Communication, National Chengchi University, Taiwan. As a former broadcasting media professional, she previously worked as the assistant professor at Nanyang Technological University, Singapore. Her research interests focus on examining emerging interactive digital media with two approaches: Socio-technical system analysis and socio-psychological user research. Dr. Lin has published nearly 50 new media-related articles, including top SSCI-indexed journals like New Media and Society, Computers in Human Behavior, Telematics & Informatics, Journal of Broadcasting & Electronic Media, Telecommunications Policy, etc. In addition to Chinese Communication Association’s steering committee, Dr. Lin serves as the associate editor for journals: Media Asia, Mass Media Research (新聞學研究), Journal of Radio & Television Studies (廣播與電視期刊) and in the editorial board member of Communication Research and Practice.",
+  "SHOW": true,
+  "ID": 407,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recdJzJ5CGC07dW7C"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recEVZyNxaiqCNYeT",
+  "NAME": "Honki",
+  "TITLE1": "openlab.taipei ",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attITc3iJNVFxqLPU",
+      "url": "https://dl.airtable.com/hEmmlzEXS3mEbPclZU1u_27993323_10155386635456375_2192688142289800193_o.jpg",
+      "filename": "27993323_10155386635456375_2192688142289800193_o.jpg",
+      "size": 95723,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/Z0TnDq5DRtWetGX1ZveT_small_27993323_10155386635456375_2192688142289800193_o.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/TzVMYKrTeIgo4EKyRqAA_large_27993323_10155386635456375_2192688142289800193_o.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/eoS903BRaGGIwFJ6n3Vr_full_27993323_10155386635456375_2192688142289800193_o.jpg",
+          "width": 1025,
+          "height": 1025
+        }
+      }
+    }
+  ],
+  "BIO": "本身是從藝術的養成背景切入科技領域，長期關注著科技、設計與藝術的結合與發展，期待這些跨領域的結合，能夠讓更多有趣的創作產生。在這研究的過程中遇見了自由和開放原始碼軟、硬體等相關科技與社群後，對於背後的精神、文化與哲學著迷，因此在 2009 年與一群志同道合的朋友成立 Openlab.Taipei 社群，並擔任志工投入 Floss + Art 的推廣至今，期望社群能夠持續茁壯並且形成在地的有機生態。\n\n喜歡 DIY、Hack、Make、寫程式，透過親自動手做的方式完成創作，目前在工作之餘與社群成員一同經營位於寶藏巖國際藝術村的 Hackerspace／Makerspace，並且發起聚會活動交流，一起動手學習製作東西，希望在網路之外能夠有更多實體的交流。也因為常舉辦社群活動以及開源技術的交流與推廣，近年被社會大眾稱為 Maker，也因為這緣份，開始對於 Maker 文化與運動的關注以及研究。",
+  "NAME_EN": "Honki",
+  "SHOW": true,
+  "ID": 408,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recLDDKkbDGVaGu7C"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recqzOUorqxFhVlmP",
+  "NAME": "Peggy Lo",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att0aGxEbpQebZvRe",
+      "url": "https://dl.airtable.com/b0eP7WqgQzKQTUXQDwnj_17523074_10212178787366888_6114206638233733981_n.jpg",
+      "filename": "17523074_10212178787366888_6114206638233733981_n.jpg",
+      "size": 66032,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/zNKgIvukR7qF7UKG7tuX_small_17523074_10212178787366888_6114206638233733981_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/RDiTmptjQd660JDSL7z3_large_17523074_10212178787366888_6114206638233733981_n.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/oTEXECS9QSqfqoosQDg1_full_17523074_10212178787366888_6114206638233733981_n.jpg",
+          "width": 960,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "BIO": "迷惘人生中，在政府潛伏邁入第三年，雖然常體會到理想與現實的差距而自我低潮，但目標仍是希望能盡每一分力氣縮短「政府內部之間」、「政府與民間之間」的距離。（自首：雖然這三年只停留在處理 「政府內部之間」 的部分就已經燃燒殆盡⋯⋯默）（講者照片攝影師：廖英凱）",
+  "NAME_EN": "Peggy Lo",
+  "SHOW": true,
+  "ID": 409,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recjd9vncGMrDPuhR"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recUoy0ydmZdElNZf",
+  "NAME": "史書華",
+  "TWITTER": "@silvashih",
+  "NAME_EN": "Silva Shih",
+  "TITLE1_EN": "Hacks/Hackers Taipei",
+  "BIO_EN": "Silva Shih is in charge of data news at FTChinese.com of Financial Times, based in Beijing and Taipei. She also co-founds Hacks/Hackers Taipei, a local chapter of the international journalism community.",
+  "SHOW": true,
+  "ID": 411,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recVdWKiWksC39L7X"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recAnihInDOAm6beR",
+  "NAME": "李維斌",
+  "TITLE1": "臺北市政府資訊局",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attRbXOe61ZnVYsw9",
+      "url": "https://dl.airtable.com/ZM1Qfh4JSzGjtTwM6WNu_792917402171.jpg",
+      "filename": "792917402171.jpg",
+      "size": 27094,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/m29qBF5SnSFf9HX1tU18_small_792917402171.jpg",
+          "width": 28,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/TNtRqfBxTa6sUcylNoUP_large_792917402171.jpg",
+          "width": 113,
+          "height": 144
+        },
+        "full": {
+          "url": "https://dl.airtable.com/err1xWR3CWVs2bHoKigl_full_792917402171.jpg",
+          "width": 113,
+          "height": 144
+        }
+      }
+    }
+  ],
+  "BIO": "臺北市政府資訊局局長，負責臺北市資通訊建設業務推動與執行，包含智慧城市規劃與推動、政府開放資料平臺、大數據平臺、智慧支付平臺等服務規劃與建置等。曾任逢甲大學資訊工程學系教授及資訊處資訊長，美國Carnegie Mellon University及加拿大University of British Columbia訪問學者，專長為資訊安全、隱私權、社交媒體與數位學習等。",
+  "NAME_EN": "Wei-bin Lee",
+  "SHOW": true,
+  "ID": 413,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recD8vMkVUYOiutPp"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recTrEJujPpVpQe63",
+  "NAME": "彭啟明",
+  "TITLE1": "WeatherRisk",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attHnyhg24CH3nk2x",
+      "url": "https://dl.airtable.com/f0i3xW8vTYCH3IZwG0yn_DSC_13540.jpg",
+      "filename": "DSC_13540.jpg",
+      "size": 496788,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/LZZ7GGwYRTW8saQ6H7JD_small_DSC_13540.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/b0DTcuGAQOS1eTtfZj9G_large_DSC_13540.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/jtNOX8TQE2Fd0B8nxCHD_full_DSC_13540.jpg",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    }
+  ],
+  "BIO": "天氣風險管理公司總經理、氣象主播，推動台灣開放資料與區域合作。",
+  "TWITTER": "@weatherrisk",
+  "NAME_EN": "ChiMing Peng",
+  "SHOW": true,
+  "ID": 414,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recTasyLGUwI4hwXh"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recaOyG2VTLrOYTmM",
+  "NAME": "吳柏旻",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attZSN1gzPd6XeP7S",
+      "url": "https://dl.airtable.com/gDhmuaruRFe7LHdHeDiI_119645.jpg",
+      "filename": "119645.jpg",
+      "size": 34218,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/DMdaXd7Ts26IlMkXyyEa_small_119645.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/EtDsAe50SMiYSZqjt5Ad_large_119645.jpg",
+          "width": 460,
+          "height": 460
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Qxb36qbtQOWCdCK9bNdn_full_119645.jpg",
+          "width": 460,
+          "height": 460
+        }
+      }
+    }
+  ],
+  "BIO": "吳柏旻（pm5）是數學家、程式設計師。活躍於零時政府 g0v.tw、開放街圖、群島 archipielago.tw 等社群。為開源軟體專案「政誌」、「賽豬公上太空」，itaigi.tw 的參與開發者。現為 Trustable AI 共同創辦人，並於 sense.tw 計畫開發科技政策意見搜集工具。",
+  "TWITTER": "@pm5",
+  "NAME_EN": "pm5",
+  "SHOW": true,
+  "ID": 415,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recZbEtSarYiw38cz",
+    "recc1pd1UjwpJo3S9"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recGdAg8lmKoveFY1",
+  "NAME": "八六",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attXDEyboeWE6Co0m",
+      "url": "https://dl.airtable.com/n82dDHddTcm1CFAJGkdv_1622592_827655177251556_1542569839_n.jpg",
+      "filename": "1622592_827655177251556_1542569839_n.jpg",
+      "size": 148658,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/iukOEEJpRW8nf0CQx7k1_small_1622592_827655177251556_1542569839_n.jpg",
+          "width": 24,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/rvptxFsKQ2isDr9R0JvO_large_1622592_827655177251556_1542569839_n.jpg",
+          "width": 512,
+          "height": 772
+        },
+        "full": {
+          "url": "https://dl.airtable.com/RNOA1XzTROiuLlXVdlQl_full_1622592_827655177251556_1542569839_n.jpg",
+          "width": 637,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "BIO": "洪崇晏，台灣大學哲學系畢業，現就讀於世新大學社會發展研究所，並於非營利組織台灣永社擔任副秘書長。學生自治及社會議題參與者，曾參與反迫遷運動、環境運動、勞工運動、台灣主權運動及人權運動，「並未」參與318反黑箱服貿佔領立院行動。在各種抗爭中陸續認識很多g0v的朋友，就也不時會被推坑、提供一些社運暴民資訊麻瓜的觀點。",
+  "NAME_EN": "86",
+  "SHOW": true,
+  "ID": 416,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recLuniMMZLShPSI9"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recPuhgxYyP8FAIGn",
+  "NAME": "衷嵐焜",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attWSn12AMHBVhyIQ",
+      "url": "https://dl.airtable.com/bx5tY2pfRbWFzEXzQcf1_clk.png",
+      "filename": "clk.png",
+      "size": 1605761,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/ISZlb4UkQ9SgRN2b43Lb_small_clk.png",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/QazW2vm0S9udp2ajJex6_large_clk.png",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Df0fMyTmRjqHj1xRkblV_full_clk.png",
+          "width": 1232,
+          "height": 1232
+        }
+      }
+    }
+  ],
+  "BIO": "害怕數學的文組生卻念了理工科系，當過軟體工程師、研發部門主管、大學教授和業餘歌手，最後選擇用數學和統計創業，人生！",
+  "NAME_EN": "Lan-Kun Chung",
+  "SHOW": true,
+  "ID": 412,
+  "COUNTRY": "Taiwan",
+  "TRACK": [
+    "recrYIbDBYQxNdnaQ"
+  ],
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "rechEurBlI2ln8cvs",
+  "NAME": "Kirby Wu",
+  "TITLE1": "g0v 揪松團",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att0BKjeRte8Uesi1",
+      "url": "https://dl.airtable.com/pX5TRsYgRCSKOhQ1XkD3_bio-300dpi.jpg",
+      "filename": "bio-300dpi.jpg",
+      "size": 1016805,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/zmPJZl46TxeeUQjsRxoB_small_bio-300dpi.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/6gFUdcvQLSJnPmO3Gn7T_large_bio-300dpi.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/keeWCMFhRJKny3PhAStP_full_bio-300dpi.jpg",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recL6A9ldkzf03s84"
+  ],
+  "BIO": "g0v 共同發起人",
+  "TWITTER": "@zbryikt",
+  "NAME_EN": "Kirby Wu",
+  "TITLE1_EN": "g0v jothon",
+  "SHOW": true,
+  "ID": 417,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recg1WmKjklSE4dgw",
+  "NAME": "楊克鈞",
+  "TITLE1": "國立臺北藝術大學新媒體藝術學系碩士班",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attkQsBkF0T1GzT1e",
+      "url": "https://dl.airtable.com/Qrvx99RFeTcP0gaGBVFw_DSC03479%20(1).JPG",
+      "filename": "DSC03479 (1).JPG",
+      "size": 4899380,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/WdZQiZzGQVaOH0akfYiE_small_DSC03479%20(1).JPG",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/nTT0ipfKS7aIrEmYtwDR_large_DSC03479%20(1).JPG",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/f0m8NE1JSCCwJLjZFYWv_full_DSC03479%20(1).JPG",
+          "width": 3000,
+          "height": 2000
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "reczl2K3xKx5g3OJ8"
+  ],
+  "BIO": "台灣大學生醫電子與資訊學研究所碩士，中興大學植物病理學系學士，2016年開始參與黑客松接觸政府開放資料，目前就讀國立臺北藝術大學新媒體藝術學系碩士班與世新大學性別研究所，並兼任開南商工健康與護理科教師。",
+  "NAME_EN": "YANG, KO-CHUN",
+  "SHOW": true,
+  "ID": 93,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recUlWXN9PmKgu34h",
+  "NAME": "李盛安",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attHkzW1rv48NoWK8",
+      "url": "https://dl.airtable.com/VGSCPi8QwWHVjvtoJFWX_shengan.jpg",
+      "filename": "shengan.jpg",
+      "size": 22717,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/QVwN4EBNRuyXSSfn2cS4_small_shengan.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/9c1raThFQdqM3FSCtyfO_large_shengan.jpg",
+          "width": 130,
+          "height": 130
+        },
+        "full": {
+          "url": "https://dl.airtable.com/KwyFgnYQ62byNzu6jesQ_full_shengan.jpg",
+          "width": 130,
+          "height": 130
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "reczl2K3xKx5g3OJ8"
+  ],
+  "BIO": "任職於開南大學，對資訊在各種智慧化的應用很感興趣，喜歡與人討論開放資料以及整合的應用，在資料科學方面，在大數據以及人工智慧的領域，會長期的投入與關注。目前對於開放式農業與自動化種植的發展，投入較多心力與開發，未來在農業應用於長照以及健康管理的議題上，將會投入許多的心力，很歡迎與各位先進討論與研究。",
+  "NAME_EN": "Lee, Sheng-An",
+  "SHOW": true,
+  "ID": 94,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recKeVEFMUeBJmOOM",
+  "NAME": "LY",
+  "TITLE1": "Maicoin",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attDmoMX1MWR0Loqg",
+      "url": "https://dl.airtable.com/xg74EYAlS327Eyr4s1ES_93509.jpg",
+      "filename": "93509.jpg",
+      "size": 28563,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/POBQdrHQSCJxxtj0D3Ko_small_93509.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/UNsvFsx2S02znfy4unxL_large_93509.jpg",
+          "width": 400,
+          "height": 400
+        },
+        "full": {
+          "url": "https://dl.airtable.com/jtReQz2ATDiuokwgLRdJ_full_93509.jpg",
+          "width": 400,
+          "height": 400
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "rec330Er9PZWnAYuT"
+  ],
+  "BIO": "期望科技改變社會，目前工作於加密貨幣產業，希望有一天生活因區塊鏈更加方便。",
+  "TWITTER": "@lyforever",
+  "NAME_EN": "LY",
+  "SHOW": true,
+  "ID": 418,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recmpDfMgvlwTRAJ3",
+  "NAME": "Peace",
+  "TITLE1": "vTaiwan",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attJmSxcFnA4me51e",
+      "url": "https://dl.airtable.com/Mdy4LUaQ5OomaVR3J07K_29511267_206373486784290_4091628475278931769_n.jpg",
+      "filename": "29511267_206373486784290_4091628475278931769_n.jpg",
+      "size": 103264,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/hk7O3nb9RMya6AEW9ryu_small_29511267_206373486784290_4091628475278931769_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/EQlQes8FT92521aAXew9_large_29511267_206373486784290_4091628475278931769_n.jpg",
+          "width": 513,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/XUcJUOqQ8yXOBAi6QmU2_full_29511267_206373486784290_4091628475278931769_n.jpg",
+          "width": 960,
+          "height": 958
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recLfBAHIGGQTN3sU"
+  ],
+  "BIO": "參與vTaiwan社群。曾在非營利組織、出版社與媒體，任職募款、行銷、業務。",
+  "NAME_EN": "Peace",
+  "SHOW": true,
+  "ID": 401,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recyqKKn7MvOB4Yd0",
+  "NAME": "劉致昕",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attLNpx6MQqXZ6Ef1",
+      "url": "https://dl.airtable.com/UkoCeXZSMuoDCjBbZklh_2018-09-24%2000.09.00.jpg",
+      "filename": "2018-09-24 00.09.00.jpg",
+      "size": 75099,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/bJV4VSwTQGNKFcsYf1IJ_small_2018-09-24%2000.09.00.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/BXQtSjGMQIejv9xVkHlL_large_2018-09-24%2000.09.00.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/6f6Qkt0CRSKYEIXZFLYJ_full_2018-09-24%2000.09.00.jpg",
+          "width": 1149,
+          "height": 1149
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recUUA6c9d2ZXVoPX"
+  ],
+  "BIO": "寫字的麻瓜。With 7 years of experience in journalism and Internet industry, Jason Liu is now an independent journalist focusing on human rights, digital politics and digital economics. His works have won major journalism awards for several times, and have been published in international media, including Business Weekly Taiwan, Financial Times, Initium Media and The Reporters. He recently investigates the digital surveillance and disinformation warfare in the Greater China region.",
+  "NAME_EN": "Jason Liu",
+  "SHOW": true,
+  "ID": 404,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recVtmGfYPNOiWd7B",
+  "NAME": "clkao",
+  "CROPPED_AVATAR": [
+    {
+      "id": "att1VxiQgt18sg6nN",
+      "url": "https://dl.airtable.com/Q6Z4736cQpqWJjyUN05N_11796293_10153255844110668_2797238177900281661_n.jpg",
+      "filename": "11796293_10153255844110668_2797238177900281661_n.jpg",
+      "size": 5522,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/pG4Jyg1DQC28j5kPwr50_small_11796293_10153255844110668_2797238177900281661_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/5Q0GW1WwR7igdagwalxE_large_11796293_10153255844110668_2797238177900281661_n.jpg",
+          "width": 160,
+          "height": 160
+        },
+        "full": {
+          "url": "https://dl.airtable.com/4pcgFJdqSB2M8eC8gZxf_full_11796293_10153255844110668_2797238177900281661_n.jpg",
+          "width": 160,
+          "height": 160
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recSwpk4wL79O6Lmz"
+  ],
+  "TWITTER": "@clkao",
+  "NAME_EN": "clkao",
+  "BIO_EN": "clkao (Chia-liang Kao) has been an active open source software developer since 2000. He is best known for creating SVK, a distributed version control system based on Subversion. In 2012, He co-founded the g0v.tw initiative, an online community that advocates information transparency, focusing on developing tools for improving citizen participation. http://g0v.asia/tw/",
+  "SHOW": true,
+  "ID": 405,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recsWDW4lWTWo0rGU",
+  "NAME": "Peggy Lo",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attQK0WINkdlkiffS",
+      "url": "https://dl.airtable.com/Eyz32mKgRPFsHJkIUJt3_17523074_10212178787366888_6114206638233733981_n.jpg",
+      "filename": "17523074_10212178787366888_6114206638233733981_n.jpg",
+      "size": 66032,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/l8J2CxITDCkrCr3z6NzI_small_17523074_10212178787366888_6114206638233733981_n.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/j7VSjeEaTkqHVEO6f9NN_large_17523074_10212178787366888_6114206638233733981_n.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/bxJoI6jQreuS5gqftona_full_17523074_10212178787366888_6114206638233733981_n.jpg",
+          "width": 960,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recOgBGMx8wUyB0km"
+  ],
+  "BIO": "迷惘人生中，在政府潛伏邁入第三年，雖然常體會到理想與現實的差距而自我低潮，但目標仍是希望能盡每一分力氣縮短「政府內部之間」、「政府與民間之間」的距離。（自首：雖然這三年只停留在處理 「政府內部之間」 的部分就已經燃燒殆盡⋯⋯默）（講者照片攝影師：廖英凱）",
+  "NAME_EN": "Peggy Lo",
+  "SHOW": true,
+  "ID": 409,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recL7cGJkx31QnYcR",
+  "NAME": "Clément Mabi",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attQc497CBkWjrMLc",
+      "url": "https://dl.airtable.com/TRbRpT9MSL2GleSlruwE_auton36.jpg",
+      "filename": "auton36.jpg",
+      "size": 2775119,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/1WK8M9WVRTacaA7voax2_small_auton36.jpg",
+          "width": 48,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/LNvvMjM7SCOFmNnkSN99_large_auton36.jpg",
+          "width": 683,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/xBUQzxVpTJywbW1LyCDh_full_auton36.jpg",
+          "width": 3000,
+          "height": 2250
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recst4GJ61s2kNAVL"
+  ],
+  "TWITTER": "@C_Mabi",
+  "NAME_EN": "Clément Mabi",
+  "TITLE1_EN": "University of Technologies of Compiègne",
+  "BIO_EN": "I am a academic researcher, specialized in the issues of open government, the digital transformation of public action and citizen participation through digital technologies.",
+  "SHOW": true,
+  "ID": 95,
+  "COUNTRY": "France",
+  "COUNTRY_CODE": [
+    "fr"
+  ]
+},
+{
+  "id": "recHAGMACWJTlrvFT",
+  "NAME": "Scott Hubli",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attfSKklBNseH83OA",
+      "url": "https://dl.airtable.com/bd7lyKSwyuhfMlqJA0Qk_NDI_0647.jpg",
+      "filename": "NDI_0647.jpg",
+      "size": 84213,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/NABM8QsTbi9VQeKIqAwe_small_NDI_0647.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/0YuNGAkOReGggVFjgTPT_large_NDI_0647.jpg",
+          "width": 274,
+          "height": 274
+        },
+        "full": {
+          "url": "https://dl.airtable.com/oEAXBNXrSBWCtBImvVsM_full_NDI_0647.jpg",
+          "width": 274,
+          "height": 274
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recYbDKaOlabk8tIo"
+  ],
+  "TWITTER": "@scotthubli",
+  "NAME_EN": "Scott Hubli",
+  "TITLE1_EN": "National Democratic Institute",
+  "BIO_EN": "Long-time activist for democracy and LGBTIQ rights. Currently serving as Director of Governance Programs at NDI, where I supervise a team in Washington and Silicon Valley that works on a broad range of issues to promote accountable and inclusive governance. Currently focused on supporting civic tech, countering disinformation, and supporting advocacy by the democracy community on tech policy and design. Working to stand up and support the Design4Democracy.org coalition to enshrine democracy as a core design principle for how we build and regulate tech. Side interest in organic, sustainable agriculture. Optimist who worries a lot.",
+  "SHOW": true,
+  "ID": 96,
+  "COUNTRY": "USA",
+  "COUNTRY_CODE": [
+    "us"
+  ]
+},
+{
+  "id": "rec4KeoVkqfW6S5pa",
+  "NAME": "吳柏旻",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attZSN1gzPd6XeP7S",
+      "url": "https://dl.airtable.com/gDhmuaruRFe7LHdHeDiI_119645.jpg",
+      "filename": "119645.jpg",
+      "size": 34218,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/DMdaXd7Ts26IlMkXyyEa_small_119645.jpg",
+          "width": 36,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/EtDsAe50SMiYSZqjt5Ad_large_119645.jpg",
+          "width": 460,
+          "height": 460
+        },
+        "full": {
+          "url": "https://dl.airtable.com/Qxb36qbtQOWCdCK9bNdn_full_119645.jpg",
+          "width": 460,
+          "height": 460
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recst4GJ61s2kNAVL"
+  ],
+  "BIO": "吳柏旻（pm5）是數學家、程式設計師。活躍於零時政府 g0v.tw、開放街圖、群島 archipielago.tw 等社群。為開源軟體專案「政誌」、「賽豬公上太空」，itaigi.tw 的參與開發者。現為 Trustable AI 共同創辦人，並於 sense.tw 計畫開發科技政策意見搜集工具。",
+  "TWITTER": "@pm5",
+  "NAME_EN": "pm5",
+  "SHOW": true,
+  "ID": 415,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ],
+  "IS_MODERATOR": true
+},
+{
+  "id": "recAKH0iqDXkkSGYO",
+  "NAME": "徐承原",
+  "TITLE1": "宸訊科技總經理",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attaoBqrUoKE3xo0T",
+      "url": "https://dl.airtable.com/X9HygCQ3KQMdCKWzoAIQ_unnamed.jpg",
+      "filename": "unnamed.jpg",
+      "size": 25896,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/KgvQUZ5vTRWnksytSube_small_unnamed.jpg",
+          "width": 51,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/5jvOqCo0R4SHa4vtrOTG_large_unnamed.jpg",
+          "width": 710,
+          "height": 497
+        },
+        "full": {
+          "url": "https://dl.airtable.com/JHMn2NvoTsGmKxYDrr3Q_full_unnamed.jpg",
+          "width": 710,
+          "height": 497
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recUMBNd795av7xms"
+  ],
+  "BIO": "自2010年起任職宸訊科技總經理，於台大地理環境資源所畢業，公司業務致力於將科技管理應用於環境治理與智慧農業之應用．尤其對於結合GIS空間分析技術特別投入，期望能透過跨領域結合，創造智慧農業應用整場輸出國際的成功範例。",
+  "NAME_EN": "Davis Hsu",
+  "SHOW": true,
+  "ID": 97,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+},
+{
+  "id": "recL6pbOVT1iZDzFz",
+  "NAME": "闕嘉宏",
+  "TITLE1": "創代科技",
+  "CROPPED_AVATAR": [
+    {
+      "id": "attxf1EzTamgZcLnN",
+      "url": "https://dl.airtable.com/SDBZXqBSROSsIm4ADgqN_%E9%97%95%E5%98%89%E5%AE%8F.jpg",
+      "filename": "闕嘉宏.jpg",
+      "size": 79235,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/tW7A8Q3tT9ihmU4jXTLw_small_%E9%97%95%E5%98%89%E5%AE%8F.jpg",
+          "width": 27,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/51TGiRexRs2Uu85rzhbo_large_%E9%97%95%E5%98%89%E5%AE%8F.jpg",
+          "width": 512,
+          "height": 683
+        },
+        "full": {
+          "url": "https://dl.airtable.com/pUUIXZcxRURf2MwlYCmT_full_%E9%97%95%E5%98%89%E5%AE%8F.jpg",
+          "width": 720,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "SCHEDULE": [
+    "recUMBNd795av7xms"
+  ],
+  "BIO": "國立台灣大學博士，創辦「創代科技股份有限公司」出任執行長。於智慧城市領域中導入資料科學技術，至今已至今已協助台灣釋放出超過323種資料型別，改變了過去運輸領域中，偏向硬體投資的傳統思維。在過去五年內，創造了許多創新且極具重大影響的代表作，亦擔任數據顧問/授課教授，包含：歐盟智慧城市論壇、世界智慧運輸系統大會、中國一帶一路世界大會、北京交通科學研究院、台灣資料科學年會、台灣人工智慧學校、台灣大學、淡江大學、臺北捷運公司等。",
+  "NAME_EN": "Charles Chueh",
+  "BIO_EN": "Charles Chueh earned the PhD degree in civil engineering from National Taiwan University, and then be the co-founder and CEO of Datarget Innovation inc. In past 5 years, he helped Taiwan to implement the data science technology in smart city domain, released more than 323 data-types and created various innovation services, reversed the traditional investment of hardware trend and superseded by software economy. He also takes up the data consultant/ lecturer post of several organizations: Euro Smart-City conference, World ITS conference, The World conference of China Belt and Road Initiative, Taiwan Data Science Annual Meeting, Taiwan AI Academy, Taiwan University, Tamkang University and Taipei Rapid Transit Corporation , etc.",
+  "SHOW": true,
+  "ID": 98,
+  "COUNTRY": "Taiwan",
+  "COUNTRY_CODE": [
+    "tw"
+  ]
+}]
